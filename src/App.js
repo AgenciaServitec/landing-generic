@@ -13,9 +13,11 @@ export const App = () => {
   const hostName = window.location.hostname;
 
   useEffect(() => {
-    setLocale(yup["es"]);
-    setThemeType(getThemeType());
-  }, [themeType]);
+    return () => {
+      setLocale(yup["es"]);
+      setThemeType(getThemeType());
+    };
+  }, []);
 
   const getThemeType = () => {
     switch (hostName) {

@@ -1,12 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  faFacebook,
-  faWhatsapp,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Link } from "react-router-dom";
 import { CobieneLogoLarge } from "../../images";

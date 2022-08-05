@@ -1,6 +1,5 @@
 import { css, createGlobalStyle } from "styled-components";
 import { mediaQuery } from "../constants/mediaQuery";
-import theme from "tailwindcss/defaultTheme";
 
 const global = css`
   * {
