@@ -27,3 +27,14 @@ export { default as CientificaDelSur } from "./common/convenios/cientifica-del-s
 export { default as SaedSlider1 } from "./saed/slider1.webp";
 export { default as SaedAboutUs } from "./saed/aboutUs.png";
 export { default as SaedBannePublic } from "./saed/banner1.webp";
+
+// ------ SAD IMAGES -------
+export { default as SadAbout } from "./sad/about-sad.webp";
+export { default as SadAboutTwo } from "./sad/about2-sad.webp";
+export { default as SadCarousel } from "./sad/carousel-sad.webp";
+export { default as SadServiceTejido } from "./sad/service-tejido.webp";
+export { default as SadServiceArtesania } from "./sad/services-artesania.webp";
+export { default as SadServiceComputer } from "./sad/services-computer.webp";
+export { default as SadServiceCuero } from "./sad/services-cuero.webp";
+export { default as SadServiceEstampado } from "./sad/services-estampado.webp";
+export { default as SadServiceTextil } from "./sad/services-textil.webp";
