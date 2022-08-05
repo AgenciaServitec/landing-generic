@@ -5,36 +5,36 @@ import { Button } from "../ui";
 import { SaedAboutUs } from "../../images";
 
 export const AboutUs = () => {
-  return (
-    <Container id="about-us">
-      <div className="content-items">
-        <div className="content">
-          <div className="heading">
-            <h2 className="title">Profesionales confiables</h2>
-          </div>
-          <div className="description">
-            <p>
-              Somos un grupo de instituciones educativas que forman estudiantes
-              con alto rendimiento académico mediante un Sistema de Educación
-              basado en la comprensión del conocimiento, la disciplina y la
-              Investigación, con la finalidad de que sean capaces de enfrentar
-              con éxito cualquier problema.
-            </p>
-            <p>
-              El departamento de apoyo educativo realiza la suscripción de
-              convenios educativos; otorgamiento de becas, etc.
-            </p>
-          </div>
-          <div className="button">
-            <Button text="Contáctanos" type="tertiary" />
-          </div>
-        </div>
-        <div className="content-image">
-          <img src={SaedAboutUs} className="item-image" alt="about us" />
-        </div>
-      </div>
-    </Container>
-  );
+    return (
+        <Container id="about-us">
+            <div className="content-items">
+                <div className="content">
+                    <div className="heading">
+                        <h2 className="title">Profesionales confiables</h2>
+                    </div>
+                    <div className="description">
+                        <p>
+                            Somos un grupo de instituciones educativas que forman estudiantes
+                            con alto rendimiento académico mediante un Sistema de Educación
+                            basado en la comprensión del conocimiento, la disciplina y la
+                            Investigación, con la finalidad de que sean capaces de enfrentar
+                            con éxito cualquier problema.
+                        </p>
+                        <p>
+                            El departamento de apoyo educativo realiza la suscripción de
+                            convenios educativos; otorgamiento de becas, etc.
+                        </p>
+                    </div>
+                    <div className="button">
+                        <Button text="Contáctanos" type="tertiary" />
+                    </div>
+                </div>
+                <div className="content-image">
+                    <img src={SaedAboutUs} className="item-image" alt="about us" />
+                </div>
+            </div>
+        </Container>
+    );
 };
 
 const Container = styled.div`
@@ -44,7 +44,6 @@ const Container = styled.div`
   ${mediaQuery.minTablet} {
     padding: 3rem 4rem;
   }
-
   .content-items {
     display: grid;
     grid-template-columns: 1fr;

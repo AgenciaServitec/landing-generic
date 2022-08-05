@@ -2,29 +2,30 @@ import React from "react";
 import styled from "styled-components";
 import {
   faEnvelope,
-  faEnvelopeCircleCheck,
+    faMobile,
+    faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faWhatsapp,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
 export const Contact = () => {
   return (
     <Container id="contact">
+      <hr/>
       <div className="content-left">
-        <h2>CONTÁCTANOS</h2>
-
-        <div className="list-items">
-          <ul>
-            <li>Teléfono</li>
-            <li>email</li>
-            <li>dirección</li>
-          </ul>
-        </div>
+        <h2>CONTACT COBIENE</h2>
+<h3> No dudes en comunicarte</h3>
+        {/*<div className="list-items">*/}
+        {/*  <ul>*/}
+        {/*    <li>Teléfono</li>*/}
+        {/*    <li>email</li>*/}
+        {/*    <li>dirección</li>*/}
+        {/*  </ul>*/}
+        {/*</div>*/}
         <div className="items-socials">
           <ul>
             <li>
@@ -35,6 +36,7 @@ export const Contact = () => {
               >
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
+              <p>Whatsapp</p>
             </li>
             <li>
               <a
@@ -44,6 +46,7 @@ export const Contact = () => {
               >
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
+              <p>Email</p>
             </li>
             <li>
               <a
@@ -53,6 +56,7 @@ export const Contact = () => {
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
+              <p>Facebook</p>
             </li>
             <li>
               <a
@@ -60,15 +64,27 @@ export const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faYoutube} />
+                <FontAwesomeIcon icon={faMobile} />
               </a>
+              <p>Phone</p>
+            </li>
+            <li>
+              <a
+                  href="https://youtu.be/FNMfFy4iKvg"
+                  target="_blank"
+                  rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGlobe} />
+              </a>
+              <p>Dirreción</p>
             </li>
           </ul>
         </div>
       </div>
-      <div className="content-right">
-        <FontAwesomeIcon icon={faEnvelopeCircleCheck} size="4x" />
-      </div>
+      {/*<div className="content-right">*/}
+      {/*  <FontAwesomeIcon icon={faEnvelopeCircleCheck} size="4x" />*/}
+      {/*</div>*/}
+      <hr/>
     </Container>
   );
 };
@@ -76,15 +92,35 @@ export const Contact = () => {
 const Container = styled.div`
   width: 100%;
   margin: 1rem auto;
-  padding: 1.7rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  ${mediaQuery.minTablet} {
-    grid-template-columns: 70% 1fr;
-    grid-template-rows: 1fr;
-  }
+  padding: 2.7rem 2.7rem 9rem 2.7rem;
+  align-items: center;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 1fr 1fr;
+    // ${mediaQuery.minTablet} {
+  //   grid-template-columns: 70% 1fr;
+  //   grid-template-rows: 1fr;
+  // }
+  hr {
+    height: 2px;
+    width: 32%;
+    background: #010a06;
+    margin-left: 29rem;
+  } 
+
   .content-left {
+    text-align: center;
+    font-size: 1rem;
+
+    h2 {
+      font-weight: bolder;
+      font-size: 2.5rem;
+      margin-top: 6rem;
+    }
+
+    h3 {
+      color: dimgray;
+    }
+
     .list-items {
       ul {
         list-style: none;
@@ -92,6 +128,7 @@ const Container = styled.div`
         padding: 0;
       }
     }
+
     .items-socials {
       width: 100%;
       margin: 3rem auto;
@@ -102,14 +139,24 @@ const Container = styled.div`
         justify-content: start;
         flex-wrap: wrap;
         position: relative;
+        justify-content: center;
 
         li {
-          margin-bottom: 1.7rem;
+          text-align: center;
+          margin: 0 2rem 1.7rem 2rem;
+
 
           a {
             color: inherit;
-            padding: 0 1rem;
-            font-size: 2.5rem;
+            padding: 1rem 2rem;
+            font-size: 4.4rem;
+            border-radius: 14rem;
+            background: beige;
+          }
+
+          p {
+            margin-top: 1rem;
+            margin-bottom: 1em;
           }
 
           &:last-child {
@@ -121,6 +168,7 @@ const Container = styled.div`
       }
     }
   }
+
   .content-right {
     display: flex;
     justify-content: center;

@@ -8,6 +8,7 @@ import {
   ListItems,
 } from "../../components";
 import { AgrariaLogo, CientificaDelSur } from "../../images";
+import { ComponentImages } from "../../components/home/ComponentImages";
 
 const temporalListConvenions = [
   {
@@ -38,6 +39,7 @@ export const Home = () => {
         <ListItems title="CONVENIOS" items={temporalListConvenions} />
         <ListItems title="INSTITUTOS" items={temporalListConvenions} />
         <Contact />
+        <ComponentImages />
       </Container>
     </>
   );
