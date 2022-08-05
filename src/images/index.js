@@ -44,3 +44,14 @@ export { default as JaceAbout } from "./jace/jace-about.webp";
 export { default as JaceMap } from "./jace/jace-map.webp";
 export { default as JaceMap2 } from "./jace/jace-map2.webp";
 export { default as JaceServices } from "./jace/jace-services.webp";
+
+// ------ JACE IMAGES -------
+export { default as CmstsCarousel } from "./cmsts/cmsts-carousel.webp";
+export { default as CmstsServices } from "./cmsts/cmsts-services.webp";
+export { default as CmstsCollage1 } from "./cmsts/collage1.webp";
+export { default as CmstsCollage2 } from "./cmsts/collage2.webp";
+export { default as CmstsCollage3 } from "./cmsts/collage3.webp";
+export { default as CmstsSedeChorillos1 } from "./cmsts/sede-chorrillos.webp";
+export { default as CmstsSedeChorillos2 } from "./cmsts/sede-chorilos2.webp";
+export { default as CmstsSedeRimac } from "./cmsts/sede-rimac.webp";
+export { default as CmstsSedeTarapaca } from "./cmsts/sede-tarapaca.webp";
