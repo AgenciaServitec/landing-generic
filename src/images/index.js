@@ -38,3 +38,9 @@ export { default as SadServiceComputer } from "./sad/services-computer.webp";
 export { default as SadServiceCuero } from "./sad/services-cuero.webp";
 export { default as SadServiceEstampado } from "./sad/services-estampado.webp";
 export { default as SadServiceTextil } from "./sad/services-textil.webp";
+
+// ------ JACE IMAGES -------
+export { default as JaceAbout } from "./jace/jace-about.webp";
+export { default as JaceMap } from "./jace/jace-map.webp";
+export { default as JaceMap2 } from "./jace/jace-map2.webp";
+export { default as JaceServices } from "./jace/jace-services.webp";
