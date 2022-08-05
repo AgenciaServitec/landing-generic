@@ -18,6 +18,14 @@ const temporalListConvenions = [
     title: "Cientifica del Sur",
     image: CientificaDelSur,
   },
+  {
+    title: "Agraria",
+    image: AgrariaLogo,
+  },
+  {
+    title: "Cientifica del Sur",
+    image: CientificaDelSur,
+  },
 ];
 
 export const Home = () => {

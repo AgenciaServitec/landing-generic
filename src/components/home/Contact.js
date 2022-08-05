@@ -10,6 +10,7 @@ import {
   faWhatsapp,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { mediaQuery } from "../../styles/constants/mediaQuery";
 
 export const Contact = () => {
   return (
@@ -77,7 +78,12 @@ const Container = styled.div`
   margin: 1rem auto;
   padding: 1.7rem;
   display: grid;
-  grid-template-columns: 70% 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  ${mediaQuery.minTablet} {
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 1fr;
+  }
   .content-left {
     .list-items {
       ul {
