@@ -5,6 +5,7 @@ import {
   CmstsCollage3,
   CmstsSedeChorillos1,
   CmstsSedeChorillos2,
+  CmstsSedeRimac,
   CmstsSedeTarapaca,
   CmstsServices,
   CobieneLogoLarge,
@@ -17,18 +18,20 @@ export const cmstsConfig = {
     menuHeader: ["Servicios", "Sedes"],
   },
   main: {
-    sectionCarousel: {
-      title: "Círculo Militar Supervisores Técnicos de Sub Oficiales.",
-      imgBackground: CmstsCarousel,
-      buttons: [
-        {
-          title: "Nuestros Servicios",
-        },
-        {
-          title: "Sedes",
-        },
-      ],
-    },
+    sectionCarousel: [
+      {
+        title: "Círculo Militar Supervisores Técnicos de Sub Oficiales.",
+        imgBackground: CmstsCarousel,
+        buttons: [
+          {
+            title: "Nuestros Servicios",
+          },
+          {
+            title: "Sedes",
+          },
+        ],
+      },
+    ],
     sectionServices: {
       title: "DISFRUTA LO QUE BRINDA LA ASOCIACIÓN CMSTS",
       list: [
