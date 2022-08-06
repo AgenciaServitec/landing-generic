@@ -24,7 +24,7 @@ export { default as AgrariaLogo } from "./common/convenios/agraria.webp";
 export { default as CientificaDelSur } from "./common/convenios/cientifica-del-sur.webp";
 
 // ------ SAED IMAGES -------
-export { default as SaedSlider1 } from "./saed/slider1.webp";
+export { default as SaedSlider1 } from "./saed/saedslyder1.webp";
 export { default as SaedAboutUs } from "./saed/aboutUs.png";
 export { default as SaedBannePublic } from "./saed/banner1.webp";
 
@@ -55,6 +55,59 @@ export { default as CmstsSedeChorillos1 } from "./cmsts/sede-chorrillos.webp";
 export { default as CmstsSedeChorillos2 } from "./cmsts/sede-chorilos2.webp";
 export { default as CmstsSedeRimac } from "./cmsts/sede-rimac.webp";
 export { default as CmstsSedeTarapaca } from "./cmsts/sede-tarapaca.webp";
+
+//------- UNIVERSITIES --------
+export { default as UniversidadAgraria } from "./universities/logo1.webp";
+export { default as UniversidadCientifica } from "./universities/logo2.webp;";
+export { default as UniversidadCatolica } from "./universities/logo3.webp";
+export { default as UniversidadCesarVallejo } from "./universities/logo4.webp";
+export { default as UniversidadESAN } from "./universities/logo5.webp";
+export { deafult as UniversidadJaimeBausate } from "./universities/logo6.webp";
+export { default as UniversidadMarcelinO } from "./universities/logo7.webp";
+export { ddefault as UniversidadNorbert } from "./universities/logo8.webp";
+export { default as UniversidadDelPacifico } from "./universities/logo9.webp";
+export { default as UniversidadRicardoPalma } from "./universities/logo10.webp";
+export { default as UniversidadSnIgnacioLoyola } from "./universities/logo11.webp";
+export { default as UniversidadSanJuanBautista } from "./universities/logo12.webp";
+export { default as UniversidadSanmartinPorres } from "./universities/logo13.webp";
+
+export { default as UniversidadSanMarcos } from "./universities/logo14.webp";
+export { default as UniversidadSeñorSipan } from "./universities/logo15.webp";
+export { default as UniversidadUtp } from "./universities/logo16.webp";
+export { default as UniversidadCatolicaSedeSapientiale } from "./universities/logo17.webp";
+export { default as UniversidadUnifeSagradoCorazon } from "./universities/logo18.webp";
+export { default as UniversidadPrivadadelNorte } from "./universities/logo19.webp";
+export { default as UniversidadPeruanadeCiencias } from "./universities/logo20.webp";
+
+//----- INSTITUTOS --------
+export { default as Inst1 } from "./institutes/instituto1.webp";
+export { default as Inst2 } from "./institutes/instituto2.webp";
+export { default as Inst3 } from "./institutes/instituto3.webp";
+export { default as Inst4 } from "./institutes/instituto4.webp";
+export { default as Inst5 } from "./institutes/instituto5.webp";
+export { default as Inst6 } from "./institutes/instituto6.webp";
+export { default as Inst7 } from "./institutes/instituto7.webp";
+export { default as Inst8 } from "./institutes/instituto8.webp";
+export { default as Inst9 } from "./institutes/instituto9.webp";
+export { default as Inst10 } from "./institutes/instituto10.webp";
+export { default as Inst11 } from "./institutes/instituto11.webp";
+export { default as Inst12 } from "./institutes/instituto12.webp";
+export { default as Inst13 } from "./institutes/instituto13.webp";
+export { default as Inst14 } from "./institutes/instituto14.webp";
+export { default as Inst15 } from "./institutes/instituto15.webp";
+export { default as Inst16 } from "./institutes/instituto16.webp";
+export { default as Inst17 } from "./institutes/instituto17.webp";
+export { default as Inst18 } from "./institutes/instituto18.webp";
+export { default as Inst19 } from "./institutes/instituto19.webp";
+export { default as Inst20 } from "./institutes/instituto20.webp";
+export { default as Inst21 } from "./institutes/instituto21.webp";
+export { default as Inst22 } from "./institutes/instituto22.webp";
+export { default as Inst23 } from "./institutes/instituto23.webp";
+export { default as Inst24 } from "./institutes/instituto24.webp";
+export { default as Inst25 } from "./institutes/instituto25.webp";
+export { default as Inst26 } from "./institutes/instituto26.webp";
+export { default as Inst27 } from "./institutes/instituto27.webp";
+export { default as Inst28 } from "./institutes/instituto28.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
