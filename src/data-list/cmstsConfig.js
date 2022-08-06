@@ -79,7 +79,7 @@ export const cmstsConfig = {
         title: "SEDE RIMAC",
         content: [
           {
-            image: CmstsSedeTarapaca,
+            image: CmstsSedeRimac,
             description:
               "Cuenta con los ambientes ideales para realizar todo tipo de eventos. Además de tener disponible la piscina semi olímpica y cancha deportiva de material sintético.",
           },
