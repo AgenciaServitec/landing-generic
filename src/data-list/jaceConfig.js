@@ -14,18 +14,20 @@ export const jaceConfig = {
     menuHeader: ["Inicio", "Nosotros", "Requisitos", "Tramites"],
   },
   main: {
-    sectionCarousel: {
-      title: "JEFATURA DE ADMINISTRACION DE CASAS DEL EJÉRCITO.",
-      imgBackground: SaedSlider1,
-      buttons: [
-        {
-          title: "Nosotros",
-        },
-        {
-          title: "Requisitos",
-        },
-      ],
-    },
+    sectionCarousel: [
+      {
+        title: "JEFATURA DE ADMINISTRACION DE CASAS DEL EJÉRCITO.",
+        imgBackground: SaedSlider1,
+        buttons: [
+          {
+            title: "Nosotros",
+          },
+          {
+            title: "Requisitos",
+          },
+        ],
+      },
+    ],
     sectionAbout: {
       title: "Nosotros",
       description:
