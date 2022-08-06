@@ -18,18 +18,20 @@ export const sadConfig = {
     menuHeader: ["Inicio", "Nosotros", "Especialidades"],
   },
   main: {
-    sectionCarousel: {
-      title: "Jefatura de APOYO AL DISCAPACITADO.",
-      imgBackground: SadCarousel,
-      buttons: [
-        {
-          title: "Nosotros",
-        },
-        {
-          title: "Especialidades Técnicas",
-        },
-      ],
-    },
+    sectionCarousel: [
+      {
+        title: "Jefatura de APOYO AL DISCAPACITADO.",
+        imgBackground: SadCarousel,
+        buttons: [
+          {
+            title: "Nosotros",
+          },
+          {
+            title: "Especialidades Técnicas",
+          },
+        ],
+      },
+    ],
     sectionAbout: {
       title: "Nosotros",
       description: [
