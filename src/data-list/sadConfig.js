@@ -13,6 +13,7 @@ import {
 
 export const sadConfig = {
   header: {
+    name: "sad",
     title: "Sección de Apoyo al Discapacitado",
     logoImg: CobieneLogoLarge,
     menuHeader: ["Inicio", "Nosotros", "Especialidades"],
