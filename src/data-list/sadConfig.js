@@ -16,10 +16,9 @@ export const sadConfig = {
     name: "sad",
     title: "Sección de Apoyo al Discapacitado",
     logoImg: CobieneLogoLarge,
-    menuHeader: [
-      { id: "", name: "Inicio" },
-      { id: "", name: "Nosotros" },
-      { id: "", name: "Especialidades" },
+    menuList: [
+      { id: "about-us", name: "Nosotros" },
+      { id: "services", name: "Especialidades" },
     ],
   },
   main: {
