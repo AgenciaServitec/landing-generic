@@ -10,6 +10,7 @@ import {
 import { AgrariaLogo, CientificaDelSur } from "../../images";
 import { ComponentImages } from "../../components/home/ComponentImages";
 import { useTemplateConfig } from "../../providers";
+import { saedConfig } from "../../data-list";
 
 const temporalListConvenions = [
   {
@@ -36,6 +37,9 @@ export const Home = () => {
   const sectionAboutUs = templateConfig.main.sectionAbout;
   const sectionComponentImages = templateConfig.contentImages;
 
+  const cardsConventions = saedConfig.main.sectionConvenios;
+  const cardsInstitutes = saedConfig.main.sectionInstitutes;
+
   return (
     <>
       <Container>
@@ -51,8 +55,14 @@ export const Home = () => {
           images={sectionComponentImages.images}
         />
         {/*<Banner />*/}
-        <ListItems title="CONVENIOS" items={temporalListConvenions} />
-        <ListItems title="INSTITUTOS" items={temporalListConvenions} />
+        <ListItems
+          title={cardsConventions.title}
+          items={cardsConventions.cards}
+        />
+        <ListItems
+          title={cardsInstitutes.title}
+          items={cardsInstitutes.cards}
+        />
         <Contact />
       </Container>
     </>
