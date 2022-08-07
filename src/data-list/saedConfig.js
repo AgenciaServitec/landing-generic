@@ -74,10 +74,12 @@ export const saedConfig = {
         buttons: [
           {
             type: "primary",
+            id: "about-us",
             title: "Nosotros",
           },
           {
             type: "secondary",
+            id: "contact",
             title: "Información",
           },
         ],
@@ -300,7 +302,7 @@ export const saedConfig = {
   sectionContact: {
     title: "CONTACT COBIENE",
     subtitle: "No dudes en comunicarte",
-    socialsred: [
+    socialsRed: [
       {
         href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
         icon: faWhatsapp,
@@ -320,7 +322,7 @@ export const saedConfig = {
       {
         href: "https://youtu.be/FNMfFy4iKvg",
         icon: faGlobe,
-        name: "Dirreción",
+        name: "Direción",
       },
     ],
   },
