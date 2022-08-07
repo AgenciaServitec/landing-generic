@@ -29,6 +29,7 @@ import {
 
 export const jaeConfig = {
   header: {
+    name: "jae",
     title: "Jefatura de Apoyo Educativo",
     logoImg: CobieneLogoLarge,
     menuHeader: ["Inicio", "Nosotros", "Colegios"],
