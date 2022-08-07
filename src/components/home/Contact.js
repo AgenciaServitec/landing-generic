@@ -81,7 +81,6 @@ export const Contact = () => {
       {/*<div className="content-right">*/}
       {/*  <FontAwesomeIcon icon={faEnvelopeCircleCheck} size="4x" />*/}
       {/*</div>*/}
-      <hr />
     </Container>
   );
 };

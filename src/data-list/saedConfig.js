@@ -79,13 +79,14 @@ export const saedConfig = {
     ],
     sectionAbout: {
       title: "Nosotros",
-      description: [
+      descriptions: [
         "Profesionales confiables\n" +
           "Somos un grupo de instituciones educativas que forman estudiantes con alto rendimiento académico mediante un Sistema de Educación basado en la comprensión del conocimiento, la disciplina y la Investigación, con la finalidad de que sean capaces de enfrentar con éxito cualquier problema.\n" +
           "\n" +
           "El departamento de apoyo educativo realiza la suscripción de convenios educativos; otorgamiento de becas, etc.",
       ],
-      img: [SaedAboutUs, SaedBannePublic],
+      buttons: [{ type: "secondary", name: "CONTÁCTANOS" }],
+      images: [SaedAboutUs],
     },
     sectionConvenios: {
       title: "Universidades :",
@@ -284,6 +285,10 @@ export const saedConfig = {
         },
       ],
     },
+  },
+  contentImages: {
+    title: "",
+    images: [SaedBannePublic],
   },
   footer: {},
 };

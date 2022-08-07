@@ -1,23 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import { SadCarousel } from "../../images";
-export const ComponentImages = (props) => {
+export const ComponentImages = ({ title, images }) => {
   // const { title } = props; // props para el titulo
   // const { imagesArray } = props;//props para el array de imagenes
 
   // --------- prueba de array para que no se buggee porque no tiene props que traer por ahora------//
-  const title = "TITULO EJEMPLO";
-  const imagesArray = [SadCarousel, SadCarousel, SadCarousel, SadCarousel]; // ejemplo de array xd
 
   return (
     <Container>
       <WrapperTitle>
         {/*<h1>{title}</h1>*/}
-        <h1>{title}</h1>
+        {{ title } ? <h1>{title}</h1> : ""}
       </WrapperTitle>
       <WrapperImg>
-        {imagesArray.map((imageArray, index) => (
-          <Img key={index} src={imageArray} alt="no hay nada" />
+        {images.map((image, index) => (
+          <Img key={index} src={image} alt="no hay nada" />
         ))}
       </WrapperImg>
     </Container>
@@ -26,7 +24,7 @@ export const ComponentImages = (props) => {
 
 const Container = styled.div`
   width: 100%;
-  padding-top: 2.5rem;
+  padding-top: 0.5rem;
   padding-bottom: 2.5rem;
 `;
 
@@ -43,7 +41,7 @@ const WrapperImg = styled.div`
 `;
 
 const Img = styled.img`
-  width: 20%;
+  width: 100%;
   background-repeat: no-repeat;
   padding: 0.5rem;
 `;

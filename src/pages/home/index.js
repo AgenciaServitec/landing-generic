@@ -33,16 +33,27 @@ const temporalListConvenions = [
 export const Home = () => {
   const { templateConfig } = useTemplateConfig();
 
+  const sectionAboutUs = templateConfig.main.sectionAbout;
+  const sectionComponentImages = templateConfig.contentImages;
+
   return (
     <>
       <Container>
         <Carousel carouselItems={templateConfig.main.sectionCarousel} />
-        <AboutUs />
-        <Banner />
+        <AboutUs
+          title={sectionAboutUs.title}
+          descriptions={sectionAboutUs.descriptions}
+          buttons={sectionAboutUs.buttons}
+          images={sectionAboutUs.images}
+        />
+        <ComponentImages
+          title={sectionComponentImages.title}
+          images={sectionComponentImages.images}
+        />
+        {/*<Banner />*/}
         <ListItems title="CONVENIOS" items={temporalListConvenions} />
         <ListItems title="INSTITUTOS" items={temporalListConvenions} />
         <Contact />
-        <ComponentImages />
       </Container>
     </>
   );

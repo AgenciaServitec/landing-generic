@@ -4,37 +4,38 @@ import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
 import { SaedAboutUs } from "../../images";
 
-export const AboutUs = () => {
-    return (
-        <Container id="about-us">
-            <div className="content-items">
-                <div className="content">
-                    <div className="heading">
-                        <h2 className="title">Profesionales confiables</h2>
-                    </div>
-                    <div className="description">
-                        <p>
-                            Somos un grupo de instituciones educativas que forman estudiantes
-                            con alto rendimiento académico mediante un Sistema de Educación
-                            basado en la comprensión del conocimiento, la disciplina y la
-                            Investigación, con la finalidad de que sean capaces de enfrentar
-                            con éxito cualquier problema.
-                        </p>
-                        <p>
-                            El departamento de apoyo educativo realiza la suscripción de
-                            convenios educativos; otorgamiento de becas, etc.
-                        </p>
-                    </div>
-                    <div className="button">
-                        <Button text="Contáctanos" type="tertiary" />
-                    </div>
-                </div>
-                <div className="content-image">
-                    <img src={SaedAboutUs} className="item-image" alt="about us" />
-                </div>
-            </div>
-        </Container>
-    );
+export const AboutUs = ({ title, descriptions = [], buttons = [], images }) => {
+  return (
+    <Container id="about-us">
+      <div className="content-items">
+        <div className="content">
+          <div className="heading">
+            <h2 className="title">{title}</h2>
+          </div>
+          <div className="description">
+            {descriptions.map((description, index) => (
+              <p key={index}>{description}</p>
+            ))}
+          </div>
+          <div className="button">
+            {buttons.map((button, index) => (
+              <Button key={index} text={button.name} type={button.type} />
+            ))}
+          </div>
+        </div>
+        <div className="content-image">
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              className="item-image"
+              alt="about us"
+            />
+          ))}
+        </div>
+      </div>
+    </Container>
+  );
 };
 
 const Container = styled.div`
