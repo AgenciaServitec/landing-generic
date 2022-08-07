@@ -42,21 +42,29 @@ const Container = styled.div`
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
       gap: 4rem;
-      //column-gap: 4rem;
       text-align: center;
       .item-img {
+        ${mediaQuery.minTablet} {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #ccc;
+          border-radius: 2rem;
+          padding: 1rem 1.2rem;
+          box-shadow: 15px 0px #bbb;
+        }
         img {
-          width: 10rem;
-          height: 10rem;
+          width: 8rem;
+          height: 8rem;
           object-fit: contain;
         }
         h3 {
-          margin: auto;
           margin-top: 0.8rem;
           color: #000;
           text-align: center;
           text-transform: uppercase;
-          font-size: 1.2rem;
+          font-size: 1rem;
           line-height: 1.5rem;
         }
       }
