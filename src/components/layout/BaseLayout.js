@@ -28,7 +28,10 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
           headerTemplate={headerTemplate}
         />
         <div className="body">{children}</div>
-        <Footer />
+        <Footer
+          headerTemplate={headerTemplate}
+          menuList={headerTemplate.menuList}
+        />
         <ButtonsFloating />
       </WrapperContent>
     </Container>
