@@ -12,10 +12,9 @@ export const jaceConfig = {
     name: "jace",
     title: "Jefatura de Administración de Casas del Ejercito",
     logoImg: CobieneLogoLarge,
-    menuHeader: [
-      { id: "", name: "Inicio" },
-      { id: "", name: "Nosotros" },
-      { id: "", name: "Requisitos" },
+    menuList: [
+      { id: "about-us", name: "Nosotros" },
+      { id: "requirements", name: "Requisitos" },
       { id: "", name: "Tramites" },
     ],
   },
