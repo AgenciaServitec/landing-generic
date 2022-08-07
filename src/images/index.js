@@ -139,3 +139,9 @@ export { default as Inst22 } from "./schools/province-schools/inst22.webp";
 export { default as JaeAbout } from "./jae/jae-about.webp";
 export { default as JaeCarousel } from "./jae/jae-carousel.webp";
 export { default as JaeOthers } from "./jae/jae-others.webp";
+
+// ------ SAECO IMAGES -------
+export { default as SaecoImgCarousel } from "./saeco/img-carousel.webp";
+export { default as SaecoImgAbout } from "./saeco/img-about.webp";
+export { default as SaecoImgAlcance } from "./saeco/img-alcance.webp";
+export { default as SaecoImgCobertura } from "./saeco/img-cobertura.webp";
