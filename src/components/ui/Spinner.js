@@ -31,6 +31,6 @@ const Container = styled.section`
 
 const IconStyled = styled(FontAwesomeIcon)`
   ${({ theme }) => css`
-    color: ${theme.colors.primary};
+    color: #000;
   `}
 `;

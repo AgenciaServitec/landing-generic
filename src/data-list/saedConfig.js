@@ -54,11 +54,10 @@ export const saedConfig = {
     name: "saed",
     title: "Sección de Apoyo Educativo",
     logoImg: CobieneLogoLarge,
-    menuHeader: [
-      { id: "", name: "Inicio" },
-      { id: "", name: "Nosotros" },
-      { id: "", name: "Información" },
-      { id: "", name: "Contactos" },
+    menuList: [
+      { id: "about-us", name: "NOSOTROS" },
+      { id: "information", name: "INFORMACIÓN" },
+      { id: "contact", name: "CONTÁCTANOS" },
     ],
   },
   main: {

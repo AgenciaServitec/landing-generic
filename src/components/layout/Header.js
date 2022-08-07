@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { CobieneLogoLarge } from "../../images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useDevice } from "../../hooks";
 import styled from "styled-components";
+import { useTemplateConfig } from "../../providers";
 
 export const Header = ({ setVisibleDrawer }) => {
+  const { templateConfig } = useTemplateConfig();
+
   const { isMobile } = useDevice();
+
+  const headerTemplate = templateConfig.header;
 
   return (
     <Container>
@@ -15,8 +19,8 @@ export const Header = ({ setVisibleDrawer }) => {
         <div className="menu-mobile">
           <div className="item-logo">
             <Link to="/">
-              <img src={CobieneLogoLarge} alt="Logo" />
-              <h2>Sección de Apoyo Educativo</h2>
+              <img src={headerTemplate.logoImg} alt="Logo" />
+              <h2>{headerTemplate.title}</h2>
             </Link>
           </div>
           <div className="icon-bar" onClick={() => setVisibleDrawer(true)}>
@@ -27,8 +31,8 @@ export const Header = ({ setVisibleDrawer }) => {
         <div className="menu-list">
           <div className="logo-item">
             <Link to="/">
-              <img src={CobieneLogoLarge} alt="Logo" />
-              <h2>Sección de Apoyo Educativo</h2>
+              <img src={headerTemplate.logoImg} alt="Logo" />
+              <h2>{headerTemplate.title}</h2>
             </Link>
           </div>
           <div className="list">
@@ -36,15 +40,11 @@ export const Header = ({ setVisibleDrawer }) => {
               <Link to="/">
                 <li>INICIO</li>
               </Link>
-              <a href="#about-us">
-                <li>NOSOTROS</li>
-              </a>
-              <a href="#information">
-                <li>INFORMACIÓN</li>
-              </a>
-              <a href="#contact">
-                <li>CONTÁCTANOS</li>
-              </a>
+              {headerTemplate.menuList.map((menu, index) => (
+                <a key={index} href="#about-us">
+                  <li>{menu.name}</li>
+                </a>
+              ))}
             </ul>
           </div>
         </div>

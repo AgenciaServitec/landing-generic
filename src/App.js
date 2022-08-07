@@ -7,19 +7,20 @@ import { ThemeProvider } from "styled-components";
 import { themes } from "./styles";
 import { setLocale } from "yup";
 import { TemplateConfig, useTemplateConfig } from "./providers";
+import { Spinner } from "./components/ui";
 
 export const App = () => {
   const { templateConfig } = useTemplateConfig();
 
+  const [loadingApp, setLoadingApp] = useState(true);
   const [themeType, setThemeType] = useState("default");
 
   const hostName = window.location.hostname;
 
   useEffect(() => {
-    return () => {
-      setLocale(yup["es"]);
-      getThemeConfig();
-    };
+    setLocale(yup["es"]);
+    getThemeConfig();
+    setLoadingApp(false);
   }, [themeType]);
 
   const getThemeConfig = () => {
@@ -50,6 +51,8 @@ export const App = () => {
 
   console.log("templateConfig->", templateConfig);
   console.log("theme->", themes[themeType]);
+
+  if (loadingApp) return <Spinner height="100vh" />;
 
   return (
     <BrowserRouter>
