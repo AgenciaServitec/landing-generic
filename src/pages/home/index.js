@@ -31,19 +31,19 @@ export const Home = () => {
         )}
         {sectionServices && (
           <AboutUs
-            title={sectionAboutUs.title}
-            descriptions={sectionAboutUs.descriptions}
-            buttons={sectionAboutUs.buttons}
-            images={sectionAboutUs.images}
+            title={sectionServices.title}
+            descriptions={sectionServices.descriptions}
+            buttons={sectionServices.buttons}
+            images={sectionServices.images}
           />
         )}
 
         {sectionCampus && (
           <AboutUs
-            title={sectionAboutUs.title}
-            descriptions={sectionAboutUs.descriptions}
-            buttons={sectionAboutUs.buttons}
-            images={sectionAboutUs.images}
+            title={sectionCampus.title}
+            descriptions={sectionCampus.descriptions}
+            buttons={sectionCampus.buttons}
+            images={sectionCampus.images}
           />
         )}
         {sectionComponentImages && (

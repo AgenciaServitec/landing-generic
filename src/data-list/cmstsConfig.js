@@ -60,7 +60,7 @@ export const cmstsConfig = {
     sectionCampus: [
       {
         title: "SEDE CHORRILLOS",
-        content: [
+        description: [
           {
             image: CmstsSedeChorillos1,
             description:
