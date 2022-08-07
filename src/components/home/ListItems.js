@@ -49,10 +49,10 @@ const Container = styled.div`
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          border: 1px solid #ccc;
+          border: 2px solid #ccc;
           border-radius: 2rem;
           padding: 1rem 1.2rem;
-          box-shadow: 15px 0px #bbb;
+          //box-shadow: 15px 0px #bbb;
         }
         img {
           width: 8rem;
