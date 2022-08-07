@@ -13,6 +13,7 @@ import {
   sadConfig,
   saedConfig,
 } from "./data-list";
+import { TemplateConfig, useTemplateConfig } from "./providers";
 
 const templateConfigs = {
   cmsts: cmstsConfig,
@@ -25,7 +26,7 @@ const templateConfigs = {
 };
 
 export const App = () => {
-  const [templateType, setTemplateType] = useState("default");
+  const { templateType, setTemplateType } = useTemplateConfig();
   const [themeType, setThemeType] = useState("default");
 
   const hostName = window.location.hostname;
@@ -35,7 +36,7 @@ export const App = () => {
       setLocale(yup["es"]);
       getThemeAndTemplateConfig();
     };
-  }, []);
+  }, [templateType]);
 
   const getThemeAndTemplateConfig = () => {
     switch (hostName) {
@@ -77,7 +78,9 @@ export const App = () => {
     <BrowserRouter>
       <ThemeProvider theme={themes[themeType]}>
         <GlobalStyles />
-        <Router />
+        <TemplateConfig>
+          <Router />
+        </TemplateConfig>
       </ThemeProvider>
     </BrowserRouter>
   );
