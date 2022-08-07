@@ -2,23 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import {
   faEnvelope,
-    faMobile,
-    faGlobe,
+  faMobile,
+  faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
 export const Contact = () => {
   return (
     <Container id="contact">
-      <hr/>
+      <hr />
       <div className="content-left">
         <h2>CONTACT COBIENE</h2>
-<h3> No dudes en comunicarte</h3>
+        <h3> No dudes en comunicarte</h3>
         {/*<div className="list-items">*/}
         {/*  <ul>*/}
         {/*    <li>Teléfono</li>*/}
@@ -70,9 +67,9 @@ export const Contact = () => {
             </li>
             <li>
               <a
-                  href="https://youtu.be/FNMfFy4iKvg"
-                  target="_blank"
-                  rel="noreferrer"
+                href="https://youtu.be/FNMfFy4iKvg"
+                target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faGlobe} />
               </a>
@@ -84,7 +81,7 @@ export const Contact = () => {
       {/*<div className="content-right">*/}
       {/*  <FontAwesomeIcon icon={faEnvelopeCircleCheck} size="4x" />*/}
       {/*</div>*/}
-      <hr/>
+      <hr />
     </Container>
   );
 };
@@ -92,20 +89,21 @@ export const Contact = () => {
 const Container = styled.div`
   width: 100%;
   margin: 1rem auto;
-  padding: 2.7rem 2.7rem 9rem 2.7rem;
+  padding: 2.7rem 2.7rem 0 2.7rem;
   align-items: center;
   // grid-template-columns: 1fr;
   // grid-template-rows: 1fr 1fr;
-    // ${mediaQuery.minTablet} {
-  //   grid-template-columns: 70% 1fr;
-  //   grid-template-rows: 1fr;
-  // }
+  ${mediaQuery.minTablet} {
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 1fr;
+  }
   hr {
     height: 2px;
     width: 32%;
     background: #010a06;
-    margin-left: 29rem;
-  } 
+    display: flex;
+    margin: auto;
+  }
 
   .content-left {
     text-align: center;
@@ -143,8 +141,7 @@ const Container = styled.div`
 
         li {
           text-align: center;
-          margin: 0 2rem 1.7rem 2rem;
-
+          margin: 0 1rem 1.7rem 2rem;
 
           a {
             color: inherit;

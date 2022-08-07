@@ -6,7 +6,7 @@ export const ComponentImages = (props) => {
   // const { imagesArray } = props;//props para el array de imagenes
 
   // --------- prueba de array para que no se buggee porque no tiene props que traer por ahora------//
-  const title = "Titulo de Ejemplo";
+  const title = "TITULO EJEMPLO";
   const imagesArray = [SadCarousel, SadCarousel, SadCarousel, SadCarousel]; // ejemplo de array xd
 
   return (
@@ -26,6 +26,8 @@ export const ComponentImages = (props) => {
 
 const Container = styled.div`
   width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 `;
 
 const WrapperTitle = styled.div`
