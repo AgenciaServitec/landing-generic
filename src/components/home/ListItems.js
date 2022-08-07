@@ -40,8 +40,9 @@ const Container = styled.div`
     }
     .content-img {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: 4rem;
+      //column-gap: 4rem;
       text-align: center;
       .item-img {
         img {
@@ -50,10 +51,13 @@ const Container = styled.div`
           object-fit: contain;
         }
         h3 {
+          margin: auto;
           margin-top: 0.8rem;
           color: #000;
           text-align: center;
           text-transform: uppercase;
+          font-size: 1.2rem;
+          line-height: 1.5rem;
         }
       }
     }
