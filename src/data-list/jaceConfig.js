@@ -9,6 +9,7 @@ import {
 
 export const jaceConfig = {
   header: {
+    name: "jace",
     title: "Jefatura de Administración de Casas del Ejercito",
     logoImg: CobieneLogoLarge,
     menuHeader: ["Inicio", "Nosotros", "Requisitos", "Tramites"],
@@ -50,7 +51,11 @@ export const jaceConfig = {
       },
     ],*/
     sectionServices: {
-      img: JaceServices,
+      card: [
+        {
+          img: JaceServices,
+        },
+      ],
     },
     sectionRequirements: [
       {
