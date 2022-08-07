@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { SadCarousel } from "../../images";
+
 export const ComponentImages = ({ title, images }) => {
   // const { title } = props; // props para el titulo
   // const { imagesArray } = props;//props para el array de imagenes
@@ -15,7 +15,7 @@ export const ComponentImages = ({ title, images }) => {
       </WrapperTitle>
       <WrapperImg>
         {images.map((image, index) => (
-          <Img key={index} src={image} alt="no hay nada" />
+          <Img key={index} src={image} alt={title} />
         ))}
       </WrapperImg>
     </Container>

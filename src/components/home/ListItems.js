@@ -9,7 +9,7 @@ export const ListItems = ({ title = "Title no found", items = [] }) => (
       <div className="content-img">
         {items.map((item, index) => (
           <div key={index} className="item-img">
-            <img src={item.image} alt="seo" className="image-bg" />
+            <img src={item.image} alt={item.title} className="image-bg" />
             {item.title && <h3>{item.title}</h3>}
           </div>
         ))}
