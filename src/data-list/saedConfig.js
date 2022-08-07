@@ -51,6 +51,7 @@ import {
 
 export const saedConfig = {
   header: {
+    name: "saed",
     title: "Sección de Apoyo Educativo",
     logoImg: CobieneLogoLarge,
     menuHeader: ["Inicio", "Nosotros", "Informacion", "contactanos"],
