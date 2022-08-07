@@ -4,14 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Link } from "react-router-dom";
-import { CobieneLogoLarge } from "../../images";
 
-export const Footer = () => (
+export const Footer = ({ headerTemplate, menuList = [] }) => (
   <Container id="footer">
     <div className="item-logo-footer">
       <div className="item-logo">
         <Link to="/">
-          <img src={CobieneLogoLarge} alt="Logo" />
+          <img src={headerTemplate.logoImg} alt="Logo" />
         </Link>
       </div>
     </div>
@@ -23,21 +22,17 @@ export const Footer = () => (
         <Link to="/">
           <li>INICIO</li>
         </Link>
-        <a href="#about-us">
-          <li>NOSOTROS</li>
-        </a>
-        <a href="#information">
-          <li>INFORMACIÓN</li>
-        </a>
-        <a href="#contact">
-          <li>CONTÁCTANOS</li>
-        </a>
+        {menuList.map((menu, index) => (
+          <a key={index} href={`#${menu.id}`}>
+            <li>{menu.name}</li>
+          </a>
+        ))}
       </ul>
     </div>
 
     <div className="bottom-footer">
       <div>
-        © Copyright 2022 - SAED - Diseñado con{" "}
+        © Copyright 2022 - {headerTemplate.name.toUpperCase()} - Diseñado con{" "}
         <FontAwesomeIcon icon={faHeart} color="red" /> por{" "}
         <a href="https://agenciaservitec.com" target="_blank" rel="noreferrer">
           Agencia Servitec

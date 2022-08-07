@@ -30,28 +30,34 @@ const Container = styled.div`
   .content-items {
     padding: 3rem 0;
     .title {
-      font-weight: 400;
-      margin: 2rem 0;
+      font-weight: 800;
+      margin: 3rem 0;
       font-size: 2rem;
-      text-align: center;
+      text-align: start;
+      ${mediaQuery.minTablet} {
+        font-size: 3rem;
+      }
     }
     .content-img {
-      display: flex;
-      justify-content: space-evenly;
-      gap: 1rem;
-      flex-wrap: wrap;
-
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: 4rem;
+      //column-gap: 4rem;
+      text-align: center;
       .item-img {
         img {
-          width: 15rem;
-          height: 15rem;
+          width: 10rem;
+          height: 10rem;
           object-fit: contain;
         }
         h3 {
+          margin: auto;
           margin-top: 0.8rem;
           color: #000;
           text-align: center;
           text-transform: uppercase;
+          font-size: 1.2rem;
+          line-height: 1.5rem;
         }
       }
     }
