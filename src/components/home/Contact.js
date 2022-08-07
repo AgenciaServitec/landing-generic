@@ -84,10 +84,14 @@ const Container = styled.div`
 
           a {
             color: inherit;
-            padding: 1rem 2rem;
             font-size: 4.4rem;
             border-radius: 14rem;
-            background: beige;
+            width: 7rem;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: ${({ theme }) => theme.colors.light};
           }
 
           p {

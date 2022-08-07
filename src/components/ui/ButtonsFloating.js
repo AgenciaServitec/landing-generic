@@ -4,25 +4,17 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import styled, { css } from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
-export const ButtonsFloating = ({ onEventGaClickButton }) => (
+export const ButtonsFloating = ({ wspPhone }) => (
   <Container>
     <a
-      href={`https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0`}
+      href={`https://wa.me/+51${wspPhone.phone}`}
       target="_blank"
       rel="noreferrer"
     >
-      <WrapperButton
-        bg="#5cc753"
-        onClick={() =>
-          onEventGaClickButton(
-            "click-boton-wsp-941801827",
-            "Click boton wsp 941 801 827"
-          )
-        }
-      >
+      <WrapperButton bg="#5cc753">
         <div className="item-text">
           <div>Atención inmediata</div>
-          <div>941 801 827</div>
+          <div>{wspPhone.phone}</div>
         </div>
         <div className="item-icon">
           <FontAwesomeIcon icon={faWhatsapp} className="icon" />

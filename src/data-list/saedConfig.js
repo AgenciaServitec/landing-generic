@@ -307,6 +307,7 @@ export const saedConfig = {
         href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
         icon: faWhatsapp,
         name: "Whatsapp",
+        phone: "941801827",
       },
       {
         href: "mailto:contactos@servitec-peru.com",

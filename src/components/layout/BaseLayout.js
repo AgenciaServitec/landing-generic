@@ -12,6 +12,11 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
   const { templateConfig } = useTemplateConfig();
 
   const headerTemplate = templateConfig.header;
+  const sectionContact = templateConfig.sectionContact;
+
+  const wspPhone = sectionContact.socialsRed.find(
+    (socialRed) => socialRed.name === "Whatsapp"
+  );
 
   return (
     <Container>
@@ -32,7 +37,7 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
           headerTemplate={headerTemplate}
           menuList={headerTemplate.menuList}
         />
-        <ButtonsFloating />
+        {wspPhone && <ButtonsFloating wspPhone={wspPhone} />}
       </WrapperContent>
     </Container>
   );
