@@ -62,7 +62,7 @@ export const jaeConfig = {
       title: "Otras por orden del CG del Ejército o del CG del COEDE.",
       img: JaeOthers,
     },
-    SectionSchools: {
+    sectionSchools: {
       title: "Instituciones de Lima y Provincia:",
       limaSchools: {
         title: "Colegios de Lima",

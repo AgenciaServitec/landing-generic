@@ -80,7 +80,7 @@ export const saedConfig = {
     },
     sectionConvenios: {
       title: "Universidades :",
-      card: [
+      cards: [
         {
           img: UniversidadAgraria,
           title: "Agraria",
