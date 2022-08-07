@@ -40,6 +40,7 @@ export const Home = () => {
   const cardsConventions = saedConfig.main.sectionConvenios;
   const cardsInstitutes = saedConfig.main.sectionInstitutes;
 
+  const sectionContact = saedConfig.sectionContact;
   return (
     <>
       <Container>
@@ -63,7 +64,11 @@ export const Home = () => {
           title={cardsInstitutes.title}
           items={cardsInstitutes.cards}
         />
-        <Contact />
+        <Contact
+          title={sectionContact.title}
+          subtitle={sectionContact.subtitle}
+          socialsred={sectionContact.socialsred}
+        />
       </Container>
     </>
   );

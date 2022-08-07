@@ -36,8 +36,8 @@ const WrapperTitle = styled.div`
 const WrapperImg = styled.div`
   padding: 0.5rem 0.5rem 1rem 0.5rem;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
+  //display: flex;
+  //justify-content: center;
 `;
 
 const Img = styled.img`

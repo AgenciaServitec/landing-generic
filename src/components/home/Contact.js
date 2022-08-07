@@ -9,13 +9,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
-export const Contact = () => {
+export const Contact = ({ title, subtitle, socialsred = [] }) => {
   return (
     <Container id="contact">
       <hr />
       <div className="content-left">
-        <h2>CONTACT COBIENE</h2>
-        <h3> No dudes en comunicarte</h3>
+        <h2>{title}</h2>
+        <h3> {subtitle}</h3>
         {/*<div className="list-items">*/}
         {/*  <ul>*/}
         {/*    <li>Teléfono</li>*/}
@@ -25,56 +25,65 @@ export const Contact = () => {
         {/*</div>*/}
         <div className="items-socials">
           <ul>
-            <li>
-              <a
-                href="https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-              <p>Whatsapp</p>
-            </li>
-            <li>
-              <a
-                href="mailto:contactos@servitec-peru.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
-              <p>Email</p>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/Servitec.chorrillos/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <p>Facebook</p>
-            </li>
-            <li>
-              <a
-                href="https://youtu.be/FNMfFy4iKvg"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faMobile} />
-              </a>
-              <p>Phone</p>
-            </li>
-            <li>
-              <a
-                href="https://youtu.be/FNMfFy4iKvg"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={faGlobe} />
-              </a>
-              <p>Dirreción</p>
-            </li>
+            {socialsred.map((socialred, index) => (
+              <li>
+                <a href={socialred.href} target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon icon={socialred.icon} />
+                </a>
+                <p>{socialred.name}</p>
+              </li>
+            ))}
+
+            {/*<li>*/}
+            {/*  <a*/}
+            {/*    href="https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer"*/}
+            {/*  >*/}
+            {/*    <FontAwesomeIcon icon={faWhatsapp} />*/}
+            {/*  </a>*/}
+            {/*  <p>Whatsapp</p>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a*/}
+            {/*    href="mailto:contactos@servitec-peru.com"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer"*/}
+            {/*  >*/}
+            {/*    <FontAwesomeIcon icon={faEnvelope} />*/}
+            {/*  </a>*/}
+            {/*  <p>Email</p>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a*/}
+            {/*    href="https://www.facebook.com/Servitec.chorrillos/"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer"*/}
+            {/*  >*/}
+            {/*    <FontAwesomeIcon icon={faFacebook} />*/}
+            {/*  </a>*/}
+            {/*  <p>Facebook</p>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a*/}
+            {/*    href="https://youtu.be/FNMfFy4iKvg"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer"*/}
+            {/*  >*/}
+            {/*    <FontAwesomeIcon icon={faMobile} />*/}
+            {/*  </a>*/}
+            {/*  <p>Phone</p>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a*/}
+            {/*    href="https://youtu.be/FNMfFy4iKvg"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noreferrer"*/}
+            {/*  >*/}
+            {/*    <FontAwesomeIcon icon={faGlobe} />*/}
+            {/*  </a>*/}
+            {/*  <p>Dirreción</p>*/}
+            {/*</li>*/}
           </ul>
         </div>
       </div>
