@@ -48,7 +48,7 @@ export const Home = () => {
         <Contact
           title={sectionContact.title}
           subtitle={sectionContact.subtitle}
-          socialsred={sectionContact.socialsred}
+          socialsRed={sectionContact.socialsRed}
         />
       </Container>
     </>

@@ -2,9 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
-import { SaedAboutUs } from "../../images";
+import { useNavigate } from "react-router";
 
 export const AboutUs = ({ title, descriptions = [], buttons = [], images }) => {
+  const navigate = useNavigate();
+
+  const onClickButton = (url) => navigate(url);
+
   return (
     <Container id="about-us">
       <div className="content-items">
@@ -19,7 +23,12 @@ export const AboutUs = ({ title, descriptions = [], buttons = [], images }) => {
           </div>
           <div className="button">
             {buttons.map((button, index) => (
-              <Button key={index} text={button.name} type={button.type} />
+              <Button
+                key={index}
+                text={button.name}
+                type={button.type}
+                onClick={() => onClickButton(`/#${button.id}`)}
+              />
             ))}
           </div>
         </div>
