@@ -13,6 +13,7 @@ import {
 
 export const cmstsConfig = {
   header: {
+    name: "cmsts",
     title: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
     logoImg: CobieneLogoLarge,
     menuHeader: ["Servicios", "Sedes"],
@@ -89,7 +90,10 @@ export const cmstsConfig = {
         ],
       },
     ],
-    sectionCollage: [CmstsCollage1, CmstsCollage2, CmstsCollage3],
+    sectionCollage: {
+      title: "",
+      images: [CmstsCollage1, CmstsCollage2, CmstsCollage3],
+    },
   },
   footer: {},
 };
