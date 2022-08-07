@@ -19,6 +19,7 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
         visibleDrawer={visibleDrawer}
         onSetVisibleDrawer={setVisibleDrawer}
         onClickVisibleFormContact={onClickVisibleFormContact}
+        menuList={headerTemplate.menuList}
       />
       <WrapperContent>
         <Header
