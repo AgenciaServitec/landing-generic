@@ -61,18 +61,22 @@ export const saedConfig = {
     ],
   },
   main: {
-    sectionCarousel: {
-      title: "SECCIÓN DE APOYO EDUCATIVO.",
-      imgBackground: SaedSlider1, //AQUI VA IMAGEN
-      buttons: [
-        {
-          title: "Nosotros",
-        },
-        {
-          title: "Información",
-        },
-      ],
-    },
+    sectionCarousel: [
+      {
+        title: "SECCIÓN DE APOYO EDUCATIVO.",
+        imgBackground: SaedSlider1, //AQUI VA IMAGEN
+        buttons: [
+          {
+            type: "primary",
+            title: "Nosotros",
+          },
+          {
+            type: "secondary",
+            title: "Información",
+          },
+        ],
+      },
+    ],
     sectionAbout: {
       title: "Nosotros",
       description: [

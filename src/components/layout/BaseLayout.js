@@ -4,9 +4,14 @@ import { Drawer } from "./Drawer";
 import { Footer } from "./Footer";
 import { ButtonsFloating, WrapperContent } from "../ui";
 import { Header } from "./Header";
+import { useTemplateConfig } from "../../providers";
 
 export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
   const [visibleDrawer, setVisibleDrawer] = useState(false);
+
+  const { templateConfig } = useTemplateConfig();
+
+  const headerTemplate = templateConfig.header;
 
   return (
     <Container>
@@ -19,6 +24,7 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
         <Header
           visibleDrawer={visibleDrawer}
           setVisibleDrawer={setVisibleDrawer}
+          headerTemplate={headerTemplate}
         />
         <div className="body">{children}</div>
         <Footer />

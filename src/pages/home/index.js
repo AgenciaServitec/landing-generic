@@ -9,6 +9,7 @@ import {
 } from "../../components";
 import { AgrariaLogo, CientificaDelSur } from "../../images";
 import { ComponentImages } from "../../components/home/ComponentImages";
+import { useTemplateConfig } from "../../providers";
 
 const temporalListConvenions = [
   {
@@ -30,10 +31,12 @@ const temporalListConvenions = [
 ];
 
 export const Home = () => {
+  const { templateConfig } = useTemplateConfig();
+
   return (
     <>
       <Container>
-        <Carousel />
+        <Carousel carouselItems={templateConfig.main.sectionCarousel} />
         <AboutUs />
         <Banner />
         <ListItems title="CONVENIOS" items={temporalListConvenions} />

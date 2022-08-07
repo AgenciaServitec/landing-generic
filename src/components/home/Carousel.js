@@ -1,6 +1,5 @@
 import React from "react";
 import AntCarousel from "antd/lib/carousel";
-import { SaedSlider1 } from "../../images";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,14 +10,7 @@ import { useDevice } from "../../hooks";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { ItemCarousel } from "./ItemCarousel";
 
-const carouselItems = [
-  {
-    title: "Sección de Apoyo Educativo",
-    bgImage: SaedSlider1,
-  },
-];
-
-export const Carousel = () => {
+export const Carousel = ({ carouselItems }) => {
   const { isMobile } = useDevice();
 
   return (
@@ -33,9 +25,10 @@ export const Carousel = () => {
         {carouselItems.map((carouselItem, index) => (
           <ItemCarousel
             key={index}
-            title={carouselItem?.title}
-            description={carouselItem?.description}
-            bgImage={carouselItem.bgImage}
+            title={carouselItem.title}
+            description={carouselItem.description}
+            imgBackground={carouselItem.imgBackground}
+            buttons={carouselItem.buttons}
           />
         ))}
       </AntCarousel>

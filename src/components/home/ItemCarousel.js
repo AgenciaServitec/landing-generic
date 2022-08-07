@@ -3,9 +3,14 @@ import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
 
-export const ItemCarousel = ({ bgImage, description, title }) => {
+export const ItemCarousel = ({
+  title,
+  description,
+  imgBackground,
+  buttons = [],
+}) => {
   return (
-    <Container bgImage={bgImage}>
+    <Container imgBackground={imgBackground}>
       <div className="content-item">
         <div className="first-content">
           <div className="txt-items">
@@ -13,8 +18,9 @@ export const ItemCarousel = ({ bgImage, description, title }) => {
             {description && <p>{description}</p>}
           </div>
           <div className="btn-item">
-            <Button text="Nosotros" type="primary" />
-            <Button text="Infomación" type="secondary" />
+            {buttons.map((button, index) => (
+              <Button key={index} text={button.title} type={button.type} />
+            ))}
           </div>
         </div>
       </div>
@@ -23,7 +29,7 @@ export const ItemCarousel = ({ bgImage, description, title }) => {
 };
 
 const Container = styled.div`
-  background: url(${({ bgImage }) => bgImage}) 100% 100% no-repeat;
+  background: url(${({ imgBackground }) => imgBackground}) 100% 100% no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;

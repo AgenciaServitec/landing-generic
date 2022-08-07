@@ -4,14 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useDevice } from "../../hooks";
 import styled from "styled-components";
-import { useTemplateConfig } from "../../providers";
 
-export const Header = ({ setVisibleDrawer }) => {
-  const { templateConfig } = useTemplateConfig();
-
+export const Header = ({ setVisibleDrawer, headerTemplate }) => {
   const { isMobile } = useDevice();
-
-  const headerTemplate = templateConfig.header;
 
   return (
     <Container>
