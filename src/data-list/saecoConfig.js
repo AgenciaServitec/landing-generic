@@ -12,7 +12,12 @@ export const saecoConfig = {
     name: "saeco",
     title: "Sección de Apoyo Economico",
     logoImg: CobieneLogoLarge,
-    menuHeader: ["Inicio", "Nosotros", "Cobertura", "Alcance"],
+    menuHeader: [
+      { id: "", name: "Inicio" },
+      { id: "", name: "Nosotros" },
+      { id: "", name: "Cobertura" },
+      { id: "", name: "Alcance" },
+    ],
   },
   main: {
     sectionCarousel: [

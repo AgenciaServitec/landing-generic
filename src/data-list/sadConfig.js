@@ -16,7 +16,11 @@ export const sadConfig = {
     name: "sad",
     title: "Sección de Apoyo al Discapacitado",
     logoImg: CobieneLogoLarge,
-    menuHeader: ["Inicio", "Nosotros", "Especialidades"],
+    menuHeader: [
+      { id: "", name: "Inicio" },
+      { id: "", name: "Nosotros" },
+      { id: "", name: "Especialidades" },
+    ],
   },
   main: {
     sectionCarousel: [

@@ -32,7 +32,11 @@ export const jaeConfig = {
     name: "jae",
     title: "Jefatura de Apoyo Educativo",
     logoImg: CobieneLogoLarge,
-    menuHeader: ["Inicio", "Nosotros", "Colegios"],
+    menuHeader: [
+      { id: "", name: "Inicio" },
+      { id: "", name: "Nosotros" },
+      { id: "", name: "Colegios" },
+    ],
   },
   main: {
     sectionCarousel: [

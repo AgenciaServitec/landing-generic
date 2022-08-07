@@ -16,7 +16,11 @@ export const cmstsConfig = {
     name: "cmsts",
     title: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
     logoImg: CobieneLogoLarge,
-    menuHeader: ["Servicios", "Sedes"],
+    menuHeader: [
+      { id: "", name: "Inicio" },
+      { id: "", name: "Servicios" },
+      { id: "", name: "Sedes" },
+    ],
   },
   main: {
     sectionCarousel: [
