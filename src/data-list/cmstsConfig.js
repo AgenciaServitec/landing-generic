@@ -10,6 +10,12 @@ import {
   CmstsServices,
   CobieneLogoLarge,
 } from "../images";
+import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope,
+  faGlobe,
+  faMobile,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const cmstsConfig = {
   header: {
@@ -38,7 +44,7 @@ export const cmstsConfig = {
     ],
     sectionServices: {
       title: "DISFRUTA LO QUE BRINDA LA ASOCIACIÓN CMSTS",
-      list: [
+      descriptions: [
         "SALONES PARA EVENTOS.",
         "RESTAURANTE.",
         "AROBICOS.",
@@ -49,7 +55,7 @@ export const cmstsConfig = {
         "PISCINA OLIMPICA/SEMIOLIMPICA.",
         "PAINTBALL",
       ],
-      image: CmstsServices,
+      images: [CmstsServices],
     },
     sectionCampus: [
       {
@@ -97,6 +103,34 @@ export const cmstsConfig = {
       title: "",
       images: [CmstsCollage1, CmstsCollage2, CmstsCollage3],
     },
+  },
+  sectionContact: {
+    title: "CONTACT COBIENE",
+    subtitle: "No dudes en comunicarte",
+    socialsRed: [
+      {
+        href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
+        icon: faWhatsapp,
+        name: "Whatsapp",
+        phone: "941801827",
+      },
+      {
+        href: "mailto:contactos@servitec-peru.com",
+        icon: faEnvelope,
+        name: "Email",
+      },
+      {
+        href: "https://www.facebook.com/Servitec.chorrillos/",
+        icon: faFacebook,
+        name: "Facebook",
+      },
+      { href: "https://youtu.be/FNMfFy4iKvg", icon: faMobile, name: "Phone" },
+      {
+        href: "https://youtu.be/FNMfFy4iKvg",
+        icon: faGlobe,
+        name: "Direción",
+      },
+    ],
   },
   footer: {},
 };

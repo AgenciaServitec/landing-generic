@@ -3,22 +3,42 @@ import styled from "styled-components";
 import { AboutUs, Carousel, Contact, ListItems } from "../../components";
 import { ComponentImages } from "../../components/home/ComponentImages";
 import { useTemplateConfig } from "../../providers";
-import { saedConfig } from "../../data-list";
+import { cmstsConfig, saedConfig } from "../../data-list";
 
 export const Home = () => {
   const { templateConfig } = useTemplateConfig();
 
   const sectionAboutUs = templateConfig.main.sectionAbout;
   const sectionComponentImages = templateConfig.contentImages;
-  const cardsConventions = saedConfig.main.sectionConvenios;
-  const cardsInstitutes = saedConfig.main.sectionInstitutes;
+  const cardsConventions = templateConfig.main.sectionConvenios;
+  const cardsInstitutes = templateConfig.main.sectionInstitutes;
 
-  const sectionContact = saedConfig.sectionContact;
+  const sectionContact = templateConfig.sectionContact;
+
+  const sectionServices = templateConfig.main.sectionServices;
+  const sectionCampus = templateConfig.main.sectionCampus;
   return (
     <>
       <Container>
         <Carousel carouselItems={templateConfig.main.sectionCarousel} />
         {sectionAboutUs && (
+          <AboutUs
+            title={sectionAboutUs.title}
+            descriptions={sectionAboutUs.descriptions}
+            buttons={sectionAboutUs.buttons}
+            images={sectionAboutUs.images}
+          />
+        )}
+        {sectionServices && (
+          <AboutUs
+            title={sectionAboutUs.title}
+            descriptions={sectionAboutUs.descriptions}
+            buttons={sectionAboutUs.buttons}
+            images={sectionAboutUs.images}
+          />
+        )}
+
+        {sectionCampus && (
           <AboutUs
             title={sectionAboutUs.title}
             descriptions={sectionAboutUs.descriptions}
