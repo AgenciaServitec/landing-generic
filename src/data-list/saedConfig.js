@@ -92,195 +92,196 @@ export const saedConfig = {
       title: "Universidades :",
       cards: [
         {
-          img: UniversidadAgraria,
+          image: UniversidadAgraria,
           title: "Agraria",
         },
         // {
-        //   img: UniversidadCientifica,
+        //   image: UniversidadCientifica,
         //   title: "Cientifica del sur",
         // },
         {
-          img: UniversidadCatolica,
+          image: UniversidadCatolica,
           title: "Catolica del Perú",
         },
         {
-          img: UniversidadCesarVallejo,
+          image: UniversidadCesarVallejo,
           title: "Cesar Vallejo",
         },
         {
-          img: UniversidadESAN,
+          image: UniversidadESAN,
           title: "ESAN",
         },
         // {
-        //   img: UniversidadJaimeBausate,
+        //   image: UniversidadJaimeBausate,
         //   title: "Jaime Bausate Mesa",
         // },
         {
-          img: UniversidadMarcelinO,
+          image: UniversidadMarcelinO,
           title: "Marcelino CHAMPAGNAT",
         },
         // {
-        //   img: UniversidadNorbert,
+        //   image: UniversidadNorbert,
         //   title: "NORBERT WIENER",
         // },
         {
-          img: UniversidadDelPacifico,
+          image: UniversidadDelPacifico,
           title: "DEL PACIFICO",
         },
         {
-          img: UniversidadRicardoPalma,
+          image: UniversidadRicardoPalma,
           title: "RICARDO PALMA",
         },
         {
-          img: UniversidadSnIgnacioLoyola,
+          image: UniversidadSnIgnacioLoyola,
           title: "SAN IGNACIO DE LOYOLA",
         },
         {
-          img: UniversidadSanJuanBautista,
+          image: UniversidadSanJuanBautista,
           title: "SAN JUAN BAUTISTA",
         },
         {
-          img: UniversidadSanmartinPorres,
+          image: UniversidadSanmartinPorres,
           title: "SAN MARTIN DE PORRES",
         },
         {
-          img: UniversidadSanMarcos,
+          image: UniversidadSanMarcos,
           title: "SAN MARCOS FACULTAD CC. ECONOMICAS",
         },
         {
-          img: UniversidadSeñorSipan,
+          image: UniversidadSeñorSipan,
           title: "SEÑOR DE SIPAN",
         },
         {
-          img: UniversidadUtp,
+          image: UniversidadUtp,
           title: "UTP",
         },
         {
-          img: UniversidadCatolicaSedeSapientiale,
+          image: UniversidadCatolicaSedeSapientiale,
           title: "CATOLICA SEDE SAPIENTIALE",
         },
         {
-          img: UniversidadUnifeSagradoCorazon,
+          image: UniversidadUnifeSagradoCorazon,
           title: "UNIFE SAGRADO CORAZÓN",
         },
         {
-          img: UniversidadPrivadadelNorte,
+          image: UniversidadPrivadadelNorte,
           title: "UNIV.PRIVADA DEL NORTE",
         },
         {
-          img: UniversidadPeruanadeCiencias,
+          image: UniversidadPeruanadeCiencias,
           title: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS UPC",
         },
       ],
-
-      titleInstitutos: "Institutos :",
-      cardInstitutos: [
+    },
+    sectionInstitutes: {
+      title: "Institutos :",
+      cards: [
         {
-          img: Institute1,
+          image: Institute1,
           title: "CENTRO DE ALTOS ESTUDIOS DE LA MODA",
         },
         {
-          img: Institute2,
+          image: Institute2,
           title: "CEPEA",
         },
         {
-          img: Institute3,
+          image: Institute3,
           title: "CEPEBAN",
         },
         {
-          img: Institute4,
+          image: Institute4,
           title: "CESCA",
         },
         {
-          img: Institute5,
+          image: Institute5,
           title: "CETRO GAMOR",
         },
         {
-          img: Institute6,
+          image: Institute6,
           title: "CEVATUR PERÚ",
         },
         {
-          img: Institute7,
+          image: Institute7,
           title: "CORPORACION EDUCATIVA SAN VICENTE",
         },
         {
-          img: Institute8,
+          image: Institute8,
           title: "DANIEL A.CARRIÓN",
         },
         {
-          img: Institute9,
+          image: Institute9,
           title: "INSTITUTO DE DESARROLLO GERENCIAL",
         },
         {
-          img: Institute10,
+          image: Institute10,
           title: "INSTITUTO DESARROLLO PROFESIONAL Y TECNOLOGICO",
         },
         {
-          img: Institute11,
+          image: Institute11,
           title: "",
         },
         {
-          img: Institute12,
+          image: Institute12,
           title: "ESCUELA INTERNACIONAL DE GERENCIA",
         },
         {
-          img: Institute13,
+          image: Institute13,
           title: "AKRON",
         },
         {
-          img: Institute14,
+          image: Institute14,
           title: "EUROIDIOMAS",
         },
         {
-          img: Institute15,
+          image: Institute15,
           title: "HEADWAY COLLEGE",
         },
         {
-          img: Institute16,
+          image: Institute16,
           title: "INTECI",
         },
         {
-          img: Institute17,
+          image: Institute17,
           title: "LECTURA VELOZ(ILVEM)",
         },
         {
-          img: Institute18,
+          image: Institute18,
           title: "LATINO",
         },
         {
-          img: Institute19,
+          image: Institute19,
           title: "LIBERTADOR",
         },
         {
-          img: Institute20,
+          image: Institute20,
           title: "INIDHE",
         },
         {
-          img: Institute21,
+          image: Institute21,
           title: "PRIVATEACHER",
         },
         {
-          img: Institute22,
+          image: Institute22,
           title: "SAN IGNACIO DE LOYOLA ",
         },
         {
-          img: Institute23,
+          image: Institute23,
           title: "ICPNA",
         },
         {
-          img: Institute24,
+          image: Institute24,
           title: "BRITANICO",
         },
         {
-          img: Institute25,
+          image: Institute25,
           title: "INST.DEFORMACION EMPRESARIAL",
         },
         {
-          img: Institute26,
+          image: Institute26,
           title: "ESCUELA INTERNACIONAL DE GRADUADOS",
         },
         {
-          img: Institute27,
+          image: Institute27,
           title: "ALIANZA FRANCESA",
         },
       ],
