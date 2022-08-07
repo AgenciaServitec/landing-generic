@@ -30,21 +30,23 @@ const Container = styled.div`
   .content-items {
     padding: 3rem 0;
     .title {
-      font-weight: 400;
-      margin: 2rem 0;
+      font-weight: 800;
+      margin: 3rem 0;
       font-size: 2rem;
-      text-align: center;
+      text-align: start;
+      ${mediaQuery.minTablet} {
+        font-size: 3rem;
+      }
     }
     .content-img {
-      display: flex;
-      justify-content: space-evenly;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
       gap: 1rem;
-      flex-wrap: wrap;
-
+      text-align: center;
       .item-img {
         img {
-          width: 15rem;
-          height: 15rem;
+          width: 10rem;
+          height: 10rem;
           object-fit: contain;
         }
         h3 {
