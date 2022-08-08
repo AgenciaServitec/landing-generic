@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
-import { useNavigate } from "react-router";
 
-export const AboutUs = ({
+export const SectionInlineBlock = ({
   title = "",
   subTitle = "",
   descriptions = [],
@@ -86,9 +85,15 @@ const Container = styled.div`
     }
   }
   .content-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .item-image {
       width: 100%;
       height: 100%;
+      max-width: 20rem;
+      height: auto;
+      object-fit: cover;
     }
   }
 `;

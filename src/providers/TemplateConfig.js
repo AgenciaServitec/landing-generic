@@ -23,7 +23,7 @@ const TemplateConfigContext = createContext({
 });
 
 export const TemplateConfig = ({ children }) => {
-  const [templateType, setTemplateType] = useState("default");
+  const [templateType, setTemplateType] = useState("jace");
 
   const hostName = window.location.hostname;
 

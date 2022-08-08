@@ -4,7 +4,7 @@ import { mediaQuery } from "../../styles/constants/mediaQuery";
 
 export const CardsBlack = ({ cards = [] }) => {
   return (
-    <Container id="about-us">
+    <Container>
       {cards.map((card, index) => (
         <div key={index} className="content-items">
           <div className="content">

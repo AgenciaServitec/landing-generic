@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import {
-  AboutUs,
+  SectionInlineBlock,
   Carousel,
   Contact,
   ListItems,
   CardsBlack,
   ComponentImages,
+  SectionCollage,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
 
@@ -20,7 +21,7 @@ export const Home = () => {
   const cardsConventions = templateConfig.main.sectionConvenios || false;
   const cardsInstitutes = templateConfig.main.sectionInstitutes || false;
   const sectionContact = templateConfig.sectionContact || false;
-  const sectionServices = templateConfig.main.sectionServices || false;
+  const collageImages = templateConfig.main.collageImages || false;
   const sectionCampus = templateConfig.main.sectionCampus || false;
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
   const sectionProvinceSchools =
@@ -34,7 +35,7 @@ export const Home = () => {
       <Container>
         <Carousel carouselItems={sectionCarousel} />
         {(sectionAboutUs || sectionAboutUs.images) && (
-          <AboutUs
+          <SectionInlineBlock
             title={sectionAboutUs.title}
             subTitle={sectionAboutUs.subTitle}
             descriptions={sectionAboutUs.descriptions}
@@ -44,7 +45,7 @@ export const Home = () => {
         )}
 
         {(sectionOther || sectionOther.images) && (
-          <AboutUs
+          <SectionInlineBlock
             title={sectionOther.title}
             descriptions={sectionOther.descriptions}
             buttons={sectionOther.buttons}
@@ -52,14 +53,7 @@ export const Home = () => {
           />
         )}
 
-        {(sectionServices || sectionServices.images) && (
-          <AboutUs
-            title={sectionServices.title}
-            descriptions={sectionServices.descriptions}
-            buttons={sectionServices.buttons}
-            images={sectionServices.images}
-          />
-        )}
+        {collageImages && <SectionCollage images={collageImages} />}
         {sectionCampus && <CardsBlack cards={sectionCampus} />}
 
         {sectionCollage && (
@@ -79,7 +73,7 @@ export const Home = () => {
         {/*)}*/}
 
         {(sectionCobertura || sectionCobertura.images) && (
-          <AboutUs
+          <SectionInlineBlock
             title={sectionCobertura.title}
             descriptions={sectionCobertura.descriptions}
             buttons={sectionCobertura.buttons}
@@ -88,7 +82,7 @@ export const Home = () => {
         )}
 
         {(sectionAlcance || sectionAlcance.images) && (
-          <AboutUs
+          <SectionInlineBlock
             title={sectionAlcance.title}
             descriptions={sectionAlcance.descriptions}
             buttons={sectionAlcance.buttons}

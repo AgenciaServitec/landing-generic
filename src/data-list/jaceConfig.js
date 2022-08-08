@@ -57,13 +57,10 @@ export const jaceConfig = {
       descriptions: [
         "La JACE asesorar al Comando de Bienestar del Ejército en los aspectos inherentes de la administración de casas de servicios del Ejército. Asimismo, planificara, ejecutara y supervisara los trabajos de conservación, mejoramiento y rehabilitación de la infraestructura, inmobiliaria de las casas de servicio de la guarnición de Lima, a fin de contribuir a la consecución de los objetivos de Bienestar del Ejército.",
       ],
-      buttons: [{ type: "secondary", name: "CONTÁCTANOS" }],
+      buttons: [{ type: "secondary", title: "CONTÁCTANOS" }],
       images: [JaceAbout],
     },
-    sectionServices: {
-      title: "",
-      images: [JaceServices],
-    },
+    collageImages: [JaceServices],
     sectionRequirements: [
       {
         image: JacePaso1,
