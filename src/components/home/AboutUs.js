@@ -4,7 +4,13 @@ import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
 import { useNavigate } from "react-router";
 
-export const AboutUs = ({ title, descriptions = [], buttons = [], images }) => {
+export const AboutUs = ({
+  title = "",
+  subTitle = "",
+  descriptions = [],
+  buttons = [],
+  images = [],
+}) => {
   const navigate = useNavigate();
 
   const onClickButton = (url) => navigate(url);
@@ -14,34 +20,39 @@ export const AboutUs = ({ title, descriptions = [], buttons = [], images }) => {
       <div className="content-items">
         <div className="content">
           <div className="heading">
-            <h2 className="title">{title}</h2>
+            {title && <h2 className="title">{title}</h2>}
+            {subTitle && <h4 className="title">{subTitle}</h4>}
           </div>
           <div className="description">
             {descriptions.map((description, index) => (
               <p key={index}>{description}</p>
             ))}
           </div>
-          <div className="button">
-            {buttons.map((button, index) => (
-              <Button
+          {buttons && (
+            <div className="button">
+              {buttons.map((button, index) => (
+                <Button
+                  key={index}
+                  text={button.name}
+                  type={button.type}
+                  onClick={() => onClickButton(`/#${button.id}`)}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+        {images && (
+          <div className="content-image">
+            {images.map((image, index) => (
+              <img
                 key={index}
-                text={button.name}
-                type={button.type}
-                onClick={() => onClickButton(`/#${button.id}`)}
+                src={image}
+                className="item-image"
+                alt="about us"
               />
             ))}
           </div>
-        </div>
-        <div className="content-image">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              className="item-image"
-              alt="about us"
-            />
-          ))}
-        </div>
+        )}
       </div>
     </Container>
   );
