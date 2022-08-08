@@ -85,15 +85,26 @@ const Container = styled.div`
     }
   }
   .content-image {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
+    grid-template-columns: 1fr;
+    ${mediaQuery.minTablet} {
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+
     .item-image {
       width: 100%;
       height: 100%;
+      padding-left: 0.5rem;
       max-width: 20rem;
       height: auto;
       object-fit: cover;
+      padding-bottom: 0.5rem;
+      ${mediaQuery.minTablet} {
+        padding-bottom: 0.5rem;
+      }
     }
   }
 `;
