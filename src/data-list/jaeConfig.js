@@ -33,8 +33,8 @@ export const jaeConfig = {
     title: "Jefatura de Apoyo Educativo",
     logoImg: CobieneLogoLarge,
     menuList: [
-      { id: "about-us", name: "Nosotros" },
-      { id: "schools", name: "Colegios" },
+      { id: "about-us", name: "NOSOTROS" },
+      { id: "schools", name: "COLEGIOS" },
     ],
   },
   main: {
@@ -44,9 +44,13 @@ export const jaeConfig = {
         imgBackground: JaeCarousel,
         buttons: [
           {
+            type: "primary",
+            id: "about-us",
             title: "Nosotros",
           },
           {
+            type: "secondary",
+            id: "requirements",
             title: "Requisitos",
           },
         ],
@@ -56,101 +60,101 @@ export const jaeConfig = {
       title: "Nosotros",
       subTitle:
         "Planificamos y evaluamos, los procesos educativos e instrucción, en el Comando  de Educación y Doctrina del Ejército.",
-      description: [
+      descriptions: [
         "Supervisar y controlar la ejecución de los programas educativos de las escuelas en el Comando de Educación y  Doctrina del Ejército, de conformidad a la normatividad vigente",
         "Proporcionar el soporte académico para las actividades a desarrollar por la Jefatura de Educación del Comando de Educación y Doctrina del Ejército, en lo concerniente a los recursos humanos, organización, logísticos y financieros.",
       ],
-      img: JaeAbout,
+      images: [JaeAbout],
     },
     sectionOther: {
       title: "Otras por orden del CG del Ejército o del CG del COEDE.",
-      img: JaeOthers,
+      images: [JaeOthers],
     },
-    sectionSchools: {
-      title: "Instituciones de Lima y Provincia:",
-      limaSchools: {
-        title: "Colegios de Lima",
-        schoolsCard: [
-          {
-            image: Inst1,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "PEDRO RUIZ GALLO",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst2,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "Tte. Crl Alfredo Bonifaz",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst3,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "6005 GRAL EMILIO SOYER CABERO",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst4,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "CRL JOSE JOAQUIN INCLAN",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst5,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "JESUS NIÑO",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst6,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "LA ESPERANZA",
-            title3: "CUNA - JARDIN",
-            button: "",
-          },
-          {
-            image: Inst7,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "MATELLINI",
-            title3: "CUNA - JARDIN",
-            button: "",
-          },
-          {
-            image: Inst8,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "Primeros Pasos",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst9,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "Las Palmas",
-            title3: "INICIAL",
-            button: "",
-          },
-          {
-            image: Inst10,
-            title1: "Institución educativa Publica de Gestión Privada",
-            title2: "SANTA ISABEL",
-            title3: "INICIAL - PRIMARIA - SECUNDARIA",
-            button: "",
-          },
-          {
-            image: Inst11,
-            title1: "Cuna",
-            title2: "Corazon de Jesus",
-            // title3: "",
-            button: "",
-          },
-        ],
-      },
-      provinceSchools: [
+    sectionSchoolsLima: {
+      title: "Colegios de Lima",
+      schoolsCard: [
+        {
+          image: Inst1,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "PEDRO RUIZ GALLO",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst2,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "Tte. Crl Alfredo Bonifaz",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst3,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "6005 GRAL EMILIO SOYER CABERO",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst4,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "CRL JOSE JOAQUIN INCLAN",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst5,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "JESUS NIÑO",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst6,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "LA ESPERANZA",
+          title3: "CUNA - JARDIN",
+          button: "",
+        },
+        {
+          image: Inst7,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "MATELLINI",
+          title3: "CUNA - JARDIN",
+          button: "",
+        },
+        {
+          image: Inst8,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "Primeros Pasos",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst9,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "Las Palmas",
+          title3: "INICIAL",
+          button: "",
+        },
+        {
+          image: Inst10,
+          title1: "Institución educativa Publica de Gestión Privada",
+          title2: "SANTA ISABEL",
+          title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          button: "",
+        },
+        {
+          image: Inst11,
+          title1: "Cuna",
+          title2: "Corazon de Jesus",
+          // title3: "",
+          button: "",
+        },
+      ],
+    },
+    sectionProvinceSchools: {
+      title: "Colegios de Provincia",
+      card: [
         {
           image: Inst14,
           title1: "Institución Educativa",

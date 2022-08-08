@@ -300,8 +300,8 @@ export const saedConfig = {
     images: [SaedBannePublic],
   },
   sectionContact: {
-    title: "CONTACT COBIENE",
-    subtitle: "No dudes en comunicarte",
+    title: "CONTÁCTO",
+    subtitle: "Estamos a su servicio, contáctanos",
     socialsRed: [
       {
         href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
