@@ -2,26 +2,47 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
-export const ListCards = ({ title = "Title no found", items = [] }) => (
-  <Container id="services">
-    <div className="content-items">
-      <h2 className="title">{title}</h2>
-      <div className="content-img">
-        {items.map((item, index) => (
-          <div key={index} className="item-img">
-            {item.image && (
-              <img src={item.image} alt={item.title} className="image-bg" />
-            )}
-            {item.title && <h3>{item.title}</h3>}
-            {item.title2 && <h5>{item.title2}</h5>}
-            {item.title2 && <h5>{item.title2}</h5>}
-            {item.description && <p>{item.description}</p>}
-          </div>
-        ))}
+const listCardsTypes = {
+  primary: {
+    border: "none",
+    justifyContent: "start",
+    contentImg: "repeat(auto-fit, minmax(20rem, 1fr))",
+  },
+  secondary: {
+    border: "2px solid #ccc",
+    justifyContent: "center",
+    contentImg: "repeat(auto-fit, minmax(15rem, 1fr))",
+  },
+};
+
+export const ListCards = ({ title, items = [], type = "primary" }) => {
+  const listCardsStyle = listCardsTypes[type];
+
+  return (
+    <Container id="services" contentImg={listCardsStyle.contentImg}>
+      <div className="content-items">
+        {title ? <h2 className="title">{title}</h2> : ""}
+        <div className="content-img">
+          {items.map((item, index) => (
+            <ItemCards
+              key={index}
+              border={listCardsStyle.border}
+              justifyContent={listCardsStyle.justifyContent}
+            >
+              {item.image && (
+                <img src={item.image} alt={item.title} className="image-bg" />
+              )}
+              {item.title && <h3>{item.title}</h3>}
+              {item.title2 && <h5>{item.title2}</h5>}
+              {item.title2 && <h5>{item.title2}</h5>}
+              {item.description && <p>{item.description}</p>}
+            </ItemCards>
+          ))}
+        </div>
       </div>
-    </div>
-  </Container>
-);
+    </Container>
+  );
+};
 
 const Container = styled.div`
   width: 100%;
@@ -45,42 +66,46 @@ const Container = styled.div`
     }
     .content-img {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      grid-template-columns: ${({ contentImg }) => contentImg};
       gap: 2rem;
       text-align: center;
-      .item-img {
-        ${mediaQuery.minTablet} {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border: 2px solid #ccc;
-          border-radius: 2rem;
-          padding: 1rem 1.2rem;
-          //box-shadow: 15px 0px #bbb;
-        }
-        img {
-          width: 8rem;
-          height: 8rem;
-          object-fit: contain;
-        }
-        h3 {
-          margin-top: 0.8rem;
-          color: #000;
-          text-align: center;
-          text-transform: uppercase;
-          font-size: 1rem;
-          line-height: 1.5rem;
-        }
-        h5 {
-          line-height: 1.5rem;
-        }
-      }
     }
     .button {
       width: 100%;
       display: flex;
       justify-content: center;
     }
+  }
+`;
+
+const ItemCards = styled.div`
+  ${mediaQuery.minTablet} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border: ${({ border }) => border};
+    border-radius: 2rem;
+    padding: 1rem 1.2rem;
+    //box-shadow: 15px 0px #bbb;
+  }
+  img {
+    width: 12rem;
+    height: auto;
+    object-fit: contain;
+  }
+  h3 {
+    margin-top: 0.8rem;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  h5 {
+    line-height: 1.5rem;
+  }
+  p {
+    text-align: justify;
   }
 `;
