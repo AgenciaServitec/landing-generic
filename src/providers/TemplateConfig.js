@@ -4,6 +4,7 @@ import {
   jaceConfig,
   jaeConfig,
   sadConfig,
+  saecoConfig,
   saedConfig,
 } from "../data-list";
 
@@ -13,7 +14,7 @@ const templateConfigs = {
   jae: jaeConfig,
   sad: sadConfig,
   saed: saedConfig,
-  saeco: saedConfig,
+  saeco: saecoConfig,
   default: saedConfig,
 };
 
@@ -22,7 +23,7 @@ const TemplateConfigContext = createContext({
 });
 
 export const TemplateConfig = ({ children }) => {
-  const [templateType, setTemplateType] = useState("cmsts");
+  const [templateType, setTemplateType] = useState("saeco");
 
   const hostName = window.location.hostname;
 

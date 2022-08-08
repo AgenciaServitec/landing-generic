@@ -25,7 +25,9 @@ export const Home = () => {
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
   const sectionProvinceSchools =
     templateConfig.main.sectionProvinceSchools || false;
-  const sectionCollage = templateConfig.main.sectionCollage;
+  const sectionCollage = templateConfig.main.sectionCollage || false;
+  const sectionCobertura = templateConfig.main.sectionCobertura || false;
+  const sectionAlcance = templateConfig.main.sectionAlcance || false;
 
   console.log("sectionContact->", sectionContact);
 
@@ -77,6 +79,24 @@ export const Home = () => {
         {/*    images={sectionCampus.images}*/}
         {/*  />*/}
         {/*)}*/}
+
+        {(sectionCobertura || sectionCobertura.images) && (
+          <AboutUs
+            title={sectionCobertura.title}
+            descriptions={sectionCobertura.descriptions}
+            buttons={sectionCobertura.buttons}
+            images={sectionCobertura.images}
+          />
+        )}
+
+        {(sectionAlcance || sectionAlcance.images) && (
+          <AboutUs
+            title={sectionAlcance.title}
+            descriptions={sectionAlcance.descriptions}
+            buttons={sectionAlcance.buttons}
+            images={sectionAlcance.images}
+          />
+        )}
 
         {(sectionContentImages || sectionContentImages.images) && (
           <ComponentImages
