@@ -128,7 +128,7 @@ export const cmstsConfig = {
       {
         href: "https://youtu.be/FNMfFy4iKvg",
         icon: faGlobe,
-        name: "Direción",
+        name: "Dirección",
       },
     ],
   },
