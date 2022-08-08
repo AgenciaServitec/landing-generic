@@ -57,5 +57,6 @@ const MenuItem = styled.div`
     cursor: pointer;
     color: #000;
     font-size: 1.7rem;
+    text-transform: uppercase;
   }
 `;

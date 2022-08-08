@@ -98,6 +98,7 @@ const Container = styled.div`
           transition: all 0.3s ease-in-out;
           margin-left: 1.5rem;
           cursor: pointer;
+          text-transform: uppercase;
         }
         li:hover {
           color: #4cc2c0;
