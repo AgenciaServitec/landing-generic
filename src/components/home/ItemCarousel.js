@@ -19,7 +19,12 @@ export const ItemCarousel = ({
           </div>
           <div className="btn-item">
             {buttons.map((button, index) => (
-              <Button key={index} text={button.title} type={button.type} />
+              <Button
+                key={index}
+                text={button.title}
+                type={button.type}
+                href={`#${button.id}`}
+              />
             ))}
           </div>
         </div>

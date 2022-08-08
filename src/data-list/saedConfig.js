@@ -93,7 +93,7 @@ export const saedConfig = {
           "\n" +
           "El departamento de apoyo educativo realiza la suscripción de convenios educativos; otorgamiento de becas, etc.",
       ],
-      buttons: [{ type: "secondary", name: "CONTÁCTANOS" }],
+      buttons: [{ type: "secondary", id: "contact", title: "CONTÁCTANOS" }],
       images: [SaedAboutUs],
     },
     sectionConvenios: {

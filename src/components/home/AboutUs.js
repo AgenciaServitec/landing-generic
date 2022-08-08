@@ -11,10 +11,6 @@ export const AboutUs = ({
   buttons = [],
   images = [],
 }) => {
-  const navigate = useNavigate();
-
-  const onClickButton = (url) => navigate(url);
-
   return (
     <Container id="about-us">
       <div className="content-items">
@@ -29,13 +25,13 @@ export const AboutUs = ({
             ))}
           </div>
           {buttons && (
-            <div className="button">
+            <div className="btn-item">
               {buttons.map((button, index) => (
                 <Button
                   key={index}
-                  text={button.name}
+                  text={button.title}
                   type={button.type}
-                  onClick={() => onClickButton(`/#${button.id}`)}
+                  href={`#${button.id}`}
                 />
               ))}
             </div>
@@ -81,6 +77,12 @@ const Container = styled.div`
     .description {
       max-width: 40rem;
       font-weight: 500;
+    }
+    .btn-item {
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      gap: 1rem;
     }
   }
   .content-image {

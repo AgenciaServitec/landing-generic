@@ -6,12 +6,10 @@ import { GlobalStyles } from "./styles/themes/GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import { themes } from "./styles";
 import { setLocale } from "yup";
-import { TemplateConfig, useTemplateConfig } from "./providers";
+import { TemplateConfig } from "./providers";
 import { Spinner } from "./components/ui";
 
 export const App = () => {
-  const { templateConfig } = useTemplateConfig();
-
   const [loadingApp, setLoadingApp] = useState(true);
   const [themeType, setThemeType] = useState("default");
 
@@ -21,36 +19,26 @@ export const App = () => {
     setLocale(yup["es"]);
     getThemeConfig();
     setLoadingApp(false);
-  }, [themeType]);
+  }, []);
 
   const getThemeConfig = () => {
     switch (hostName) {
-      case "cmsts.cobiene.mil.pe": {
-        return setThemeType("primary");
-      }
-      case "jace.cobiene.mil.pe": {
-        return setThemeType("primary");
-      }
-      case "jae.cobiene.mil.pe": {
-        return setThemeType("primary");
-      }
-      case "sad.cobiene.mil.pe": {
-        return setThemeType("primary");
-      }
-      case "saed.cobiene.mil.pe": {
-        return setThemeType("primary");
-      }
-      case "saeco.cobiene.mil.pe": {
-        return setThemeType("primary");
-      }
-      default: {
+      case "cmsts.cobiene.mil.pe":
         return setThemeType("default");
-      }
+      case "jace.cobiene.mil.pe":
+        return setThemeType("default");
+      case "jae.cobiene.mil.pe":
+        return setThemeType("default");
+      case "sad.cobiene.mil.pe":
+        return setThemeType("default");
+      case "saed.cobiene.mil.pe":
+        return setThemeType("default");
+      case "saeco.cobiene.mil.pe":
+        return setThemeType("default");
+      default:
+        return setThemeType("default");
     }
   };
-
-  console.log("templateConfig->", templateConfig);
-  console.log("theme->", themes[themeType]);
 
   if (loadingApp) return <Spinner height="100vh" />;
 

@@ -29,8 +29,6 @@ export const Home = () => {
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
 
-  console.log("sectionContact->", sectionContact);
-
   return (
     <>
       <Container>
