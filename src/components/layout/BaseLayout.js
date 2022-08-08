@@ -14,7 +14,7 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
   const headerTemplate = templateConfig.header;
   const sectionContact = templateConfig.sectionContact;
 
-  const wspPhone = sectionContact.socialsRed.find(
+  const wspPhone = (sectionContact?.socialsRed || []).find(
     (socialRed) => socialRed.name === "Whatsapp"
   );
 
