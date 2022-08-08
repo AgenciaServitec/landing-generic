@@ -9,13 +9,11 @@ export const ListItems = ({ title = "Title no found", items = [] }) => (
       <div className="content-img">
         {items.map((item, index) => (
           <div key={index} className="item-img">
-            {item.image ? (
+            {item.image && (
               <img src={item.image} alt={item.title} className="image-bg" />
-            ) : (
-              ""
             )}
             {item.title && <h3>{item.title}</h3>}
-            {item.description ? <p>{item.description}</p> : ""}
+            {item.description && <p>{item.description}</p>}
           </div>
         ))}
       </div>
