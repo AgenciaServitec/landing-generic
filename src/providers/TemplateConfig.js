@@ -20,10 +20,11 @@ const templateConfigs = {
 
 const TemplateConfigContext = createContext({
   templateConfig: null,
+  onClickTemplateType: () => null,
 });
 
 export const TemplateConfig = ({ children }) => {
-  const [templateType, setTemplateType] = useState("jae");
+  const [templateType, setTemplateType] = useState("default");
 
   const hostName = window.location.hostname;
 
@@ -52,11 +53,14 @@ export const TemplateConfig = ({ children }) => {
     }
   };
 
-  console.log("templateConfigs->", templateConfigs[templateType]);
+  const onClickTemplateType = (type) => setTemplateType(type);
 
   return (
     <TemplateConfigContext.Provider
-      value={{ templateConfig: templateConfigs[templateType] }}
+      value={{
+        templateConfig: templateConfigs[templateType],
+        onClickTemplateType,
+      }}
     >
       {children}
     </TemplateConfigContext.Provider>

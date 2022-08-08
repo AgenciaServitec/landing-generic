@@ -13,6 +13,8 @@ export const App = () => {
   const [loadingApp, setLoadingApp] = useState(true);
   const [themeType, setThemeType] = useState("default");
 
+  // const { onClickTemplateType } = useTemplateConfig();
+
   const hostName = window.location.hostname;
 
   useEffect(() => {
@@ -48,8 +50,41 @@ export const App = () => {
         <GlobalStyles />
         <TemplateConfig>
           <Router />
+          {/*<ItemTemplates>*/}
+          {/*  <ul>*/}
+          {/*    <li onClick={() => onClickTemplateType("cmsts")}>CmsTs</li>*/}
+          {/*    <li onClick={() => onClickTemplateType("jace")}>jace</li>*/}
+          {/*    <li onClick={() => onClickTemplateType("jae")}>jae</li>*/}
+          {/*    <li onClick={() => onClickTemplateType("sad")}>sad</li>*/}
+          {/*    <li onClick={() => onClickTemplateType("saed")}>saed</li>*/}
+          {/*    <li onClick={() => onClickTemplateType("saeco")}>saeco</li>*/}
+          {/*  </ul>*/}
+          {/*</ItemTemplates>*/}
         </TemplateConfig>
       </ThemeProvider>
     </BrowserRouter>
   );
 };
+
+// const ItemTemplates = styled.div`
+//   width: auto;
+//   height: auto;
+//   position: fixed;
+//   bottom: 3%;
+//   left: 3%;
+//   border: 1px solid #000;
+//   z-index: 9999;
+//
+//   ul {
+//     list-style: none;
+//
+//     li {
+//       padding: 0.5rem;
+//       cursor: pointer;
+//
+//       &:hover {
+//         background: #e5e5e5;
+//       }
+//     }
+//   }
+// `;
