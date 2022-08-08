@@ -1,75 +1,108 @@
 import React from "react";
 import styled from "styled-components";
 import { AboutUs, Carousel, Contact, ListItems } from "../../components";
-import { ComponentImages } from "../../components/home/ComponentImages";
 import { useTemplateConfig } from "../../providers";
-import { cmstsConfig, saedConfig } from "../../data-list";
+import { ComponentImages } from "../../components/home/ComponentImages";
 
 export const Home = () => {
   const { templateConfig } = useTemplateConfig();
 
-  const sectionAboutUs = templateConfig.main.sectionAbout;
-  const sectionComponentImages = templateConfig.contentImages;
-  const cardsConventions = templateConfig.main.sectionConvenios;
-  const cardsInstitutes = templateConfig.main.sectionInstitutes;
+  const sectionCarousel = templateConfig.main.sectionCarousel;
+  const sectionAboutUs = templateConfig.main.sectionAbout || false;
+  const sectionOther = templateConfig.main.sectionOther || false;
+  const sectionContentImages = templateConfig.main.contentImages || false;
+  const cardsConventions = templateConfig.main.sectionConvenios || false;
+  const cardsInstitutes = templateConfig.main.sectionInstitutes || false;
+  const sectionContact = templateConfig.main.sectionContact || false;
+  const sectionServices = templateConfig.main.sectionServices || false;
+  const sectionCampus = templateConfig.main.sectionCampus || false;
+  const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
+  const sectionProvinceSchools =
+    templateConfig.main.sectionProvinceSchools || false;
 
-  const sectionContact = templateConfig.sectionContact;
+  console.log("sectionServices->", sectionServices);
 
-  const sectionServices = templateConfig.main.sectionServices;
-  const sectionCampus = templateConfig.main.sectionCampus;
   return (
     <>
       <Container>
-        <Carousel carouselItems={templateConfig.main.sectionCarousel} />
-        {sectionAboutUs && (
+        <Carousel carouselItems={sectionCarousel} />
+        {(sectionAboutUs || sectionAboutUs.images) && (
           <AboutUs
             title={sectionAboutUs.title}
-            descriptions={sectionAboutUs.descriptions}
-            buttons={sectionAboutUs.buttons}
-            images={sectionAboutUs.images}
-          />
-        )}
-        {sectionServices && (
-          <AboutUs
-            title={sectionAboutUs.title}
+            subTitle={sectionAboutUs.subTitle}
             descriptions={sectionAboutUs.descriptions}
             buttons={sectionAboutUs.buttons}
             images={sectionAboutUs.images}
           />
         )}
 
-        {sectionCampus && (
+        {(sectionOther || sectionOther.images) && (
           <AboutUs
-            title={sectionAboutUs.title}
-            descriptions={sectionAboutUs.descriptions}
-            buttons={sectionAboutUs.buttons}
-            images={sectionAboutUs.images}
+            title={sectionOther.title}
+            descriptions={sectionOther.descriptions}
+            buttons={sectionOther.buttons}
+            images={sectionOther.images}
           />
         )}
-        {sectionComponentImages && (
+
+        {(sectionServices || sectionServices.images) && (
+          <AboutUs
+            title={sectionServices.title}
+            descriptions={sectionServices.descriptions}
+            buttons={sectionServices.buttons}
+            images={sectionServices.images}
+          />
+        )}
+
+        {(sectionCampus || sectionCampus.images) && (
+          <AboutUs
+            title={sectionCampus.title}
+            descriptions={sectionCampus.descriptions}
+            buttons={sectionCampus.buttons}
+            images={sectionCampus.images}
+          />
+        )}
+
+        {(sectionContentImages || sectionContentImages.images) && (
           <ComponentImages
-            title={sectionComponentImages.title}
-            images={sectionComponentImages.images}
+            title={sectionContentImages.title}
+            images={sectionContentImages.images}
           />
         )}
+
         {/*<Banner />*/}
-        {cardsConventions && (
+        {(cardsConventions || cardsConventions.cards) && (
           <ListItems
             title={cardsConventions.title}
             items={cardsConventions.cards}
           />
         )}
-        {cardsInstitutes && (
+
+        {(cardsInstitutes || cardsInstitutes.cards) && (
           <ListItems
             title={cardsInstitutes.title}
             items={cardsInstitutes.cards}
           />
         )}
-        <Contact
-          title={sectionContact.title}
-          subtitle={sectionContact.subtitle}
-          socialsRed={sectionContact.socialsRed}
-        />
+        {(sectionSchoolsLima || sectionSchoolsLima.cards) && (
+          <ListItems
+            title={sectionSchoolsLima.title}
+            items={sectionSchoolsLima.cards}
+          />
+        )}
+        {(sectionProvinceSchools || sectionProvinceSchools.cards) && (
+          <ListItems
+            title={sectionProvinceSchools.title}
+            items={sectionProvinceSchools.cards}
+          />
+        )}
+        {(sectionContact || sectionContact.socialsRed) && (
+          <Contact
+            title={sectionContact.title}
+            subtitle={sectionContact.subtitle}
+            socialsRed={sectionContact.socialsRed}
+          />
+        )}
       </Container>
     </>
   );
