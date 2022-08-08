@@ -44,6 +44,15 @@ export { default as JaceAbout } from "./jace/jace-about.webp";
 export { default as JaceMap } from "./jace/jace-map.webp";
 export { default as JaceMap2 } from "./jace/jace-map2.webp";
 export { default as JaceServices } from "./jace/jace-services.webp";
+export { default as JacePaso1 } from "./jace/paso1.webp";
+export { default as JacePaso2 } from "./jace/paso2.webp";
+export { default as JacePaso3 } from "./jace/paso3.webp";
+export { default as JacePaso4 } from "./jace/paso4.webp";
+export { default as JacePaso5 } from "./jace/paso5.webp";
+export { default as JacePaso6 } from "./jace/paso6.webp";
+export { default as JacePaso7 } from "./jace/paso7.webp";
+export { default as JacePaso8 } from "./jace/paso8.webp";
+export { default as JacePaso9 } from "./jace/paso9.webp";
 
 // ------ CMSTS IMAGES -------
 export { default as CmstsCarousel } from "./cmsts/cmsts-carousel.webp";
