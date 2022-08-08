@@ -29,6 +29,7 @@ export const Home = () => {
   const sectionCollage = templateConfig.main.sectionCollage || false;
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
+  const sectionMap = templateConfig.main.sectionMap || false;
 
   return (
     <>
@@ -95,6 +96,12 @@ export const Home = () => {
             title={sectionContentImages.title}
             images={sectionContentImages.images}
           />
+        )}
+        {(sectionMap || sectionMap.images) && (
+            <ComponentImages
+                title={sectionMap.title}
+                images={sectionMap.images}
+            />
         )}
 
         {/*<Banner />*/}
