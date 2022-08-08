@@ -11,9 +11,9 @@ export const saecoConfig = {
     title: "Sección de Apoyo Economico",
     logoImg: CobieneLogoLarge,
     menuList: [
-      { id: "about-us", name: "Nosotros" },
-      { id: "cobertura", name: "Cobertura" },
-      { id: "alcance", name: "Alcance" },
+      { id: "about-us", name: "NOSOTROS" },
+      { id: "cobertura", name: "COBERTURA" },
+      { id: "alcance", name: "ALCANCE" },
     ],
   },
   main: {
