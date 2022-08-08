@@ -7,11 +7,15 @@ const listCardsTypes = {
     border: "none",
     justifyContent: "start",
     contentImg: "repeat(auto-fit, minmax(20rem, 1fr))",
+    imgWidth: "12rem",
+    imgHeight: "auto",
   },
   secondary: {
     border: "2px solid #ccc",
     justifyContent: "center",
     contentImg: "repeat(auto-fit, minmax(15rem, 1fr))",
+    imgWidth: "8rem",
+    imgHeight: "8rem",
   },
 };
 
@@ -28,6 +32,8 @@ export const ListCards = ({ title, items = [], type = "primary" }) => {
               key={index}
               border={listCardsStyle.border}
               justifyContent={listCardsStyle.justifyContent}
+              imgWidth={listCardsStyle.imgWidth}
+              imgHeight={listCardsStyle.imgHeight}
             >
               {item.image && (
                 <img src={item.image} alt={item.title} className="image-bg" />
@@ -90,8 +96,8 @@ const ItemCards = styled.div`
     //box-shadow: 15px 0px #bbb;
   }
   img {
-    width: 12rem;
-    height: auto;
+    width: ${({ imgWidth }) => imgWidth};
+    height: ${({ imgHeight }) => imgHeight};
     object-fit: contain;
   }
   h3 {
