@@ -29,26 +29,26 @@ export const TemplateConfig = ({ children }) => {
 
   useEffect(() => {
     return () => {
-      getThemeAndTemplateConfig();
+      getTemplateConfig();
     };
   }, [templateType]);
 
-  const getThemeAndTemplateConfig = () => {
+  const getTemplateConfig = () => {
     switch (hostName) {
       case "cmsts.cobiene.mil.pe":
-        return setTemplateType("primary");
+        return setTemplateType("cmsts");
       case "jace.cobiene.mil.pe":
-        return setTemplateType("primary");
+        return setTemplateType("jace");
       case "jae.cobiene.mil.pe":
-        return setTemplateType("primary");
+        return setTemplateType("jae");
       case "sad.cobiene.mil.pe":
-        return setTemplateType("primary");
+        return setTemplateType("sad");
       case "saed.cobiene.mil.pe":
-        return setTemplateType("primary");
-      case "saeco.cobiene.mil.pe":
-        return setTemplateType("primary");
-      default:
         return setTemplateType("saed");
+      case "saeco.cobiene.mil.pe":
+        return setTemplateType("saeco");
+      default:
+        return setTemplateType("default");
     }
   };
 
