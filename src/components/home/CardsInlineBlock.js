@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
 
-export const SectionInlineBlock = ({
+export const CardsInlineBlock = ({
   title = "",
   subTitle = "",
   descriptions = [],

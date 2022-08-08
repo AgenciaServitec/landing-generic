@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
-export const SectionCollage = ({ images = [] }) => {
+export const Collage = ({ images = [] }) => {
   return (
     <Container id="about-us">
       <div className="content-items">

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
-export const ListItems = ({ title = "Title no found", items = [] }) => (
+export const ListCards = ({ title = "Title no found", items = [] }) => (
   <Container id="services">
     <div className="content-items">
       <h2 className="title">{title}</h2>
@@ -45,8 +45,8 @@ const Container = styled.div`
     }
     .content-img {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-      gap: 4rem;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 2rem;
       text-align: center;
       .item-img {
         ${mediaQuery.minTablet} {

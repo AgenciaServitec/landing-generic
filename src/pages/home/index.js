@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import {
-  SectionInlineBlock,
+  CardsInlineBlock,
   Carousel,
   Contact,
-  ListItems,
+  ListCards,
   CardsBlack,
   ComponentImages,
-  SectionCollage,
+  Collage,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
 
@@ -35,7 +35,7 @@ export const Home = () => {
       <Container>
         <Carousel carouselItems={sectionCarousel} />
         {(sectionAboutUs || sectionAboutUs.images) && (
-          <SectionInlineBlock
+          <CardsInlineBlock
             title={sectionAboutUs.title}
             subTitle={sectionAboutUs.subTitle}
             descriptions={sectionAboutUs.descriptions}
@@ -45,7 +45,7 @@ export const Home = () => {
         )}
 
         {(sectionOther || sectionOther.images) && (
-          <SectionInlineBlock
+          <CardsInlineBlock
             title={sectionOther.title}
             descriptions={sectionOther.descriptions}
             buttons={sectionOther.buttons}
@@ -53,7 +53,7 @@ export const Home = () => {
           />
         )}
 
-        {collageImages && <SectionCollage images={collageImages} />}
+        {collageImages && <Collage images={collageImages} />}
         {sectionCampus && <CardsBlack cards={sectionCampus} />}
 
         {sectionCollage && (
@@ -73,7 +73,7 @@ export const Home = () => {
         {/*)}*/}
 
         {(sectionCobertura || sectionCobertura.images) && (
-          <SectionInlineBlock
+          <CardsInlineBlock
             title={sectionCobertura.title}
             descriptions={sectionCobertura.descriptions}
             buttons={sectionCobertura.buttons}
@@ -82,7 +82,7 @@ export const Home = () => {
         )}
 
         {(sectionAlcance || sectionAlcance.images) && (
-          <SectionInlineBlock
+          <CardsInlineBlock
             title={sectionAlcance.title}
             descriptions={sectionAlcance.descriptions}
             buttons={sectionAlcance.buttons}
@@ -99,26 +99,26 @@ export const Home = () => {
 
         {/*<Banner />*/}
         {(cardsConventions || cardsConventions.cards) && (
-          <ListItems
+          <ListCards
             title={cardsConventions.title}
             items={cardsConventions.cards}
           />
         )}
 
         {(cardsInstitutes || cardsInstitutes.cards) && (
-          <ListItems
+          <ListCards
             title={cardsInstitutes.title}
             items={cardsInstitutes.cards}
           />
         )}
         {(sectionSchoolsLima || sectionSchoolsLima.cards) && (
-          <ListItems
+          <ListCards
             title={sectionSchoolsLima.title}
             items={sectionSchoolsLima.cards}
           />
         )}
         {(sectionProvinceSchools || sectionProvinceSchools.cards) && (
-          <ListItems
+          <ListCards
             title={sectionProvinceSchools.title}
             items={sectionProvinceSchools.cards}
           />
