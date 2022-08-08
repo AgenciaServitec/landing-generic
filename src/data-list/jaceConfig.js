@@ -62,7 +62,7 @@ export const jaceConfig = {
     },
     collageImages: [JaceServices],
     sectionRequirements: {
-      title: "",
+      title: "Requisitos:",
       cards: [
         {
           image: JacePaso1,
@@ -131,7 +131,7 @@ export const jaceConfig = {
             "La aprobación del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
           ],
         },
-      ]
+      ],
     },
     sectionMap: {
       title:
