@@ -139,34 +139,35 @@ export const jaceConfig = {
         "FLUJOGRAMA PARA LA ASIGNACION DE CASA DE SERVICIO EN LA JEFATURA DE ADMINISTRACION DE CASAS DEL EJERCITO (JACE)",
       images: [JaceMap, JaceMap2],
     },
-    sectionContact: {
-      title: "CONTÁCTO",
-      subtitle: "Estamos a su servicio, contáctanos",
-      socialsRed: [
-        {
-          href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
-          icon: faWhatsapp,
-          name: "Whatsapp",
-          phone: "941801827",
-        },
-        {
-          href: "mailto:contactos@servitec-peru.com",
-          icon: faEnvelope,
-          name: "Email",
-        },
-        {
-          href: "https://www.facebook.com/Servitec.chorrillos/",
-          icon: faFacebook,
-          name: "Facebook",
-        },
-        { href: "https://youtu.be/FNMfFy4iKvg", icon: faMobile, name: "Phone" },
-        {
-          href: "https://youtu.be/FNMfFy4iKvg",
-          icon: faGlobe,
-          name: "Direción",
-        },
-      ],
-    },
+  },
+
+  sectionContact: {
+    title: "CONTÁCTO",
+    subtitle: "Estamos a su servicio, contáctanos",
+    socialsRed: [
+      {
+        href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
+        icon: faWhatsapp,
+        name: "Whatsapp",
+        phone: "941801827",
+      },
+      {
+        href: "mailto:contactos@servitec-peru.com",
+        icon: faEnvelope,
+        name: "Email",
+      },
+      {
+        href: "https://www.facebook.com/Servitec.chorrillos/",
+        icon: faFacebook,
+        name: "Facebook",
+      },
+      { href: "https://youtu.be/FNMfFy4iKvg", icon: faMobile, name: "Phone" },
+      {
+        href: "https://youtu.be/FNMfFy4iKvg",
+        icon: faGlobe,
+        name: "Direción",
+      },
+    ],
   },
   footer: "",
 };
