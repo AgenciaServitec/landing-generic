@@ -100,17 +100,17 @@ export const Home = () => {
         )}
 
         {(sectionRequirements || sectionRequirements.cards) && (
-            <ListCards
-                title={sectionRequirements.title}
-                items={sectionRequirements.cards}
-            />
+          <ListCards
+            title={sectionRequirements.title}
+            items={sectionRequirements.cards}
+          />
         )}
 
         {(sectionMap || sectionMap.images) && (
-            <ComponentImages
-                title={sectionMap.title}
-                images={sectionMap.images}
-            />
+          <ComponentImages
+            title={sectionMap.title}
+            images={sectionMap.images}
+          />
         )}
 
         {/*<Banner />*/}
@@ -118,6 +118,7 @@ export const Home = () => {
           <ListCards
             title={cardsConventions.title}
             items={cardsConventions.cards}
+            type="secondary"
           />
         )}
 
@@ -125,6 +126,7 @@ export const Home = () => {
           <ListCards
             title={cardsInstitutes.title}
             items={cardsInstitutes.cards}
+            type="secondary"
           />
         )}
         {(sectionSchoolsLima || sectionSchoolsLima.cards) && (
