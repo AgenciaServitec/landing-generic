@@ -6,9 +6,9 @@ import {
   Contact,
   ListItems,
   CardsBlack,
+  ComponentImages,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
-import { ComponentImages } from "../../components/home/ComponentImages";
 
 export const Home = () => {
   const { templateConfig } = useTemplateConfig();
@@ -19,7 +19,7 @@ export const Home = () => {
   const sectionContentImages = templateConfig.main.contentImages || false;
   const cardsConventions = templateConfig.main.sectionConvenios || false;
   const cardsInstitutes = templateConfig.main.sectionInstitutes || false;
-  const sectionContact = templateConfig.main.sectionContact || false;
+  const sectionContact = templateConfig.sectionContact || false;
   const sectionServices = templateConfig.main.sectionServices || false;
   const sectionCampus = templateConfig.main.sectionCampus || false;
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
@@ -27,7 +27,7 @@ export const Home = () => {
     templateConfig.main.sectionProvinceSchools || false;
   const sectionCollage = templateConfig.main.sectionCollage;
 
-  console.log("sectionCampus->", sectionCampus);
+  console.log("sectionContact->", sectionContact);
 
   return (
     <>
@@ -61,21 +61,22 @@ export const Home = () => {
           />
         )}
         {sectionCampus && <CardsBlack cards={sectionCampus} />}
-        {/*{sectionCollage && (*/}
-        {/*    <AboutUs*/}
-        {/*        title={sectionCollage.title}*/}
-        {/*        images={sectionCollage.images}*/}
-        {/*    />*/}
-        {/*)}*/}
 
-        {(sectionCampus || sectionCampus.images) && (
-          <AboutUs
-            title={sectionCampus.title}
-            descriptions={sectionCampus.descriptions}
-            buttons={sectionCampus.buttons}
-            images={sectionCampus.images}
+        {sectionCollage && (
+          <ComponentImages
+            title={sectionCollage.title}
+            images={sectionCollage.images}
           />
         )}
+
+        {/*{(sectionCampus || sectionCampus.images) && (*/}
+        {/*  <AboutUs*/}
+        {/*    title={sectionCampus.title}*/}
+        {/*    descriptions={sectionCampus.descriptions}*/}
+        {/*    buttons={sectionCampus.buttons}*/}
+        {/*    images={sectionCampus.images}*/}
+        {/*  />*/}
+        {/*)}*/}
 
         {(sectionContentImages || sectionContentImages.images) && (
           <ComponentImages

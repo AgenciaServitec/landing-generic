@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { mediaQuery } from "../../styles/constants/mediaQuery";
 
 export const ComponentImages = ({ title, images }) => {
   // const { title } = props; // props para el titulo
@@ -36,6 +37,14 @@ const WrapperTitle = styled.div`
 const WrapperImg = styled.div`
   padding: 0.5rem 0.5rem 1rem 0.5rem;
   background-repeat: no-repeat;
+  display: grid;
+  margin-bottom: 1.7rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  ${mediaQuery.minTablet} {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
   //display: flex;
   //justify-content: center;
 `;
