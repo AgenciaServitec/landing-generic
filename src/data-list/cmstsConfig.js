@@ -60,7 +60,7 @@ export const cmstsConfig = {
     sectionCampus: [
       {
         title: "SEDE CHORRILLOS",
-        description: [
+        items: [
           {
             image: CmstsSedeChorillos1,
             description:
@@ -75,7 +75,7 @@ export const cmstsConfig = {
       },
       {
         title: "SEDE TARAPACA",
-        content: [
+        items: [
           {
             image: CmstsSedeTarapaca,
             description:
@@ -90,7 +90,7 @@ export const cmstsConfig = {
       },
       {
         title: "SEDE RIMAC",
-        content: [
+        items: [
           {
             image: CmstsSedeRimac,
             description:

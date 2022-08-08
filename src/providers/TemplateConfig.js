@@ -22,7 +22,7 @@ const TemplateConfigContext = createContext({
 });
 
 export const TemplateConfig = ({ children }) => {
-  const [templateType, setTemplateType] = useState("default");
+  const [templateType, setTemplateType] = useState("cmsts");
 
   const hostName = window.location.hostname;
 

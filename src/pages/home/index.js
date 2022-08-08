@@ -1,6 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { AboutUs, Carousel, Contact, ListItems } from "../../components";
+import {
+  AboutUs,
+  Carousel,
+  Contact,
+  ListItems,
+  CardsBlack,
+} from "../../components";
 import { useTemplateConfig } from "../../providers";
 import { ComponentImages } from "../../components/home/ComponentImages";
 
@@ -19,8 +25,9 @@ export const Home = () => {
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
   const sectionProvinceSchools =
     templateConfig.main.sectionProvinceSchools || false;
+  const sectionCollage = templateConfig.main.sectionCollage;
 
-  console.log("sectionServices->", sectionServices);
+  console.log("sectionCampus->", sectionCampus);
 
   return (
     <>
@@ -53,6 +60,13 @@ export const Home = () => {
             images={sectionServices.images}
           />
         )}
+        {sectionCampus && <CardsBlack cards={sectionCampus} />}
+        {/*{sectionCollage && (*/}
+        {/*    <AboutUs*/}
+        {/*        title={sectionCollage.title}*/}
+        {/*        images={sectionCollage.images}*/}
+        {/*    />*/}
+        {/*)}*/}
 
         {(sectionCampus || sectionCampus.images) && (
           <AboutUs
