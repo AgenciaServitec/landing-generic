@@ -13,6 +13,8 @@ export const ListItems = ({ title = "Title no found", items = [] }) => (
               <img src={item.image} alt={item.title} className="image-bg" />
             )}
             {item.title && <h3>{item.title}</h3>}
+            {item.title2 && <h5>{item.title2}</h5>}
+            {item.title2 && <h5>{item.title2}</h5>}
             {item.description && <p>{item.description}</p>}
           </div>
         ))}
@@ -68,6 +70,9 @@ const Container = styled.div`
           text-align: center;
           text-transform: uppercase;
           font-size: 1rem;
+          line-height: 1.5rem;
+        }
+        h5 {
           line-height: 1.5rem;
         }
       }
