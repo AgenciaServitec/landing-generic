@@ -117,6 +117,7 @@ export const Home = () => {
           <ComponentImages
             title={sectionMap.title}
             images={sectionMap.images}
+            type="secondary"
           />
         )}
 
