@@ -53,6 +53,7 @@ export { default as JacePaso6 } from "./jace/paso6.webp";
 export { default as JacePaso7 } from "./jace/paso7.webp";
 export { default as JacePaso8 } from "./jace/paso8.webp";
 export { default as JacePaso9 } from "./jace/paso9.webp";
+export { default as JaceSlider1 } from "./saed/slider1.webp";
 
 // ------ CMSTS IMAGES -------
 export { default as CmstsCarousel } from "./cmsts/cmsts-carousel.webp";

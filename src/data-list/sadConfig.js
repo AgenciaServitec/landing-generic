@@ -44,38 +44,38 @@ export const sadConfig = {
     ],
     sectionAbout: {
       title: "Nosotros",
-      description: [
+      descriptions: [
         "La Sección de Apoyo al Personal con Discapacidad (SAD), brindará orientación y/o capacitación al personal militar pensionista en la condición de discapacidad sobre: salud, educación, pensión y otros beneficios que por ley le corresponda a fin de contribuir en el bienestar de la familia militar.",
         "Las Actividades de bienestar se desarrolla de acuerdo a lo programado por la COBIENE, realizando las coordinaciones con entidades públicas y privadas, para el mejoramiento de la calidad en la atención del personal con discapacidad",
         "Se brinda atención y se viene empadronando y actualizando lo datos del personal militar con discapacidad, así como la de sus familiares directos, a quienes se les informa respecto a la Ley Na 29487 (Ley que otorga prestaciones de salud gratuita al personal con discapacidad de las FFAA y sus familiares directos)",
       ],
-      img: [SadAbout, SadAboutTwo],
+      images: [SadAbout, SadAboutTwo],
     },
     sectionServices: {
       title: "Especialidades :",
-      card: [
+      cards: [
         {
-          img: SadServiceEstampado,
+          image: SadServiceEstampado,
           title: "Estampado",
         },
         {
-          img: SadServiceTejido,
+          image: SadServiceTejido,
           title: "Tejido Manual",
         },
         {
-          img: SadServiceArtesania,
+          image: SadServiceArtesania,
           title: "Artesanía – Manualidades",
         },
         {
-          img: SadServiceTextil,
+          image: SadServiceTextil,
           title: "Confección Textil",
         },
         {
-          img: SadServiceComputer,
+          image: SadServiceComputer,
           title: "Computación",
         },
         {
-          img: SadServiceCuero,
+          image: SadServiceCuero,
           title: "Cuero y Calzado",
         },
       ],

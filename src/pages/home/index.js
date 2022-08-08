@@ -21,6 +21,7 @@ export const Home = () => {
   const cardsConventions = templateConfig.main.sectionConvenios || false;
   const cardsInstitutes = templateConfig.main.sectionInstitutes || false;
   const sectionContact = templateConfig.sectionContact || false;
+  const sectionServices = templateConfig.main.sectionServices || false;
   const collageImages = templateConfig.main.collageImages || false;
   const sectionCampus = templateConfig.main.sectionCampus || false;
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
@@ -43,6 +44,12 @@ export const Home = () => {
             descriptions={sectionAboutUs.descriptions}
             buttons={sectionAboutUs.buttons}
             images={sectionAboutUs.images}
+          />
+        )}
+        {(sectionServices || sectionServices.cards) && (
+          <ListCards
+            title={sectionServices.title}
+            items={sectionServices.cards}
           />
         )}
 

@@ -13,6 +13,7 @@ import {
   JacePaso8,
   JacePaso9,
   JaceServices,
+  JaceSlider1,
   SaedSlider1,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -37,7 +38,7 @@ export const jaceConfig = {
     sectionCarousel: [
       {
         title: "JEFATURA DE ADMINISTRACION DE CASAS DEL EJÉRCITO.",
-        imgBackground: SaedSlider1,
+        imgBackground: JaceSlider1,
         buttons: [
           {
             type: "primary",
