@@ -7,7 +7,7 @@ const listCardsTypes = {
     border: "none",
     justifyContent: "start",
     contentImg: "repeat(auto-fit, minmax(20rem, 1fr))",
-    imgWidth: "12rem",
+    imgWidth: "15rem",
     imgHeight: "auto",
   },
   secondary: {
@@ -89,7 +89,7 @@ const ItemCards = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: ${({ justifyContent }) => justifyContent};
     border: ${({ border }) => border};
     border-radius: 2rem;
     padding: 1rem 1.2rem;
