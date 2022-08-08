@@ -30,6 +30,7 @@ export const Home = () => {
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
   const sectionMap = templateConfig.main.sectionMap || false;
+  const sectionRequirements = templateConfig.main.sectionRequirements || false;
 
   return (
     <>
@@ -97,6 +98,14 @@ export const Home = () => {
             images={sectionContentImages.images}
           />
         )}
+
+        {(sectionRequirements || sectionRequirements.cards) && (
+            <ListCards
+                title={sectionRequirements.title}
+                items={sectionRequirements.cards}
+            />
+        )}
+
         {(sectionMap || sectionMap.images) && (
             <ComponentImages
                 title={sectionMap.title}
