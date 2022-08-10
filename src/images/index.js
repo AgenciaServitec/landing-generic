@@ -30,7 +30,7 @@ export { default as SaedBannePublic } from "./saed/banner1.webp";
 
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";
-export { default as SadAboutTwo } from "./sad/about2-sad.webp";
+export { default as SadAboutTwo } from "./sad/apoyosad.webp";
 export { default as SadCarousel } from "./sad/carousel-sad.webp";
 export { default as SadServiceTejido } from "./sad/service-tejido.webp";
 export { default as SadServiceArtesania } from "./sad/services-artesania.webp";
