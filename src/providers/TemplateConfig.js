@@ -24,9 +24,11 @@ const TemplateConfigContext = createContext({
 });
 
 export const TemplateConfig = ({ children }) => {
-  const [templateType, setTemplateType] = useState("sad");
+  const [templateType, setTemplateType] = useState("default");
 
   const hostName = window.location.hostname;
+
+  console.log("hostName:", hostName);
 
   useEffect(() => {
     return () => {
