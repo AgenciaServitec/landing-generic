@@ -31,10 +31,8 @@ export const TemplateConfig = ({ children }) => {
   console.log("hostName:", hostName);
 
   useEffect(() => {
-    return () => {
-      getTemplateConfig();
-    };
-  }, [templateType]);
+    getTemplateConfig();
+  }, [templateType, hostName]);
 
   const getTemplateConfig = () => {
     switch (hostName) {
