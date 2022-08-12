@@ -86,7 +86,8 @@ const Container = styled.div`
       flex-wrap: wrap;
       position: relative;
       gap: 2rem;
-
+      text-transform: uppercase;
+      
       a {
         color: inherit;
       }
