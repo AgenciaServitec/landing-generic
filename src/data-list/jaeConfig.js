@@ -46,7 +46,7 @@ export const jaeConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "JEFATURA DE ADMINISTRACION DE CASAS DEL EJÉRCITO.",
+        title: "JEFATURA DE APOYO EDUCATIVO",
         imgBackground: JaeCarousel,
         buttons: [
           {

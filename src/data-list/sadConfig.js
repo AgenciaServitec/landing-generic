@@ -30,7 +30,7 @@ export const sadConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "Jefatura de APOYO AL DISCAPACITADO.",
+        title: "JEFATURA DE APOYO AL DISCAPACITADO.",
         imgBackground: SadCarousel,
         buttons: [
           {
