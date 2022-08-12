@@ -25,7 +25,7 @@ export const ListCards = ({ title, items = [], type = "primary" }) => {
   return (
     <Container id="services" contentImg={listCardsStyle.contentImg}>
       <div className="content-items">
-        {title ? <h2 className="title">{title}</h2> : ""}
+        {title && <h2 className="title">{title}</h2>}
         <div className="content-img">
           {items.map((item, index) => (
             <ItemCards
