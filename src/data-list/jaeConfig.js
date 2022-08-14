@@ -46,7 +46,7 @@ export const jaeConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "JEFATURA DE APOYO EDUCATIVO",
+        title: "APOYO EDUCATIVO",
         imgBackground: JaeCarousel,
         buttons: [
           {
@@ -65,7 +65,7 @@ export const jaeConfig = {
     sectionAbout: {
       title: "Nosotros",
       subTitle:
-        "Planificamos y evaluamos, los procesos educativos e instrucción, en el Comando  de Educación y Doctrina del Ejército.",
+        "Planificamos y evaluamos, los procesos educativos e instrucción",
       descriptions: [
         "Supervisar y controlar la ejecución de los programas educativos de las escuelas en el Comando de Educación y  Doctrina del Ejército, de conformidad a la normatividad vigente",
         "Proporcionar el soporte académico para las actividades a desarrollar por la Jefatura de Educación del Comando de Educación y Doctrina del Ejército, en lo concerniente a los recursos humanos, organización, logísticos y financieros.",

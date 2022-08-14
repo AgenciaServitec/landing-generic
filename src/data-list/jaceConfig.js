@@ -37,7 +37,7 @@ export const jaceConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "JEFATURA DE ADMINISTRACION DE CASAS DEL EJÉRCITO.",
+        title: "JEFATURA DE ADMINISTRACION DE CASAS AL SERVICIO.",
         imgBackground: JaceSlider1,
         buttons: [
           {

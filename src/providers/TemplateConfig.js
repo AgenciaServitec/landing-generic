@@ -24,7 +24,7 @@ const TemplateConfigContext = createContext({
 });
 
 export const TemplateConfig = ({ children }) => {
-  const [templateType, setTemplateType] = useState("cmsts");
+  const [templateType, setTemplateType] = useState("default");
 
   const hostName = window.location.hostname;
 
@@ -49,7 +49,7 @@ export const TemplateConfig = ({ children }) => {
       case "saeco.cobiene.mil.pe":
         return setTemplateType("saeco");
       default:
-        return setTemplateType("cmsts");
+        return setTemplateType("jace");
     }
   };
 

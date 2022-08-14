@@ -56,7 +56,7 @@ export { default as JacePaso9 } from "./jace/paso9.webp";
 export { default as JaceSlider1 } from "./saed/slider1.webp";
 
 // ------ CMSTS IMAGES -------
-export { default as CmstsCarousel } from "./cmsts/cmsts-carousel.webp";
+export { default as CmstsCarousel } from "./cmsts/new2.webp";
 export { default as CmstsServices } from "./cmsts/cmsts-services.webp";
 export { default as CmstsCollage1 } from "./cmsts/collage1.webp";
 export { default as CmstsCollage2 } from "./cmsts/collage2.webp";
@@ -147,7 +147,7 @@ export { default as Inst22 } from "./schools/province-schools/inst22.webp";
 
 // ------ JAE IMAGES -------
 export { default as JaeAbout } from "./jae/jae-about.webp";
-export { default as JaeCarousel } from "./jae/jae-carousel.webp";
+export { default as JaeCarousel } from "./jae/new11.webp";
 export { default as JaeOthers } from "./jae/jae-others.webp";
 
 // ------ SAECO IMAGES -------

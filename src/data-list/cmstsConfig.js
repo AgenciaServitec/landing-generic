@@ -30,7 +30,7 @@ export const cmstsConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "Círculo Militar Supervisores Técnicos de Sub Oficiales.",
+        title: "TUS MEJORES MOMENTOS.",
         imgBackground: CmstsCarousel,
         buttons: [
           {
