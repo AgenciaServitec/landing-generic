@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 
-export const Contact = ({ title, subtitle, socialsRed = [] }) => {
+export const Contact = ({ title, subtitle, socialsRed = [], values = [] }) => {
   return (
     <Container id="contact">
       <hr />
@@ -20,6 +20,17 @@ export const Contact = ({ title, subtitle, socialsRed = [] }) => {
                 <p>{socialRed.name}</p>
               </li>
             ))}
+          </ul>
+          <ul className="list-social-info">
+            {socialsRed.map(
+              (social, index) =>
+                social.value && (
+                  <div key={index}>
+                    <FontAwesomeIcon icon={social.icon} size="sm" /> &nbsp;
+                    <span>{social.value}</span>
+                  </div>
+                )
+            )}
           </ul>
         </div>
       </div>
@@ -103,6 +114,22 @@ const Container = styled.div`
             span {
               border-right: none;
             }
+          }
+        }
+      }
+      .list-social-info {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        div {
+          text-align: center;
+          color: #010a06;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          span {
+            margin: 0;
           }
         }
       }

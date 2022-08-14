@@ -66,30 +66,32 @@ export const saecoConfig = {
     },
   },
   sectionContact: {
-    title: "CONTÁCTO",
-    subtitle: "Estamos a su servicio, contáctanos",
+    title: "CONTACT COBIENE",
+    subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
         href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
         icon: faWhatsapp,
         name: "Whatsapp",
-        phone: "941801827",
+        value: "941801827",
       },
       {
         href: "mailto:contactos@servitec-peru.com",
         icon: faEnvelope,
         name: "Email",
+        value: "contactos@servitec-peru.com",
       },
       {
         href: "https://www.facebook.com/Servitec.chorrillos/",
         icon: faFacebook,
         name: "Facebook",
       },
-      { href: "https://youtu.be/FNMfFy4iKvg", icon: faMobile, name: "Phone" },
+      { href: "tel:941801827", icon: faMobile, name: "Celular" },
       {
-        href: "https://youtu.be/FNMfFy4iKvg",
+        href: "https://goo.gl/maps/Lc37rVhC9WEStpj66",
         icon: faGlobe,
-        name: "Direción",
+        name: "Dirección",
+        value: "Chorrillos-lima-Perú",
       },
     ],
   },

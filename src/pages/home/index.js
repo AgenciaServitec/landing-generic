@@ -154,6 +154,7 @@ export const Home = () => {
             title={sectionContact.title}
             subtitle={sectionContact.subtitle}
             socialsRed={sectionContact.socialsRed}
+            values={sectionContact.values}
           />
         )}
       </Container>
