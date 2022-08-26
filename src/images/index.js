@@ -59,35 +59,38 @@ export { default as JaceSlider1 } from "./saed/slider1.webp";
 export { default as CmstsCarousel } from "./cmsts/new2.webp";
 export { default as CmstsServices } from "./cmsts/cmsts-services.webp";
 export { default as CmstsCollage1 } from "./cmsts/collage1.webp";
-export { default as CmstsCollage2 } from "./cmsts/collage2.webp";
+export { default as CmstsCollage2 } from "./cmsts/capturadesalon.webp";
 export { default as CmstsCollage3 } from "./cmsts/collage3.webp";
-export { default as CmstsSedeChorillos1 } from "./cmsts/sede-chorrillos.webp";
-export { default as CmstsSedeChorillos2 } from "./cmsts/sede-chorilos2.webp";
+export { default as CmstsSedeChorillos1 } from "./cmsts/sededia.webp";
+export { default as CmstsSedeChorillos2 } from "./cmsts/canchanoche.webp";
 export { default as CmstsSedeRimac } from "./cmsts/sede-rimac.webp";
 export { default as CmstsSedeTarapaca } from "./cmsts/sede-tarapaca.webp";
+export { default as CmstsCollage4 } from "./cmsts/capturadecancha.webp";
 
 //------- UNIVERSITIES --------
 export { default as UniversidadAgraria } from "./universities/logo1.webp";
-// export { default as UniversidadCientifica } from "./universities/logo2.webp;";
+export { default as UniversidadCientifica } from "./universities/logo2.webp";
 export { default as UniversidadCatolica } from "./universities/logo3.webp";
 export { default as UniversidadCesarVallejo } from "./universities/logo4.webp";
 export { default as UniversidadESAN } from "./universities/logo5.webp";
-// export { deafult as UniversidadJaimeBausate } from "./universities/logo6.webp";
-export { default as UniversidadMarcelinO } from "./universities/logo7.webp";
-// export { ddefault as UniversidadNorbert } from "./universities/logo8.webp";
-export { default as UniversidadDelPacifico } from "./universities/logo9.webp";
-export { default as UniversidadRicardoPalma } from "./universities/logo10.webp";
-export { default as UniversidadSnIgnacioLoyola } from "./universities/logo11.webp";
-export { default as UniversidadSanJuanBautista } from "./universities/logo12.webp";
-export { default as UniversidadSanmartinPorres } from "./universities/logo13.webp";
-
-export { default as UniversidadSanMarcos } from "./universities/logo14.webp";
-export { default as UniversidadSeñorSipan } from "./universities/logo15.webp";
-export { default as UniversidadUtp } from "./universities/logo16.webp";
-export { default as UniversidadCatolicaSedeSapientiale } from "./universities/logo17.webp";
-export { default as UniversidadUnifeSagradoCorazon } from "./universities/logo18.webp";
-export { default as UniversidadPrivadadelNorte } from "./universities/logo19.webp";
+export { default as UniversidadJaimeBausate } from "./universities/logo7.webp";
+export { default as UniversidadChampagnat } from "./universities/logo8.webp";
+export { default as UniversidadNorbert } from "./universities/logo9.webp";
+export { default as UniversidadDelPacifico } from "./universities/logo10.webp";
+export { default as UniversidadRicardoPalma } from "./universities/logo11.webp";
+export { default as UniversidadSnIgnacioLoyola } from "./universities/logo12.webp";
+export { default as UniversidadSanJuanBautista } from "./universities/logo13.webp";
+export { default as UniversidadSanmartinPorres } from "./universities/logo14.webp";
+export { default as UniversidadSanMarcos } from "./universities/logo15.webp";
+export { default as UniversidadSeñorSipan } from "./universities/logo16.webp";
+export { default as UniversidadUtp } from "./universities/logo17.webp";
+export { default as UniversidadCatolicaSedeSapientiale } from "./universities/logo18.webp";
+export { default as UniversidadUnifeSagradoCorazon } from "./universities/logo19.webp";
+export { default as UniversidadPrivadadelNorte } from "./universities/logo20.webp";
 export { default as UniversidadPeruanadeCiencias } from "./universities/logo20.webp";
+export { default as UniversidadNacionalMusica } from "./universities/logo22.webp";
+export { default as UniversidadFedericoVillareal } from "./universities/logo23.webp";
+export { default as UniversidadUpc } from "./universities/logo21.webp";
 
 //----- INSTITUTOS --------
 export { default as Institute1 } from "./institutes/instituto1.webp";
@@ -118,6 +121,12 @@ export { default as Institute25 } from "./institutes/instituto25.webp";
 export { default as Institute26 } from "./institutes/instituto26.webp";
 export { default as Institute27 } from "./institutes/instituto27.webp";
 export { default as Institute28 } from "./institutes/instituto28.webp";
+export { default as Institute30 } from "./institutes/instituto30.webp";
+export { default as Institute31 } from "./institutes/instituto31.webp";
+export { default as Institute32 } from "./institutes/instituto32.webp";
+export { default as Institute33 } from "./institutes/instituto33.webp";
+export { default as Institute34 } from "./institutes/instituto34.webp";
+export { default as Institute35 } from "./institutes/instituto35.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
@@ -155,3 +164,40 @@ export { default as SaecoImgCarousel } from "./saeco/img-carousel.webp";
 export { default as SaecoImgAbout } from "./saeco/img-about.webp";
 export { default as SaecoImgAlcance } from "./saeco/img-alcance.webp";
 export { default as SaecoImgCobertura } from "./saeco/img-cobertura.webp";
+export { default as SaecoImgAyudaSocial } from "./saeco/img-ayudasocial.webp";
+export { default as SaecoBautismo } from "./saeco/servicesRel.webp";
+// ------ SAECO BANCOS IMAGES -------
+export { default as BancoComercio } from "./saeco/bancos-img/bancocomercio.webp";
+export { default as BancoGng } from "./saeco/bancos-img/bancognb.webp";
+export { default as BancoPichincha } from "./saeco/bancos-img/bancopichincha.webp";
+export { default as BancoContinental } from "./saeco/bancos-img/bbvacontinental.webp";
+export { default as BancoInterbank } from "./saeco/bancos-img/interbank.webp";
+export { default as BancoScotiabank } from "./saeco/bancos-img/scotiabank.webp";
+// ------ SAECO CONVENIOS SALUD IMAGES -------
+export { default as ConvenioSalud1 } from "./saeco/conveniosSalud/apelac.webp";
+export { default as ConvenioSalud2 } from "./saeco/conveniosSalud/biolinks.webp";
+export { default as ConvenioSalud3 } from "./saeco/conveniosSalud/dent.webp";
+export { default as ConvenioSalud4 } from "./saeco/conveniosSalud/inppares.webp";
+export { default as ConvenioSalud5 } from "./saeco/conveniosSalud/medifon.webp";
+export { default as ConvenioSalud6 } from "./saeco/conveniosSalud/multident.webp";
+export { default as ConvenioSalud7 } from "./saeco/conveniosSalud/tinnitus.webp";
+export { default as ConvenioSalud8 } from "./saeco/conveniosSalud/unilabs.webp";
+// ------ SAECO DIVERSOS IMAGES -------
+export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
+export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
+export { default as TiendaLogistas } from "./saeco/diversos/logistas.webp";
+export { default as TiendaRenzoCosta } from "./saeco/diversos/renzocosta.webp";
+export { default as SmartFit } from "./saeco/diversos/smartfit.webp";
+export { default as TiendaSugo } from "./saeco/diversos/sugootros.webp";
+// ------ SAECO FINANCIERAS IMAGES -------
+export { default as FinancieraEfectiva } from "./saeco/financieras/efectivafinaciera.webp";
+export { default as FinancieraFinantel } from "./saeco/financieras/finantelfinanciera.webp";
+export { default as FinancieraLarehabilitadora } from "./saeco/financieras/larehabilitadorafinanciera.webp";
+// ------ SAECO SEGUROS IMAGES -------
+export { default as SeguroRimac } from "./saeco/seguros/segurorimac.webp";
+export { default as SeguroSaludPositiva } from "./saeco/seguros/segurossaludpositiva.webp";
+export { default as SeguroVehicular } from "./saeco/seguros/segurovehicular.webp";
+export { default as SeguroVehicularPositiva } from "./saeco/seguros/segurovehicularpositiva.webp";
+// ------ SAECO TRANSPORTE IMAGES -------
+export { default as Transporte1 } from "./saeco/transporte/movilbus.webp";
+export { default as Transporte2 } from "./saeco/transporte/oltursa.webp";

@@ -14,7 +14,6 @@ import {
   JacePaso9,
   JaceServices,
   JaceSlider1,
-  SaedSlider1,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -37,7 +36,7 @@ export const jaceConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "JEFATURA DE ADMINISTRACION DE CASAS AL SERVICIO.",
+        title: "CASAS AL SERVICIO.",
         imgBackground: JaceSlider1,
         buttons: [
           {
@@ -146,25 +145,25 @@ export const jaceConfig = {
     subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
-        href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
+        href: "https://api.whatsapp.com/send/?phone=+51929054672&text=Buenos+dias+tengo+una+consulta&app_absent=0",
         icon: faWhatsapp,
         name: "Whatsapp",
-        value: "941801827",
+        value: "929054672",
       },
       {
-        href: "mailto:contactos@servitec-peru.com",
+        href: "contacto@cobiene.com",
         icon: faEnvelope,
         name: "Email",
-        value: "contactos@servitec-peru.com",
+        value: "contacto@cobiene.com",
       },
       {
-        href: "https://www.facebook.com/Servitec.chorrillos/",
+        href: "https://es-la.facebook.com/BienestarEP",
         icon: faFacebook,
         name: "Facebook",
       },
       { href: "tel:941801827", icon: faMobile, name: "Celular" },
       {
-        href: "https://goo.gl/maps/Lc37rVhC9WEStpj66",
+        href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
         name: "Dirección",
         value: "Chorrillos-lima-Perú",

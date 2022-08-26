@@ -68,6 +68,13 @@ const Container = styled.div`
     ${mediaQuery.minTablet} {
       grid-template-columns: 1fr 1fr;
     }
+    .content {
+      .heading {
+        h4 {
+          font-size: 20px;
+        }
+      }
+    }
     .title {
       font-weight: 400;
       margin-bottom: 2rem;
@@ -85,7 +92,7 @@ const Container = styled.div`
     }
   }
   .content-image {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr;
@@ -98,7 +105,7 @@ const Container = styled.div`
       width: 100%;
       height: 100%;
       padding-left: 0.5rem;
-      max-width: 20rem;
+      max-width: 29rem;
       height: auto;
       object-fit: cover;
       padding-bottom: 0.5rem;

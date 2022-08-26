@@ -29,6 +29,14 @@ export const Home = () => {
     templateConfig.main.sectionProvinceSchools || false;
   const sectionCollage = templateConfig.main.sectionCollage || false;
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
+  const sectionBancos = templateConfig.main.sectionBancos || false;
+  const sectionSalud = templateConfig.main.sectionSalud || false;
+  const sectionDiversos = templateConfig.main.sectionDiversos || false;
+  const sectionFinancieras = templateConfig.main.sectionFinancieras || false;
+  const sectionSeguros = templateConfig.main.sectionSeguros || false;
+  const sectionTransporte = templateConfig.main.sectionTransporte || false;
+  const sectionServiceRel = templateConfig.main.sectionServiceRel || false;
+
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
   const sectionMap = templateConfig.main.sectionMap || false;
   const sectionRequirements = templateConfig.main.sectionRequirements || false;
@@ -87,6 +95,50 @@ export const Home = () => {
             descriptions={sectionCobertura.descriptions}
             buttons={sectionCobertura.buttons}
             images={sectionCobertura.images}
+          />
+        )}
+        {(sectionBancos || sectionBancos.cards) && (
+          <ListCards
+            title={sectionBancos.title}
+            items={sectionBancos.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionSalud || sectionSalud.cards) && (
+          <ListCards
+            title={sectionSalud.title}
+            items={sectionSalud.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionDiversos || sectionDiversos.cards) && (
+          <ListCards
+            title={sectionDiversos.title}
+            items={sectionDiversos.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionFinancieras || sectionFinancieras.cards) && (
+          <ListCards
+            title={sectionFinancieras.title}
+            items={sectionFinancieras.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionTransporte || sectionTransporte.cards) && (
+          <ListCards
+            title={sectionTransporte.title}
+            items={sectionTransporte.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionServiceRel || sectionServiceRel.images) && (
+          <CardsInlineBlock
+            title={sectionServiceRel.title}
+            subTitle={sectionServiceRel.subTitle}
+            descriptions={sectionServiceRel.descriptions}
+            buttons={sectionServiceRel.buttons}
+            images={sectionServiceRel.images}
           />
         )}
 

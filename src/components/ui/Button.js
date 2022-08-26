@@ -59,7 +59,7 @@ export const Button = ({
 const Container = styled.a`
   ${({ background, color, border, width }) => css`
     width: ${width};
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.1rem;
     border-radius: 0.7rem;
     border: ${border};
     background: ${background};
@@ -70,7 +70,7 @@ const Container = styled.a`
     font-size: 1.1rem;
 
     ${mediaQuery.minTablet} {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
 
     &:hover {
@@ -95,7 +95,7 @@ const Container = styled.a`
       justify-content: center;
       color: #fff;
       .item-icon {
-        margin-right: 0.7rem;
+        margin-right: 0.5rem;
       }
     }
   `}

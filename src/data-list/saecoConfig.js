@@ -1,8 +1,38 @@
 import {
+  BancoPichincha,
   CobieneLogoLarge,
+  FinancieraEfectiva,
+  FinancieraFinantel,
+  FinancieraLarehabilitadora,
   SaecoImgAbout,
-  SaecoImgAlcance,
+  BancoGng,
+  BancoInterbank,
+  BancoScotiabank,
+  BancoComercio,
+  ConvenioSalud1,
+  ConvenioSalud2,
+  ConvenioSalud3,
+  Transporte1,
+  Transporte2,
+  ConvenioSalud4,
+  ConvenioSalud5,
+  ConvenioSalud6,
+  ConvenioSalud7,
+  ConvenioSalud8,
+  BancoContinental,
+  SaecoImgAyudaSocial,
   SaecoImgCarousel,
+  SeguroRimac,
+  SeguroSaludPositiva,
+  SeguroVehicular,
+  SeguroVehicularPositiva,
+  SmartFit,
+  TiendaFootloose,
+  TiendaLazzos,
+  TiendaLogistas,
+  TiendaRenzoCosta,
+  TiendaSugo,
+  SaecoBautismo,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -14,7 +44,7 @@ import {
 export const saecoConfig = {
   header: {
     name: "saeco",
-    title: "Sección de Apoyo Economico",
+    title: "Sección de Servicio Social",
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
@@ -25,14 +55,17 @@ export const saecoConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "Sección de Apoyo Economico",
+        title: "Sección de Servicio Social",
         imgBackground: SaecoImgCarousel,
         buttons: [
           {
-            title: "Servicios",
+            title: "Ayuda Economica Social",
           },
           {
-            title: "Programar una Sesión",
+            title: "Convenios Multiservicios",
+          },
+          {
+            title: "Servicio Religioso",
           },
         ],
       },
@@ -40,58 +73,224 @@ export const saecoConfig = {
     sectionAbout: {
       title: "Nosotros",
       descriptions: [
-        "OTORGAMIENTO DE AYUDA ECONÓMICA SOCIAL A LOS FAMILIARES DIRECTOS DEL PERSONAL COBIENE Y PERSONAL CIVIL, NOMBRADO Y CONTRATADO EN SITUACIONES DE ACTIVIDAD CON RECURSOS ASIGNADOS AL PRESUPUESTO DEL COBIENE. ",
+        "EL BENEFICIO DE LA AYUDA ECONÓMICA SOCIAL, ES EL APORTE\n" +
+          "ECONÓMICO PARCIAL O TOTAL QUE PROPORCIONA EL EJÉRCITO, AL\n" +
+          "FAMILIAR DIRECTO DEL PERSONAL MILITAR EN SITUACIÓN DE\n" +
+          "ACTIVIDAD Y RETIRO, ASÍ COMO AL PERSONAL CIVIL, NOMBRADO,\n" +
+          "CONTRATADO Y CESANTE EN SITUACIONES EXCEPCIONALES DE\n" +
+          "SALUD. ASIMISMO, A LOS SOBREVIVIENTES DEL TITULAR FALLECIDO\n" +
+          "EN ACCIÓN DE ARMAS, ACTO DE SERVICIO, A CONSECUENCIA DEL\n" +
+          "SERVICIO U OCASIÓN DEL SERVICIO, COADYUVANDO CON EL\n" +
+          "TRATAMIENTO DE LOS FAMILIARES DIRECTOS (HIJOS Y CÓNYUGE), EN\n" +
+          "CASOS EXCEPCIONALES A LOS PADRES DEL TITULAR, POR UN MONTO\n" +
+          "DE HASTA DOS (02) UIT.",
       ],
       images: [SaecoImgAbout],
     },
     sectionCobertura: {
-      tile: "COBERTURA - RUBROS",
+      title:
+        "LA AYUDA ECONOMICA SOCAIL OTORGA, BIENES Y SERVICIOS EN LOS SIGUIENTES RUBROS",
       descriptions: [
-        "* AYUDA ECONOMICA POR SERVICIO: ",
-        "* PAGO DE SEVICIOS MEDICOS, PAGO DE PENSIÓN POR ENSEÑANZA Y TERAPIAS, PAGOS DE TRATAMIENTOS DE REHABILITACIÓN FISICA, PSICOLOGICA Y PSIQUIATRA. ",
-        "* AYUDA ECONOMICA POR ADQUISIONES:",
-        "* ADQUISICIÓN DE ALIMENTOS: SOBRE ALIMENTACIÓN Y SUPLEMENTOS NUTRICIONALES",
-        "* ADQUISICIÓN DE MATERIAL INSUMOS E INSTRUMENTAL (SILLA DE RUEDAS, AUDIFONOS, ZAPATOS ORTOPEDICOS, MEDICINAS, PAÑALES, MULETAS, ANDADORES).",
+        "* Alimentos y bebidas para consumo humano.",
+        "* Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. ",
+        "* Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnostico especializado, intervenciones quirúrgicas, honorarios profesionales.) ",
       ],
-      images: [SaecoImgAlcance],
+      images: [SaecoImgAyudaSocial],
     },
-    sectionAlcance: {
-      title: "ALCANCE",
-      descriptions: [
-        "* FAMILIARES DIRECTOS DEL TITULAR (ESPOSO(A)), HIJOS Y POR UNICA VEZ A LOS PADRES",
-        "* MONTO",
-        "* MAXIMO 2 UIT",
+    sectionBancos: {
+      title: "Bancos :",
+      cards: [
+        {
+          image: BancoComercio,
+          title: "Banco Comercio",
+        },
+        {
+          image: BancoGng,
+          title: "Banco Gng",
+        },
+        {
+          image: BancoPichincha,
+          title: "Banco Pichincha",
+        },
+        {
+          image: BancoContinental,
+          title: "Banco Continental",
+        },
+        {
+          image: BancoInterbank,
+          title: "Banco Interbank",
+        },
+        {
+          image: BancoScotiabank,
+          title: "Banco Scotiabank",
+        },
       ],
-      images: [SaecoImgAlcance],
+    },
+    sectionSalud: {
+      title: "Convenios de Servicios de Salud",
+      cards: [
+        {
+          image: ConvenioSalud1,
+          title: "Apelac",
+        },
+        {
+          image: ConvenioSalud2,
+          title: "Biolinks",
+        },
+        {
+          image: ConvenioSalud3,
+          title: "Dent",
+        },
+        {
+          image: ConvenioSalud4,
+          title: "Inppares",
+        },
+        {
+          image: ConvenioSalud5,
+          title: "Mediofon",
+        },
+        {
+          image: ConvenioSalud6,
+          title: "MultiDent",
+        },
+        {
+          image: ConvenioSalud7,
+          title: "Tinnitus",
+        },
+        {
+          image: ConvenioSalud8,
+          title: "Unilabs",
+        },
+      ],
+    },
+    sectionDiversos: {
+      title: "Tiendas :",
+      cards: [
+        {
+          image: TiendaFootloose,
+          title: "Footloose",
+        },
+        {
+          image: TiendaLazzos,
+          title: "Lazzos",
+        },
+        {
+          image: TiendaLogistas,
+          title: "Logistas",
+        },
+        {
+          image: TiendaRenzoCosta,
+          title: "Renzo Costa",
+        },
+        {
+          image: SmartFit,
+          title: "Renzo Costa",
+        },
+        {
+          image: TiendaSugo,
+          title: "Sugo",
+        },
+      ],
+    },
+    sectionFinancieras: {
+      title: "Financieras :",
+      cards: [
+        {
+          image: FinancieraEfectiva,
+          title: "Financiera Efectiva",
+        },
+        {
+          image: FinancieraFinantel,
+          title: "Financiera Finantel",
+        },
+        {
+          image: FinancieraLarehabilitadora,
+          title: "Financiera La Rehabilitadora",
+        },
+      ],
+    },
+    sectionSeguros: {
+      title: "Seguros : ",
+      cards: [
+        {
+          image: SeguroRimac,
+          title: "Seguros Rimac",
+        },
+        {
+          image: SeguroSaludPositiva,
+          title: "Seguro Salud Positiva",
+        },
+        {
+          image: SeguroVehicular,
+          title: "Seguro Vida Positiva",
+        },
+        {
+          image: SeguroVehicularPositiva,
+          title: "Seguro Vida Positiva",
+        },
+      ],
+    },
+    sectionTransporte: {
+      title: "Transporte :",
+      cards: [
+        {
+          image: Transporte1,
+          title: "Movilbus",
+        },
+        {
+          image: Transporte2,
+          title: "Oltursa",
+        },
+      ],
+    },
+    sectionServiceRel: {
+      title: "SERVICIO RELIGIOSO",
+      subTitle:
+        "La Parroquia Inmaculada Concepción del Cuartel General del Ejército, brinda a los\n" +
+        "Sres. OO, TCOS, S$CO, BECC, PTSMV y familiares; los siguientes servicios:",
+      descriptions: [
+        "* Bautismo,Confirmación,Penitencia o confesión, Eucaristía o comunión,Unción de los enfermos",
+        "* Charla para novios padres y padrinos",
+        "* Catequesis para el bautismo, primera comunión y confirmación",
+        "* Misa de salud, acción de gracia, cumpleaños, aniversario de bodas y difuntos.",
+        "* Bendiciones a personas, casas, locales, vehículos e instrumentos.",
+        "Asimismo, la Villas militares cuentan con la guía espiritual de los. Capellanes castrenses de acuerdo al siguiente detalle\n",
+        "* Villa militar Matellini. : Parroquia San Nicolas",
+        "* Villa militar las Palmas: Parroquia Virgen del Chapi",
+        "* Villa militar OESTE — : Parroquia Cristo Rey.",
+        "* Villa militar RIMAC : Parroquia Señor de la Misericordia.",
+      ],
+      images: [SaecoBautismo],
     },
   },
+
   sectionContact: {
     title: "CONTACT COBIENE",
     subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
-        href: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
+        href: "https://api.whatsapp.com/send?phone=929054672",
         icon: faWhatsapp,
         name: "Whatsapp",
-        value: "941801827",
+        value: "929054672",
       },
       {
-        href: "mailto:contactos@servitec-peru.com",
+        href: "contacto@cobiene.mil.pe",
         icon: faEnvelope,
         name: "Email",
-        value: "contactos@servitec-peru.com",
+        value: "contacto@cobiene.mil.pe",
       },
       {
-        href: "https://www.facebook.com/Servitec.chorrillos/",
+        href: "https://es-la.facebook.com/BienestarEP",
         icon: faFacebook,
         name: "Facebook",
       },
-      { href: "tel:941801827", icon: faMobile, name: "Celular" },
+      { href: "tel:929054672", icon: faMobile, name: "Celular" },
       {
-        href: "https://goo.gl/maps/Lc37rVhC9WEStpj66",
+        href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
         name: "Dirección",
-        value: "Chorrillos-lima-Perú",
+        value: "lima-Perú",
       },
     ],
   },

@@ -34,7 +34,7 @@ export const Footer = ({ headerTemplate, menuList = [] }) => (
       <div>
         © Copyright 2022 - {headerTemplate.name.toUpperCase()} - Diseñado con{" "}
         <FontAwesomeIcon icon={faHeart} color="red" /> por{" "}
-        <a href="https://agenciaservitec.com" target="_blank" rel="noreferrer">
+        <a href="https://servitecperu.com/" target="_blank" rel="noreferrer">
           Agencia Servitec
         </a>
       </div>
@@ -87,7 +87,7 @@ const Container = styled.div`
       position: relative;
       gap: 2rem;
       text-transform: uppercase;
-      
+
       a {
         color: inherit;
       }
