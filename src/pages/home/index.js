@@ -80,17 +80,9 @@ export const Home = () => {
           />
         )}
 
-        {/*{(sectionCampus || sectionCampus.images) && (*/}
-        {/*  <AboutUs*/}
-        {/*    title={sectionCampus.title}*/}
-        {/*    descriptions={sectionCampus.descriptions}*/}
-        {/*    buttons={sectionCampus.buttons}*/}
-        {/*    images={sectionCampus.images}*/}
-        {/*  />*/}
-        {/*)}*/}
-
         {(sectionCobertura || sectionCobertura.images) && (
           <CardsInlineBlock
+            id={sectionCobertura.id}
             title={sectionCobertura.title}
             descriptions={sectionCobertura.descriptions}
             buttons={sectionCobertura.buttons}
@@ -99,6 +91,7 @@ export const Home = () => {
         )}
         {(sectionBancos || sectionBancos.cards) && (
           <ListCards
+            id={sectionBancos.id}
             title={sectionBancos.title}
             items={sectionBancos.cards}
             type="secondary"
@@ -125,6 +118,13 @@ export const Home = () => {
             type="secondary"
           />
         )}
+        {(sectionSeguros || sectionSeguros.images) && (
+          <ListCards
+            title={sectionSeguros.title}
+            items={sectionSeguros.cards}
+            type="secondary"
+          />
+        )}
         {(sectionTransporte || sectionTransporte.cards) && (
           <ListCards
             title={sectionTransporte.title}
@@ -134,6 +134,7 @@ export const Home = () => {
         )}
         {(sectionServiceRel || sectionServiceRel.images) && (
           <CardsInlineBlock
+            id={sectionServiceRel.id}
             title={sectionServiceRel.title}
             subTitle={sectionServiceRel.subTitle}
             descriptions={sectionServiceRel.descriptions}
@@ -193,12 +194,14 @@ export const Home = () => {
           <ListCards
             title={sectionSchoolsLima.title}
             items={sectionSchoolsLima.cards}
+            type="secondary"
           />
         )}
         {(sectionProvinceSchools || sectionProvinceSchools.cards) && (
           <ListCards
             title={sectionProvinceSchools.title}
             items={sectionProvinceSchools.cards}
+            type="secondary"
           />
         )}
         {(sectionContact || sectionContact.socialsRed) && (

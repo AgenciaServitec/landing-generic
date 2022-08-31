@@ -27,7 +27,7 @@ export const Carousel = ({ carouselItems }) => {
             key={index}
             title={carouselItem.title}
             description={carouselItem.description}
-            imgBackground={carouselItem.imgBackground}
+            imgBackground={carouselItem.imgBackground[0]}
             buttons={carouselItem.buttons}
           />
         ))}

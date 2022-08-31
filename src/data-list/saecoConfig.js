@@ -1,5 +1,4 @@
 import {
-  BancoPichincha,
   CobieneLogoLarge,
   FinancieraEfectiva,
   FinancieraFinantel,
@@ -19,7 +18,6 @@ import {
   ConvenioSalud6,
   ConvenioSalud7,
   ConvenioSalud8,
-  BancoContinental,
   SaecoImgAyudaSocial,
   SaecoImgCarousel,
   SeguroRimac,
@@ -59,18 +57,25 @@ export const saecoConfig = {
         imgBackground: SaecoImgCarousel,
         buttons: [
           {
+            type: "primary",
+            id: "about-us",
+            title: "Nosotros",
+          },
+          {
+            type: "primary",
+            id: "help",
             title: "Ayuda Economica Social",
           },
           {
-            title: "Convenios Multiservicios",
-          },
-          {
+            type: "primary",
+            id: "services",
             title: "Servicio Religioso",
           },
         ],
       },
     ],
     sectionAbout: {
+      id: "about-us",
       title: "Nosotros",
       descriptions: [
         "EL BENEFICIO DE LA AYUDA ECONÓMICA SOCIAL, ES EL APORTE\n" +
@@ -89,7 +94,7 @@ export const saecoConfig = {
     },
     sectionCobertura: {
       title:
-        "LA AYUDA ECONOMICA SOCAIL OTORGA, BIENES Y SERVICIOS EN LOS SIGUIENTES RUBROS",
+        "LA AYUDA ECONOMICA SOCIAL OTORGA, BIENES Y SERVICIOS EN LOS SIGUIENTES RUBROS",
       descriptions: [
         "* Alimentos y bebidas para consumo humano.",
         "* Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. ",
@@ -98,31 +103,36 @@ export const saecoConfig = {
       images: [SaecoImgAyudaSocial],
     },
     sectionBancos: {
+      id: "help",
       title: "Bancos :",
       cards: [
         {
           image: BancoComercio,
           title: "Banco Comercio",
+          description: "TEA hasta 16%",
         },
         {
           image: BancoGng,
           title: "Banco Gng",
+          description: "TEA hasta 9.5%",
         },
-        {
-          image: BancoPichincha,
-          title: "Banco Pichincha",
-        },
-        {
-          image: BancoContinental,
-          title: "Banco Continental",
-        },
+        // {
+        //   image: BancoPichincha,
+        //   title: "Banco Pichincha",
+        // },
+        // {
+        //   image: BancoContinental,
+        //   title: "Banco Continental",
+        // },
         {
           image: BancoInterbank,
           title: "Banco Interbank",
+          description: "TEA hasta 16%",
         },
         {
           image: BancoScotiabank,
           title: "Banco Scotiabank",
+          description: "TEA hasta 16%",
         },
       ],
     },
@@ -184,7 +194,7 @@ export const saecoConfig = {
         },
         {
           image: SmartFit,
-          title: "Renzo Costa",
+          title: "SmartFit",
         },
         {
           image: TiendaSugo,
@@ -198,14 +208,17 @@ export const saecoConfig = {
         {
           image: FinancieraEfectiva,
           title: "Financiera Efectiva",
+          description: "TEA hasta 18.5%",
         },
         {
           image: FinancieraFinantel,
           title: "Financiera Finantel",
+          description: "TEA hasta 18.5%",
         },
         {
           image: FinancieraLarehabilitadora,
           title: "Financiera La Rehabilitadora",
+          description: "TEA hasta 18%",
         },
       ],
     },
@@ -244,6 +257,7 @@ export const saecoConfig = {
       ],
     },
     sectionServiceRel: {
+      id: "services",
       title: "SERVICIO RELIGIOSO",
       subTitle:
         "La Parroquia Inmaculada Concepción del Cuartel General del Ejército, brinda a los\n" +

@@ -24,6 +24,7 @@ import {
   Inst9,
   JaeAbout,
   JaeCarousel,
+  JaeCarousel2,
   JaeOthers,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -47,7 +48,23 @@ export const jaeConfig = {
     sectionCarousel: [
       {
         title: "APOYO EDUCATIVO",
-        imgBackground: JaeCarousel,
+        imgBackground: [JaeCarousel],
+        buttons: [
+          {
+            type: "primary",
+            id: "about-us",
+            title: "Nosotros",
+          },
+          {
+            type: "secondary",
+            id: "requirements",
+            title: "Requisitos",
+          },
+        ],
+      },
+      {
+        title: "APOYO EDUCATIVO",
+        imgBackground: [JaeCarousel2],
         buttons: [
           {
             type: "primary",

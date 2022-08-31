@@ -78,7 +78,7 @@ export { default as UniversidadChampagnat } from "./universities/logo8.webp";
 export { default as UniversidadNorbert } from "./universities/logo9.webp";
 export { default as UniversidadDelPacifico } from "./universities/logo10.webp";
 export { default as UniversidadRicardoPalma } from "./universities/logo11.webp";
-export { default as UniversidadSnIgnacioLoyola } from "./universities/logo12.webp";
+export { default as UniversidadSanIgnacioLoyola } from "./universities/logo12.webp";
 export { default as UniversidadSanJuanBautista } from "./universities/logo13.webp";
 export { default as UniversidadSanmartinPorres } from "./universities/logo14.webp";
 export { default as UniversidadSanMarcos } from "./universities/logo15.webp";
@@ -157,6 +157,7 @@ export { default as Inst22 } from "./schools/province-schools/inst22.webp";
 // ------ JAE IMAGES -------
 export { default as JaeAbout } from "./jae/jae-about.webp";
 export { default as JaeCarousel } from "./jae/new11.webp";
+export { default as JaeCarousel2 } from "./jae/jae-carousel.webp";
 export { default as JaeOthers } from "./jae/jae-others.webp";
 
 // ------ SAECO IMAGES -------

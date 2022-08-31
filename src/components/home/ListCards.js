@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
+import { Modal } from "../ui";
 
 const listCardsTypes = {
   primary: {
@@ -19,11 +20,24 @@ const listCardsTypes = {
   },
 };
 
-export const ListCards = ({ title, items = [], type = "primary" }) => {
+export const ListCards = ({
+  id = "services",
+  title,
+  items = [],
+  type = "primary",
+}) => {
   const listCardsStyle = listCardsTypes[type];
+  const [modalVisible, setModalVisible] = useState(false);
+  const [requirements, setRequirements] = useState([]);
 
+  const showModal = () => {
+    setModalVisible(true);
+  };
+  const handleCancel = () => {
+    setModalVisible(false);
+  };
   return (
-    <Container id="services" contentImg={listCardsStyle.contentImg}>
+    <Container id={id} contentImg={listCardsStyle.contentImg}>
       <div className="content-items">
         {title && <h2 className="title">{title}</h2>}
         <div className="content-img">
@@ -34,18 +48,46 @@ export const ListCards = ({ title, items = [], type = "primary" }) => {
               justifyContent={listCardsStyle.justifyContent}
               imgWidth={listCardsStyle.imgWidth}
               imgHeight={listCardsStyle.imgHeight}
+              descriptionLarge={item.descriptionLarge}
             >
               {item.image && (
                 <img src={item.image} alt={item.title} className="image-bg" />
               )}
               {item.title && <h3>{item.title}</h3>}
               {item.title2 && <h5>{item.title2}</h5>}
-              {item.title2 && <h5>{item.title2}</h5>}
+              {item.title3 && <h5>{item.title3}</h5>}
               {item.description && <p>{item.description}</p>}
+              {item.descriptionLarge && (
+                <span
+                  onClick={() => {
+                    setRequirements(item.descriptionLarge);
+                    showModal();
+                  }}
+                  style={{ color: "#0076fd", cursor: "pointer" }}
+                >
+                  ver más
+                </span>
+              )}
             </ItemCards>
           ))}
         </div>
       </div>
+
+      <Modal
+        title="Requerimientos"
+        visible={modalVisible}
+        closable
+        onCancel={() => handleCancel()}
+      >
+        <ul>
+          {requirements.map((requirement, index) => (
+            <li key={index}>
+              <h4>{requirement.title}</h4>
+              <p>{requirement.description}</p>
+            </li>
+          ))}
+        </ul>
+      </Modal>
     </Container>
   );
 };
@@ -55,27 +97,32 @@ const Container = styled.div`
   height: auto;
   background: #fff;
   padding: 1rem;
+
   ${mediaQuery.minTablet} {
     padding: 1rem 5rem;
   }
 
   .content-items {
     padding: 3rem 0;
+
     .title {
       font-weight: 800;
       margin: 3rem 0;
       font-size: 2rem;
       text-align: start;
+
       ${mediaQuery.minTablet} {
         font-size: 3rem;
       }
     }
+
     .content-img {
       display: grid;
       grid-template-columns: ${({ contentImg }) => contentImg};
       gap: 2rem;
       text-align: center;
     }
+
     .button {
       width: 100%;
       display: flex;
