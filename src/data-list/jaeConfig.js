@@ -64,7 +64,7 @@ export const jaeConfig = {
       },
       {
         title: "APOYO EDUCATIVO",
-        imgBackground: [JaeCarousel2],
+        image: JaeCarousel2,
         buttons: [
           {
             type: "primary",
