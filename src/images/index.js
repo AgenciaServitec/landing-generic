@@ -44,6 +44,7 @@ export { default as JaceAbout } from "./jace/jace-about.webp";
 export { default as JaceMap } from "./jace/jace-map.webp";
 export { default as JaceMap2 } from "./jace/jace-map2.webp";
 export { default as JaceServices } from "./jace/jace-services.webp";
+export { default as JaceAbout2 } from "./jace/new2jace.webp";
 export { default as JacePaso1 } from "./jace/paso1.webp";
 export { default as JacePaso2 } from "./jace/paso2.webp";
 export { default as JacePaso3 } from "./jace/paso3.webp";
@@ -56,6 +57,9 @@ export { default as JacePaso9 } from "./jace/paso9.webp";
 export { default as JaceSlider1 } from "./saed/slider1.webp";
 
 // ------ CMSTS IMAGES -------
+export { default as TitleChorrillos } from "./cmsts/titlesedechorrillos.webp";
+export { default as TitleTarapaca } from "./cmsts/titlesedetarapaca.webp";
+export { default as TitleRimac } from "./cmsts/titlesederimacnew.webp";
 export { default as CmstsCarousel } from "./cmsts/new2.webp";
 export { default as CmstsServices } from "./cmsts/cmsts-services.webp";
 export { default as CmstsCollage1 } from "./cmsts/collage1.webp";
@@ -65,8 +69,28 @@ export { default as CmstsSedeChorillos1 } from "./cmsts/sededia.webp";
 export { default as CmstsSedeChorillos2 } from "./cmsts/canchanoche.webp";
 export { default as CmstsSedeRimac } from "./cmsts/sede-rimac.webp";
 export { default as CmstsSedeTarapaca } from "./cmsts/sede-tarapaca.webp";
+export { default as CmstsSedeTarapaca2 } from "./cmsts/sedetarapaca2.webp";
 export { default as CmstsCollage4 } from "./cmsts/capturadecancha.webp";
-
+// ------ CMSTS Circulo Chorrillos -------
+export { default as CirculoChorrillos2 } from "./cmsts/circulochorrillos2.webp";
+export { default as CirculoChorrillos3 } from "./cmsts/circulochorrillos3.webp";
+export { default as CirculoChorrillos4 } from "./cmsts/circulochorrillos4.webp";
+export { default as CirculoChorrillos5 } from "./cmsts/circulochorrillos5.webp";
+// ------ CMSTS Circulo Tarapacá -------
+export { default as CirculoTarapaca1 } from "./cmsts/circulotarapaca1.webp";
+export { default as CirculoTarapaca2 } from "./cmsts/circulotarapaca2.webp";
+export { default as CirculoTarapaca3 } from "./cmsts/circulotarapaca3.webp";
+export { default as CirculoTarapaca4 } from "./cmsts/circulotarapaca4.webp";
+// ------ CMSTS Circulo Rimac -------
+export { default as CirculoRimac1 } from "./cmsts/circulorimac1.webp";
+export { default as CirculoRimac2 } from "./cmsts/circulorimac2.webp";
+export { default as CirculoRimac3 } from "./cmsts/circulorimac3.webp";
+export { default as CirculoRimac4 } from "./cmsts/circulorimac4.webp";
+export { default as CirculoRimac5 } from "./cmsts/circulorimac5.webp";
+export { default as CirculoRimac6 } from "./cmsts/circulorimac6.webp";
+export { default as CirculoRimac7 } from "./cmsts/circulorimac7.webp";
+export { default as CirculoRimac8 } from "./cmsts/circulorimac8.webp";
+export { default as CirculoRimac9 } from "./cmsts/circulorimac9.webp";
 //------- UNIVERSITIES --------
 export { default as UniversidadAgraria } from "./universities/logo1.webp";
 export { default as UniversidadCientifica } from "./universities/logo2.webp";
@@ -162,11 +186,17 @@ export { default as JaeOthers } from "./jae/jae-others.webp";
 
 // ------ SAECO IMAGES -------
 export { default as SaecoImgCarousel } from "./saeco/img-carousel.webp";
-export { default as SaecoImgAbout } from "./saeco/img-about.webp";
+export { default as SaecoImgAbout } from "./saeco/apoyobanner.webp";
 export { default as SaecoImgAlcance } from "./saeco/img-alcance.webp";
 export { default as SaecoImgCobertura } from "./saeco/img-cobertura.webp";
 export { default as SaecoImgAyudaSocial } from "./saeco/img-ayudasocial.webp";
 export { default as SaecoBautismo } from "./saeco/servicesRel.webp";
+export { default as Banner3Horizontal } from "./saeco/grup3horizontal.webp";
+export { default as Banner2 } from "./saeco/banner2Apoyo.webp";
+
+export { default as Alimentos } from "./saeco/alimentosservices.webp";
+export { default as Alimentos2 } from "./saeco/alimentosservices2.webp";
+
 // ------ SAECO BANCOS IMAGES -------
 export { default as BancoComercio } from "./saeco/bancos-img/bancocomercio.webp";
 export { default as BancoGng } from "./saeco/bancos-img/bancognb.webp";
@@ -174,6 +204,11 @@ export { default as BancoPichincha } from "./saeco/bancos-img/bancopichincha.web
 export { default as BancoContinental } from "./saeco/bancos-img/bbvacontinental.webp";
 export { default as BancoInterbank } from "./saeco/bancos-img/interbank.webp";
 export { default as BancoScotiabank } from "./saeco/bancos-img/scotiabank.webp";
+export { default as BannerServices } from "./saeco/serviciobanner.webp";
+export { default as BannerSalud } from "./saeco/saludbanner.webp";
+export { default as BannerEconomico } from "./saeco/economicobanner.webp";
+export { default as GrupServices } from "./saeco/grup3services.webp";
+
 // ------ SAECO CONVENIOS SALUD IMAGES -------
 export { default as ConvenioSalud1 } from "./saeco/conveniosSalud/apelac.webp";
 export { default as ConvenioSalud2 } from "./saeco/conveniosSalud/biolinks.webp";
