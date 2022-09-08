@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
-import { Carousel } from "./Carousel";
+import { CarouselOnlyImages } from "./CarouselOnlyImages";
 
 export const CardsBlack = ({ cards = [] }) => {
   return (
@@ -13,11 +13,16 @@ export const CardsBlack = ({ cards = [] }) => {
               <div className="heading">
                 <h2 className="title">{card.title}</h2>
               </div>
-              <div className="wrapper-carousels">
-                <div className="item-carousel">
-                  <Carousel carouselItems={card.items} />
+              {(card.items || []).map((item, index) => (
+                <div key={index} className="wrapper-carousels">
+                  <div className="description">
+                    <p>{item.description}</p>
+                  </div>
+                  <div className="item-carousel">
+                    <CarouselOnlyImages images={item?.images} />
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         ) : (
@@ -68,6 +73,12 @@ const Container = styled.div`
       }
       .wrapper-carousels {
         width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        .item-carousel {
+          width: 40em;
+        }
       }
     }
   }

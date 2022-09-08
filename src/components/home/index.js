@@ -1,4 +1,5 @@
 export * from "./Carousel";
+export * from "./CarouselOnlyImages";
 export * from "./CardsInlineBlock";
 export * from "../layout/Footer";
 export * from "./ListCards";

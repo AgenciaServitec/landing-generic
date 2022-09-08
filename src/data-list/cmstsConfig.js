@@ -64,12 +64,12 @@ export const cmstsConfig = {
         viewType: "carousel",
         items: [
           {
-            image: CmstsSedeChorillos1,
+            images: [CmstsSedeChorillos1, CmstsSedeChorillos2],
             description:
               "CONTAMOS CON UN SALÓN PRINCIPAL Y ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA SEMI OLÍMPICA.",
           },
           {
-            image: CmstsSedeChorillos2,
+            images: [CmstsSedeChorillos2, CmstsSedeChorillos1],
             description:
               "CONTAMOS CON UNA TERRAZA, UN SALÓN MULTIUSO, LA CABAÑA DEL GUERRERO, SALÓN ALFA Y BRAVO PARA REALIZAR TODO TIPO DE EVENTOS Y CANCHAS DEPORTIVAS DE MATERIAL SINTÉTICO.",
           },
@@ -80,12 +80,12 @@ export const cmstsConfig = {
         viewType: "carousel",
         items: [
           {
-            image: CmstsSedeTarapaca,
+            images: [CmstsSedeTarapaca],
             description:
               "CONTAMOS CON ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA OLÍMPICA, RESTAURANTE Y CANCHAS DEPORTIVAS DE MATERIAL SINTÉTICO.",
           },
           {
-            image: CmstsSedeTarapaca,
+            images: [CmstsSedeTarapaca],
             description:
               "CONTAMOS CON LOS AMBIENTES IDEALES PARA REALIZAR TODO TIPO DE EVENTOS, HOSPEDAJE Y JUEGOS DEPORTIVOS PAINTBALL.",
           },
@@ -96,7 +96,7 @@ export const cmstsConfig = {
         viewType: "carousel",
         items: [
           {
-            image: CmstsSedeRimac,
+            images: [CmstsSedeRimac],
             description:
               "Cuenta con los ambientes ideales para realizar todo tipo de eventos. Además de tener disponible la piscina semi olímpica y cancha deportiva de material sintético.",
           },
