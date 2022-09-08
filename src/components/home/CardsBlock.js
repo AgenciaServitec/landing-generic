@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { CarouselOnlyImages } from "./CarouselOnlyImages";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const CardsBlack = ({ cards = [] }) => {
   return (
     <Container>
@@ -41,6 +41,17 @@ export const CardsBlack = ({ cards = [] }) => {
                 <div key={index} className="wrapper-card">
                   <div className="description">
                     <p>{item.description}</p>
+                    <ul>
+                      {(item.icons || []).map((icon, index) => (
+                        <div key={index}>
+                          <a href={icon.href} target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={icon.icon} size="sm" />{" "}
+                            &nbsp;
+                            <span>{icon.name}</span>
+                          </a>
+                        </div>
+                      ))}
+                    </ul>
                   </div>
                   <div className="content-image">
                     <img

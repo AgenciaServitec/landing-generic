@@ -32,6 +32,7 @@ import {
   faEnvelope,
   faGlobe,
   faMobile,
+  faLocation,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const cmstsConfig = {
@@ -87,7 +88,19 @@ export const cmstsConfig = {
               CirculoChorrillos5,
             ],
             description:
-              "CONTAMOS CON UN SALÓN PRINCIPAL Y ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA SEMI OLÍMPICA.",
+              "contamos CON UN SALÓN PRINCIPAL Y ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA SEMI OLÍMPICA.",
+            icons: [
+              {
+                href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
+                icon: faFacebook,
+                name: "Facebook",
+              },
+              {
+                href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
+                icon: faLocation,
+                name: "Av.Escuela Militar S/N - Chorrillos",
+              },
+            ],
           },
         ],
       },
@@ -104,6 +117,18 @@ export const cmstsConfig = {
             ],
             description:
               "CONTAMOS CON ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA OLÍMPICA, RESTAURANTE Y CANCHAS DEPORTIVAS DE MATERIAL SINTÉTICO.",
+            icons: [
+              {
+                href: "https://www.facebook.com/Campo-Deportivo-Tarapaca-Chorrillos-101277401232183/",
+                icon: faFacebook,
+                name: "Facebook",
+              },
+              {
+                href: "https://www.google.com/maps/dir/?api=1&destination=-12.194105661443%2C-77.00196146965",
+                icon: faLocation,
+                name: "Av. Defensores del Morro 1170, Lima 15067",
+              },
+            ],
           },
         ],
       },
@@ -125,6 +150,18 @@ export const cmstsConfig = {
             ],
             description:
               "Cuenta con los ambientes ideales para realizar todo tipo de eventos. Además de tener disponible la piscina semi olímpica y cancha deportiva de material sintético.",
+            icons: [
+              {
+                href: "https://m.facebook.com/profile.php?id=2154609457903406&__tn__=C-R",
+                icon: faFacebook,
+                name: "Facebook",
+              },
+              {
+                href: "https://www.bing.com/maps?osid=7e07ef8c-0b72-47ed-893b-de74aefa10ee&cp=-12.026899~-77.040314&lvl=17&v=2&sV=2&form=S00027",
+                icon: faLocation,
+                name: "Av. Morro De Arica 499, Lima, Perú",
+              },
+            ],
           },
         ],
       },
