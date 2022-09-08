@@ -28,13 +28,9 @@ export const TemplateConfig = ({ children }) => {
 
   const hostName = window.location.hostname;
 
-  console.log("hostName:", hostName);
+  console.log("HostName: ", hostName);
 
   useEffect(() => {
-    getTemplateConfig();
-  }, [templateType, hostName]);
-
-  const getTemplateConfig = () => {
     switch (hostName) {
       case "cmsts.cobiene.mil.pe":
         return setTemplateType("cmsts");
@@ -49,9 +45,9 @@ export const TemplateConfig = ({ children }) => {
       case "saeco.cobiene.mil.pe":
         return setTemplateType("saeco");
       default:
-        return setTemplateType("jae");
+        return setTemplateType("cmsts");
     }
-  };
+  }, [hostName]);
 
   const onClickTemplateType = (type) => setTemplateType(type);
 
