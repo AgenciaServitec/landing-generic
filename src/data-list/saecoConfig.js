@@ -18,8 +18,11 @@ import {
   ConvenioSalud6,
   ConvenioSalud7,
   ConvenioSalud8,
-  SaecoImgAyudaSocial,
   SaecoImgCarousel,
+  Banner2,
+  BannerServices,
+  BannerSalud,
+  BannerEconomico,
   SeguroRimac,
   SeguroSaludPositiva,
   SeguroVehicular,
@@ -47,30 +50,30 @@ export const saecoConfig = {
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
       { id: "cobertura", name: "COBERTURA" },
-      { id: "alcance", name: "ALCANCE" },
+      { id: "services", name: "ALCANCE" },
     ],
   },
   main: {
     sectionCarousel: [
       {
         title: "Sección de Servicio Social",
-        image: SaecoImgCarousel,
+        imgBackground: [SaecoImgCarousel],
         buttons: [
-          {
-            type: "primary",
-            id: "about-us",
-            title: "Nosotros",
-          },
-          {
-            type: "primary",
-            id: "help",
-            title: "Ayuda Economica Social",
-          },
-          {
-            type: "primary",
-            id: "services",
-            title: "Servicio Religioso",
-          },
+          // {
+          //   type: "primary",
+          //   id: "services",
+          //   title: "Convenios MultiServicios",
+          // },
+          // {
+          //   type: "primary",
+          //   id: "cobertura",
+          //   title: "Ayuda Económica Social",
+          // },
+          // {
+          //   type: "primary",
+          //   id: "servicerRel",
+          //   title: "Servicio Religioso",
+          // },
         ],
       },
     ],
@@ -78,33 +81,38 @@ export const saecoConfig = {
       id: "about-us",
       title: "Nosotros",
       descriptions: [
-        "EL BENEFICIO DE LA AYUDA ECONÓMICA SOCIAL, ES EL APORTE\n" +
-          "ECONÓMICO PARCIAL O TOTAL QUE PROPORCIONA EL EJÉRCITO, AL\n" +
-          "FAMILIAR DIRECTO DEL PERSONAL MILITAR EN SITUACIÓN DE\n" +
-          "ACTIVIDAD Y RETIRO, ASÍ COMO AL PERSONAL CIVIL, NOMBRADO,\n" +
-          "CONTRATADO Y CESANTE EN SITUACIONES EXCEPCIONALES DE\n" +
-          "SALUD. ASIMISMO, A LOS SOBREVIVIENTES DEL TITULAR FALLECIDO\n" +
-          "EN ACCIÓN DE ARMAS, ACTO DE SERVICIO, A CONSECUENCIA DEL\n" +
-          "SERVICIO U OCASIÓN DEL SERVICIO, COADYUVANDO CON EL\n" +
-          "TRATAMIENTO DE LOS FAMILIARES DIRECTOS (HIJOS Y CÓNYUGE), EN\n" +
-          "CASOS EXCEPCIONALES A LOS PADRES DEL TITULAR, POR UN MONTO\n" +
-          "DE HASTA DOS (02) UIT.",
+        "La Sección de Servicio Social se encarga de los otorgamientos de ayudas económicas para nuestro personal que lo necesita; asimismo nos encargamos de la suscripción de convenios multisectoriales que permitan beneficios para el personal militar, empleados civiles y familiares directos, también nos encargamos de realizar diversas actividades de recreación, cultural   y religiosa a fin de integrar más a la familia militar y sostener nuestro espíritu cristiano.",
       ],
       images: [SaecoImgAbout],
     },
+    // sectionCollageServices: {
+    //   title:
+    //     "La Ayuda Económica social otorga,Bienes y servicios en los siguientes rubros",
+    //   images: [],
+    // },
     sectionCobertura: {
+      id: "cobertura",
       title:
-        "LA AYUDA ECONOMICA SOCIAL OTORGA, BIENES Y SERVICIOS EN LOS SIGUIENTES RUBROS",
+        "La Ayuda Económica social otorga, bienes y servicios en los siguientes rubros",
       descriptions: [
-        "* Alimentos y bebidas para consumo humano.",
-        "* Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. ",
-        "* Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnostico especializado, intervenciones quirúrgicas, honorarios profesionales.) ",
+        "* Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa)",
+        "* Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. (silla ruedas colchón anti escaras, audífonos, lentes correctores, artículos ortopédicos, prótesis o parte de él, medicinas, pañales, balón de oxígeno.) ",
+        "* Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionales.) ",
       ],
-      images: [SaecoImgAyudaSocial],
+      images: [Banner2],
     },
+    // sectionCollageAliments: {
+    //   subtitle:
+    //     "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa",
+    //   images: [Alimentos, Alimentos2],
+    // },
+    // sectionCollageServices: {
+    //   title: "Convenios Multiservicios",
+    //   images: [],
+    // },
     sectionBancos: {
-      id: "help",
-      title: "Bancos :",
+      id: "services",
+      title: "Convenios con Bancos :",
       cards: [
         {
           image: BancoComercio,
@@ -137,7 +145,7 @@ export const saecoConfig = {
       ],
     },
     sectionSalud: {
-      title: "Convenios de Servicios de Salud",
+      title: "Convenios de Servicios de Salud : ",
       cards: [
         {
           image: ConvenioSalud1,
@@ -174,7 +182,7 @@ export const saecoConfig = {
       ],
     },
     sectionDiversos: {
-      title: "Tiendas :",
+      title: "Convenios con Tiendas :",
       cards: [
         {
           image: TiendaFootloose,
@@ -203,7 +211,7 @@ export const saecoConfig = {
       ],
     },
     sectionFinancieras: {
-      title: "Financieras :",
+      title: "Convenios con Financieras :",
       cards: [
         {
           image: FinancieraEfectiva,
@@ -223,7 +231,7 @@ export const saecoConfig = {
       ],
     },
     sectionSeguros: {
-      title: "Seguros : ",
+      title: "Convenios con Compañias de Seguros : ",
       cards: [
         {
           image: SeguroRimac,
@@ -244,7 +252,7 @@ export const saecoConfig = {
       ],
     },
     sectionTransporte: {
-      title: "Transporte :",
+      title: "Convenios con Empresas de Transporte :",
       cards: [
         {
           image: Transporte1,
@@ -257,39 +265,43 @@ export const saecoConfig = {
       ],
     },
     sectionServiceRel: {
-      id: "services",
+      id: "servicerRel",
       title: "SERVICIO RELIGIOSO",
       subTitle:
         "La Parroquia Inmaculada Concepción del Cuartel General del Ejército, brinda a los\n" +
-        "Sres. OO, TCOS, S$CO, BECC, PTSMV y familiares; los siguientes servicios:",
+        "Sres. OO, TCOS, SSOO, PTSMV, EECC y familiares, los siguientes servicios:",
       descriptions: [
-        "* Bautismo,Confirmación,Penitencia o confesión, Eucaristía o comunión,Unción de los enfermos",
-        "* Charla para novios padres y padrinos",
+        "* Bautismo, Confirmación,Penitencia o confesión, Eucaristía o comunión, Unción de los enfermos",
+        "* Charla para novios, padres y padrinos",
         "* Catequesis para el bautismo, primera comunión y confirmación",
         "* Misa de salud, acción de gracia, cumpleaños, aniversario de bodas y difuntos.",
         "* Bendiciones a personas, casas, locales, vehículos e instrumentos.",
-        "Asimismo, la Villas militares cuentan con la guía espiritual de los. Capellanes castrenses de acuerdo al siguiente detalle\n",
-        "* Villa militar Matellini. : Parroquia San Nicolas",
-        "* Villa militar las Palmas: Parroquia Virgen del Chapi",
-        "* Villa militar OESTE — : Parroquia Cristo Rey.",
+        "Asimismo, las Villas militares cuentan con la guía espiritual de los Capellanes castrenses de acuerdo al siguiente detalle\n",
+        "* Villa militar Matellini : Parroquia San Nicolas",
+        "* Villa militar las Palmas : Parroquia Virgen del Chapi",
+        "* Villa militar OESTE : Parroquia Cristo Rey.",
         "* Villa militar RIMAC : Parroquia Señor de la Misericordia.",
       ],
       images: [SaecoBautismo],
     },
+    sectionCollage: {
+      title: "Nuestra Ayuda",
+      images: [BannerServices, BannerSalud, BannerEconomico],
+    },
   },
 
   sectionContact: {
-    title: "CONTACT COBIENE",
+    title: "CONTACTO COBIENE",
     subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
-        href: "https://api.whatsapp.com/send?phone=929054672",
+        href: "https://api.whatsapp.com/send/?phone=+51929054672&text=Buenos+dias+tengo+una+consulta&app_absent=0",
         icon: faWhatsapp,
         name: "Whatsapp",
         value: "929054672",
       },
       {
-        href: "contacto@cobiene.mil.pe",
+        href: "mailto:contacto@cobiene.mil.pe",
         icon: faEnvelope,
         name: "Email",
         value: "contacto@cobiene.mil.pe",
@@ -299,12 +311,12 @@ export const saecoConfig = {
         icon: faFacebook,
         name: "Facebook",
       },
-      { href: "tel:929054672", icon: faMobile, name: "Celular" },
+      { href: "tel:941801827", icon: faMobile, name: "Celular" },
       {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
         name: "Dirección",
-        value: "lima-Perú",
+        value: "Chorrillos-lima-Perú",
       },
     ],
   },

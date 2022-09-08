@@ -33,7 +33,6 @@ import {
   faGlobe,
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
-
 export const jaeConfig = {
   header: {
     name: "jae",
@@ -48,23 +47,23 @@ export const jaeConfig = {
     sectionCarousel: [
       {
         title: "APOYO EDUCATIVO",
-        image: JaeCarousel,
+        imgBackground: [JaeCarousel],
         buttons: [
-          {
-            type: "primary",
-            id: "about-us",
-            title: "Nosotros",
-          },
-          {
-            type: "secondary",
-            id: "requirements",
-            title: "Requisitos",
-          },
+          // {
+          //   type: "primary",
+          //   id: "about-us",
+          //   title: "Nosotros",
+          // },
+          // {
+          //   type: "secondary",
+          //   id: "requirements",
+          //   title: "Requisitos",
+          // },
         ],
       },
       {
         title: "APOYO EDUCATIVO",
-        image: JaeCarousel2,
+        imgBackground: [JaeCarousel2],
         buttons: [
           {
             type: "primary",
@@ -73,8 +72,8 @@ export const jaeConfig = {
           },
           {
             type: "secondary",
-            id: "requirements",
-            title: "Requisitos",
+            id: "contact",
+            title: "Contacto",
           },
         ],
       },
@@ -82,86 +81,87 @@ export const jaeConfig = {
     sectionAbout: {
       title: "Nosotros",
       subTitle:
-        "Planificamos y evaluamos, los procesos educativos e instrucción",
+        "Planificamos y evaluamos, los procesos educativos e instrucción.",
       descriptions: [
-        "Supervisar y controlar la ejecución de los programas educativos de las escuelas en el Comando de Educación y  Doctrina del Ejército, de conformidad a la normatividad vigente",
-        "Proporcionar el soporte académico para las actividades a desarrollar por la Jefatura de Educación del Comando de Educación y Doctrina del Ejército, en lo concerniente a los recursos humanos, organización, logísticos y financieros.",
+        "La Jefatura de Apoyo Educativo controla el funcionamiento de la gestión pedagógica y académica, además, apoya la gestión de recursos humanos y materiales de las IIEE del Ejército, impulsando la calidad educativa la cual debe articularse en base a los valores institucionales, en concordancia con los objetivos del Sistema Educativo Nacional y del Comando de Bienestar del Ejército.",
+        "El Comando bienestar del ejército cuenta con 23 instituciones educativas a nivel nacional.",
       ],
       images: [JaeAbout],
     },
     sectionOther: {
-      title: "Otras por orden del CG del Ejército o del CG del COEDE.",
+      title: "",
       images: [JaeOthers],
     },
     sectionSchoolsLima: {
+      id: "schools",
       title: "Colegios de Lima",
       cards: [
         {
           image: Inst1,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "PEDRO RUIZ GALLO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst2,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "Tte. Crl Alfredo Bonifaz",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst3,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "6005 GRAL EMILIO SOYER CABERO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst4,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "CRL JOSE JOAQUIN INCLAN",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst5,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "JESUS NIÑO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst6,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "LA ESPERANZA",
           title3: "CUNA - JARDIN",
           button: "",
         },
         {
           image: Inst7,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "MATELLINI",
           title3: "CUNA - JARDIN",
           button: "",
         },
         {
           image: Inst8,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "Primeros Pasos",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst9,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "Las Palmas",
           title3: "INICIAL",
           button: "",
         },
         {
           image: Inst10,
-          title: "Institución educativa Publica de Gestión Privada",
+          title: "Institución educativa Pública de Gestión Privada",
           title2: "SANTA ISABEL",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
@@ -186,63 +186,63 @@ export const jaeConfig = {
         },
         {
           image: Inst20,
-          title: "INSTITUCION EDUCATIVA PRIVADA",
+          title: "Institución Educativa Privada",
           title2: "TTE MIGUEL CORTES - SULLANA",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst15,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "CRL JOSE JOAQUIN INCLAN - PIURA  ",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst22,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "40159  AREQUIPA” - AREQUIPA",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst13,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "ANDRES AVELINO CACERES - PUNO",
           title3: "INICIAL - PRIMARIA",
           button: "",
         },
         {
           image: Inst21,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "CRL FRANCISCO BOLONESI - CUZCO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst16,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "NUESTROS HEROES DE LA GUERRA DEL PACIFICO - TACNA",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
         },
         {
           image: Inst12,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "ANDRES AVELINO CACERES - LOCUMBA",
           title3: "INICIAL - PRIMARIA",
           button: "",
         },
         {
           image: Inst12,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "CRL RAMON ZAVALA SUAREZ - LOCUMBA",
           title3: "INICIAL",
           button: "",
         },
         {
           image: Inst17,
-          title: "Institución Educativa Publica de Gestión Privada",
+          title: "Institución Educativa Pública de Gestión Privada",
           title2: "MCAL ANDRES AVELINO CACERES - Iquitos",
           title3: "INICIAL",
           button: "",
@@ -265,7 +265,7 @@ export const jaeConfig = {
     },
   },
   sectionContact: {
-    title: "CONTACT COBIENE",
+    title: "CONTACTO COBIENE",
     subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
@@ -275,10 +275,10 @@ export const jaeConfig = {
         value: "929054672",
       },
       {
-        href: "contacto@cobiene.com",
+        href: "mailto:contacto@cobiene.mil.pe",
         icon: faEnvelope,
         name: "Email",
-        value: "contacto@cobiene.com",
+        value: "contacto@cobiene.mil.pe",
       },
       {
         href: "https://es-la.facebook.com/BienestarEP",

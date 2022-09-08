@@ -64,7 +64,7 @@ export const saedConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "information", name: "INFORMACIÓN" },
+      { id: "convenios", name: "INFORMACIÓN" },
       { id: "contact", name: "CONTÁCTANOS" },
     ],
   },
@@ -72,30 +72,31 @@ export const saedConfig = {
     sectionCarousel: [
       {
         title: "APOYO ESTUDIOS SUPERIORES.",
-        image: SaedSlider1, //AQUI VA IMAGEN
+        imgBackground: [SaedSlider1], //AQUI VA IMAGEN
         buttons: [
-          {
-            type: "primary",
-            id: "about-us",
-            title: "Nosotros",
-          },
-          {
-            type: "secondary",
-            id: "contact",
-            title: "Información",
-          },
+          // {
+          //   type: "primary",
+          //   id: "about-us",
+          //   title: "Nosotros",
+          // },
+          // {
+          //   type: "secondary",
+          //   id: "convenios",
+          //   title: "Información",
+          // },
         ],
       },
     ],
     sectionAbout: {
       title: "Nosotros",
       descriptions: [
-        "En el ámbito de la educación superior y tecnológica, promoviendo de manera permanente la suscripción de convenios y otros procedimientos de ayuda, con las diferentes Universidades e institutos, Escuelas de grado y postgrado y otras Instituciones de este genero, orientados a lograr beneficios para el personal milita, civil y sus familiares directos fin de contribuir al bienestar general de la familia militar.",
+        "La Sección de Apoyo Educativo se encarga de  planear, coordinar, y ejecutar actividades en el ámbito de la Educación superior y Tecnológica, promoviendo de manera permanente la suscripción de convenios y otros procedimientos de ayuda, con las diferentes Universidades, Institutos, Academias preuniversitarias, escuelas de grado y postgrado y otras instituciones de este género, orientados a lograr beneficios para el personal militar.",
       ],
       buttons: [{ type: "secondary", id: "contact", title: "CONTÁCTANOS" }],
       images: [SaedAboutUs],
     },
     sectionConvenios: {
+      id: "convenios",
       title: "Universidades :",
       cards: [
         // {
@@ -114,22 +115,22 @@ export const saedConfig = {
             {
               title: "PREGRADO :",
               description:
-                "25%ode descuento enel pago ds las pensiones en todas las caneras profesionales",
+                "25% de descuento en el pago ds las pensiones en todas las caneras profesionales",
             },
             {
               title: "PROGRAMA ESPECIAL PARA ADULTOS : ",
               description:
-                "25%de descuento enel pago de las pensiones de canexas de contatilidad y administración",
+                "25% de descuento en el pago de las pensiones de canexas de contatilidad y administración",
             },
             {
               title: "POSGRADO: ",
               description:
-                "25 %, de descuento enel pago de las pensiones en maestría en gestión pública, maestría en gestión estratégica, maestría en derecho civil y comercial",
+                "25% de descuento en el pago de las pensiones en maestría en gestión pública, maestría en gestión estratégica, maestría en derecho civil y comercial",
             },
             {
               title: "CENTRO DE IDIOMAS - CURSOS DE EXTENCIÓN Y DIPLOMADOS: ",
               description:
-                "50% de descuento en el pago de las pensiones de los diferentes curos de idiomas",
+                "50% de descuento en el pago de las pensiones de los diferentes cursos de idiomas",
             },
             {
               title: "CURSOS DE EXTENSIÓN : ",
@@ -905,7 +906,7 @@ export const saedConfig = {
     images: [SaedBannePublic],
   },
   sectionContact: {
-    title: "CONTACT COBIENE",
+    title: "CONTACTO COBIENE",
     subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
@@ -915,10 +916,10 @@ export const saedConfig = {
         value: "929054672",
       },
       {
-        href: "contacto@cobiene.com",
+        href: "mailto:contacto@cobiene.mil.pe",
         icon: faEnvelope,
         name: "Email",
-        value: "contacto@cobiene.com",
+        value: "contacto@cobiene.mil.pe",
       },
       {
         href: "https://es-la.facebook.com/BienestarEP",

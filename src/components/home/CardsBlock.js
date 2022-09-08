@@ -11,7 +11,8 @@ export const CardsBlack = ({ cards = [] }) => {
           <div key={index} className="content-items-carousels">
             <div className="content">
               <div className="heading">
-                <h2 className="title">{card.title}</h2>
+                {/*<h2 className="title">{card.title}</h2>*/}
+                <img className="item-titleImage" src={card.titleImage} />
               </div>
               {(card.items || []).map((item, index) => (
                 <div key={index} className="wrapper-carousels">
@@ -90,6 +91,10 @@ const Container = styled.div`
       font-weight: 400;
       margin-bottom: 2rem;
       font-size: 2rem;
+    }
+    .item-titleImage {
+      width: 45%;
+      margin-bottom: 1em;
     }
     .content {
       .wrapper-card {

@@ -1,6 +1,5 @@
 import {
   CobieneLogoLarge,
-  SadAbout,
   SadAboutTwo,
   SadCarousel,
   SadServiceArtesania,
@@ -31,25 +30,25 @@ export const sadConfig = {
     sectionCarousel: [
       {
         title: "PRESENTE HOY Y SIEMPRE.",
-        image: SadCarousel,
+        imgBackground: [SadCarousel],
         buttons: [
-          {
-            title: "Nosotros",
-          },
-          {
-            title: "Especialidades Técnicas",
-          },
+          // {
+          //   id: "about-us",
+          //   title: "Nosotros",
+          // },
+          // {
+          //   id: "services",
+          //   title: "Especialidades Técnicas",
+          // },
         ],
       },
     ],
     sectionAbout: {
       title: "Nosotros",
       descriptions: [
-        "La Sección de Apoyo al Personal con Discapacidad (SAD), brindará orientación y/o capacitación al personal militar pensionista en la condición de discapacidad sobre: salud, educación, pensión y otros beneficios que por ley le corresponda a fin de contribuir en el bienestar de la familia militar.",
-        "Las Actividades de bienestar se desarrolla de acuerdo a lo programado por la COBIENE, realizando las coordinaciones con entidades públicas y privadas, para el mejoramiento de la calidad en la atención del personal con discapacidad",
-        "Se brinda atención y se viene empadronando y actualizando lo datos del personal militar con discapacidad, así como la de sus familiares directos, a quienes se les informa respecto a la Ley Na 29487 (Ley que otorga prestaciones de salud gratuita al personal con discapacidad de las FFAA y sus familiares directos)",
+        "La Sección de Apoyo al Discapacitado somos los encargados de proporcionar asesoramiento al personal militar pensionista en la condición de discapacitado, para orientarlos a solucionar sus problemas de vivienda, salud, educación, pensión y otros, asimismo ejecutar acciones de bienestar a favor de dicho personal y su familia.",
       ],
-      images: [SadAbout, SadAboutTwo],
+      images: [SadAboutTwo],
     },
     sectionServices: {
       title: "Especialidades :",
@@ -82,7 +81,7 @@ export const sadConfig = {
     },
   },
   sectionContact: {
-    title: "CONTACT COBIENE",
+    title: "CONTACTO COBIENE",
     subtitle: "No dudes en comunicarte",
     socialsRed: [
       {
@@ -92,10 +91,10 @@ export const sadConfig = {
         value: "929054672",
       },
       {
-        href: "contacto@cobiene.com",
+        href: "mailto:contacto@cobiene.mil.pe",
         icon: faEnvelope,
         name: "Email",
-        value: "contacto@cobiene.com",
+        value: "contacto@cobiene.mil.pe",
       },
       {
         href: "https://es-la.facebook.com/BienestarEP",
