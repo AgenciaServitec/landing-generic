@@ -32,7 +32,7 @@ export const cmstsConfig = {
     sectionCarousel: [
       {
         title: "TUS MEJORES MOMENTOS.",
-        imgBackground: CmstsCarousel,
+        image: CmstsCarousel,
         buttons: [
           {
             title: "Nuestros Servicios",
@@ -61,6 +61,7 @@ export const cmstsConfig = {
     sectionCampus: [
       {
         title: "SEDE CHORRILLOS",
+        viewType: "carousel",
         items: [
           {
             image: CmstsSedeChorillos1,
@@ -76,6 +77,7 @@ export const cmstsConfig = {
       },
       {
         title: "SEDE TARAPACA",
+        viewType: "carousel",
         items: [
           {
             image: CmstsSedeTarapaca,
@@ -91,6 +93,7 @@ export const cmstsConfig = {
       },
       {
         title: "SEDE RIMAC",
+        viewType: "carousel",
         items: [
           {
             image: CmstsSedeRimac,

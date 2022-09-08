@@ -54,7 +54,7 @@ export const saecoConfig = {
     sectionCarousel: [
       {
         title: "Sección de Servicio Social",
-        imgBackground: SaecoImgCarousel,
+        image: SaecoImgCarousel,
         buttons: [
           {
             type: "primary",

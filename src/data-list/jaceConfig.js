@@ -37,7 +37,7 @@ export const jaceConfig = {
     sectionCarousel: [
       {
         title: "CASAS AL SERVICIO.",
-        imgBackground: JaceSlider1,
+        image: JaceSlider1,
         buttons: [
           {
             type: "primary",

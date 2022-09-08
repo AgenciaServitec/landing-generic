@@ -72,7 +72,7 @@ export const saedConfig = {
     sectionCarousel: [
       {
         title: "APOYO ESTUDIOS SUPERIORES.",
-        imgBackground: SaedSlider1, //AQUI VA IMAGEN
+        image: SaedSlider1, //AQUI VA IMAGEN
         buttons: [
           {
             type: "primary",

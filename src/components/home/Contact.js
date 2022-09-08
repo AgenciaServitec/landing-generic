@@ -120,7 +120,10 @@ const Container = styled.div`
       .list-social-info {
         list-style: none;
         display: flex;
-        gap: 1.5rem;
+        gap: 2rem;
+        ${mediaQuery.minTablet} {
+          gap: 3rem;
+        }
         div {
           text-align: center;
           color: #010a06;

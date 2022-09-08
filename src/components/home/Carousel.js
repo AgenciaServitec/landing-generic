@@ -25,10 +25,10 @@ export const Carousel = ({ carouselItems }) => {
         {carouselItems.map((carouselItem, index) => (
           <ItemCarousel
             key={index}
-            title={carouselItem.title}
-            description={carouselItem.description}
-            imgBackground={carouselItem.imgBackground[0]}
-            buttons={carouselItem.buttons}
+            title={carouselItem?.title}
+            description={carouselItem?.description}
+            imgBackground={carouselItem?.image}
+            buttons={carouselItem?.buttons}
           />
         ))}
       </AntCarousel>

@@ -1,30 +1,50 @@
 import React from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
+import { Carousel } from "./Carousel";
 
 export const CardsBlack = ({ cards = [] }) => {
   return (
     <Container>
-      {cards.map((card, index) => (
-        <div key={index} className="content-items">
-          <div className="content">
-            <div className="heading">
-              <h2 className="title">{card.title}</h2>
-            </div>
-
-            {(card.items || []).map((item, index) => (
-              <div key={index} className="wrapper-card">
-                <div className="description">
-                  <p>{item.description}</p>
-                </div>
-                <div className="content-image">
-                  <img src={item.image} className="item-image" alt="about us" />
+      {cards.map((card, index) =>
+        card.viewType === "carousel" ? (
+          <div key={index} className="content-items-carousels">
+            <div className="content">
+              <div className="heading">
+                <h2 className="title">{card.title}</h2>
+              </div>
+              <div className="wrapper-carousels">
+                <div className="item-carousel">
+                  <Carousel carouselItems={card.items} />
                 </div>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ) : (
+          <div key={index} className="content-items">
+            <div className="content">
+              <div className="heading">
+                <h2 className="title">{card.title}</h2>
+              </div>
+
+              {(card.items || []).map((item, index) => (
+                <div key={index} className="wrapper-card">
+                  <div className="description">
+                    <p>{item.description}</p>
+                  </div>
+                  <div className="content-image">
+                    <img
+                      src={item.image}
+                      className="item-image"
+                      alt="about us"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      )}
     </Container>
   );
 };
@@ -35,6 +55,21 @@ const Container = styled.div`
   padding: 1.2rem;
   ${mediaQuery.minTablet} {
     padding: 3rem 4rem;
+  }
+
+  .content-items-carousels {
+    padding: 3rem 0.5rem;
+    .content {
+      width: 100%;
+      .title {
+        font-weight: 400;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+      .wrapper-carousels {
+        width: 100%;
+      }
+    }
   }
 
   .content-items {

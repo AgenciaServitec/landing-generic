@@ -48,7 +48,7 @@ export const jaeConfig = {
     sectionCarousel: [
       {
         title: "APOYO EDUCATIVO",
-        imgBackground: [JaeCarousel],
+        image: JaeCarousel,
         buttons: [
           {
             type: "primary",

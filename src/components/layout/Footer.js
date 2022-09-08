@@ -32,8 +32,8 @@ export const Footer = ({ headerTemplate, menuList = [] }) => (
 
     <div className="bottom-footer">
       <div>
-        © Copyright 2022 - {headerTemplate.name.toUpperCase()} - Diseñado con{" "}
-        <FontAwesomeIcon icon={faHeart} color="red" /> por{" "}
+        © Copyright 2022 - {headerTemplate.name.toUpperCase()} - Desarrollado
+        con <FontAwesomeIcon icon={faHeart} color="red" /> por{" "}
         <a href="https://servitecperu.com/" target="_blank" rel="noreferrer">
           Agencia Servitec
         </a>
@@ -148,7 +148,7 @@ const Container = styled.div`
 
       a {
         font-weight: 500;
-        color: #bfa600;
+        color: #e7c600;
       }
     }
   }
