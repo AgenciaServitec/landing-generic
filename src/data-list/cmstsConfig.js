@@ -1,15 +1,31 @@
 import {
+  CirculoChorrillos2,
+  CirculoChorrillos3,
+  CirculoChorrillos4,
+  CirculoChorrillos5,
+  CirculoRimac1,
+  CirculoTarapaca1,
+  CirculoTarapaca2,
+  CirculoTarapaca3,
+  CirculoTarapaca4,
   CmstsCarousel,
   CmstsCollage1,
   CmstsCollage2,
   CmstsCollage3,
   CmstsCollage4,
-  CmstsSedeChorillos1,
-  CmstsSedeChorillos2,
-  CmstsSedeRimac,
-  CmstsSedeTarapaca,
+  CirculoRimac2,
+  CirculoRimac3,
+  CirculoRimac4,
+  CirculoRimac5,
+  CirculoRimac6,
+  CirculoRimac7,
+  CirculoRimac8,
+  CirculoRimac9,
   CmstsServices,
   CobieneLogoLarge,
+  TitleChorrillos,
+  TitleRimac,
+  TitleTarapaca,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -60,43 +76,53 @@ export const cmstsConfig = {
     },
     sectionCampus: [
       {
-        title: "SEDE CHORRILLOS",
+        titleImage: TitleChorrillos,
         viewType: "carousel",
         items: [
           {
-            images: [CmstsSedeChorillos1, CmstsSedeChorillos2],
+            images: [
+              CirculoChorrillos2,
+              CirculoChorrillos3,
+              CirculoChorrillos4,
+              CirculoChorrillos5,
+            ],
             description:
               "CONTAMOS CON UN SALÓN PRINCIPAL Y ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA SEMI OLÍMPICA.",
           },
-          {
-            images: [CmstsSedeChorillos2, CmstsSedeChorillos1],
-            description:
-              "CONTAMOS CON UNA TERRAZA, UN SALÓN MULTIUSO, LA CABAÑA DEL GUERRERO, SALÓN ALFA Y BRAVO PARA REALIZAR TODO TIPO DE EVENTOS Y CANCHAS DEPORTIVAS DE MATERIAL SINTÉTICO.",
-          },
         ],
       },
       {
-        title: "SEDE TARAPACA",
+        titleImage: TitleTarapaca,
         viewType: "carousel",
         items: [
           {
-            images: [CmstsSedeTarapaca],
+            images: [
+              CirculoTarapaca1,
+              CirculoTarapaca2,
+              CirculoTarapaca3,
+              CirculoTarapaca4,
+            ],
             description:
               "CONTAMOS CON ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA OLÍMPICA, RESTAURANTE Y CANCHAS DEPORTIVAS DE MATERIAL SINTÉTICO.",
           },
-          {
-            images: [CmstsSedeTarapaca],
-            description:
-              "CONTAMOS CON LOS AMBIENTES IDEALES PARA REALIZAR TODO TIPO DE EVENTOS, HOSPEDAJE Y JUEGOS DEPORTIVOS PAINTBALL.",
-          },
         ],
       },
       {
-        title: "SEDE RIMAC",
+        titleImage: TitleRimac,
         viewType: "carousel",
         items: [
           {
-            images: [CmstsSedeRimac],
+            images: [
+              CirculoRimac1,
+              CirculoRimac2,
+              CirculoRimac3,
+              CirculoRimac4,
+              CirculoRimac5,
+              CirculoRimac6,
+              CirculoRimac7,
+              CirculoRimac8,
+              CirculoRimac9,
+            ],
             description:
               "Cuenta con los ambientes ideales para realizar todo tipo de eventos. Además de tener disponible la piscina semi olímpica y cancha deportiva de material sintético.",
           },
