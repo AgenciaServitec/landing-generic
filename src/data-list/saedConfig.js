@@ -58,6 +58,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const saedConfig = {
+  helmet: {
+    title: "Sección Apoyo Estudios Superiores",
+    link: "https://saed.cobiene.mil.pe",
+    description: "Sección Apoyo Estudios Superiores",
+    keywords: "beneficios,futuro,jovenes",
+  },
   header: {
     name: "saed",
     title: "Sección Apoyo Estudios Superiores",
