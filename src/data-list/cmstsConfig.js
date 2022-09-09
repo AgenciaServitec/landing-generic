@@ -41,8 +41,13 @@ export const cmstsConfig = {
     title: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
     logoImg: CobieneLogoLarge,
     menuList: [
-      { id: "services", name: "Servicios" },
-      { id: "campus", name: "Sedes" },
+      { id: "about-as", name: "Nosotros" },
+      { id: "SedeChorrillos", name: "Chorrillos" },
+      { id: "SedeTarapacá", name: "Tarapacá" },
+      { id: "SedeRimac", name: "Rimac" },
+      { id: "contact", name: "Contacto" },
+      // { id: "services", name: "Servicios" },
+      // { id: "campus", name: "Sedes" },
     ],
   },
   main: {
@@ -51,12 +56,12 @@ export const cmstsConfig = {
         title: "TUS MEJORES MOMENTOS.",
         image: CmstsCarousel,
         buttons: [
-          {
-            title: "Nuestros Servicios",
-          },
-          {
-            title: "Sedes",
-          },
+          // {
+          //   title: "Nuestros Servicios",
+          // },
+          // {
+          //   title: "Sedes",
+          // },
         ],
       },
     ],
@@ -88,7 +93,7 @@ export const cmstsConfig = {
               CirculoChorrillos5,
             ],
             description:
-              "contamos CON UN SALÓN PRINCIPAL Y ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA SEMI OLÍMPICA.",
+              "Dispone de espacios ideales para todo tipo de reuniones, Ademas de contar canchas de futbol ",
             icons: [
               {
                 href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",

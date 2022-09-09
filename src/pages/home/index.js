@@ -177,6 +177,7 @@ export const Home = () => {
         {/*<Banner />*/}
         {(cardsConventions || cardsConventions.cards) && (
           <ListCards
+            id={cardsConventions.id}
             title={cardsConventions.title}
             items={cardsConventions.cards}
             type="secondary"

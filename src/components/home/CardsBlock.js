@@ -22,6 +22,17 @@ export const CardsBlack = ({ cards = [] }) => {
                 <div key={index} className="wrapper-carousels">
                   <div className="description">
                     <p>{item.description}</p>
+                    <ul>
+                      {(item.icons || []).map((icon, index) => (
+                        <div key={index}>
+                          <a href={icon.href} target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={icon.icon} size="sm" />{" "}
+                            &nbsp;
+                            <span>{icon.name}</span>
+                          </a>
+                        </div>
+                      ))}
+                    </ul>
                   </div>
                   <div className="item-carousel">
                     <CarouselOnlyImages images={item?.images} />
@@ -41,17 +52,6 @@ export const CardsBlack = ({ cards = [] }) => {
                 <div key={index} className="wrapper-card">
                   <div className="description">
                     <p>{item.description}</p>
-                    <ul>
-                      {(item.icons || []).map((icon, index) => (
-                        <div key={index}>
-                          <a href={icon.href} target="_blank" rel="noreferrer">
-                            <FontAwesomeIcon icon={icon.icon} size="sm" />{" "}
-                            &nbsp;
-                            <span>{icon.name}</span>
-                          </a>
-                        </div>
-                      ))}
-                    </ul>
                   </div>
                   <div className="content-image">
                     <img
@@ -96,6 +96,9 @@ const Container = styled.div`
         display: flex;
         align-items: center;
         gap: 5rem;
+        .description {
+          text-align: justify;
+        }
         .item-carousel {
           width: 40em;
         }

@@ -60,7 +60,7 @@ import {
 export const saedConfig = {
   header: {
     name: "saed",
-    title: "Sección de Apoyo Educativo",
+    title: "Sección Apoyo Estudios Superiores",
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
@@ -71,8 +71,8 @@ export const saedConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "APOYO ESTUDIOS SUPERIORES.",
-        imgBackground: [SaedSlider1], //AQUI VA IMAGEN
+        title: "PREPARANDO PARA EL FUTURO.",
+        image: SaedSlider1, //AQUI VA IMAGEN
         buttons: [
           // {
           //   type: "primary",

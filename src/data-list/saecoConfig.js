@@ -49,15 +49,16 @@ export const saecoConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "cobertura", name: "COBERTURA" },
-      { id: "services", name: "ALCANCE" },
+      { id: "cobertura", name: "Ayuda Economica" },
+      { id: "services", name: "Convenios Multiservicios" },
+      { id: "services", name: "Servicio Religioso" },
     ],
   },
   main: {
     sectionCarousel: [
       {
         title: "Sección de Servicio Social",
-        imgBackground: [SaecoImgCarousel],
+        image: SaecoImgCarousel,
         buttons: [
           // {
           //   type: "primary",

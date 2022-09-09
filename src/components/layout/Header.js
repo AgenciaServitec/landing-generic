@@ -32,9 +32,9 @@ export const Header = ({ setVisibleDrawer, headerTemplate }) => {
           </div>
           <div className="list">
             <ul>
-              <Link to="/">
-                <li>INICIO</li>
-              </Link>
+              {/*<Link to="/">*/}
+              {/*  <li>INICIO</li>*/}
+              {/*</Link>*/}
               {headerTemplate.menuList.map((menu, index) => (
                 <a key={index} href={`#${menu.id}`}>
                   <li>{menu.name}</li>
