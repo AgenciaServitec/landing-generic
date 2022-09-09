@@ -30,7 +30,7 @@ export const sadConfig = {
     sectionCarousel: [
       {
         title: "PRESENTE HOY Y SIEMPRE.",
-        imgBackground: [SadCarousel],
+        image: SadCarousel,
         buttons: [
           // {
           //   id: "about-us",

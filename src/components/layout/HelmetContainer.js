@@ -1,14 +1,17 @@
 import React from "react";
 import { useTemplateConfig } from "../../providers";
 import { Helmet } from "react-helmet";
-import { Spinner } from "../ui";
 
 export const HelmetContainer = ({ children }) => {
   const { templateConfig } = useTemplateConfig();
 
-  const { title, description, keywords } = templateConfig.helmet;
+  if (!templateConfig?.helmet) return <>{children}</>;
 
-  if (!templateConfig) return <Spinner fullscreen />;
+  const {
+    title = "",
+    description = "",
+    keywords = "",
+  } = templateConfig?.helmet;
 
   return (
     <>
