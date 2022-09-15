@@ -19,7 +19,6 @@ import {
   ConvenioSalud7,
   ConvenioSalud8,
   SaecoImgCarousel,
-  Banner2,
   BannerServices,
   BannerSalud,
   BannerEconomico,
@@ -34,6 +33,10 @@ import {
   TiendaRenzoCosta,
   TiendaSugo,
   SaecoBautismo,
+  MisaPadre,
+  TitleAyudaEconomica,
+  TitleConvenios,
+  TitleReli,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -49,15 +52,15 @@ export const saecoConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "cobertura", name: "Ayuda Economica" },
-      { id: "services", name: "Convenios Multiservicios" },
-      { id: "services", name: "Servicio Religioso" },
+      { id: "AyudaEconomicaSocial", name: "Ayuda Economica" },
+      { id: "Convenios", name: "Convenios Multiservicios" },
+      { id: "ServicoReligioso", name: "Servicio Religioso" },
     ],
   },
   main: {
     sectionCarousel: [
       {
-        title: "Sección de Servicio Social",
+        title: "Bienestar con responsabilidad social",
         image: SaecoImgCarousel,
         buttons: [
           // {
@@ -86,22 +89,37 @@ export const saecoConfig = {
       ],
       images: [SaecoImgAbout],
     },
-    // sectionCollageServices: {
-    //   title:
-    //     "La Ayuda Económica social otorga,Bienes y servicios en los siguientes rubros",
-    //   images: [],
-    // },
-    sectionCobertura: {
-      id: "cobertura",
-      title:
-        "La Ayuda Económica social otorga, bienes y servicios en los siguientes rubros",
-      descriptions: [
-        "* Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa)",
-        "* Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. (silla ruedas colchón anti escaras, audífonos, lentes correctores, artículos ortopédicos, prótesis o parte de él, medicinas, pañales, balón de oxígeno.) ",
-        "* Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionales.) ",
+    sectionCollages: {
+      collages: [
+        {
+          id: "AyudaEconomicaSocial",
+          titleImage: TitleAyudaEconomica,
+          // titleImage: ,
+          // title:
+          //   "La Ayuda Económica social otorga, bienes y servicios en los siguientes rubros:",
+          descriptionTop:
+            "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa)",
+          images: [BannerServices],
+          description: "",
+        },
+        {
+          title: "",
+          descriptionTop:
+            "Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionales.) ",
+
+          images: [BannerSalud],
+          description: "",
+        },
+        {
+          title: "",
+          descriptionTop:
+            "Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. (silla ruedas colchón anti escaras, audífonos, lentes correctores, artículos ortopédicos, prótesis o parte de él, medicinas, pañales, balón de oxígeno.) ",
+          images: [BannerEconomico],
+          description: "",
+        },
       ],
-      images: [Banner2],
     },
+
     // sectionCollageAliments: {
     //   subtitle:
     //     "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa",
@@ -112,7 +130,8 @@ export const saecoConfig = {
     //   images: [],
     // },
     sectionBancos: {
-      id: "services",
+      id: "Convenios",
+      titleImage: TitleConvenios,
       title: "Convenios con Bancos :",
       cards: [
         {
@@ -266,8 +285,8 @@ export const saecoConfig = {
       ],
     },
     sectionServiceRel: {
-      id: "servicerRel",
-      title: "SERVICIO RELIGIOSO",
+      id: "ServicoReligioso",
+      titleImage: TitleReli,
       subTitle:
         "La Parroquia Inmaculada Concepción del Cuartel General del Ejército, brinda a los\n" +
         "Sres. OO, TCOS, SSOO, PTSMV, EECC y familiares, los siguientes servicios:",
@@ -283,11 +302,7 @@ export const saecoConfig = {
         "* Villa militar OESTE : Parroquia Cristo Rey.",
         "* Villa militar RIMAC : Parroquia Señor de la Misericordia.",
       ],
-      images: [SaecoBautismo],
-    },
-    sectionCollage: {
-      title: "Nuestra Ayuda",
-      images: [BannerServices, BannerSalud, BannerEconomico],
+      images: [SaecoBautismo, MisaPadre],
     },
   },
 
@@ -317,7 +332,7 @@ export const saecoConfig = {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
         name: "Dirección",
-        value: "Chorrillos-lima-Perú",
+        value: "Lima-Perú",
       },
     ],
   },

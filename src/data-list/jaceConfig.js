@@ -28,7 +28,7 @@ export const jaceConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "Nosotros" },
-      { id: "information", name: "Requisitos" },
+      { id: "requisitos", name: "Requisitos" },
       { id: "contact", name: "Contáctanos" },
     ],
   },
@@ -36,7 +36,7 @@ export const jaceConfig = {
     sectionCarousel: [
       {
         title: "CASAS DE SERVICIO.",
-        imgBackground: JaceSlider1,
+        image: JaceSlider1,
         buttons: [
           // {
           //   type: "primary",
@@ -118,15 +118,19 @@ export const jaceConfig = {
           title: "Paso 8",
           description: [
             "El personal militar candidato a “usuario” que solicite asignación especial o excepcional deberá contar con lo siguiente:\n",
+            "-Documentos que acreditn la situacion de especialidad o excepcionalidad.",
+            "-El Dictamen legal favorable.",
+            "-La opinion del Crl Ing.Jefe de la DACE.",
+            "-La Aprobacion del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
           ],
-          descriptionlist: [
-            "- Los documentos que acrediten la situación de especialidad o excepcionalidad.",
-
-            "- El dictamen legal favorable.",
-            "- La opinión del Crl Ing. Jefe de la DACE.",
-
-            "- La aprobación del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
-          ],
+          // descriptionlist: [
+          //   "- Los documentos que acrediten la situación de especialidad o excepcionalidad.",
+          //
+          //   "- El dictamen legal favorable.",
+          //   "- La opinión del Crl Ing. Jefe de la DACE.",
+          //
+          //   "- La aprobación del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
+          // ],
         },
       ],
     },
@@ -163,7 +167,7 @@ export const jaceConfig = {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
         name: "Dirección",
-        value: "Chorrillos-lima-Perú",
+        value: "Lima-Perú",
       },
     ],
   },

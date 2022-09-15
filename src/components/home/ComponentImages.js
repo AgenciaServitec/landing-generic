@@ -11,7 +11,7 @@ const wrapperImgType = {
   },
 };
 
-export const ComponentImages = ({ title, images, type = "primary" }) => {
+export const ComponentImages = ({ collages = [], type = "primary" }) => {
   // const { title } = props; // props para el titulo
   // const { imagesArray } = props;//props para el array de imagenes
   // --------- prueba de array para que no se buggee porque no tiene props que traer por ahora------//
@@ -19,17 +19,44 @@ export const ComponentImages = ({ title, images, type = "primary" }) => {
   const wrapperImgStyle = wrapperImgType[type];
 
   return (
-    <Container>
-      <WrapperTitle>
-        {/*<h1>{title}</h1>*/}
-        {{ title } ? <h2>{title}</h2> : ""}
-      </WrapperTitle>
-      <WrapperImg gridTemplateColumns={wrapperImgStyle.gridTemplateColumns}>
-        {images.map((image, index) => (
-          <Img key={index} src={image} alt={title} />
-        ))}
-      </WrapperImg>
-    </Container>
+    <div>
+      {collages.map((card, index) => (
+        <Container id={card.id} key={index}>
+          {card.titleImage ? (
+            <img className="imgTitle" alt="no hay" src={card.titleImage} />
+          ) : (
+            ""
+          )}
+          <WrapperTitle>
+            {/*<h1>{title}</h1>*/}
+            {card.title ? <h2>{card.title}</h2> : ""}
+          </WrapperTitle>
+          <div className="descriptionTop">
+            {card.descriptionTop ? <p>{card.descriptionTop}</p> : ""}
+          </div>
+          <WrapperImg gridTemplateColumns={wrapperImgStyle.gridTemplateColumns}>
+            {card.images.map((image, index) => (
+              <Img key={index} src={image} alt="no hay" />
+            ))}
+          </WrapperImg>
+          {card.description ? <p>{card.description}</p> : ""}
+        </Container>
+      ))}
+      {/*{{ titleImage } ? <img className="imgTitle" src={titleImage} /> : ""}*/}
+      {/*<WrapperTitle>*/}
+      {/*  /!*<h1>{title}</h1>*!/*/}
+      {/*  {{ title } ? <h2>{title}</h2> : ""}*/}
+      {/*</WrapperTitle>*/}
+      {/*<div className="descriptionTop">*/}
+      {/*  {{ descriptionTop } ? <p>{descriptionTop}</p> : ""}*/}
+      {/*</div>*/}
+      {/*<WrapperImg gridTemplateColumns={wrapperImgStyle.gridTemplateColumns}>*/}
+      {/*  {images.map((image, index) => (*/}
+      {/*    <Img key={index} src={image} alt={title} />*/}
+      {/*  ))}*/}
+      {/*</WrapperImg>*/}
+      {/*{{ description } ? <p>{description}</p> : ""}*/}
+    </div>
   );
 };
 
@@ -37,12 +64,25 @@ const Container = styled.div`
   width: 100%;
   padding-top: 0.5rem;
   padding-bottom: 2.5rem;
+  .imgTitle {
+    width: 35%;
+    margin-left: 6.5rem;
+    margin-bottom: 2rem;
+  }
+  .descriptionTop {
+    margin: 0 6rem;
+  }
+  p {
+    text-align: center;
+  }
 `;
 
 const WrapperTitle = styled.div`
-  padding: 1.5rem;
+  //padding: 1.5rem;
+  margin: 0 6rem;
   text-align: center;
   h2 {
+    margin-top: 2.5rem;
     font-weight: bold;
     font-size: 1.5rem;
     ${mediaQuery.minTablet} {
@@ -54,7 +94,8 @@ const WrapperTitle = styled.div`
 
 const WrapperImg = styled.div`
   padding: 0.5rem 0.5rem 1rem 0.5rem;
-  display: grid;
+  //display: grid;
+  text-align: center;
   margin-bottom: 1.7rem;
   grid-template-columns: 1fr;
   ${mediaQuery.minTablet} {

@@ -27,7 +27,7 @@ export const Home = () => {
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
   const sectionProvinceSchools =
     templateConfig.main.sectionProvinceSchools || false;
-  const sectionCollage = templateConfig.main.sectionCollage || false;
+  const sectionCollages = templateConfig.main.sectionCollages || false;
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionBancos = templateConfig.main.sectionBancos || false;
   const sectionSalud = templateConfig.main.sectionSalud || false;
@@ -73,13 +73,6 @@ export const Home = () => {
         {collageImages && <Collage images={collageImages} />}
         {sectionCampus && <CardsBlack cards={sectionCampus} />}
 
-        {sectionCollage && (
-          <ComponentImages
-            title={sectionCollage.title}
-            images={sectionCollage.images}
-          />
-        )}
-
         {(sectionCobertura || sectionCobertura.images) && (
           <CardsInlineBlock
             id={sectionCobertura.id}
@@ -89,10 +82,14 @@ export const Home = () => {
             images={sectionCobertura.images}
           />
         )}
+        {sectionCollages && (
+          <ComponentImages collages={sectionCollages.collages} />
+        )}
         {(sectionBancos || sectionBancos.cards) && (
           <ListCards
             id={sectionBancos.id}
             title={sectionBancos.title}
+            titleImage={sectionBancos.titleImage}
             items={sectionBancos.cards}
             type="secondary"
           />
@@ -136,6 +133,7 @@ export const Home = () => {
           <CardsInlineBlock
             id={sectionServiceRel.id}
             title={sectionServiceRel.title}
+            titleImage={sectionServiceRel.titleImage}
             subTitle={sectionServiceRel.subTitle}
             descriptions={sectionServiceRel.descriptions}
             buttons={sectionServiceRel.buttons}
@@ -161,6 +159,7 @@ export const Home = () => {
 
         {(sectionRequirements || sectionRequirements.cards) && (
           <ListCards
+            id={sectionRequirements.id}
             title={sectionRequirements.title}
             items={sectionRequirements.cards}
           />
@@ -193,6 +192,7 @@ export const Home = () => {
         )}
         {(sectionSchoolsLima || sectionSchoolsLima.cards) && (
           <ListCards
+            id={sectionSchoolsLima.id}
             title={sectionSchoolsLima.title}
             items={sectionSchoolsLima.cards}
             type="secondary"
@@ -200,6 +200,7 @@ export const Home = () => {
         )}
         {(sectionProvinceSchools || sectionProvinceSchools.cards) && (
           <ListCards
+            id={sectionProvinceSchools.id}
             title={sectionProvinceSchools.title}
             items={sectionProvinceSchools.cards}
             type="secondary"

@@ -4,17 +4,22 @@ import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Button } from "../ui";
 
 export const CardsInlineBlock = ({
-  title = "",
+  title,
+  titleImage,
+  id = "about-us",
   subTitle = "",
   descriptions = [],
   buttons = [],
   images = [],
 }) => {
   return (
-    <Container id="about-us">
+    <Container id={id}>
       <div className="content-items">
         <div className="content">
           <div className="heading">
+            {titleImage && (
+              <img className="imgTitle" src={titleImage} alt="nohay" />
+            )}
             {title && <h2 className="title">{title}</h2>}
             {subTitle && <h4 className="title">{subTitle}</h4>}
           </div>
@@ -75,6 +80,11 @@ const Container = styled.div`
         }
       }
     }
+    .imgTitle {
+      width: 70%;
+      //margin-left: 6.5rem;
+      margin-bottom: 2rem;
+    }
     .title {
       font-weight: 400;
       margin-bottom: 2rem;
@@ -83,6 +93,9 @@ const Container = styled.div`
     .description {
       max-width: 40rem;
       font-weight: 500;
+      p {
+        font-size: 1.2rem;
+      }
     }
     .btn-item {
       width: 100%;
@@ -95,10 +108,12 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
     grid-template-columns: 1fr;
     ${mediaQuery.minTablet} {
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr;
+      //grid-template-rows: 1fr;
+      //grid-template-columns: 1fr 1fr;
     }
 
     .item-image {

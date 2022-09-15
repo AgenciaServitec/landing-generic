@@ -13,7 +13,7 @@ export const ButtonsFloating = ({ wspPhone }) => (
     >
       <WrapperButton bg="#5cc753">
         <div className="item-text">
-          <div>Atención inmediata</div>
+          <div>929 054 672</div>
           <div>{wspPhone.phone}</div>
         </div>
         <div className="item-icon">
@@ -61,17 +61,17 @@ const WrapperButton = styled.div`
     }
     .item-text {
       order: 2;
-      font-size: 0.8rem;
+      font-size: 1.8rem;
       color: #fff;
       div {
-        line-height: 1.5rem;
+        line-height: 1.9rem;
       }
       div:last-child {
         font-size: 1.3rem;
       }
 
       ${mediaQuery.minTablet} {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         div {
           line-height: 1.7rem;
         }

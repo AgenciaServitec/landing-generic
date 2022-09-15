@@ -40,14 +40,15 @@ export const jaeConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "schools", name: "COLEGIOS" },
+      { id: "ColegiosdeLima", name: "Colegios de Lima" },
+      { id: "ColegiosdeProvincia", name: "Colegios de Provincia" },
     ],
   },
   main: {
     sectionCarousel: [
       {
         title: "APOYO EDUCATIVO",
-        imgBackground: [JaeCarousel],
+        image: [JaeCarousel],
         buttons: [
           // {
           //   type: "primary",
@@ -63,18 +64,18 @@ export const jaeConfig = {
       },
       {
         title: "APOYO EDUCATIVO",
-        imgBackground: [JaeCarousel2],
+        image: [JaeCarousel2],
         buttons: [
-          {
-            type: "primary",
-            id: "about-us",
-            title: "Nosotros",
-          },
-          {
-            type: "secondary",
-            id: "contact",
-            title: "Contacto",
-          },
+          // {
+          //   type: "primary",
+          //   id: "about-us",
+          //   title: "Nosotros",
+          // },
+          // {
+          //   type: "secondary",
+          //   id: "contact",
+          //   title: "Contacto",
+          // },
         ],
       },
     ],
@@ -88,12 +89,19 @@ export const jaeConfig = {
       ],
       images: [JaeAbout],
     },
-    sectionOther: {
-      title: "",
-      images: [JaeOthers],
+    sectionCollages: {
+      collages: [
+        {
+          images: [JaeOthers],
+        },
+      ],
     },
+    // sectionOther: {
+    //   title: "",
+    //   images: [JaeOthers],
+    // },
     sectionSchoolsLima: {
-      id: "schools",
+      id: "ColegiosdeLima",
       title: "Colegios de Lima",
       cards: [
         {
@@ -101,6 +109,11 @@ export const jaeConfig = {
           title: "Institución educativa Pública de Gestión Privada",
           title2: "PEDRO RUIZ GALLO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
+          descriptionLarge: [
+            {
+              image: Inst1,
+            },
+          ],
           button: "",
         },
         {
@@ -168,13 +181,14 @@ export const jaeConfig = {
         },
         {
           image: Inst11,
-          title: "Cuna",
+          title: "Inicial",
           title2: "Corazon de Jesus",
           button: "",
         },
       ],
     },
     sectionProvinceSchools: {
+      id: "ColegiosdeProvincia",
       title: "Colegios de Provincia",
       cards: [
         {
@@ -290,7 +304,7 @@ export const jaeConfig = {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
         name: "Dirección",
-        value: "Chorrillos-lima-Perú",
+        value: "Lima-Perú",
       },
     ],
   },

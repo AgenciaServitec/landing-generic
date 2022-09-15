@@ -23,6 +23,7 @@ const listCardsTypes = {
 export const ListCards = ({
   id = "services",
   title,
+  titleImage,
   items = [],
   type = "primary",
 }) => {
@@ -39,6 +40,9 @@ export const ListCards = ({
   return (
     <Container id={id} contentImg={listCardsStyle.contentImg}>
       <div className="content-items">
+        {titleImage && (
+          <img className="imgTitle" src={titleImage} alt="nohay" />
+        )}
         {title && <h2 className="title">{title}</h2>}
         <div className="content-img">
           {items.map((item, index) => (
@@ -51,7 +55,15 @@ export const ListCards = ({
               descriptionLarge={item.descriptionLarge}
             >
               {item.image && (
-                <img src={item.image} alt={item.title} className="image-bg" />
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="image-bg"
+                  onClick={() => {
+                    setRequirements(item.descriptionLarge);
+                    showModal();
+                  }}
+                />
               )}
               {item.title && <h3>{item.title}</h3>}
               {item.title2 && <h5>{item.title2}</h5>}
@@ -81,10 +93,13 @@ export const ListCards = ({
       >
         <ul>
           {requirements.map((requirement, index) => (
-            <li key={index}>
-              <h4>{requirement.title}</h4>
-              <p>{requirement.description}</p>
-            </li>
+            <div key={index}>
+              <li>
+                {requirement.title && <h4>{requirement.title}</h4>}
+                {requirement.description && <p>{requirement.description}</p>}
+              </li>
+              {requirement.image && <img src={requirement.image} alt="nohay" />}
+            </div>
           ))}
         </ul>
       </Modal>
@@ -114,6 +129,11 @@ const Container = styled.div`
       ${mediaQuery.minTablet} {
         font-size: 3rem;
       }
+    }
+    .imgTitle {
+      width: 40%;
+      //margin-left: 6.5rem;
+      margin-bottom: 2rem;
     }
 
     .content-img {
