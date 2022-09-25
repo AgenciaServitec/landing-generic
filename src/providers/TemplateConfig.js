@@ -45,7 +45,7 @@ export const TemplateConfig = ({ children }) => {
       case "saeco.cobiene.mil.pe":
         return setTemplateType("saeco");
       default:
-        return setTemplateType("jae");
+        return setTemplateType("default");
     }
   }, [hostName]);
 

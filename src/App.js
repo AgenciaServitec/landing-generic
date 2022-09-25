@@ -7,13 +7,12 @@ import { ThemeProvider } from "styled-components";
 import { themes } from "./styles";
 import { setLocale } from "yup";
 import { TemplateConfig } from "./providers";
+import { HelmetContainer } from "./components/layout/HelmetContainer";
 import { Spinner } from "./components/ui";
 
 export const App = () => {
   const [loadingApp, setLoadingApp] = useState(true);
   const [themeType, setThemeType] = useState("default");
-
-  // const { onClickTemplateType } = useTemplateConfig();
 
   const hostName = window.location.hostname;
 
@@ -47,19 +46,21 @@ export const App = () => {
   return (
     <BrowserRouter>
       <ThemeProvider theme={themes[themeType]}>
-        <GlobalStyles />
         <TemplateConfig>
-          <Router />
-          {/*<ItemTemplates>*/}
-          {/*  <ul>*/}
-          {/*    <li onClick={() => onClickTemplateType("cmsts")}>CmsTs</li>*/}
-          {/*    <li onClick={() => onClickTemplateType("jace")}>jace</li>*/}
-          {/*    <li onClick={() => onClickTemplateType("jae")}>jae</li>*/}
-          {/*    <li onClick={() => onClickTemplateType("sad")}>sad</li>*/}
-          {/*    <li onClick={() => onClickTemplateType("saed")}>saed</li>*/}
-          {/*    <li onClick={() => onClickTemplateType("saeco")}>saeco</li>*/}
-          {/*  </ul>*/}
-          {/*</ItemTemplates>*/}
+          <HelmetContainer>
+            <GlobalStyles />
+            <Router />
+            {/*<ItemTemplates>*/}
+            {/*  <ul>*/}
+            {/*    <li onClick={() => onClickTemplateType("cmsts")}>CmsTs</li>*/}
+            {/*    <li onClick={() => onClickTemplateType("jace")}>jace</li>*/}
+            {/*    <li onClick={() => onClickTemplateType("jae")}>jae</li>*/}
+            {/*    <li onClick={() => onClickTemplateType("sad")}>sad</li>*/}
+            {/*    <li onClick={() => onClickTemplateType("saed")}>saed</li>*/}
+            {/*    <li onClick={() => onClickTemplateType("saeco")}>saeco</li>*/}
+            {/*  </ul>*/}
+            {/*</ItemTemplates>*/}
+          </HelmetContainer>
         </TemplateConfig>
       </ThemeProvider>
     </BrowserRouter>
