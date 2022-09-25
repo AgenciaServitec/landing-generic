@@ -70,6 +70,7 @@ const Container = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 1.7rem;
     padding: 3rem 0.5rem;
+    
     ${mediaQuery.minTablet} {
       grid-template-columns: 1fr 1fr;
     }
