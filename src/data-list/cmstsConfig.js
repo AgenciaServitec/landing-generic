@@ -14,6 +14,8 @@ import {
   SedeRimac,
   SalonesdeRimac,
   ZonaEsparcimientoRimac,
+  CirculoChorrillosSalon,
+  CirculoChorrillosDeportivo,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -170,11 +172,18 @@ export const cmstsConfig = {
           description: "Salones ideales para compartir tus mejores momentos",
         },
         {
-          title: "Salon: La Cabana del Guerrero",
+          title: "Salon: La Cabaña del Guerrero",
           descriptionTop: "",
           images: [Cabanadelguerrero],
           description:
             "Ambientes principal y áreas para realizar todo tipo de eventos.",
+        },
+        {
+          title: "Toldo de Ceremonias",
+          descriptionTop: "",
+          images: [CirculoChorrillosSalon],
+          // description:
+          //     "Ambientes principal y áreas para realizar todo tipo de eventos.",
         },
         {
           title: "Zona de Esparcimiento",
@@ -182,6 +191,13 @@ export const cmstsConfig = {
           images: [ZonaEsparciminetoChorrillos],
           description:
             "Ambientes ideales para realizar actividades de recreación y deporte.",
+        },
+        {
+          title: "Zonas Deportivas",
+          descriptionTop: "",
+          images: [CirculoChorrillosDeportivo],
+          // description:
+          //     "Ambientes ideales para realizar actividades de recreación y deporte.",
         },
         {
           id: "SedeTarapacá",

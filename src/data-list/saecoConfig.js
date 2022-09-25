@@ -85,7 +85,7 @@ export const saecoConfig = {
       id: "about-us",
       title: "Nosotros",
       descriptions: [
-        "La Sección de Servicio Social se encarga de los otorgamientos de ayudas económicas para nuestro personal que lo necesita; asimismo nos encargamos de la suscripción de convenios multisectoriales que permitan beneficios para el personal militar, empleados civiles y familiares directos, también nos encargamos de realizar diversas actividades de recreación, cultural   y religiosa a fin de integrar más a la familia militar y sostener nuestro espíritu cristiano.",
+        "El departamento de apoyo social como parte del comando de bienestar del ejército,ayudas económicas para casos excepcionales de salud, descuento por convenios multiservicios, apoyo de servicio religioso, asesoramiento de apoyo a la familia y apoyo al personal discapacitado, orientados a lograr beneficios para el personal militar, civil en actividad, retiro, cesantes y sus familiares directos.",
       ],
       images: [SaecoImgAbout],
     },
@@ -105,7 +105,7 @@ export const saecoConfig = {
         {
           title: "",
           descriptionTop:
-            "Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionales.) ",
+            "Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionale)",
 
           images: [BannerSalud],
           description: "",
@@ -136,13 +136,15 @@ export const saecoConfig = {
       cards: [
         {
           image: BancoComercio,
+          link: "https://www.bancomercio.com",
           title: "Banco Comercio",
-          description: "TEA hasta 16%",
+          description: "TEA hasta 16% por convenio",
         },
         {
           image: BancoGng,
+          link: "https://www.bancognb.com.pe",
           title: "Banco Gng",
-          description: "TEA hasta 9.5%",
+          description: "TEA hasta 9.5% por convenio",
         },
         // {
         //   image: BancoPichincha,
@@ -154,13 +156,15 @@ export const saecoConfig = {
         // },
         {
           image: BancoInterbank,
+          link: "https://interbank.pe",
           title: "Banco Interbank",
-          description: "TEA hasta 16%",
+          description: "TEA hasta 16% por convenio",
         },
         {
           image: BancoScotiabank,
+          link: "https://www.scotiabank.com.pe",
           title: "Banco Scotiabank",
-          description: "TEA hasta 16%",
+          description: "TEA hasta 16% por convenio",
         },
       ],
     },
@@ -170,10 +174,38 @@ export const saecoConfig = {
         {
           image: ConvenioSalud1,
           title: "Apelac",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+            },
+          ],
         },
         {
           image: ConvenioSalud2,
           title: "Biolinks",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD\n," +
+                "TARIFA CON CONVENIO 20% DESCUENTO\n," +
+                "EXÁMENES DE LABORATORIO CLÍNICO ONCOLÓGICO - ÁREA DE DIAGNÓSTICO.\n" +
+                "EXAMEN DE LABORATORIO CLÍNICO - ÁREAS INFECCIOSAS",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://biolinksperu.com",
+            },
+          ],
         },
         {
           image: ConvenioSalud3,
@@ -182,22 +214,89 @@ export const saecoConfig = {
         {
           image: ConvenioSalud4,
           title: "Inppares",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "TARIFAS ESPECIALES 10% DE DESCUENTO SOBRE PRECIO AL PÚBLICO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://inppares.org/",
+            },
+          ],
         },
         {
           image: ConvenioSalud5,
-          title: "Mediofon",
+          title: "Medifon",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                " DESCUENTO DE $ 150.00 DÓLARES POR LA COMPRA DE AUDÍFONOS MARCA BELTONE\n" +
+                " 25% DESCUENTO EN REPUESTOS Y ACCESORIOS",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://medifonperu.pe/",
+            },
+          ],
         },
         {
           image: ConvenioSalud6,
           title: "MultiDent",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                " COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://www.multident.pe",
+            },
+          ],
         },
         {
           image: ConvenioSalud7,
           title: "Tinnitus",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                " COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "http://tinnitusperu.com",
+            },
+          ],
         },
         {
           image: ConvenioSalud8,
           title: "Unilabs",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "ANÁLISIS CLÍNICOS 40% DE DESCUENTO\n" +
+                "ANÁLISIS ESPECIALES 10% DE DESCUENTO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://unilabs.pe",
+            },
+          ],
         },
       ],
     },
@@ -207,26 +306,111 @@ export const saecoConfig = {
         {
           image: TiendaFootloose,
           title: "Footloose",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "20 % DE DESCUENTO MARCAS PROPIAS Y 10% OTRAS MARCAS",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://www.footloose.pe",
+            },
+          ],
         },
         {
           image: TiendaLazzos,
           title: "Lazzos",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "20% DE DESCUENTO SOBRE EL PRECIO DE ETIQUETA EN TODAS LAS TIENDAS MOSSA SHOES Y VISANO TIENDA FÍSICO Y VIRTUAL",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://www.lazzos.com.pe",
+            },
+          ],
         },
         {
           image: TiendaLogistas,
           title: "Logistas",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "SERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n" +
+                "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+            },
+          ],
         },
         {
           image: TiendaRenzoCosta,
           title: "Renzo Costa",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "10% TIENDAS PROPIAS (MIRAFLORES, SAN ISIDRO, OUTLET FÀBRICA Y TACNA).\n" +
+                "5% DESCUENTO EN LOS CENTROS COMERCIALES.",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://www.renzocosta.com",
+            },
+          ],
         },
         {
           image: SmartFit,
           title: "SmartFit",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "EXONERACIÓN DEL PAGO ÚNICO DE “MATRÍCULA”.\n" +
+                "EXONERACIÓN DEL PAGO ANUAL DE “MANTENIMIENTO”.\n" +
+                "EXONERACIÓN DEL PAGO POR PENALIDAD\n" +
+                "ENTRENAMIENTO EN TODO EL PERÚ Y LATINOAMÉRICA.\n" +
+                "INVITACIÓN DE AMIGOS Y FAMILIARES HASTA 5 VECES AL MES.n\n" +
+                "PAGO MENSUAL S/ 99.\n" +
+                "INGRESANDO CON EL CÓDIGO DE VALIDACIÓN “CORPORATIVO EP”",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://www.smartfit.com.pe",
+            },
+          ],
         },
         {
           image: TiendaSugo,
           title: "Sugo",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              description:
+                "ACCESO EN LÍNEA EN SUS PLATAFORMAS EN COMPRAS DE CONSUMO SOSTENIBLE HASTA 50% DEL PRECIO EN EL MERCADO",
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              description:
+                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              link: "https://www.sugo.pe",
+            },
+          ],
         },
       ],
     },
@@ -235,18 +419,21 @@ export const saecoConfig = {
       cards: [
         {
           image: FinancieraEfectiva,
+          link: "https://www.efectiva.com.pe",
           title: "Financiera Efectiva",
-          description: "TEA hasta 18.5%",
+          description: "TEA hasta 18.5% por convenio",
         },
         {
           image: FinancieraFinantel,
+          link: "https://www.finantel.pe",
           title: "Financiera Finantel",
-          description: "TEA hasta 18.5%",
+          description: "TEA hasta 18.5% por convenio",
         },
         {
           image: FinancieraLarehabilitadora,
+          link: "https://larehabilitadora.com",
           title: "Financiera La Rehabilitadora",
-          description: "TEA hasta 18%",
+          description: "TEA hasta 18% por convenio",
         },
       ],
     },
@@ -255,10 +442,12 @@ export const saecoConfig = {
       cards: [
         {
           image: SeguroRimac,
+          link: "https://www.rimac.com",
           title: "Seguros Rimac",
         },
         {
           image: SeguroSaludPositiva,
+          link: "https://www.lapositiva.com.pe",
           title: "Seguro Salud Positiva",
         },
         {
@@ -276,10 +465,12 @@ export const saecoConfig = {
       cards: [
         {
           image: Transporte1,
+          link: "https://www.movilbus.pe/",
           title: "Movilbus",
         },
         {
           image: Transporte2,
+          link: "https://www.oltursa.pe",
           title: "Oltursa",
         },
       ],

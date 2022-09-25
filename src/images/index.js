@@ -30,7 +30,8 @@ export { default as SaedBannePublic } from "./saed/banner1.webp";
 
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";
-export { default as SadAboutTwo } from "./sad/apoyosad.webp";
+export { default as SadAboutTwo } from "./sad/nosotrossadnew.webp";
+export { default as SadPro } from "./sad/sadnew2.webp";
 export { default as SadCarousel } from "./sad/carousel-sad.webp";
 export { default as SadServiceTejido } from "./sad/service-tejido.webp";
 export { default as SadServiceArtesania } from "./sad/services-artesania.webp";
@@ -61,6 +62,8 @@ export { default as TitleChorrillos } from "./cmsts/titlesedechorrillos.webp";
 export { default as Cabanadelguerrero } from "./cmsts/salondelguerrero.webp";
 export { default as ZonaEsparciminetoChorrillos } from "./cmsts/zonaEsparcimientoChorrillos.webp";
 export { default as ZonaEsparcimientoTarapaca } from "./cmsts/zonaEsparcimientoTarapaca.webp";
+export { default as CirculoChorrillosSalon } from "./cmsts/newchorrillossalon.webp";
+export { default as CirculoChorrillosDeportivo } from "./cmsts/newchorrillosdeportivo.webp";
 export { default as ZonaEsparcimientoRimac } from "./cmsts/ZonaEsparcimientoRimac.webp";
 
 export { default as TitleTarapaca } from "./cmsts/titlesedetarapaca.webp";
@@ -180,7 +183,151 @@ export { default as JaeAbout } from "./jae/jae-about.webp";
 export { default as JaeCarousel } from "./jae/new11.webp";
 export { default as JaeCarousel2 } from "./jae/jae-carousel.webp";
 export { default as JaeOthers } from "./jae/jae-others.webp";
-
+// ------ JAE IMAGES -------
+export { default as PedroRuiz } from "./schools/lima-schools/imgSchools/Group 24.webp";
+export { default as AlfredoBonifaz } from "./schools/lima-schools/imgSchools/2alfredobonifazcollage.webp";
+export { default as EmilioSoyer } from "./schools/lima-schools/imgSchools/3emiliosoyercollage.webp";
+export { default as JoseJoaquin } from "./schools/lima-schools/imgSchools/josejoaquin.webp";
+export { default as JoseJoaquin2 } from "./schools/lima-schools/imgSchools/josejoaquin2.webp";
+export { default as JoseJoaquin3 } from "./schools/lima-schools/imgSchools/josejoaquin3.webp";
+export { default as JoseJoaquin4 } from "./schools/lima-schools/imgSchools/josejoaquin4.webp";
+export { default as Jesusni } from "./schools/lima-schools/imgSchools/5jesusnino.webp";
+export { default as LaEsperanza } from "./schools/lima-schools/imgSchools/6laesperanza.webp";
+export { default as Matellini } from "./schools/lima-schools/imgSchools/7Matellini.webp";
+export { default as LasPalmas } from "./schools/lima-schools/imgSchools/9laspalmas.webp";
+export { default as LasPalmasDos } from "./schools/lima-schools/imgSchools/palmas2.webp";
+export { default as LasPalmasTres } from "./schools/lima-schools/imgSchools/palmas3.webp";
+export { default as PrimerosPasos } from "./schools/lima-schools/imgSchools/primerospasos1.webp";
+export { default as PrimerosPasos2 } from "./schools/lima-schools/imgSchools/primerospasos2.webp";
+export { default as PrimerosPasos3 } from "./schools/lima-schools/imgSchools/primerospasos3.webp";
+// ------ JAE IMAGES DE PEDRO RUIZ -------
+export { default as CollagePedroRuiz } from "./schools/lima-schools/imgSchools/1pedro.webp";
+export { default as CollagePedroRuizDos } from "./schools/lima-schools/imgSchools/2pedroruiz.webp";
+export { default as CollagePedroRuizTres } from "./schools/lima-schools/imgSchools/3pedroruiz.webp";
+export { default as CollagePedroRuizCuatro } from "./schools/lima-schools/imgSchools/4pedroruiz.webp";
+export { default as CollagePedroRuizCinco } from "./schools/lima-schools/imgSchools/5pedroruiz.webp";
+export { default as CollagePedroRuizSeis } from "./schools/lima-schools/imgSchools/6pedroruiz.webp";
+// ------ JAE IMAGES DE AlfredoBonifaz -------
+export { default as CollageAlfredoBonifaz } from "./schools/lima-schools/imgSchools/afredo2.webp";
+export { default as CollageAlfredoBonifazDos } from "./schools/lima-schools/imgSchools/alfredo3.webp";
+export { default as CollageAlfredoBonifazTres } from "./schools/lima-schools/imgSchools/alfredo4.webp";
+export { default as CollageAlfredoBonifazCuatro } from "./schools/lima-schools/imgSchools/alfredo5.webp";
+export { default as CollageAlfredoBonifazCinco } from "./schools/lima-schools/imgSchools/alfredo6.webp";
+export { default as CollageAlfredoBonifazSeis } from "./schools/lima-schools/imgSchools/alfredo7.webp";
+// ------ JAE IMAGES DE Emilio -------
+export { default as CollageEmilio } from "./schools/lima-schools/imgSchools/1emilio.webp";
+export { default as CollageEmilioDos } from "./schools/lima-schools/imgSchools/2emilio.webp";
+export { default as CollageEmilioTres } from "./schools/lima-schools/imgSchools/3emilio.webp";
+export { default as CollageEmilioCuatro } from "./schools/lima-schools/imgSchools/4emilio.webp";
+export { default as CollageEmilioCinco } from "./schools/lima-schools/imgSchools/5emilio.webp";
+export { default as CollageEmilioSeis } from "./schools/lima-schools/imgSchools/6emilio.webp";
+export { default as CollageEmilioSiete } from "./schools/lima-schools/imgSchools/7emilio.webp";
+// ------ JAE IMAGES DE JESUS -------
+export { default as CollageJesus } from "./schools/lima-schools/imgSchools/1jesus.webp";
+export { default as CollageJesusDos } from "./schools/lima-schools/imgSchools/2jesus.webp";
+export { default as CollageJesusTres } from "./schools/lima-schools/imgSchools/3jesus.webp";
+export { default as CollageJesusCuatro } from "./schools/lima-schools/imgSchools/4jesus.webp";
+export { default as CollageJesusCinco } from "./schools/lima-schools/imgSchools/5jesus.webp";
+export { default as CollageJesusSeis } from "./schools/lima-schools/imgSchools/6jesus.webp";
+export { default as CollageJesusSiete } from "./schools/lima-schools/imgSchools/7jesus.webp";
+export { default as CollageJesusOcho } from "./schools/lima-schools/imgSchools/8jesus.webp";
+export { default as CollageJesusNueve } from "./schools/lima-schools/imgSchools/9jesus.webp";
+export { default as CollageJesusDiez } from "./schools/lima-schools/imgSchools/10jesus.webp";
+// ------ JAE IMAGES DE LA ESPERANZA -------
+export { default as CollageEsperanza } from "./schools/lima-schools/imgSchools/1esperanza.webp";
+export { default as CollageEsperanzaDos } from "./schools/lima-schools/imgSchools/2esperanza.webp";
+export { default as CollageEsperanzaTres } from "./schools/lima-schools/imgSchools/3esperanza.webp";
+export { default as CollageEsperanzaCuatro } from "./schools/lima-schools/imgSchools/4esperanza.webp";
+export { default as CollageEsperanzaCinco } from "./schools/lima-schools/imgSchools/5esperanza.webp";
+// ------ JAE IMAGES DE MATELLINI -------
+export { default as CollageMatellini } from "./schools/lima-schools/imgSchools/1matellini.webp";
+export { default as CollageMatelliniDos } from "./schools/lima-schools/imgSchools/2matellini.webp";
+export { default as CollageMatelliniTres } from "./schools/lima-schools/imgSchools/3matellini.webp";
+export { default as CollageMatelliniCuatro } from "./schools/lima-schools/imgSchools/4matellini.webp";
+export { default as CollageMatelliniCinco } from "./schools/lima-schools/imgSchools/5matellini.webp";
+// ------ JAE IMAGES DE SANTA ISABEL -------
+export { default as CollageSantaIsabel } from "./schools/lima-schools/imgSchools/1SantaIsabel.webp";
+export { default as CollageSantaIsabelDos } from "./schools/lima-schools/imgSchools/2SantaIsabel.webp";
+export { default as CollageSantaIsabelTres } from "./schools/lima-schools/imgSchools/3SantaIsabel.webp";
+export { default as CollageSantaIsabelCuatro } from "./schools/lima-schools/imgSchools/4santaisabel.webp";
+export { default as CollageSantaIsabelCinco } from "./schools/lima-schools/imgSchools/5santaisabel.webp";
+export { default as CollageSantaIsabelSeis } from "./schools/lima-schools/imgSchools/6santaisabel.webp";
+export { default as CollageSantaIsabelSiete } from "./schools/lima-schools/imgSchools/7santaisabel.webp";
+// ------ JAE IMAGES DE ANDRES AVELINO TUMBES -------
+export { default as CollageAndresTumbes } from "./schools/lima-schools/imgSchools/andrestumbes.webp";
+export { default as CollageAndresTumbesDos } from "./schools/lima-schools/imgSchools/andrestumbes2.webp";
+export { default as CollageAndresTumbesTres } from "./schools/lima-schools/imgSchools/andrestumbes3.webp";
+export { default as CollageAndresTumbesCuatro } from "./schools/lima-schools/imgSchools/andrestumbes4.webp";
+export { default as CollageAndresTumbesCinco } from "./schools/lima-schools/imgSchools/andrestumbes5.webp";
+// ------ JAE IMAGES DE MIGUEL CORTEZ -------
+export { default as CollageMiguelCortez } from "./schools/lima-schools/imgSchools/miguelcortez1.webp";
+export { default as CollageMiguelCortezDos } from "./schools/lima-schools/imgSchools/miguelcortez2.webp";
+export { default as CollageMiguelCortezTres } from "./schools/lima-schools/imgSchools/miguelcortez3.webp";
+export { default as CollageMiguelCortezCuatro } from "./schools/lima-schools/imgSchools/miguelcortez4.webp";
+export { default as CollageMiguelCortezCinco } from "./schools/lima-schools/imgSchools/miguelcortez5.webp";
+// ------ JAE IMAGES DE INGLAN -------
+export { default as CollageInclan } from "./schools/lima-schools/imgSchools/inclanpiura1.webp";
+export { default as CollageInclanDos } from "./schools/lima-schools/imgSchools/inclanpiura2.webp";
+export { default as CollageInclanTres } from "./schools/lima-schools/imgSchools/inclanpiura3.webp";
+export { default as CollageInclanCuatro } from "./schools/lima-schools/imgSchools/inclanpiura4.webp";
+export { default as CollageInclanCinco } from "./schools/lima-schools/imgSchools/inclanpiura5.webp";
+export { default as CollageInclanSeis } from "./schools/lima-schools/imgSchools/inclanpiura6.webp";
+// ------ JAE IMAGES DE BOLOGNESI -------
+export { default as CollageBolognesi } from "./schools/lima-schools/imgSchools/bolognesi1.webp";
+export { default as CollageBolognesiDos } from "./schools/lima-schools/imgSchools/bolognesi2.webp";
+export { default as CollageBolognesiTres } from "./schools/lima-schools/imgSchools/bolognesi3.webp";
+export { default as CollageBolognesiCuatro } from "./schools/lima-schools/imgSchools/bolognesi4.webp";
+export { default as CollageBolognesiCinco } from "./schools/lima-schools/imgSchools/bolognesi5.webp";
+// ------ JAE IMAGES DE NuestrosHeroes -------
+export { default as CollageNuestrosHeroes } from "./schools/lima-schools/imgSchools/nuestrosheroes1.webp";
+export { default as CollageNuestrosHeroesDos } from "./schools/lima-schools/imgSchools/nuestrosheroes2.webp";
+export { default as CollageNuestrosHeroesTres } from "./schools/lima-schools/imgSchools/nuestrosheroes3.webp";
+export { default as CollageNuestrosHeroesCuatro } from "./schools/lima-schools/imgSchools/nuestrosheroes4.webp";
+export { default as CollageNuestrosHeroesCinco } from "./schools/lima-schools/imgSchools/nuestrosheroes5.webp";
+export { default as CollageNuestrosHeroesSeis } from "./schools/lima-schools/imgSchools/nuestrosheroes6.webp";
+// ------ JAE IMAGES DE CASERES LOCUMBA -------
+export { default as CollageAndresLocumba } from "./schools/lima-schools/imgSchools/casereslocumba.webp";
+export { default as CollageAndresLocumbaDos } from "./schools/lima-schools/imgSchools/casereslocumba2.webp";
+export { default as CollageAndresLocumbaTres } from "./schools/lima-schools/imgSchools/casereslocumba3.webp";
+export { default as CollageAndresLocumbaCuatro } from "./schools/lima-schools/imgSchools/casereslocumba4.webp";
+// ------ JAE IMAGES DE RAMON ZAVALA -------
+export { default as CollageRamonZavala } from "./schools/lima-schools/imgSchools/ramonzavala.webp";
+export { default as CollageRamonZavalaDos } from "./schools/lima-schools/imgSchools/ramonzavala2.webp";
+export { default as CollageRamonZavalaTres } from "./schools/lima-schools/imgSchools/ramonzavala3.webp";
+export { default as CollageRamonZavalaCuatro } from "./schools/lima-schools/imgSchools/ramonzavala4.webp";
+// ------ JAE IMAGES DE RAMON ZAVALA -------
+export { default as CollageTarapacaIquitos } from "./schools/lima-schools/imgSchools/tarapacaiquito.webp";
+export { default as CollageTarapacaIquitosDos } from "./schools/lima-schools/imgSchools/tarapacaiquito2.webp";
+export { default as CollageTarapacaIquitosTres } from "./schools/lima-schools/imgSchools/tarapacaiquito3.webp";
+export { default as CollageTarapacaIquitosCuatro } from "./schools/lima-schools/imgSchools/tarapacaiquito4.webp";
+export { default as CollageTarapacaIquitosCinco } from "./schools/lima-schools/imgSchools/tarapacaiquito5.webp";
+// ------ JAE IMAGES DE MONTESSORI -------
+export { default as CollageMontessori } from "./schools/lima-schools/imgSchools/montessori.webp";
+export { default as CollageMontessoriDos } from "./schools/lima-schools/imgSchools/montessori2.webp";
+export { default as CollageMontessoriTres } from "./schools/lima-schools/imgSchools/montessori3.webp";
+// ------ JAE IMAGES DE ANDRES AVELINO CACERES PUNO -------
+export { default as CollageAndresPuno } from "./schools/lima-schools/imgSchools/andrespuno.webp";
+export { default as CollageAndresPuno2 } from "./schools/lima-schools/imgSchools/andrespuno2.webp";
+export { default as CollageAndresPuno3 } from "./schools/lima-schools/imgSchools/andrespuno3.webp";
+export { default as CollageAndresPuno4 } from "./schools/lima-schools/imgSchools/andrespuno4.webp";
+// ------ JAE IMAGES DE AREQUIPA COLEGIO -------
+export { default as CollageArequipa } from "./schools/lima-schools/imgSchools/arequipa.webp";
+export { default as CollageArequipa2 } from "./schools/lima-schools/imgSchools/arequipa2.webp";
+export { default as CollageArequipa3 } from "./schools/lima-schools/imgSchools/arequipa3.webp";
+export { default as CollageArequipa4 } from "./schools/lima-schools/imgSchools/arequipa4.webp";
+export { default as CollageArequipa5 } from "./schools/lima-schools/imgSchools/arequipa5.webp";
+export { default as CollageArequipa6 } from "./schools/lima-schools/imgSchools/arequipa6.webp";
+export { default as CollageArequipa7 } from "./schools/lima-schools/imgSchools/arequipa7.webp";
+export { default as CollageArequipa8 } from "./schools/lima-schools/imgSchools/arequipa8.webp";
+// ------ JAE IMAGES DE ANDRES AVELINO CACERES IQUITOS -------
+export { default as CollageAndresIquitos } from "./schools/lima-schools/imgSchools/andresiquitos.webp";
+export { default as CollageAndresIquitos2 } from "./schools/lima-schools/imgSchools/andresiquitos2.webp";
+export { default as CollageAndresIquitos3 } from "./schools/lima-schools/imgSchools/andresiquitos3.webp";
+export { default as CollageAndresIquitos4 } from "./schools/lima-schools/imgSchools/andresiquitos4.webp";
+export { default as CollageAndresIquitos5 } from "./schools/lima-schools/imgSchools/andresiquitos5.webp";
+export { default as CollageAndresIquitos6 } from "./schools/lima-schools/imgSchools/andresiquitos6.webp";
+export { default as CollageAndresIquitos7 } from "./schools/lima-schools/imgSchools/andresiquitos7.webp";
+export { default as CollageAndresIquitos8 } from "./schools/lima-schools/imgSchools/andresiquitos8.webp";
 // ------ SAECO IMAGES -------
 export { default as TitleAyudaEconomica } from "./saeco/titleayudaeconomica.webp";
 export { default as SaecoImgCarousel } from "./saeco/img-carousel.webp";

@@ -42,10 +42,10 @@ export const TemplateConfig = ({ children }) => {
         return setTemplateType("sad");
       case "saed.cobiene.mil.pe":
         return setTemplateType("saed");
-      case "saeco.cobiene.mil.pe":
+      case "apoyosocial.cobiene.mil.pe":
         return setTemplateType("saeco");
       default:
-        return setTemplateType("default");
+        return setTemplateType("cmsts");
     }
   }, [hostName]);
 

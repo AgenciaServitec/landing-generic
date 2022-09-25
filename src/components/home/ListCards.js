@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Modal } from "../ui";
+import { CarouselOnlyImages } from "./CarouselOnlyImages";
 
 const listCardsTypes = {
   primary: {
@@ -54,17 +55,24 @@ export const ListCards = ({
               imgHeight={listCardsStyle.imgHeight}
               descriptionLarge={item.descriptionLarge}
             >
-              {item.image && (
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="image-bg"
-                  onClick={() => {
-                    setRequirements(item.descriptionLarge);
-                    showModal();
-                  }}
-                />
-              )}
+              <a
+                href={item.link && item.link}
+                target={item.link && "_blank"}
+                rel={item.link && "noreferrer"}
+              >
+                {item.image && (
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="image-bg"
+                    onClick={() => {
+                      item.descriptionLarge &&
+                        setRequirements(item.descriptionLarge);
+                      item.descriptionLarge && showModal();
+                    }}
+                  />
+                )}
+              </a>
               {item.title && <h3>{item.title}</h3>}
               {item.title2 && <h5>{item.title2}</h5>}
               {item.title3 && <h5>{item.title3}</h5>}
@@ -86,7 +94,8 @@ export const ListCards = ({
       </div>
 
       <Modal
-        title="Requerimientos"
+        styles={{ width: "100% !importand" }}
+        title={title}
         visible={modalVisible}
         closable
         onCancel={() => handleCancel()}
@@ -94,11 +103,25 @@ export const ListCards = ({
         <ul>
           {requirements.map((requirement, index) => (
             <div key={index}>
-              <li>
-                {requirement.title && <h4>{requirement.title}</h4>}
-                {requirement.description && <p>{requirement.description}</p>}
-              </li>
-              {requirement.image && <img src={requirement.image} alt="nohay" />}
+              {requirement.title && (
+                <li>
+                  <h4>{requirement.title}</h4>
+                  <p>{requirement.description}</p>
+                  {requirement.link && (
+                    <a href={requirement.link} target="_blank" rel="noreferrer">
+                      <span style={{ color: "#0076fd", cursor: "pointer" }}>
+                        Ver Nuestra Pagina
+                      </span>
+                    </a>
+                  )}
+                </li>
+              )}
+              {/*{requirement.image && <img src={requirement.image} alt="nohay" />}*/}
+              {requirement.images && (
+                <div styles={{ width: "100%", flex: "display" }}>
+                  <CarouselOnlyImages images={requirement?.images} />
+                </div>
+              )}
             </div>
           ))}
         </ul>

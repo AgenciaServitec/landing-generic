@@ -16,7 +16,7 @@ export const CarouselOnlyImages = ({ images }) => {
     <Container>
       <AntCarousel
         autoplay
-        autoplaySpeed={5 * 1000}
+        autoplaySpeed={2 * 1000}
         arrows={!isMobile}
         prevArrow={<FontAwesomeIcon icon={faChevronLeft} />}
         nextArrow={<FontAwesomeIcon icon={faChevronRight} />}
@@ -110,6 +110,7 @@ const Container = styled.div`
 
 const ItemImg = styled.img`
   width: 100%;
-  height: 100%;
+  //max-height: 100%;
+  height: 50em;
   object-fit: cover;
 `;

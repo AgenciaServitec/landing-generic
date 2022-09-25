@@ -1,5 +1,33 @@
 import {
   CobieneLogoLarge,
+  CollageAlfredoBonifaz,
+  CollageAlfredoBonifazCinco,
+  CollageAlfredoBonifazCuatro,
+  CollageAlfredoBonifazDos,
+  CollageAlfredoBonifazSeis,
+  CollageAlfredoBonifazTres,
+  CollageEmilio,
+  CollageEmilioDos,
+  CollageEmilioTres,
+  CollageEmilioCuatro,
+  CollageEmilioCinco,
+  CollageEmilioSeis,
+  CollageEmilioSiete,
+  CollagePedroRuiz,
+  CollagePedroRuizCinco,
+  CollagePedroRuizCuatro,
+  CollagePedroRuizDos,
+  CollagePedroRuizSeis,
+  CollagePedroRuizTres,
+  LaEsperanza,
+  LasPalmas,
+  LasPalmasDos,
+  LasPalmasTres,
+  PrimerosPasos,
+  CollageEsperanzaDos,
+  CollageEsperanzaTres,
+  CollageEsperanzaCuatro,
+  CollageEsperanzaCinco,
   Inst1,
   Inst10,
   Inst11,
@@ -26,6 +54,100 @@ import {
   JaeCarousel,
   JaeCarousel2,
   JaeOthers,
+  JoseJoaquin,
+  Jesusni,
+  CollageJesus,
+  CollageJesusDos,
+  CollageJesusTres,
+  CollageJesusCuatro,
+  CollageJesusCinco,
+  CollageJesusSeis,
+  CollageJesusSiete,
+  CollageJesusOcho,
+  CollageJesusNueve,
+  CollageJesusDiez,
+  CollageEsperanza,
+  Matellini,
+  CollageMatellini,
+  CollageMatelliniDos,
+  CollageMatelliniTres,
+  CollageMatelliniCuatro,
+  CollageMatelliniCinco,
+  CollageSantaIsabel,
+  CollageSantaIsabelDos,
+  CollageSantaIsabelTres,
+  CollageSantaIsabelCuatro,
+  CollageSantaIsabelCinco,
+  CollageSantaIsabelSeis,
+  CollageSantaIsabelSiete,
+  CollageAndresTumbes,
+  CollageAndresTumbesDos,
+  CollageAndresTumbesTres,
+  CollageAndresTumbesCuatro,
+  CollageAndresTumbesCinco,
+  CollageMiguelCortez,
+  CollageMiguelCortezDos,
+  CollageMiguelCortezTres,
+  CollageMiguelCortezCuatro,
+  CollageMiguelCortezCinco,
+  CollageInclan,
+  CollageInclanDos,
+  CollageInclanTres,
+  CollageInclanCuatro,
+  CollageInclanCinco,
+  CollageInclanSeis,
+  CollageBolognesi,
+  CollageBolognesiDos,
+  CollageBolognesiTres,
+  CollageBolognesiCuatro,
+  CollageBolognesiCinco,
+  CollageNuestrosHeroes,
+  CollageNuestrosHeroesDos,
+  CollageNuestrosHeroesTres,
+  CollageNuestrosHeroesCuatro,
+  CollageNuestrosHeroesCinco,
+  CollageNuestrosHeroesSeis,
+  CollageAndresLocumba,
+  CollageAndresLocumbaDos,
+  CollageAndresLocumbaTres,
+  CollageAndresLocumbaCuatro,
+  CollageRamonZavala,
+  CollageRamonZavalaDos,
+  CollageRamonZavalaTres,
+  CollageRamonZavalaCuatro,
+  CollageTarapacaIquitos,
+  CollageTarapacaIquitosDos,
+  CollageTarapacaIquitosTres,
+  CollageTarapacaIquitosCuatro,
+  CollageTarapacaIquitosCinco,
+  CollageMontessori,
+  CollageMontessoriDos,
+  CollageMontessoriTres,
+  CollageAndresPuno,
+  CollageAndresPuno2,
+  CollageAndresPuno3,
+  CollageAndresPuno4,
+  CollageArequipa,
+  CollageArequipa2,
+  CollageArequipa3,
+  CollageArequipa4,
+  CollageArequipa5,
+  CollageArequipa6,
+  CollageArequipa7,
+  CollageArequipa8,
+  CollageAndresIquitos,
+  CollageAndresIquitos2,
+  CollageAndresIquitos3,
+  CollageAndresIquitos4,
+  CollageAndresIquitos5,
+  CollageAndresIquitos6,
+  CollageAndresIquitos7,
+  CollageAndresIquitos8,
+  JoseJoaquin2,
+  JoseJoaquin3,
+  JoseJoaquin4,
+  PrimerosPasos2,
+  PrimerosPasos3,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -111,7 +233,15 @@ export const jaeConfig = {
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           descriptionLarge: [
             {
-              image: Inst1,
+              images: [
+                // PedroRuiz,
+                CollagePedroRuiz,
+                CollagePedroRuizDos,
+                CollagePedroRuizTres,
+                CollagePedroRuizCuatro,
+                CollagePedroRuizCinco,
+                CollagePedroRuizSeis,
+              ],
             },
           ],
           button: "",
@@ -122,6 +252,19 @@ export const jaeConfig = {
           title2: "Tte. Crl Alfredo Bonifaz",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                // AlfredoBonifaz,
+                CollageAlfredoBonifaz,
+                CollageAlfredoBonifazDos,
+                CollageAlfredoBonifazTres,
+                CollageAlfredoBonifazCuatro,
+                CollageAlfredoBonifazCinco,
+                CollageAlfredoBonifazSeis,
+              ],
+            },
+          ],
         },
         {
           image: Inst3,
@@ -129,6 +272,20 @@ export const jaeConfig = {
           title2: "6005 GRAL EMILIO SOYER CABERO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                // EmilioSoyer,
+                CollageEmilio,
+                CollageEmilioDos,
+                CollageEmilioTres,
+                CollageEmilioCuatro,
+                CollageEmilioCinco,
+                CollageEmilioSeis,
+                CollageEmilioSiete,
+              ],
+            },
+          ],
         },
         {
           image: Inst4,
@@ -136,6 +293,11 @@ export const jaeConfig = {
           title2: "CRL JOSE JOAQUIN INCLAN",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [JoseJoaquin, JoseJoaquin2, JoseJoaquin3, JoseJoaquin4],
+            },
+          ],
         },
         {
           image: Inst5,
@@ -143,6 +305,23 @@ export const jaeConfig = {
           title2: "JESUS NIÑO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                Jesusni,
+                CollageJesus,
+                CollageJesusDos,
+                CollageJesusTres,
+                CollageJesusCuatro,
+                CollageJesusCinco,
+                CollageJesusSeis,
+                CollageJesusSiete,
+                CollageJesusOcho,
+                CollageJesusNueve,
+                CollageJesusDiez,
+              ],
+            },
+          ],
         },
         {
           image: Inst6,
@@ -150,6 +329,18 @@ export const jaeConfig = {
           title2: "LA ESPERANZA",
           title3: "CUNA - JARDIN",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                LaEsperanza,
+                CollageEsperanza,
+                CollageEsperanzaDos,
+                CollageEsperanzaTres,
+                CollageEsperanzaCuatro,
+                CollageEsperanzaCinco,
+              ],
+            },
+          ],
         },
         {
           image: Inst7,
@@ -157,6 +348,18 @@ export const jaeConfig = {
           title2: "MATELLINI",
           title3: "CUNA - JARDIN",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                Matellini,
+                CollageMatellini,
+                CollageMatelliniDos,
+                CollageMatelliniTres,
+                CollageMatelliniCuatro,
+                CollageMatelliniCinco,
+              ],
+            },
+          ],
         },
         {
           image: Inst8,
@@ -164,6 +367,11 @@ export const jaeConfig = {
           title2: "Primeros Pasos",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [PrimerosPasos, PrimerosPasos2, PrimerosPasos3],
+            },
+          ],
         },
         {
           image: Inst9,
@@ -171,6 +379,11 @@ export const jaeConfig = {
           title2: "Las Palmas",
           title3: "INICIAL",
           button: "",
+          descriptionLarge: [
+            {
+              images: [LasPalmas, LasPalmasDos, LasPalmasTres],
+            },
+          ],
         },
         {
           image: Inst10,
@@ -178,6 +391,19 @@ export const jaeConfig = {
           title2: "SANTA ISABEL",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageSantaIsabel,
+                CollageSantaIsabelDos,
+                CollageSantaIsabelTres,
+                CollageSantaIsabelCuatro,
+                CollageSantaIsabelCinco,
+                CollageSantaIsabelSeis,
+                CollageSantaIsabelSiete,
+              ],
+            },
+          ],
         },
         {
           image: Inst11,
@@ -197,6 +423,17 @@ export const jaeConfig = {
           title2: "MCAL ANDRES AVELINO CACERES - TUMBES",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageAndresTumbes,
+                CollageAndresTumbesDos,
+                CollageAndresTumbesTres,
+                CollageAndresTumbesCuatro,
+                CollageAndresTumbesCinco,
+              ],
+            },
+          ],
         },
         {
           image: Inst20,
@@ -204,6 +441,17 @@ export const jaeConfig = {
           title2: "TTE MIGUEL CORTES - SULLANA",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageMiguelCortez,
+                CollageMiguelCortezDos,
+                CollageMiguelCortezTres,
+                CollageMiguelCortezCuatro,
+                CollageMiguelCortezCinco,
+              ],
+            },
+          ],
         },
         {
           image: Inst15,
@@ -211,6 +459,18 @@ export const jaeConfig = {
           title2: "CRL JOSE JOAQUIN INCLAN - PIURA  ",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageInclan,
+                CollageInclanDos,
+                CollageInclanTres,
+                CollageInclanCuatro,
+                CollageInclanCinco,
+                CollageInclanSeis,
+              ],
+            },
+          ],
         },
         {
           image: Inst22,
@@ -218,6 +478,20 @@ export const jaeConfig = {
           title2: "40159  AREQUIPA” - AREQUIPA",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageArequipa,
+                CollageArequipa2,
+                CollageArequipa3,
+                CollageArequipa4,
+                CollageArequipa5,
+                CollageArequipa6,
+                CollageArequipa7,
+                CollageArequipa8,
+              ],
+            },
+          ],
         },
         {
           image: Inst13,
@@ -225,6 +499,16 @@ export const jaeConfig = {
           title2: "ANDRES AVELINO CACERES - PUNO",
           title3: "INICIAL - PRIMARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageAndresPuno,
+                CollageAndresPuno2,
+                CollageAndresPuno3,
+                CollageAndresPuno4,
+              ],
+            },
+          ],
         },
         {
           image: Inst21,
@@ -232,6 +516,17 @@ export const jaeConfig = {
           title2: "CRL FRANCISCO BOLONESI - CUZCO",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageBolognesi,
+                CollageBolognesiDos,
+                CollageBolognesiTres,
+                CollageBolognesiCuatro,
+                CollageBolognesiCinco,
+              ],
+            },
+          ],
         },
         {
           image: Inst16,
@@ -239,6 +534,18 @@ export const jaeConfig = {
           title2: "NUESTROS HEROES DE LA GUERRA DEL PACIFICO - TACNA",
           title3: "INICIAL - PRIMARIA - SECUNDARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageNuestrosHeroes,
+                CollageNuestrosHeroesDos,
+                CollageNuestrosHeroesTres,
+                CollageNuestrosHeroesCuatro,
+                CollageNuestrosHeroesCinco,
+                CollageNuestrosHeroesSeis,
+              ],
+            },
+          ],
         },
         {
           image: Inst12,
@@ -246,6 +553,16 @@ export const jaeConfig = {
           title2: "ANDRES AVELINO CACERES - LOCUMBA",
           title3: "INICIAL - PRIMARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageAndresLocumba,
+                CollageAndresLocumbaDos,
+                CollageAndresLocumbaTres,
+                CollageAndresLocumbaCuatro,
+              ],
+            },
+          ],
         },
         {
           image: Inst12,
@@ -253,6 +570,16 @@ export const jaeConfig = {
           title2: "CRL RAMON ZAVALA SUAREZ - LOCUMBA",
           title3: "INICIAL",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageRamonZavala,
+                CollageRamonZavalaDos,
+                CollageRamonZavalaTres,
+                CollageRamonZavalaCuatro,
+              ],
+            },
+          ],
         },
         {
           image: Inst17,
@@ -260,6 +587,20 @@ export const jaeConfig = {
           title2: "MCAL ANDRES AVELINO CACERES - Iquitos",
           title3: "INICIAL",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageAndresIquitos,
+                CollageAndresIquitos2,
+                CollageAndresIquitos3,
+                CollageAndresIquitos4,
+                CollageAndresIquitos5,
+                CollageAndresIquitos6,
+                CollageAndresIquitos7,
+                CollageAndresIquitos8,
+              ],
+            },
+          ],
         },
         {
           image: Inst18,
@@ -267,6 +608,17 @@ export const jaeConfig = {
           title2: "TARAPACA - IQUITO",
           title3: "INICIAL - PRIMARIA",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageTarapacaIquitos,
+                CollageTarapacaIquitosDos,
+                CollageTarapacaIquitosTres,
+                CollageTarapacaIquitosCuatro,
+                CollageTarapacaIquitosCinco,
+              ],
+            },
+          ],
         },
         {
           image: Inst19,
@@ -274,6 +626,15 @@ export const jaeConfig = {
           title2: "N° 169 MARIA MONTESSORI - IQUITOS",
           title3: "INICIAL",
           button: "",
+          descriptionLarge: [
+            {
+              images: [
+                CollageMontessori,
+                CollageMontessoriDos,
+                CollageMontessoriTres,
+              ],
+            },
+          ],
         },
       ],
     },

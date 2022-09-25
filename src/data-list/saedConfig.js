@@ -70,7 +70,7 @@ export const saedConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "convenios", name: "INFORMACIÓN" },
+      { id: "convenios", name: "CONVENIOS" },
       { id: "contact", name: "CONTÁCTANOS" },
     ],
   },
@@ -143,6 +143,12 @@ export const saedConfig = {
               description:
                 "50% de descuento en el pago de las pensiones en todos los cursos",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.upsjb.edu.pe/",
+            },
           ],
         },
         {
@@ -161,6 +167,12 @@ export const saedConfig = {
               description:
                 "10% de descuento en el pago de las pensiones en maestría y\n" +
                 "doctorado.",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.umch.edu.pe/",
             },
           ],
         },
@@ -183,6 +195,12 @@ export const saedConfig = {
               description:
                 "Categoría 2 en pensiones en todas las carreras profesionales 5% descuento por pago anticipado a estudiantes regulares",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.ucv.edu.pe/",
+            },
           ],
         },
         {
@@ -196,6 +214,12 @@ export const saedConfig = {
             {
               title: "PREGRADO : ",
               description: "10 % de descuento en el pago de las pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.ue.edu.pe/",
             },
           ],
         },
@@ -218,6 +242,12 @@ export const saedConfig = {
                 "(maestrías y diplomados) a excepción del programa de\n" +
                 "\n" +
                 "doble grado.",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.ucss.edu.pe/",
             },
           ],
         },
@@ -259,6 +289,12 @@ export const saedConfig = {
                 "Personal de oficiales Escala N° 28 en pensiones\n" +
                 "Personal de Tcos y SSOO Escala N° 30 en pensiones",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.unife.edu.pe/",
+            },
           ],
         },
         {
@@ -290,6 +326,12 @@ export const saedConfig = {
               description:
                 "30% de descuento en el pago de las pensiones de los cursos",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://evaluaciongeneral.cientifica.edu.pe/?utm_source=google&utm_medium=cpc&utm_campaign=UCS_AON_pregrado_performance_marca_2021_08_null_null_null_conversiones_subasta_null_audiencias_null_audiencias_null_null_null_CPC_todos_pregrado-marca-brand-universidad-cientifica-del-sur_null&utm_content=texto_universidad-cientifica-del-sur_null_nullseg_null_null_textad&gclid=Cj0KCQjw7KqZBhCBARIsAI-fTKIRA5KerQ-zzdbaP1bHeP8s7bTF5nPfscMW8xAw6U8KKPVE8A70saEaAlxbEALw_wcB",
+            },
           ],
         },
         // {
@@ -309,6 +351,12 @@ export const saedConfig = {
             {
               title: "PROGRAMA WORRINKG ADULTO : ",
               description: "15% de descuento en el pago de las pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.upn.edu.pe/",
             },
           ],
         },
@@ -334,6 +382,12 @@ export const saedConfig = {
                 "25% de descuento en segundas especializaciones" +
                 "25% de descuento en diplomados",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.usmp.edu.pe/",
+            },
           ],
         },
         {
@@ -352,6 +406,12 @@ export const saedConfig = {
                 "Curso básico para niños, descuento del 25% en el pago de las pensiones" +
                 "Cursos libres, descuento del 20% en el pago de las pensiones" +
                 "Cursos virtules, descuento del 20% en el pago de las pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.unm.edu.pe/",
             },
           ],
         },
@@ -386,6 +446,12 @@ export const saedConfig = {
                 "de las pensiones de 5 cuotas pagan\n" +
                 "4",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.urp.edu.pe/",
+            },
           ],
         },
         {
@@ -396,6 +462,12 @@ export const saedConfig = {
               title: "POSGRADO :",
               description:
                 "25% de descuento en matriculas y pensiones en las diferentes maestrías y doctorados",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.unfv.edu.pe/",
             },
           ],
         },
@@ -417,6 +489,12 @@ export const saedConfig = {
                 "10% de descuento en las carreras de obstreticia, enfermería, farmacia y bioquímica, odontología, tecnología médica en laboratorio clínico, anatomía patalógica y terapia física." +
                 "15% de descuento en las carreras de administración y negocios internacionales, contabilidad y auditoria, derecho y ciencia política, ingeniería industrial y gestión empresarial, ingeniería de sistemas e informática",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.uwiener.edu.pe/",
+            },
           ],
         },
         {
@@ -435,6 +513,12 @@ export const saedConfig = {
                 "20 % de descuento sobre el costo de la pensión en enseñanza de\n" +
                 "posgrado, diplomados y curso de proyección social.",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.bausate.edu.pe/",
+            },
           ],
         },
         {
@@ -443,7 +527,24 @@ export const saedConfig = {
           descriptionLarge: [
             {
               title: "PREGRADO :",
-              description: "Escala mínima de pensiones - CATEGORIA A",
+              description:
+                "Escala mínima de pensiones - CATEGORIA A, por única vez y si se conservará en los periodos académicos en la medida que el rendimiento académico sea aprobatorio.",
+            },
+            {
+              title: "POSGRADO :",
+              description:
+                "15% de descuento, sobre los precios de lista en los diferentes Programas Académicos ofrecidos en las EPG (maestría, doctorado, especializaciones, diplomadas y formación continua), en cualquier de sus modalidades en la Sede La Molina-Campus 2.",
+            },
+            {
+              title: "PROGRAMA ONLINE :",
+              description:
+                "15% de descuento, sobre los precios de lista en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina-Campus 2",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.usil.edu.pe/",
             },
           ],
         },
@@ -458,6 +559,12 @@ export const saedConfig = {
                 "programas de idiomas\n" +
                 "20% de descuento en el pago de las pensiones de los\n" +
                 "programas de idiomas para niños o adolescentes",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.up.edu.pe/",
             },
           ],
         },
@@ -476,6 +583,12 @@ export const saedConfig = {
               title: "POSGRADO :",
               description: "20% de descuento en las pensiones",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.uss.edu.pe/",
+            },
           ],
         },
         {
@@ -487,6 +600,12 @@ export const saedConfig = {
               description:
                 "25 % de descuento en todas las carreras, en todas las sedes a\n" +
                 "nivel nacional.",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.utp.edu.pe/",
             },
           ],
         },
@@ -500,6 +619,12 @@ export const saedConfig = {
                 "Escala mínima de pensiones en diferentes carreras y\n" +
                 "programa de estudios profesionales para ejecutivos (EPE).",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.upc.edu.pe/",
+            },
           ],
         },
         {
@@ -511,6 +636,12 @@ export const saedConfig = {
               description:
                 "20 % de descuento en el costo total de diplomados,\n" +
                 "maestrías y doctorados",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://economia.unmsm.edu.pe/",
             },
           ],
         },
@@ -529,6 +660,12 @@ export const saedConfig = {
                 "25% descuento en el pago de los costos de programas\n" +
                 "académicos",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.gamor.edu.pe/",
+            },
           ],
         },
         {
@@ -541,6 +678,12 @@ export const saedConfig = {
                 "30% descuento en matrícula\n" +
                 "20% descuento en el pago de pensiones en las (en las\n" +
                 "distintas sedes)",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.cevaturperu.edu.pe/",
             },
           ],
         },
@@ -556,6 +699,12 @@ export const saedConfig = {
                 "10% descuento en el pago de matrícula.\n" +
                 "30% descuento en el pago de pensiones.",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://es-la.facebook.com/ceesanvicente/",
+            },
           ],
         },
         {
@@ -568,6 +717,12 @@ export const saedConfig = {
               description:
                 "20% descuento en el pago de matrícula\n" +
                 "20% descuento en el pago de las pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://virtualeduca.org/idp/",
             },
           ],
         },
@@ -583,6 +738,12 @@ export const saedConfig = {
                 "20% descuento en el pago de matrícula\n" +
                 "20% descuento en el pago de pensiones",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.idept.edu.pe/",
+            },
           ],
         },
         {
@@ -596,6 +757,12 @@ export const saedConfig = {
               description:
                 "Costo diferenciado, en inscripción anual y cuota mensual",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://esgerencia.com/",
+            },
           ],
         },
         {
@@ -607,6 +774,12 @@ export const saedConfig = {
                 "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS,\n" +
                 "ESPECIALIDADES Y DIPLOMADOS):",
               description: "50% descuento en el pago de pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://akronenglish1.com/",
             },
           ],
         },
@@ -625,6 +798,12 @@ export const saedConfig = {
                 "10% descuento en el pago de pensiones de los programas de Inglés\n" +
                 "Virtual, de manera general",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://euroidiomas.edu.pe/",
+            },
           ],
         },
         {
@@ -635,6 +814,12 @@ export const saedConfig = {
               title: "ESTUDIOS EN EL IDIOMA INGLÉS",
               description:
                 "15% descuento sobre la base de las tarifas publicadas en su portal",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.icpna.edu.pe/",
             },
           ],
         },
@@ -647,6 +832,12 @@ export const saedConfig = {
               description:
                 "12.5% descuento sobre la base de las tarifas en los programas\n" +
                 "académicos de enseñanza del idioma (básico, intermedio o avanzado)",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.britanico.edu.pe/",
             },
           ],
         },
@@ -663,6 +854,12 @@ export const saedConfig = {
                 "programas de (Ofimática, Ingles, excel en la modalidad On\n" +
                 "Line)",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.ifeep.edu.pe/",
+            },
           ],
         },
         {
@@ -675,6 +872,12 @@ export const saedConfig = {
                 "CORTOS Y SEMINARIOS:",
               description: "30% de descuento en las pensiones para estudios",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.eigra.edu.pe/",
+            },
           ],
         },
         {
@@ -684,6 +887,12 @@ export const saedConfig = {
             {
               title: "CURSOS DE PREPARACIÓN:",
               description: "20% de descuento en los diferentes programas",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://guideasesores.com/cursosmilitares/",
             },
           ],
         },
@@ -697,6 +906,12 @@ export const saedConfig = {
                 "30% descuento en el pago de matrícula y pensiones\n" +
                 "mensuales",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.istvonbraun.edu.pe/",
+            },
           ],
         },
         {
@@ -709,6 +924,12 @@ export const saedConfig = {
                 "CORTOS Y SEMINARIOS :",
               description:
                 "Costo diferenciado por convenio, en el pago de las cuotas mensuales",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.ecaprev.edu.pe/",
             },
           ],
         },
@@ -726,6 +947,12 @@ export const saedConfig = {
                 "35% descuento en el costo tal del programa de capacitación de\n" +
                 "computación",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.ispacj.com/",
+            },
           ],
         },
         {
@@ -736,6 +963,12 @@ export const saedConfig = {
               title: "PROGRAMAS DE DIPLOMADOS Y ESPECIALIZACIONES :",
               description:
                 "50% descuento en el costo de los diferentes programas académicos (cursos de especialización, diplomados, seminarios, talleres)",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.inidhe.edu.pe/",
             },
           ],
         },
@@ -757,6 +990,12 @@ export const saedConfig = {
                 "% de descuento en las pensiones mensuales en el programa in\n" +
                 "house (seminarios, fórum, talleres)",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.cepeban.edu.pe/",
+            },
           ],
         },
         {
@@ -770,6 +1009,12 @@ export const saedConfig = {
             {
               title: "CURSOS LIBRES :",
               description: "10% descuento en el pago de pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.dgallia.edu.pe/",
             },
           ],
         },
@@ -788,6 +1033,12 @@ export const saedConfig = {
                 "50% descuento en el pago de pensiones y\n" +
                 "exoneración en derecho de inscripción y matrícula",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.acarrion.edu.pe/",
+            },
           ],
         },
         {
@@ -802,6 +1053,12 @@ export const saedConfig = {
               title: "PROGRAMAS DE GASTRONOMÍA :",
               description: "20% descuento en el pago de pensiones",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.inteci.edu.pe/",
+            },
           ],
         },
         {
@@ -814,6 +1071,12 @@ export const saedConfig = {
                 "Costo diferenciado por convenio, en el pago de las cuotas\n" +
                 "mensuales",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.privateacher.edu.pe/",
+            },
           ],
         },
         {
@@ -823,6 +1086,12 @@ export const saedConfig = {
             {
               title: "PROGRAMAS DE EXTENSIÓN PROFESIONAL Y DE ISILTECH :",
               description: "20% descuento en el pago de pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.isil.pe/",
             },
           ],
         },
@@ -842,6 +1111,12 @@ export const saedConfig = {
                 "CARRERAS DE ADMINISTRACIÓN/CONTABILIDAD/DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:",
               description: "30% descuento en el pago de pensiones",
             },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.cepea.edu.pe/",
+            },
           ],
         },
         {
@@ -853,6 +1128,12 @@ export const saedConfig = {
               description:
                 "15% descuento en el pago de pensiones de las tarifas\n" +
                 "publicadas.",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.icim.edu.pe/",
             },
           ],
         },
@@ -871,6 +1152,12 @@ export const saedConfig = {
             {
               title: "PROGRAMA DE ESPECIALIZACÍON : ",
               description: "50% descuento en el pago de pensiones",
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              link: "https://www.institutovesalio.edu.pe",
             },
           ],
         },

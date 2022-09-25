@@ -8,12 +8,13 @@ export const CardsInlineBlock = ({
   titleImage,
   id = "about-us",
   subTitle = "",
+  direction = false,
   descriptions = [],
   buttons = [],
   images = [],
 }) => {
   return (
-    <Container id={id}>
+    <Container id={id} direction={direction}>
       <div className="content-items">
         <div className="content">
           <div className="heading">
@@ -66,11 +67,11 @@ const Container = styled.div`
     padding: 3rem 4rem;
   }
   .content-items {
+    direction: ${({ direction }) => (direction ? "rtl" : "ltr")};
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1.7rem;
     padding: 3rem 0.5rem;
-    
     ${mediaQuery.minTablet} {
       grid-template-columns: 1fr 1fr;
     }
@@ -89,11 +90,14 @@ const Container = styled.div`
     .title {
       font-weight: 400;
       margin-bottom: 2rem;
-      font-size: 2rem;
+      font-size: 3rem;
+      margin-right: 2rem;
     }
     .description {
+      margin-right: 2rem;
       max-width: 40rem;
       font-weight: 500;
+      text-align: justify;
       p {
         font-size: 1.2rem;
       }
@@ -106,6 +110,7 @@ const Container = styled.div`
     }
   }
   .content-image {
+    margin-right: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;

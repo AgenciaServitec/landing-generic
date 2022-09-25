@@ -16,6 +16,7 @@ export const Home = () => {
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
+  const sectionSetPro = templateConfig.main.sectionSetPro || false;
   const sectionOther = templateConfig.main.sectionOther || false;
   const sectionContentImages = templateConfig.main.contentImages || false;
   const cardsConventions = templateConfig.main.sectionConvenios || false;
@@ -48,10 +49,21 @@ export const Home = () => {
         {(sectionAboutUs || sectionAboutUs.images) && (
           <CardsInlineBlock
             title={sectionAboutUs.title}
+            id={sectionAboutUs.id}
             subTitle={sectionAboutUs.subTitle}
             descriptions={sectionAboutUs.descriptions}
             buttons={sectionAboutUs.buttons}
             images={sectionAboutUs.images}
+          />
+        )}
+        {(sectionSetPro || sectionSetPro.images) && (
+          <CardsInlineBlock
+            title={sectionSetPro.title}
+            subTitle={sectionSetPro.subTitle}
+            direction={sectionSetPro.direction}
+            descriptions={sectionSetPro.descriptions}
+            buttons={sectionSetPro.buttons}
+            images={sectionSetPro.images}
           />
         )}
         {(sectionServices || sectionServices.cards) && (

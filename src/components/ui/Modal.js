@@ -1,5 +1,6 @@
 import React from "react";
 import AntdModal from "antd/lib/modal";
+import styled from "styled-components";
 
 // interface Props {
 //   closable: boolean;
@@ -15,7 +16,17 @@ export const Modal = ({
   children,
   ...props
 }) => (
-  <AntdModal closable={closable} centered={centered} footer={footer} {...props}>
+  <ModalContainer
+    closable={closable}
+    centered={centered}
+    footer={footer}
+    {...props}
+  >
     {children}
-  </AntdModal>
+  </ModalContainer>
 );
+
+const ModalContainer = styled(AntdModal)`
+  width: 100% !important;
+  max-height: 100%;
+`;
