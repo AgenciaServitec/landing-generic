@@ -528,7 +528,7 @@ export const saedConfig = {
             {
               title: "PREGRADO :",
               description:
-                "Escala mínima de pensiones - CATEGORIA A, por única vez y si se conservará en los periodos académicos en la medida que el rendimiento académico sea aprobatorio.",
+                "Categoría A.( la escala mínima de pensiones), se conservará en los periodos académicos, en la medida que el rendimiento académico sea aprobatorio.",
             },
             {
               title: "POSGRADO :",

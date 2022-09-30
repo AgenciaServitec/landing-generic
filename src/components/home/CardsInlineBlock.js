@@ -99,7 +99,7 @@ const Container = styled.div`
       font-weight: 500;
       text-align: justify;
       p {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
     }
     .btn-item {
@@ -126,7 +126,7 @@ const Container = styled.div`
       width: 100%;
       height: 100%;
       padding-left: 0.5rem;
-      max-width: 29rem;
+      max-width: 30rem;
       height: auto;
       object-fit: cover;
       padding-bottom: 0.5rem;

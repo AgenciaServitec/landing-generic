@@ -36,6 +36,8 @@ export const Home = () => {
   const sectionFinancieras = templateConfig.main.sectionFinancieras || false;
   const sectionSeguros = templateConfig.main.sectionSeguros || false;
   const sectionTransporte = templateConfig.main.sectionTransporte || false;
+  const sectionHoteles = templateConfig.main.sectionHoteles || false;
+  const sectionTecnologia = templateConfig.main.sectionTecnologia || false;
   const sectionServiceRel = templateConfig.main.sectionServiceRel || false;
 
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
@@ -138,6 +140,21 @@ export const Home = () => {
           <ListCards
             title={sectionTransporte.title}
             items={sectionTransporte.cards}
+            type="secondary"
+          />
+        )}
+
+        {(sectionHoteles || sectionHoteles.cards) && (
+          <ListCards
+            title={sectionHoteles.title}
+            items={sectionHoteles.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionTecnologia || sectionTecnologia.cards) && (
+          <ListCards
+            title={sectionTecnologia.title}
+            items={sectionTecnologia.cards}
             type="secondary"
           />
         )}

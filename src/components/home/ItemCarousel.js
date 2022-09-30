@@ -80,7 +80,7 @@ const Container = styled.div`
     z-index: 399;
 
     ${mediaQuery.minTablet} {
-      padding-top: 2rem;
+      //padding-top: 2rem;
     }
 
     .txt-items {
@@ -92,7 +92,7 @@ const Container = styled.div`
       align-items: start;
 
       h1 {
-        margin-top: 24.3rem;
+        margin-top: 20.3rem;
         font-size: 2.3rem;
         line-height: 2.7rem;
         color: #fff;

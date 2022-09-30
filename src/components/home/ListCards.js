@@ -107,6 +107,10 @@ export const ListCards = ({
                 <li>
                   <h4>{requirement.title}</h4>
                   <p>{requirement.description}</p>
+                  {requirement.descriptions &&
+                    requirement.descriptions.map((descript, index) => (
+                      <p index={index}>{descript}</p>
+                    ))}
                   {requirement.link && (
                     <a href={requirement.link} target="_blank" rel="noreferrer">
                       <span style={{ color: "#0076fd", cursor: "pointer" }}>

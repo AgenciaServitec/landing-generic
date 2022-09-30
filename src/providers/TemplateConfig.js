@@ -45,7 +45,7 @@ export const TemplateConfig = ({ children }) => {
       case "apoyosocial.cobiene.mil.pe":
         return setTemplateType("saeco");
       default:
-        return setTemplateType("cmsts");
+        return setTemplateType("default");
     }
   }, [hostName]);
 

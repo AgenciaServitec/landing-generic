@@ -31,12 +31,15 @@ import {
   TiendaLazzos,
   TiendaLogistas,
   TiendaRenzoCosta,
-  TiendaSugo,
   SaecoBautismo,
   MisaPadre,
   TitleAyudaEconomica,
   TitleConvenios,
   TitleReli,
+  Servitec,
+  StoreServitec,
+  Hotel1,
+  Hotel2,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -395,23 +398,23 @@ export const saecoConfig = {
             },
           ],
         },
-        {
-          image: TiendaSugo,
-          title: "Sugo",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS :",
-              description:
-                "ACCESO EN LÍNEA EN SUS PLATAFORMAS EN COMPRAS DE CONSUMO SOSTENIBLE HASTA 50% DEL PRECIO EN EL MERCADO",
-            },
-            {
-              title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://www.sugo.pe",
-            },
-          ],
-        },
+        // {
+        //   image: TiendaSugo,
+        //   title: "Sugo",
+        //   descriptionLarge: [
+        //     {
+        //       title: "BENEFICIOS :",
+        //       description:
+        //         "ACCESO EN LÍNEA EN SUS PLATAFORMAS EN COMPRAS DE CONSUMO SOSTENIBLE HASTA 50% DEL PRECIO EN EL MERCADO",
+        //     },
+        //     {
+        //       title: "BENEFICIARIOS: ",
+        //       description:
+        //         "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+        //       link: "https://www.sugo.pe",
+        //     },
+        //   ],
+        // },
       ],
     },
     sectionFinancieras: {
@@ -472,6 +475,62 @@ export const saecoConfig = {
           image: Transporte2,
           link: "https://www.oltursa.pe",
           title: "Oltursa",
+        },
+      ],
+    },
+    sectionHoteles: {
+      title: "Convenios con Hoteles :",
+      cards: [
+        {
+          image: Hotel1,
+          title: "Hotel Casa Andina",
+          descriptionLarge: [
+            {
+              title: "ALCANCE DEL CONVENIO: ",
+              description:
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados”.\n",
+            },
+            {
+              title: "FORMA DE ACREDITACIÓN: ",
+              description:
+                "Presentación del carnet de identificación personal militar o civil CIP\n" +
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos)." +
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+            },
+            {
+              title: "BENEFICIO: ",
+              descriptions: [
+                "Brindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 30%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
+                "El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web https://www.casa-andina.com/es/ofertas/ejercitoperu , canales de atención a través de correo electrónico centraldereservas@casa-andina.com y call center (01) 3916500.",
+                "El código de acceso al descuento es EJERCITOPERU22.",
+                "Validará indispensablemente, al BENEFICIARIO, mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.",
+                "En caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.",
+                " Las reservas realizadas son de tarifas NO REEMBOLSABLE.",
+                "Al finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.",
+              ],
+              link: "https://www.casa-andina.com/es/home",
+            },
+          ],
+        },
+        {
+          image: Hotel2,
+          link: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
+          title: "Hotel Costa del Sol",
+        },
+      ],
+    },
+    sectionTecnologia: {
+      title: "Tecnología :",
+      cards: [
+        {
+          image: Servitec,
+          link: "https://servitecperu.com/",
+          title: "Servitec",
+        },
+        {
+          image: StoreServitec,
+          link: "https://tiendaservitec.com/",
+          title: "Tienda Servitec",
         },
       ],
     },

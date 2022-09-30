@@ -31,7 +31,7 @@ export { default as SaedBannePublic } from "./saed/banner1.webp";
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";
 export { default as SadAboutTwo } from "./sad/nosotrossadnew.webp";
-export { default as SadPro } from "./sad/sadnew2.webp";
+export { default as SadPro } from "./sad/sadfunciones.webp";
 export { default as SadCarousel } from "./sad/carousel-sad.webp";
 export { default as SadServiceTejido } from "./sad/service-tejido.webp";
 export { default as SadServiceArtesania } from "./sad/services-artesania.webp";
@@ -386,3 +386,9 @@ export { default as SeguroVehicularPositiva } from "./saeco/seguros/segurovehicu
 export { default as Transporte1 } from "./saeco/transporte/movilbus.webp";
 export { default as Transporte2 } from "./saeco/transporte/oltursa.webp";
 export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
+// ------ SAECO HOTELES IMAGES -------
+export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";
+export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";
+// ------ SAECO TECNOLOGIA IMAGES -------
+export { default as Servitec } from "./saeco/tecnologia/serviteclogo.webp";
+export { default as StoreServitec } from "./saeco/tecnologia/storeservitec.webp";
