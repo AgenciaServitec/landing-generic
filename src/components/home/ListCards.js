@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
 import { Modal } from "../ui";
 import { CarouselOnlyImages } from "./CarouselOnlyImages";
+import Parser from "html-react-parser";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const listCardsTypes = {
   primary: {
@@ -109,20 +111,60 @@ export const ListCards = ({
                   <p>{requirement.description}</p>
                   {requirement.descriptions &&
                     requirement.descriptions.map((descript, index) => (
-                      <p index={index}>{descript}</p>
+                      <p key={index}>{Parser(descript)}</p>
                     ))}
-                  {requirement.link && (
-                    <a href={requirement.link} target="_blank" rel="noreferrer">
-                      <span style={{ color: "#0076fd", cursor: "pointer" }}>
-                        Ver Nuestra Pagina
-                      </span>
-                    </a>
-                  )}
+                  {requirement.sedes &&
+                    requirement.sedes.map((sede, index) => (
+                      <li style={{ listStyle: "none", fontSize: "1.1rem" }}>
+                        <a href={sede.sede} target="_blank" rel="noreferrer">
+                          <FontAwesomeIcon icon={sede.icon} size="sm" />
+                          <span style={{ paddingLeft: "0.5rem" }}>Sedes</span>
+                        </a>
+                      </li>
+                    ))}
+                  {requirement.detalles &&
+                    requirement.detalles.map((detalle, index) => (
+                      <li
+                        style={{
+                          listStyle: "none",
+                          fontSize: "1.1rem",
+                          paddingBottom: "0.5rem",
+                        }}
+                      >
+                        <a
+                          href={detalle.detalle}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FontAwesomeIcon icon={detalle.icon} size="sm" />
+                          <span style={{ paddingLeft: "0.5rem" }}>
+                            Detalles
+                          </span>
+                        </a>
+                      </li>
+                    ))}
+                  {requirement.links &&
+                    requirement.links.map((link, index) => (
+                      <li
+                        key={index}
+                        style={{
+                          listStyle: "none",
+                          fontSize: "1.1rem",
+                        }}
+                      >
+                        <a href={link.link} target="_blank" rel="noreferrer">
+                          <FontAwesomeIcon icon={link.icon} size="sm" />
+                          <span style={{ paddingLeft: "0.5rem" }}>
+                            Nuestra Pagina Web
+                          </span>
+                        </a>
+                      </li>
+                    ))}
                 </li>
               )}
               {/*{requirement.image && <img src={requirement.image} alt="nohay" />}*/}
               {requirement.images && (
-                <div styles={{ width: "100%", flex: "display" }}>
+                <div style={{ width: "100%", flex: "display" }}>
                   <CarouselOnlyImages images={requirement?.images} />
                 </div>
               )}

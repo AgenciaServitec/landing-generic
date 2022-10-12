@@ -15,7 +15,7 @@ export const CardsBlack = ({ cards = [] }) => {
                 <img
                   className="item-titleImage"
                   src={card.titleImage}
-                  alt="titleImage"
+                  alt="nohay"
                 />
               </div>
               {(card.items || []).map((item, index) => (

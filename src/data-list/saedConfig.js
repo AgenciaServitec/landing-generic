@@ -71,7 +71,7 @@ export const saedConfig = {
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
       { id: "convenios", name: "CONVENIOS" },
-      { id: "contact", name: "CONTÁCTANOS" },
+      { id: "contact", name: "Contacto" },
     ],
   },
   main: {
@@ -550,7 +550,7 @@ export const saedConfig = {
         },
         {
           image: UniversidadDelPacifico,
-          title: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS UPC",
+          title: "UNIVERSIDAD DEL PACIFICO - CENTRO DE IDIOMAS",
           descriptionLarge: [
             {
               title: "CENTRO DE IDIOMAS - CIDUP :",
@@ -563,7 +563,7 @@ export const saedConfig = {
             {
               title: "ALCANZE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos s/n)",
               link: "https://www.up.edu.pe/",
             },
           ],

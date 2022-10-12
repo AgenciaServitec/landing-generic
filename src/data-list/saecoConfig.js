@@ -40,12 +40,17 @@ import {
   StoreServitec,
   Hotel1,
   Hotel2,
+  PublicidadServitec,
+  FacturaServitec,
+  TiendaVizzano,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faGlobe,
   faMobile,
+  faLink,
+  faBuilding,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const saecoConfig = {
@@ -58,6 +63,7 @@ export const saecoConfig = {
       { id: "AyudaEconomicaSocial", name: "Ayuda Economica" },
       { id: "Convenios", name: "Convenios Multiservicios" },
       { id: "ServicoReligioso", name: "Servicio Religioso" },
+      { id: "contact", name: "Contacto" },
     ],
   },
   main: {
@@ -180,13 +186,22 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+              descriptions: [
+                "Servicios psicopedagógicos, especializados en problemas de lenguaje, aprendizaje y conducta, a través de tarifas especiales, mediante porcentaje de descuento, según grado de el BENEFICIARIO, así como costos diferenciados en las sedes de APEPLAC. SURCO y RÌMAC",
+                "Direcciones y citas telefónicas",
+                `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:990436788" target="_blank" >990436788</a>.`,
+                'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:990436788" target="_blank" >990436788</a>. ',
+              ],
             },
             {
-              title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              title: "ALCANCE DEL CONVENIO: ",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
             },
           ],
         },
@@ -195,39 +210,79 @@ export const saecoConfig = {
           title: "Biolinks",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
-              description:
-                "PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD\n," +
-                "TARIFA CON CONVENIO 20% DESCUENTO\n," +
-                "EXÁMENES DE LABORATORIO CLÍNICO ONCOLÓGICO - ÁREA DE DIAGNÓSTICO.\n" +
-                "EXAMEN DE LABORATORIO CLÍNICO - ÁREAS INFECCIOSAS",
-            },
-            {
               title: "BENEFICIARIOS: ",
               description:
                 "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://biolinksperu.com",
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD\n",
+                "TARIFA CON CONVENIO 20% DESCUENTO\n",
+                "EXÁMENES DE LABORATORIO CLÍNICO ONCOLÓGICO - ÁREA DE DIAGNÓSTICO.\n",
+                "EXAMEN DE LABORATORIO CLÍNICO - ÁREAS INFECCIOSAS",
+              ],
+              sedes: [
+                {
+                  icon: faBuilding,
+                  sede: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
+                },
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/19cC4wjIEd7SI5ISCS87xyomg0nOaMxzY/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://biolinksperu.com",
+                },
+              ],
             },
           ],
         },
         {
           image: ConvenioSalud3,
-          title: "Dent",
+          title: "Uchis Med",
         },
         {
           image: ConvenioSalud4,
           title: "Inppares",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
-              description:
-                "TARIFAS ESPECIALES 10% DE DESCUENTO SOBRE PRECIO AL PÚBLICO",
+              title: "BENEFICIARIOS :",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
             },
             {
-              title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://inppares.org/",
+              title: "BENEFICIO: ",
+              descriptions: [
+                "a) Descuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA. Anexo 01",
+                "b) Descuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María. Anexo 01",
+                "c) Descuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede. Anexo 01",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/12sqPYvBLOgP1_XeonoiGnCNeHMIJyEyY/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://inppares.org/",
+                },
+              ],
             },
           ],
         },
@@ -237,15 +292,40 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                " DESCUENTO DE $ 150.00 DÓLARES POR LA COMPRA DE AUDÍFONOS MARCA BELTONE\n" +
-                " 25% DESCUENTO EN REPUESTOS Y ACCESORIOS",
+              descriptions: [
+                "Implementará el acceso al beneficio a través del call center y presencial en las sedes de Miraflores, Jesús María, Los Olivos, San Borja, San juan de Lurigancho, San juan de Miraflores, san miguel y Cercado de Lima, en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
+                "Otorgará el valor de $150 dólares americanos, de descuento sobre los costos de las tarifas regulares, en dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
+                "Otorgará garantía por un año, recalibraciones, limpiezas y mantenimiento ilimitados, así como dotación de seis baterías, en los dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
+                "Otorgará el 25% de descuento sobre los costos de las tarifas regulares, en baterías, pilas, accesorios de limpieza, en las diferentes sedes.",
+                "Otorgará el valor de cien s/100 soles, en el costo por consulta especializada previa cita en la especialidad de otorrinolaringología.",
+                "Otorgará acceso gratuito a los servicios de audiológicos (audiometría y otoscopía), previa cita.",
+                "Otorgará a los BENEFICIARIOS de “EL EJÉRCITO” el valor de $150 ciento cincuenta dólares americanos de descuento sobre el costo tarifa regular de los DISPOSITIVOS VIBRADORES ÓSEOS.",
+                "Otorgará el valor de $2000 dos mil dólares americanos de descuento sobre el costo tarifa regular del dispositivo medico a largo plazo, IMPLANTE COCLEAR, en lo correspondiente a la colocación quirúrgica (clínica, operación, anestesiólogo, equipo, post operatorio, cincuenta terapías de lenguaje y otros).",
+                "Los beneficios antes indicados serán en todas las sedes de MEDIFON.",
+              ],
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://medifonperu.pe/",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://medifonperu.pe/",
+                },
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1TuvuRj3_e4N2eM1IhgMb7rowjYQxEg9x/view?usp=sharing",
+                },
+              ],
             },
           ],
         },
@@ -255,14 +335,36 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                " COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+              descriptions: [
+                "Acceso a los distintos servicios odontológicos ofrecidos, a través de costos diferenciados, mediante porcentaje de descuento sobre las tarifas regulares, de acuerdo a lo establecido.",
+                "Implementará a través la programación a través del call center, y de forma presencial en todas sedes a nivel nacional, y en todos sus horarios.",
+                "Servicios de emergencias dentales, las 24 horas del día, los 7 días de la semana en la sede de la Av. César Vallejo N° 1560 - Lince y en todas las sedes a nivel nacional en horario de atención.",
+                "CONSULTA GRATUITA",
+                "Examen odontológico de cortesía.",
+              ],
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://www.multident.pe",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.multident.pe",
+                },
+              ],
             },
           ],
         },
@@ -289,15 +391,39 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                "ANÁLISIS CLÍNICOS 40% DE DESCUENTO\n" +
-                "ANÁLISIS ESPECIALES 10% DE DESCUENTO",
+              descriptions: [
+                "BENEFICIO",
+                "a) Acceso al 40% de descuento sobre la tarifa regular, de los exámenes de laboratorio de rutina; ANEXO 01",
+                "b) Acceso a la tarifa hospitalaria en el Centro CIMEDIC en las pruebas de diagnóstico por imágenes (tomografía, resonancia magnética). ANEXO 01.",
+                "c) Acceso al 10% de descuento sobre la tarifa base, de los denominados exámenes de Anatomía Patológica (citología y quirúrgicos, inmunohistoquímica – marcadores inmunohistoquímicos, biología molecular, citometría de flujo, genética) y pruebas especiales; según el detalle descrito en el ANEXO 01.",
+                "d) Realización de citas mediante:",
+                "• Forma PRESENCIAL",
+                "• Vía CALL CENTER, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las ordenes médicas emitidas por el HMC o centros de salud privados.",
+              ],
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://unilabs.pe",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://unilabs.pe",
+                },
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/144YibViWp6vReO7y61RCcVrv9PL8AkK3/view?usp=sharing",
+                },
+              ],
             },
           ],
         },
@@ -341,6 +467,35 @@ export const saecoConfig = {
           ],
         },
         {
+          image: TiendaVizzano,
+          title: "Calzado Vizzano",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS : ",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+                "BENEFICIO",
+                "a) Compras presenciales, solo en tiendas propias.",
+                "b) Aplica para compras en tienda virtual, mediante el uso del cupón al momento de hacer el pago",
+                `<a href="https://www.mossashoes.com/">https://www.mossashoes.com/<a/>`,
+                "Cupón MOSSAEJE20",
+                "c) Descuento del 20% en marcas propias",
+                "d) Descuento del 20% en todas marcas diferentes.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
+                },
+              ],
+            },
+          ],
+        },
+        {
           image: TiendaLogistas,
           title: "Logistas",
           descriptionLarge: [
@@ -363,15 +518,34 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                "10% TIENDAS PROPIAS (MIRAFLORES, SAN ISIDRO, OUTLET FÀBRICA Y TACNA).\n" +
-                "5% DESCUENTO EN LOS CENTROS COMERCIALES.",
+              descriptions: [
+                "a) Exclusivo para compras presenciales.",
+                "b) No aplica compras por web, app, o Facebook",
+                "c) Descuento del 10% en todos los productos tiendas propias según relación anexo",
+                "d) Descuento del 5% en todos los productos, toda la cadena de tiendas a nivel nacional (centros comerciales), anexo",
+              ],
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://www.renzocosta.com",
+              descriptions: [
+                " Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1MIAudy4sU8wGOjzaqcvbtvG2CMTKod0n/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.renzocosta.com",
+                },
+              ],
             },
           ],
         },
@@ -468,13 +642,71 @@ export const saecoConfig = {
       cards: [
         {
           image: Transporte1,
-          link: "https://www.movilbus.pe/",
+          // link: "https://www.movilbus.pe/",
           title: "Movilbus",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, Padres).",
+                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+                "d) Deberá de presentar copia de CIP al momento de la compra.",
+                "BENEFICIO",
+                "a) No aplica para compras por página web, call center",
+                "b) Acceso los 364 días del año, de forma PRESENCIAL",
+                "c) Acceso al 20% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros (económico, premier, presidencial, ejecutivo, vip), hacia cualquiera de los destinos.",
+                "d) Acceso al 30% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER, que inicien en provincias (hacia Lima) a excepción de Lima como origen.",
+                "e) Acceso al 15% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER que inicien en Lima, hacia cualquiera de los destinos ofrecidos.",
+                "f) Costos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de MOVILBUS.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.movilbus.pe/",
+                },
+              ],
+            },
+          ],
         },
         {
           image: Transporte2,
-          link: "https://www.oltursa.pe",
+          // link: "https://www.oltursa.pe",
           title: "Oltursa",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+                "d) Deberá de presentar copia de CIP al momento de la compra.",
+                "BENEFICIO",
+                "a) No aplica para compras por página web, call center",
+                "b) Acceso los 364 días del año, de forma PRESENCIAL",
+                "c) Acceso al 15% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros (bus cama 140,160,180), hacia cualquiera de los destinos.",
+                "d) Acceso al 10% de descuento sobre la tarifa regular, en el servicio de envió a través de Servicio expreso y Servicio consolidado, en todos sus destinos.",
+                "e) Costos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de OLTURSA.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1oSV8pJdnILl9eVi85lKyQ2dhwk6sSx3G/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.oltursa.pe",
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -500,22 +732,75 @@ export const saecoConfig = {
             {
               title: "BENEFICIO: ",
               descriptions: [
-                "Brindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 30%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
-                "El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web https://www.casa-andina.com/es/ofertas/ejercitoperu , canales de atención a través de correo electrónico centraldereservas@casa-andina.com y call center (01) 3916500.",
+                "3.1. Brindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 29%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
+                "3.2. El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web que adjuntada , canales de atención a través de correo electrónico",
+                `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
+                "Canales de atención a través de correo electrónico:",
+                `<a href="mailto:centraldereservas@casa-andina.com" target="_blank">centraldereservas@casa-andina.com</a>`,
+                "Y call center",
+                `<a href="tel:013916500" target="_blank">(01) 3916500</a>`,
                 "El código de acceso al descuento es EJERCITOPERU22.",
-                "Validará indispensablemente, al BENEFICIARIO, mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.",
-                "En caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.",
-                " Las reservas realizadas son de tarifas NO REEMBOLSABLE.",
-                "Al finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.",
+                "3.3 Beneficio previa presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.",
+                "3.4 En caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.",
+                "3.5 Las reservas realizadas son de tarifas NO REEMBOLSABLE.",
+                "3.6 Al finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.",
               ],
-              link: "https://www.casa-andina.com/es/home",
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+                },
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1c-r__vS6vfKcRTSOXe85pw2pHiR1OuRW/view?usp=sharing",
+                },
+              ],
             },
           ],
         },
         {
           image: Hotel2,
-          link: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
           title: "Hotel Costa del Sol",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS : ",
+              descriptions: [
+                "Nuestras tarifas de alojamiento incluyen:",
+                "Desayuno Buffet",
+                "10% deDSCTO en Restaurante Paprika sobre precio de Carta. No aplica para menú.",
+                "10% de DSCTO en Alimentos y Bebidas, aplica para bebidas alcohólicas",
+                "10% de DSCTO en Lavandería.",
+                "10% de DSCTO en SPA Sobre precios de masajes, para las sedes Piura, Trujillo Golf, Trujillo centro,\n" +
+                  "Cajamarca, Aeropuerto, Salaverry.",
+                "Una bebida de bienvenida a elección (welcome drink)",
+                "Servicio de WI FI en todas nuestras instalaciones",
+                "Business Center",
+                "Uso del Gimnasio, piscina y sauna donde esté disponible. De acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19.",
+                "Servicio de recojo y traslado al aeropuerto para reservas individuales, previa reserva (no aplica grupos) en las ciudades de: Tumbes, Piura, Trujillo, Chiclayo, Pucallpa, Arequipa y Cajamarca.",
+                "No aplica para los Hoteles de Lima y Cusco.",
+                "El recojo y traslado al aeropuerto se brindará de acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19 y bajo previa reserva en servicio compartido y sólo en los horarios establecidos por cada Hotel (cualquier retraso por parte del cliente será su responsabilidad). Este servicio no aplica para Grupos sólo para pasajeros Individuales.",
+                "A continuación le brindamos mayor información al respecto:",
+                "CDSW Lima Aeropuerto.- No es necesario trasladarse en auto ya que nuestro hotel se localiza a 25 metros de la puerta de Salidas Internacionales. Asimismo, contamos con acceso directo desde el segundo nivel del Aeropuerto al Hotel.",
+                "CDSW Lima City.- El servicio de traslado Ida o Vuelta tiene un costo de S/ 70 neto (en efectivo) por unidad pagando directamente al conductor. Si desea cargar el servicio a la cuenta de la habitación, es posible pero tendría que adicionar el 18% IGV y el 10% servicios.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
+                },
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1uq6ZomiXJkiQlECigzB9DL75uaJ5kmJu/view?usp=sharing",
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -526,11 +811,29 @@ export const saecoConfig = {
           image: Servitec,
           link: "https://servitecperu.com/",
           title: "Servitec",
+          description: "Presentando su CIP 10% descuento en Paginas web.",
         },
         {
           image: StoreServitec,
           link: "https://tiendaservitec.com/",
           title: "Tienda Servitec",
+        },
+        {
+          image: FacturaServitec,
+          link: "https://factura.servitec.site/",
+          title: "Facturación Electronica",
+          description: "Presentando su CIP 10% descuento.",
+        },
+        {
+          image: PublicidadServitec,
+          link: "https://publicidadgoogle.site/",
+          title: "Marketing Digital / Publicidad digital en Google",
+          description: "Presentando su CIP 10% descuento.",
+        },
+        {
+          image: Servitec,
+          link: "https://reparacion-proyectores.com/",
+          title: "Servitec Proyectores",
         },
       ],
     },

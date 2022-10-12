@@ -25,6 +25,7 @@ export const sadConfig = {
     menuList: [
       { id: "Nosotros", name: "Nosotros" },
       { id: "services", name: "Especialidades" },
+      { id: "contact", name: "Contacto" },
     ],
   },
   main: {

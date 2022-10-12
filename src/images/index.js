@@ -100,7 +100,7 @@ export { default as UniversidadESAN } from "./universities/logo5.webp";
 export { default as UniversidadJaimeBausate } from "./universities/logo7.webp";
 export { default as UniversidadChampagnat } from "./universities/logo8.webp";
 export { default as UniversidadNorbert } from "./universities/logo9.webp";
-export { default as UniversidadDelPacifico } from "./universities/logo10.webp";
+export { default as UniversidadDelPacifico } from "./universities/logo24.webp";
 export { default as UniversidadRicardoPalma } from "./universities/logo11.webp";
 export { default as UniversidadSanIgnacioLoyola } from "./universities/logo12.webp";
 export { default as UniversidadSanJuanBautista } from "./universities/logo13.webp";
@@ -373,6 +373,7 @@ export { default as TiendaLogistas } from "./saeco/diversos/logistas.webp";
 export { default as TiendaRenzoCosta } from "./saeco/diversos/renzocosta.webp";
 export { default as SmartFit } from "./saeco/diversos/smartfit.webp";
 export { default as TiendaSugo } from "./saeco/diversos/sugootros.webp";
+export { default as TiendaVizzano } from "./saeco/diversos/calzado-vizzano.webp";
 // ------ SAECO FINANCIERAS IMAGES -------
 export { default as FinancieraEfectiva } from "./saeco/financieras/efectivafinaciera.webp";
 export { default as FinancieraFinantel } from "./saeco/financieras/finantelfinanciera.webp";
@@ -392,3 +393,5 @@ export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";
 // ------ SAECO TECNOLOGIA IMAGES -------
 export { default as Servitec } from "./saeco/tecnologia/serviteclogo.webp";
 export { default as StoreServitec } from "./saeco/tecnologia/storeservitec.webp";
+export { default as FacturaServitec } from "./saeco/tecnologia/facilfactura.webp";
+export { default as PublicidadServitec } from "./saeco/tecnologia/logo-servitec.webp";

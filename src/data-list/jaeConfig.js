@@ -162,8 +162,9 @@ export const jaeConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "ColegiosdeLima", name: "Colegios de Lima" },
-      { id: "ColegiosdeProvincia", name: "Colegios de Provincia" },
+      { id: "ColegiosdeLima", name: "Colegios Lima" },
+      { id: "ColegiosdeProvincia", name: "Colegios Provincia" },
+      { id: "contact", name: "Contacto" },
     ],
   },
   main: {
