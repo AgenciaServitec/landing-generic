@@ -49,6 +49,8 @@ import {
   UniversidadNacionalMusica,
   UniversidadFedericoVillareal,
   UniversidadUpc,
+  UnviersidadContinental,
+  UnviersidadAnahuac,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -360,6 +362,61 @@ export const saedConfig = {
             },
           ],
         },
+        {
+          image: UnviersidadContinental,
+          title: "UNIV.CONTINENTAL",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "MATRICULA",
+                "100 % de beneficio, sobre los costos por concepto de examen de admisión y matrícula, en todas las carreras de pregrado, en sus diferentes modalidades y en todas sus sedes a nivel nacional.",
+                "PREGRADO:",
+                "10% de descuento sobre el costo de la pensión, en todas las carreras de pregrado, en sus diferentes modalidades de estudio y en todas sus sedes a nivel nacional.",
+                "POSGRADO:",
+                "10% de descuento sobre el costo de la pensión, en todos los programas de posgrado (formación continua, maestría), en cualquiera de sus modalidades de estudio y en todas sus sedes a nivel nacional.",
+                "ESTUDIOS IN HOUSE",
+                "10% de descuento en denominado programa IN HOUSE, que contempla capacitaciones, dirigidas a un grupo de personas que soliciten un tema determinado de estudio.",
+                "CENTRO DE IDIOMAS",
+                "17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.",
+              ],
+            },
+            {
+              title: "ALCANZE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos)",
+              link: "https://ucontinental.edu.pe/",
+            },
+          ],
+        },
+
+        {
+          image: UnviersidadAnahuac,
+          title: "UNIV.ANÁHUAC",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                " 70% DE BECA AL MEJOR ESTUDIANTE:",
+                "OTORGAR EL BENEFICIO AL ESTUDIANTE DE EDUCACIÓN BASICA REGULAR (NIVEL SECUNDARIA) QUE LOGRE CULMINAR EN SUS TRES AÑOS DE EDUCACIÓN SECUNDARIA, EN EL PRIMER PUESTO.",
+                "50% DE BECA A LOS 02 MEJORES ESTUDIANTES:",
+                "SI SE DETERMINA EN EL PROCESO DE EVALUACIÓN SON 02 LOS BENEFICIARIOS, SE OTORGARÁ EL BENEFICIO A LOS 02 ESTUDIANTES CON EL PORCENTAJE ESTABLECIDO Y QUE HALLAN LOGRADO CULMINAR EN SUS TRES AÑOS DE EDUCACIÓN SECUNDARIA CON EL PROMEDIO REQUERIDO.",
+                "100% DE DESCUENTO POR DERECHO EN EL PROCESO DE ADMISIÓN A LOS ALUMNOS QUE OBTUVIERON LA BECA AL MEJOR ESTUDIANTE.",
+                "50% DE DESCUENTO EN EL PROCESO DE ADMISIÓN, PARA ESTUDIANTES INTERESADOS EN FORMACIÓN DE PREGRADO",
+              ],
+            },
+            {
+              title: "ALCANZE: ",
+              descriptions: [
+                " PARA ESTUDIANTES DE EDUCACION BÁSICA REGULAR (NIVEL SECUNDARIA) DE LAS INSTITUCIONES EDUCATIVAS DEL EJÉRCITO.",
+                "- OO, SUP. TCOS. SSOO. Tropa activo y Licenciado.",
+              ],
+
+              links: [{ icon: faGlobe, link: "https://www.anahuac.mx/" }],
+            },
+          ],
+        },
+
         {
           image: UniversidadSanmartinPorres,
           title: "SAN MARTIN DE PORRES",

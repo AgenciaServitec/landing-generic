@@ -115,6 +115,8 @@ export { default as UniversidadPeruanadeCiencias } from "./universities/logo20.w
 export { default as UniversidadNacionalMusica } from "./universities/logo22.webp";
 export { default as UniversidadFedericoVillareal } from "./universities/logo23.webp";
 export { default as UniversidadUpc } from "./universities/logo21.webp";
+export { default as UnviersidadContinental } from "./universities/logo26.webp";
+export { default as UnviersidadAnahuac } from "./universities/logo25.webp";
 
 //----- INSTITUTOS --------
 export { default as Institute1 } from "./institutes/instituto1.webp";

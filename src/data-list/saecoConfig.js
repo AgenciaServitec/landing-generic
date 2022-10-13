@@ -29,7 +29,6 @@ import {
   SmartFit,
   TiendaFootloose,
   TiendaLazzos,
-  TiendaLogistas,
   TiendaRenzoCosta,
   SaecoBautismo,
   MisaPadre,
@@ -210,17 +209,31 @@ export const saecoConfig = {
           title: "Biolinks",
           descriptionLarge: [
             {
-              title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+              title: "BENEFICIOS : ",
+              descriptions: [
+                " a) Acceso a costo diferenciado de porcentaje de descuento sobre la tarifa regular, en todas sus sedes propias y sedes con colaboradores con alianzas estratégicas, de los exámenes de laboratorios que se indican:",
+                "• Pruebas de Paternidad Parentesco.",
+                "• Oncológicos aérea diagnostico",
+                "• Áreas infecciosas",
+                "b) Realización de citas mediante:",
+                "• Forma PRESENCIAL, en las sedes siguientes:",
+                "- Sede Lima Av. Javier Prado Oeste 844 Magdalena y Av. Carlos Izaguirre 736, Los Olivos.",
+                "- Sede Trujillo, Av. Jesús de Nazareth 364 Urb. San Andrés.",
+                "- Sede Huancayo, Jr. Parra delo Riego 375-399 El Tambo.",
+                "- Sede Arequipa, Av. Zamacola 203, Yanahuara.",
+                "- Sedes en otras provincias del Perú con colaboradores en convenio con Biolinks.",
+                `• Informes a los teléfonos: <a href="tel:2614411" target="_blank">2614411</a> y <a href="tel:2614412" target="_blank">2614412</a>, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las órdenes médicas respectivas.`,
+                `Correo electrónico <a href="mailto:adn@biolinksperù.com">adn@biolinksperù.com</a> – <a href="https://biolinksperu.com" target="_blank">www.biolinksperu.com</a>.`,
+              ],
             },
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIARIOS :",
               descriptions: [
-                "PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD\n",
-                "TARIFA CON CONVENIO 20% DESCUENTO\n",
-                "EXÁMENES DE LABORATORIO CLÍNICO ONCOLÓGICO - ÁREA DE DIAGNÓSTICO.\n",
-                "EXAMEN DE LABORATORIO CLÍNICO - ÁREAS INFECCIOSAS",
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
               ],
               sedes: [
                 {
@@ -266,9 +279,9 @@ export const saecoConfig = {
             {
               title: "BENEFICIO: ",
               descriptions: [
-                "a) Descuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA. Anexo 01",
-                "b) Descuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María. Anexo 01",
-                "c) Descuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede. Anexo 01",
+                "a) Descuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA.",
+                "b) Descuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
+                "c) Descuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.",
               ],
               detalles: [
                 {
@@ -374,14 +387,27 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                " COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+              descriptions: [
+                "Consultas e informes a través del celular y WhatsApp: 980688232, así como correo electrónico comercial@grupoinfinitech.com y presencial en la Av. Canadá Nº 3630, consultorio 205 San Borja en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
+                "Descuento del 30% en audífonos medicados programables que comercialice la empresa.",
+                "Gratis Kit de limpieza por la compra de audífonos medicados.",
+                "Descuento del 20% de en servicios de audiología, psicología nutrición.",
+              ],
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "http://tinnitusperu.com",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "http://tinnitusperu.com",
+                },
+              ],
             },
           ],
         },
@@ -393,9 +419,9 @@ export const saecoConfig = {
               title: "BENEFICIOS :",
               descriptions: [
                 "BENEFICIO",
-                "a) Acceso al 40% de descuento sobre la tarifa regular, de los exámenes de laboratorio de rutina; ANEXO 01",
-                "b) Acceso a la tarifa hospitalaria en el Centro CIMEDIC en las pruebas de diagnóstico por imágenes (tomografía, resonancia magnética). ANEXO 01.",
-                "c) Acceso al 10% de descuento sobre la tarifa base, de los denominados exámenes de Anatomía Patológica (citología y quirúrgicos, inmunohistoquímica – marcadores inmunohistoquímicos, biología molecular, citometría de flujo, genética) y pruebas especiales; según el detalle descrito en el ANEXO 01.",
+                "a) Acceso al 40% de descuento sobre la tarifa regular, de los exámenes de laboratorio de rutina.",
+                "b) Acceso a la tarifa hospitalaria en el Centro CIMEDIC en las pruebas de diagnóstico por imágenes (tomografía, resonancia magnética).",
+                "c) Acceso al 10% de descuento sobre la tarifa base, de los denominados exámenes de Anatomía Patológica (citología y quirúrgicos, inmunohistoquímica – marcadores inmunohistoquímicos, biología molecular, citometría de flujo, genética) y pruebas especiales.",
                 "d) Realización de citas mediante:",
                 "• Forma PRESENCIAL",
                 "• Vía CALL CENTER, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las ordenes médicas emitidas por el HMC o centros de salud privados.",
@@ -443,9 +469,26 @@ export const saecoConfig = {
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://www.footloose.pe",
+              descriptions: [
+                "a) Exclusivo para compras presenciales.",
+                "b) No aplica compras por web, app, o Facebook.",
+                "c) Descuento del 15% en marcas propias.",
+                "d) Descuento del 10% en todas marcas diferentes.",
+                "e) Tiendas ubicadas en todos los centros comerciales",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.footloose.pe",
+                },
+              ],
             },
           ],
         },
@@ -495,23 +538,23 @@ export const saecoConfig = {
             },
           ],
         },
-        {
-          image: TiendaLogistas,
-          title: "Logistas",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS :",
-              description:
-                "SERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n" +
-                "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
-            },
-            {
-              title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-            },
-          ],
-        },
+        // {
+        //   image: TiendaLogistas,
+        //   title: "Logistas",
+        //   descriptionLarge: [
+        //     {
+        //       title: "BENEFICIOS :",
+        //       description:
+        //         "SERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n" +
+        //         "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+        //     },
+        //     {
+        //       title: "BENEFICIARIOS: ",
+        //       description:
+        //         "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
+        //     },
+        //   ],
+        // },
         {
           image: TiendaRenzoCosta,
           title: "Renzo Costa",
@@ -521,8 +564,8 @@ export const saecoConfig = {
               descriptions: [
                 "a) Exclusivo para compras presenciales.",
                 "b) No aplica compras por web, app, o Facebook",
-                "c) Descuento del 10% en todos los productos tiendas propias según relación anexo",
-                "d) Descuento del 5% en todos los productos, toda la cadena de tiendas a nivel nacional (centros comerciales), anexo",
+                "c) Descuento del 10% en todos los productos tiendas propias",
+                "d) Descuento del 5% en todos los productos, toda la cadena de tiendas a nivel nacional (centros comerciales)",
               ],
             },
             {
@@ -555,20 +598,40 @@ export const saecoConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              description:
-                "EXONERACIÓN DEL PAGO ÚNICO DE “MATRÍCULA”.\n" +
-                "EXONERACIÓN DEL PAGO ANUAL DE “MANTENIMIENTO”.\n" +
-                "EXONERACIÓN DEL PAGO POR PENALIDAD\n" +
-                "ENTRENAMIENTO EN TODO EL PERÚ Y LATINOAMÉRICA.\n" +
-                "INVITACIÓN DE AMIGOS Y FAMILIARES HASTA 5 VECES AL MES.n\n" +
-                "PAGO MENSUAL S/ 99.\n" +
-                "INGRESANDO CON EL CÓDIGO DE VALIDACIÓN “CORPORATIVO EP”",
+              descriptions: [
+                "Acceso PLAN BLACK corporativo, con un costo de s/99.90, el cual otorga los siguientes beneficios:",
+                "• Exoneración del pago único de “Matrícula”, mediante pago a cuenta de tarjeta crédito o débito.",
+                "• Exoneración del pago anual de “Mantenimiento”.",
+                "• Exoneración del pago de la penalidad por resolución anticipada contemplada en la cláusula “Cancelación y Expulsión”.",
+                "• Entrenamiento en cualquier sede del Perú y Latinoamérica.",
+                "• Invitación amigos y familiares hasta 5 veces al mes.",
+                "• Acceso a sillones de masajes.",
+                "• Acceso de manera ilimitada a la plataforma Virtual SMART FIT GO.",
+                "• Libre de elección de fechas de entrenamiento, mínimo un mes.",
+              ],
             },
             {
               title: "BENEFICIARIOS: ",
-              description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://www.smartfit.com.pe",
+              descriptions: [
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1doEYxPYrX21ttcHH79tNk35SRY0dGddw/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.smartfit.com.pe",
+                },
+              ],
             },
           ],
         },
