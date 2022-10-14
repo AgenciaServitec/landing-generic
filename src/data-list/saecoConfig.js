@@ -42,6 +42,15 @@ import {
   PublicidadServitec,
   FacturaServitec,
   TiendaVizzano,
+  ArgentinaBandera,
+  BrasilBandera,
+  ChileBandera,
+  ColombianaBandera,
+  CoreaBandera,
+  EspanaBandera,
+  FranciaBandera,
+  MexicoBandera,
+  NoImagen,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -897,6 +906,309 @@ export const saecoConfig = {
           image: Servitec,
           link: "https://reparacion-proyectores.com/",
           title: "Servitec Proyectores",
+        },
+      ],
+    },
+    sectionProvincial: {
+      title: "Convenios Provinciales Piura -Sullana:",
+      cards: [
+        {
+          image: NoImagen,
+          title: 'HOTEL "LA SIESTA"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "SOLO EN ALOJAMIENTO (HABITACIONES).",
+                "METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS.",
+                "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "D' PALETAS",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "CONSUMOS MINIMOS DE S/. 25 EN TODAS NUESTRA CARTAS.",
+                "EL DESCUENTO SE APLICA DE LUNES A VIERNES.",
+                "NO SE APLICA NI LOS DIAS SÁBADOS, DOMINGOS Y FERIADOS.",
+                "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIA.",
+                "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "DON LIMÓN",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "SOLO EN COMIDA POR EL CONSUMO MÍNIMO POR EL COMSUMO MÍNIMO DE S/. 100.00.",
+                "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM, O TRANSFERENCIAS.",
+                "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "SAINT ROSE",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "SOLO EN COMIDA POR EL CONSUMO MÍNIMO POR EL COMSUMO MÍNIMO DE S/. 100.00.",
+                "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM, O TRANSFERENCIAS.",
+                "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: 'CHIFA RESTAURANTE "WONG SEN"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "5% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "DESCUENTO EN CONSUMO DE COMIDA Y TODO TIPO DE BEBIDAS, POR EL CONSUMO MINIMO DE S/. 50.00.",
+                "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS.",
+                "PRESENTACIÓN DE CIP/CIF EN ACTIVIDADES Y/O RETIRO.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionProvincial2: {
+      title: "Convenios Provinciales Tacna:",
+      cards: [
+        {
+          image: NoImagen,
+          title: "EL HOTEL MAXIMO'S",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "20% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "BRINDARA HOSPEDAJE, DE LA LISTA DE PRECIOS VIGENTES A LA FECHA, EN QUE SEAN SOLICITADOS LOS SERVICIOS, INCLUYE DESAYUNO BUFFET DE CORTESÍA.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "DM HOTEL",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "TARIFAS PREFERENCIALES",
+                "ALCANCE:",
+                "REQUISITOS:",
+                "BRINDARA DESCUENTOS EN TODAS SUS HABITACIONES, INCLUYE DESAYUNO BUFFET:",
+                "HABITACION ESTÁNDAR INDIVIDUAL $ 55.00",
+                "HABITACIÓN ESTÁNDAR MATRIMONIAL $65.00",
+                "HABITACIÓN ESTÁNDAR DOBLE $ 75.OO",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: 'PARQUE GASTRONOMICO "DON MAXIMO"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "BRINDARA ATENCIÓN CON UNA VARIADA GASTRONOMÍA Y DE CALIDAD EN LA PREPARACIÓN DE SUS ALIMENTOS Y BEBIDAS, EN TODO SU STAND",
+                "REQUISITOS:",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "MB REHAB FISOTERAPIA REA BILITACIÓN Y SALUD S.A.C.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "TARIFAS PREFERENCIAL EN EVALUACION FISIOTETERAPÉUTICA Y REHABILITACIÓN",
+                "ALCANDE:",
+                "REALIZA SERVICIOS EN FISIOTERAPIA Y REHABILITACIÓN FISICA, BRINDANDO TRATAMIENTOS CONTRA DIVERSOS TIPOS DE DOLORES, DISFUNCIONES, LESIONES TRAUMATOLÓGICAS, NEUROLÓGICAS, DEPORTIVA Y OTRAS , DE ACUERDO A UNA TARIFA PREFERENCIAL, OTORGANDO DESCUENTOS DEL 20% Y 30%",
+                "REQUISITOS",
+                "PERSONAL DE OFICIALES, TÉCNICOS, SUBOFICIALES, CLASES, SOLDADOS, PERSONAL CIVIL Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionProvincial3: {
+      title: "Convenios Provinciales Puno:",
+      cards: [
+        {
+          image: NoImagen,
+          title: 'CLINICA "SAUCES MEDICAL CENTER"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANDE:",
+                "COSTOS DIFERENCIADOS",
+                "REQUISITOS\n",
+                " PERSONAL MILITAR (INCLUYE PERSONAL DE TROPA), SERVIDORES PÚBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionInternacionales: {
+      title: "Convenios Internacionales :",
+      cards: [
+        {
+          image: ArgentinaBandera,
+          title: "Argentina",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Cuenta con alojamiento en hoteles administrados por el Círculo Militar y el uso de sus respectivas instalaciones, brindado a todo el personal militar en actividad y/o retiro, previa coordinación mediante el Agregado Militar.",
+                `Teléfono cel (ws): <a href="tel:51949430983" target="_blank">51949430983</a>`,
+                `Teléfono cel (ws): <a href="tel:5491139299794" target="_blank">5491139299794</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: BrasilBandera,
+          title: "Brasil",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Beneficios: Cuenta con club militar y hoteles del Ejército de Brasil dirigido a todo el personal militar, previa coordinación con el Agregado Militar.",
+                `Teléfono cel (ws): <a href="tel:966005004" target="_blank">966005004</a>`,
+                `Teléfono fijo: <a href="tel:00556132445534" target="_blank">00556132445534</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: ChileBandera,
+          title: "Chile",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Beneficios: Cuenta con todos los centros del sistema de bienestar, Círculos militares con hospedaje tarifas preferenciales, es necesario comunicar con la debida anticipación a fin de realizar coordinaciones y reservas, este beneficio está dirigido a todo el personal militar en situación de actividad y/o retiro y familiares.",
+                `Teléfono cel (ws): <a href="tel:56985002700" target="_blank">56985002700</a>`,
+                `Teléfono fijo: <a href="tel:0056323695567" target="_blank">0056323695567</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: ColombianaBandera,
+          title: "Colombia",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Convenio suscrito con el círculo militar de las fuerzas militares de Colombia para el acceso a las instalaciones accediendo a tarifas preferenciales, este beneficio es para el personal militar en actividad y/o retiro y familiares, previa coordinación con la agregaduría militar.",
+                `Teléfono cel (ws): <a href="tel: 999950784" target="_blank"> 999950784</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: CoreaBandera,
+          title: "Corea",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Dispone de hoteles, que brindan facilidades al personal militar en actividad de países extranjeros, que se encuentran de visita, previa coordinación con el Agregado Militar.",
+                `Teléfono cel (ws): <a href="tel: 821056508802" target="_blank"> 821056508802</a>`,
+                `Teléfono fijo: <a href="tel: 008207074531947" target="_blank"> 008207074531947</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: EspanaBandera,
+          title: "España",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Se cuenta con diferentes Residencias Militares de Descanso (RMD), las cuales pueden ser utilizadas por todo el personal militar y familia, previo trámite y gestión de solicitud, en coordinación con el Agregado Militar.",
+                `Teléfono cel (ws): <a href="tel: 34629228505" target="_blank"> 34629228505</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: FranciaBandera,
+          title: "Francia",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Cuenta con hotel, alojamientos y/o similares, dirigido a todo el personal militar en actividad, retiro y familiares directos, coordinaciones de información y reserva se pueden realizar de manera directa en la página web www.igesa.fr.",
+                `Teléfono cel (ws): <a href="tel: 336244727455" target="_blank"> 33624472745</a>`,
+              ],
+            },
+          ],
+        },
+        {
+          image: MexicoBandera,
+          title: "Mexico",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Alojamiento en el “Hotel Bicentenario” en beneficio para el personal de Oficiales, Supervisores, Técnicos, Sub Oficiales y familiares extranjeros, previa comunicación y con la debida anticipación para realizar la reserva correspondiente.",
+                `Teléfono cel (ws): <a href="tel: 553733958" target="_blank"> 553733958</a>`,
+              ],
+            },
+          ],
         },
       ],
     },

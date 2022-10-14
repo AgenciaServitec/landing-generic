@@ -38,6 +38,12 @@ export const Home = () => {
   const sectionTransporte = templateConfig.main.sectionTransporte || false;
   const sectionHoteles = templateConfig.main.sectionHoteles || false;
   const sectionTecnologia = templateConfig.main.sectionTecnologia || false;
+  const sectionProvincial = templateConfig.main.sectionProvincial || false;
+  const sectionProvincial2 = templateConfig.main.sectionProvincial2 || false;
+  const sectionProvincial3 = templateConfig.main.sectionProvincial3 || false;
+  const sectionInternacionales =
+    templateConfig.main.sectionInternacionales || false;
+
   const sectionServiceRel = templateConfig.main.sectionServiceRel || false;
 
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
@@ -158,6 +164,36 @@ export const Home = () => {
             type="secondary"
           />
         )}
+
+        {(sectionProvincial || sectionProvincial.cards) && (
+          <ListCards
+            title={sectionProvincial.title}
+            items={sectionProvincial.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial2 || sectionProvincial2.cards) && (
+          <ListCards
+            title={sectionProvincial2.title}
+            items={sectionProvincial2.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial3 || sectionProvincial3.cards) && (
+          <ListCards
+            title={sectionProvincial3.title}
+            items={sectionProvincial3.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionInternacionales || sectionInternacionales.cards) && (
+          <ListCards
+            title={sectionInternacionales.title}
+            items={sectionInternacionales.cards}
+            type="secondary"
+          />
+        )}
+
         {(sectionServiceRel || sectionServiceRel.images) && (
           <CardsInlineBlock
             id={sectionServiceRel.id}
