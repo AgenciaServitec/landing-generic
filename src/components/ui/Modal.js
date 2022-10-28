@@ -14,12 +14,14 @@ export const Modal = ({
   centered = true,
   footer = null,
   children,
+  modalWidth = "100% !important",
   ...props
 }) => (
   <ModalContainer
     closable={closable}
     centered={centered}
     footer={footer}
+    modalWidth={modalWidth}
     {...props}
   >
     {children}
@@ -27,6 +29,6 @@ export const Modal = ({
 );
 
 const ModalContainer = styled(AntdModal)`
-  width: 100% !important;
+  width: ${({ modalWidth }) => modalWidth};
   max-height: 100%;
 `;
