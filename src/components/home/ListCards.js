@@ -221,14 +221,17 @@ const Container = styled.div`
 `;
 
 const ItemCards = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: ${({ justifyContent }) => justifyContent};
+  border: ${({ border }) => border};
+  border-radius: 2rem;
+  margin: 0 1em;
+
   ${mediaQuery.minTablet} {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: ${({ justifyContent }) => justifyContent};
-    border: ${({ border }) => border};
-    border-radius: 2rem;
     padding: 1rem 1.2rem;
+    margin: 0;
     //box-shadow: 15px 0px #bbb;
   }
   img {
