@@ -1,6 +1,7 @@
 import React from "react";
 import AntdModal from "antd/lib/modal";
 import styled from "styled-components";
+import { mediaQuery } from "../../styles/constants/mediaQuery";
 
 // interface Props {
 //   closable: boolean;
@@ -29,6 +30,9 @@ export const Modal = ({
 );
 
 const ModalContainer = styled(AntdModal)`
-  width: ${({ modalWidth }) => modalWidth};
+  width: 100% !important ;
   max-height: 100%;
+  ${mediaQuery.minDesktop} {
+    width: ${({ modalWidth }) => modalWidth};
+  }
 `;
