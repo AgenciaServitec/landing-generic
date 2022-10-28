@@ -41,6 +41,9 @@ export const Home = () => {
   const sectionProvincial = templateConfig.main.sectionProvincial || false;
   const sectionProvincial2 = templateConfig.main.sectionProvincial2 || false;
   const sectionProvincial3 = templateConfig.main.sectionProvincial3 || false;
+  const sectionProvincial4 = templateConfig.main.sectionProvincial4 || false;
+  const sectionProvincial5 = templateConfig.main.sectionProvincial5 || false;
+  const sectionProvincial6 = templateConfig.main.sectionProvincial6 || false;
   const sectionInternacionales =
     templateConfig.main.sectionInternacionales || false;
 
@@ -80,7 +83,6 @@ export const Home = () => {
             items={sectionServices.cards}
           />
         )}
-
         {(sectionOther || sectionOther.images) && (
           <CardsInlineBlock
             title={sectionOther.title}
@@ -89,10 +91,8 @@ export const Home = () => {
             images={sectionOther.images}
           />
         )}
-
         {collageImages && <Collage images={collageImages} />}
         {sectionCampus && <CardsBlack cards={sectionCampus} />}
-
         {(sectionCobertura || sectionCobertura.images) && (
           <CardsInlineBlock
             id={sectionCobertura.id}
@@ -149,7 +149,6 @@ export const Home = () => {
             type="secondary"
           />
         )}
-
         {(sectionHoteles || sectionHoteles.cards) && (
           <ListCards
             title={sectionHoteles.title}
@@ -164,7 +163,6 @@ export const Home = () => {
             type="secondary"
           />
         )}
-
         {(sectionProvincial || sectionProvincial.cards) && (
           <ListCards
             title={sectionProvincial.title}
@@ -186,6 +184,27 @@ export const Home = () => {
             type="secondary"
           />
         )}
+        {(sectionProvincial4 || sectionProvincial4.cards) && (
+          <ListCards
+            title={sectionProvincial4.title}
+            items={sectionProvincial4.cards}
+            type="secondary"
+          />
+        )}{" "}
+        {(sectionProvincial5 || sectionProvincial5.cards) && (
+          <ListCards
+            title={sectionProvincial5.title}
+            items={sectionProvincial5.cards}
+            type="secondary"
+          />
+        )}{" "}
+        {(sectionProvincial6 || sectionProvincial6.cards) && (
+          <ListCards
+            title={sectionProvincial6.title}
+            items={sectionProvincial6.cards}
+            type="secondary"
+          />
+        )}
         {(sectionInternacionales || sectionInternacionales.cards) && (
           <ListCards
             title={sectionInternacionales.title}
@@ -193,7 +212,6 @@ export const Home = () => {
             type="secondary"
           />
         )}
-
         {(sectionServiceRel || sectionServiceRel.images) && (
           <CardsInlineBlock
             id={sectionServiceRel.id}
@@ -205,7 +223,6 @@ export const Home = () => {
             images={sectionServiceRel.images}
           />
         )}
-
         {(sectionAlcance || sectionAlcance.images) && (
           <CardsInlineBlock
             title={sectionAlcance.title}
@@ -214,14 +231,12 @@ export const Home = () => {
             images={sectionAlcance.images}
           />
         )}
-
         {(sectionContentImages || sectionContentImages.images) && (
           <ComponentImages
             title={sectionContentImages.title}
             images={sectionContentImages.images}
           />
         )}
-
         {(sectionRequirements || sectionRequirements.cards) && (
           <ListCards
             id={sectionRequirements.id}
@@ -229,7 +244,6 @@ export const Home = () => {
             items={sectionRequirements.cards}
           />
         )}
-
         {(sectionMap || sectionMap.images) && (
           <ComponentImages
             title={sectionMap.title}
@@ -237,7 +251,6 @@ export const Home = () => {
             type="secondary"
           />
         )}
-
         {/*<Banner />*/}
         {(cardsConventions || cardsConventions.cards) && (
           <ListCards
@@ -247,7 +260,6 @@ export const Home = () => {
             type="secondary"
           />
         )}
-
         {(cardsInstitutes || cardsInstitutes.cards) && (
           <ListCards
             title={cardsInstitutes.title}
