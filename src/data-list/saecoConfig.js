@@ -1163,6 +1163,154 @@ export const saecoConfig = {
         },
       ],
     },
+    sectionProvincial4: {
+      title: "Convenios Provinciales Arequipa",
+      cards: [
+        {
+          image: NoImagen,
+          title: "PASTELERIA MOCCA",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "15% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "DESCUENTOS EN LA ADQUISICION DE PRODUCTOS DE PASTELERIA.",
+                "REQUISITOS",
+                "PERSONAL MILITAR Y CIVIL EN SITUACION DE ACTIVIDAD Y RETIRO Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "ASOCIACION PSICOLOGICA UMANOS",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "50% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "DESCUENTO EN CONSULTAS PSICOLÓGICAS Y TERAPIAS.",
+                "REQUISITOS",
+                "PERSONAL MILITAR Y CIVIL EN SITUACION DE ACTIVIDAD Y RETIRO Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "CENTRO PSICOLÓGICO PSICOUNE",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "50% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "DESCUENTO EN CONSULTAS PSICOLÓGICAS Y 40 % DE DESCUENTOS EN TERAPIAS.",
+                "REQUISITOS",
+                "PERSONAL MILITAR Y CIVIL EN SITUACION DE ACTIVIDAD Y RETIRO Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionProvincial5: {
+      title: "Convenios Provinciales Ayacucho",
+      cards: [
+        {
+          image: NoImagen,
+          title: "HOTEL ALTIPACHA",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "60% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "SOLO EN ALOJAMIENTO (HABITACIONES).",
+                "REQUISITOS",
+                "PERSONAL MILITAR Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionProvincial6: {
+      title: "Convenios Provinciales Chiclayo",
+      cards: [
+        {
+          image: NoImagen,
+          title: "EMPRESA AGROINDUSTRIAL HFE. BERRIES PERÚ",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTOS PREFERENCIALES",
+                "DESARROLLAR TALLERES DE EMPLEABILIDAD QUE LOGREN LA INSERCIÓN LABORAL DEL PERSONAL DE TROPA PRÓXIMO A LICENCIARSE.",
+                "OBTENIENDO DE ESTA MANERA QUE NUESTRO PERSONAL ADQUIERA COMPETENCIAS ACORDE AL PERFIL DEL MERCADO LABORAL (DE FORMA GRATUITO)",
+                "REQUISITOS",
+                "PERSONAL DE TROPA SMV",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: 'HOTEL & CASINO" WIN MEIER"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "45%",
+                "DESCUENTO EN TARIFAS DE HABITACIÓN EN TODAS LAS TARIFAS INCLUYEN TRASLADO AEROPUERTO-HOTEL, DESAYUNO EN EL RESTAURANTE DEL HOTEL, INTERNET INALÁMBRICO, ESTACIONAMIENTO GRATUITO, ACCESO LIBRE AL BUSINESS CENTER, USO DE PISCINA, ROOM SERVICE (10:30am - 11:00 pm), LAVANDERÍA Y PLANCHADO PREVIA SOLICITUD",
+                "REQUISITOS",
+                "OFICIALES, TECNICOS Y SUBOFICIALES, EMPLEADOS CIVILES",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "ASOCIADOS EN SALUD S.A.C.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTOS PREFERENCIALES",
+                "20% DE DESCUENTO EN CONSULTA MÉDICA.BRINDAR SERVICIOS DE CONSULTA MÉDICA EN LAS ESPECIALIDADES DE CIRUGÍA GENERAL EN LAS ESPECIALIDADES DE CIRUGÍA GENERAL, CARDIOVASCULAR, GINECOLOGÍA, MEDICINA GENERAL, MEDICINA INTERNA, MEDICINA ESTÉTICA, NEUROLOGÍA, NEUROPEDIATRIA, NEUROCIRUGIA, OFTALMOLOGIA, OTORRINOLOGÍA, ODONTOLOGÍA, PEDIATRÍA, PSICOLOGÍA, REUMATOLOGÍA, TRAUMATOLOGÍA,TERAPIA FISICA Y REHABILITACIÓN\n",
+                "20% DE DESCUENTOS EN TARIFAS VIGENTES DE ANATOMÍA PATOLÓGICA, CÁMARA HIPERBÁRICA, DENSITOMETRÍA ÓSEA, ECOGRAFÍA, LABORATORIO CLÍNICO, RAYOS X, TOMOGRAFÍA, TERAPIA FÍSICA Y REHABILITACIÓN.",
+                "REQUISITOS",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "HOSPITAL BELÉN",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTOS PREFERENCIALES",
+                "ALCANCE",
+                "40% DE DESCUENTO PARA EL PERSONAL DE OFICIALES.\n",
+                "50% DE DESCUENTO PARA EL PERSONAL DE TECNICOS Y SUBOFICIALES Y SUS FAMILIARES, EMPLEADOS CIVILES,FAMIIARES Y PERSONAL MILITAR EN SITUACION DE RETIRO.\n",
+                "FACILIDADES DE PAGO EN FARMACIA EN INTERVENCIONES QUIRURGICAS DE EMERGENCIA.\n",
+                "EXONERACION DE PAGOS EN INTERVENCIONES QUIRÚRGICAS DE EMERGENCIA AL PERSONAL DE TROPA SERVICIO MILITAR\n",
+                "35% EN ANALISIS DE LABORATORIO.\n",
+                "ATENCIÓN DE PACIENTES EN TRABAJOS DE PARTOS DISTÓCICOS.\n",
+                "ATENCIÓN PEDIATRICA A LOS HIJOS DE PERSONAL MILITAR Y CIVIL",
+                "REQUISITOS:",
+                "PERSONAL DE OFICIALES, TECNICOS Y SUB OFICIALES, PERSONAL DE TROPA SMV, PERSONAL CIVIL Y FAMILIARES DIRECTOS DEBIDAMENTE IDENTIFICADOS CON SU CARNET DE IDENTIDAD",
+              ],
+            },
+          ],
+        },
+      ],
+    },
     sectionInternacionales: {
       title: "Convenios Internacionales :",
       cards: [
