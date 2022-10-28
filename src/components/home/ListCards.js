@@ -96,7 +96,7 @@ export const ListCards = ({
       </div>
 
       <Modal
-        styles={{ width: "100% !importand" }}
+        modalWidth="70% !important "
         title={title}
         visible={modalVisible}
         closable
