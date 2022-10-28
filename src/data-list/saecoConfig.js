@@ -1004,6 +1004,54 @@ export const saecoConfig = {
             },
           ],
         },
+        {
+          image: NoImagen,
+          title: "CHIFA SAN ZI",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTOS PREFERENCIALES",
+                "ALCANCE:",
+                "SE ENCUENTRA UBICADA EN MZ P1 LOTE 19 URBANIZACION JARDÍN 1RA ETAPA",
+                "REQUISITOS",
+                "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "RESTAURANT EL LEÑADOR Y ALGO MAS",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTOS PREFERENCIALES",
+                "ALCANCE:",
+                "SE ENCUENTRA UBICADA EN LA CALLE SANTA CLARA N°340 URB SANTA ROSA",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "MAYU COMIDA Y SALÓN",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTOS PREFERENCIALES",
+                "ALCANCE:",
+                "SE ENCUENTRA UBICADA EN LA CALLE SAN JUAN BOSCO N° 380",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
       ],
     },
     sectionProvincial2: {
@@ -1081,6 +1129,22 @@ export const saecoConfig = {
     sectionProvincial3: {
       title: "Convenios Provinciales Puno:",
       cards: [
+        {
+          image: NoImagen,
+          title: 'CLINICA "SAUCES MEDICAL CENTER"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANDE:",
+                "COSTOS DIFERENCIADOS",
+                "REQUISITOS\n",
+                " PERSONAL MILITAR (INCLUYE PERSONAL DE TROPA), SERVIDORES PÚBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
         {
           image: NoImagen,
           title: 'CLINICA "SAUCES MEDICAL CENTER"',
