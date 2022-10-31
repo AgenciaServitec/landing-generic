@@ -68,13 +68,11 @@ const Container = styled.div`
         display: flex;
         align-items: center;
         justify-content: flex-start;
-
+        font-size: 1em;
+        font-weight: 700;
         img {
           width: 4rem;
           margin-right: 1rem;
-        }
-        h2 {
-          margin: 0;
         }
       }
     }
@@ -83,6 +81,7 @@ const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      padding: 0 1.5em 0 0;
       ul {
         list-style: none;
         display: flex;
@@ -96,7 +95,7 @@ const Container = styled.div`
           font-size: 1.1rem;
           border-bottom: 2px solid transparent;
           transition: all 0.3s ease-in-out;
-          margin-left: 1.5rem;
+          margin-left: 0.9em;
           cursor: pointer;
           text-transform: uppercase;
         }
