@@ -1311,6 +1311,161 @@ export const saecoConfig = {
         },
       ],
     },
+    sectionProvincial7: {
+      title: "Convenios Provinciales Chiclayo",
+      cards: [
+        {
+          image: NoImagen,
+          title: 'CENTRO DE TERAPIA "INFFEL"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "ALCANCE:",
+                "SE LE OTORGARA UN DESCUENTO EN CUALQUIERA DE LAS TERAPIAS.",
+                "REQUISITOS",
+                "PERSONAL MILITAR, CIVIL Y FAMILIARES ",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionProvincial8: {
+      title: "Convenios Provinciales Trujillo",
+      cards: [
+        {
+          image: NoImagen,
+          title: 'HOTEL "COLONIAL"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "28%",
+                "ALCANCE:",
+                "DESCUENTO SOLO EN ALOJAMIENTO (HABITACIONES)",
+                "METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS",
+                "PRESENTAR CIP/CIF EN ACTIVIDAD Y/O RETIRO.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: 'HOTEL "EL BRUJO"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10%",
+                "ALCANCE:",
+                "DESCUENTO SOLO EN ALOJAMIENTO (HABITACIONES)",
+                "METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS",
+                "PRESENTAR CIP/CIF EN ACTIVIDAD Y/O RETIRO.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: 'HOTEL "RADO"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10%",
+                "ALCANCE:",
+                "DESCUENTO SOLO EN ALOJAMIENTO (HABITACIONES)",
+                "METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS",
+                "PRESENTAR CIP/CIF EN ACTIVIDAD Y/O RETIRO.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "DANIELITA CEVICHERÍA RESTAURANTE",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "15%",
+                "ALCANCE:",
+                "DESCUENTO EN TODA NUESTRA CARTA",
+                "DESCUENTO SE APLICA TODOS LOS DIAS.",
+                "METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS.",
+                "PRESENTAR CIP/CIF EN ACTIVIDAD Y/O RETIRO.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    sectionProvincial9: {
+      title: "Convenios Provinciales Tumbes",
+      cards: [
+        {
+          image: NoImagen,
+          title: "HOTEL RESTAURANTE LAS CABAÑAS DE ZORRITOS",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10%",
+                "ALCANCE:",
+                "DESCUENTO EN PLATOS  A LA CARTA",
+                "DESCUENTO EN HABITACIONES.",
+                "SE ENCUENTRA UBICADO EN LA AV PANAMERICANA NORTE KM 214.50 BOCAPAN CONTRAALMIRANTE VILLAR ZORRITOS TUMBES",
+                "REQUISITOS:",
+                "PERSONAL MILITAR EN ACTIVIDAD O RETIRO, PERSONAL CIVIL EN ACTIVIDAD O CESANTE, FAMILIARES DIRECTOS, ESPOSA, HIJOS Y PADRES",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "EL HUERTO DEL SABER",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10%",
+                "ALCANCE:",
+                "*DESCUENTO EN PLATOS  A LA CARTA PESCADOS, CARNES Y MARISCOS.",
+                "SE ENCUENTRA UBICADO EN SAN JUAN DE LA VIRGEN- TUMBES",
+                "REQUISITOS:",
+                "PERSONAL MILITAR EN ACTIVIDAD O RETIRO, PERSONAL CIVIL EN ACTIVIDAD O CESANTE, FAMILIARES DIRECTOS, ESPOSA, HIJOS Y PADRES",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "LA COLMENA TOURS",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                'EMPRESA DE TRANSPORTE TURISTICO "LA COLMENA TOURS" EIRL',
+                "20%",
+                "ALCANCE:",
+                "DESCUENTOS EN TODOS SUS SERVICIOS",
+                "REQUISITOS:",
+                "PERSONAL MILITAR EN ACTIVIDAD O RETIRO, EMPLEADOS CIVILES Y FAMILIARES DIRECTOS (PADRES DEL TITULAR, ESPOSA E HIJOS)",
+              ],
+            },
+          ],
+        },
+      ],
+    },
     sectionInternacionales: {
       title: "Convenios Internacionales :",
       cards: [

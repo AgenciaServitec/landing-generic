@@ -44,6 +44,9 @@ export const Home = () => {
   const sectionProvincial4 = templateConfig.main.sectionProvincial4 || false;
   const sectionProvincial5 = templateConfig.main.sectionProvincial5 || false;
   const sectionProvincial6 = templateConfig.main.sectionProvincial6 || false;
+  const sectionProvincial7 = templateConfig.main.sectionProvincial7 || false;
+  const sectionProvincial8 = templateConfig.main.sectionProvincial8 || false;
+  const sectionProvincial9 = templateConfig.main.sectionProvincial9 || false;
   const sectionInternacionales =
     templateConfig.main.sectionInternacionales || false;
 
@@ -190,18 +193,39 @@ export const Home = () => {
             items={sectionProvincial4.cards}
             type="secondary"
           />
-        )}{" "}
+        )}
         {(sectionProvincial5 || sectionProvincial5.cards) && (
           <ListCards
             title={sectionProvincial5.title}
             items={sectionProvincial5.cards}
             type="secondary"
           />
-        )}{" "}
+        )}
         {(sectionProvincial6 || sectionProvincial6.cards) && (
           <ListCards
             title={sectionProvincial6.title}
             items={sectionProvincial6.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial7 || sectionProvincial7.cards) && (
+          <ListCards
+            title={sectionProvincial7.title}
+            items={sectionProvincial7.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial8 || sectionProvincial8.cards) && (
+          <ListCards
+            title={sectionProvincial8.title}
+            items={sectionProvincial8.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial9 || sectionProvincial9.cards) && (
+          <ListCards
+            title={sectionProvincial9.title}
+            items={sectionProvincial9.cards}
             type="secondary"
           />
         )}
