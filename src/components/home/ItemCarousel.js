@@ -45,9 +45,9 @@ const Container = styled.div`
     position: absolute;
     inset: 0px;
     background: linear-gradient(
-      rgba(7, 7, 7, 0.1),
-      rgba(0, 0, 0, 0.03),
-      rgba(7, 7, 7, 0.1)
+      rgb(20 20 20 / 89%),
+      rgb(0 0 0 / 0%),
+      rgb(7 7 7 / 99%)
     );
   }
 
@@ -100,6 +100,7 @@ const Container = styled.div`
         ${mediaQuery.minTablet} {
           font-size: 5rem;
           line-height: 5rem;
+          margin-top: 17.3rem;
         }
       }
 
