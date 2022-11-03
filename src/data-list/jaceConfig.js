@@ -22,6 +22,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const jaceConfig = {
+  helmet: {
+    title: "Jefatura de Administración de Casas del Ejército",
+    link: "https://jace.cobiene.mil.pe",
+    description: "Apoyo social",
+    keywords: "salud,servicios,convenios",
+  },
   header: {
     name: "jace",
     title: "Jefatura de Administración de Casas del Ejército",

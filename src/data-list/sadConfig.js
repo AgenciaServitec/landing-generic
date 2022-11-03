@@ -18,6 +18,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const sadConfig = {
+  helmet: {
+    title: "Sección de Apoyo al Discapacitado",
+    link: "https://sad.cobiene.mil.pe",
+    description: "Sección de Apoyo al Discapacitado",
+    keywords: "salud,servicios,convenios",
+  },
   header: {
     name: "sad",
     title: "Sección de Apoyo al Discapacitado",

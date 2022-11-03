@@ -49,8 +49,11 @@ import {
   CoreaBandera,
   EspanaBandera,
   FranciaBandera,
+  BoliviaBandera,
   MexicoBandera,
+  EcuadorBandera,
   NoImagen,
+  Samsung,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -61,9 +64,15 @@ import {
   faBuilding,
 } from "@fortawesome/free-solid-svg-icons";
 
-export const saecoConfig = {
+export const apoyoSocialConfig = {
+  helmet: {
+    title: "Sección de Servicio Social",
+    link: "https://apoyosocial.cobiene.mil.pe",
+    description: "Apoyo social",
+    keywords: "salud,servicios,convenios",
+  },
   header: {
-    name: "saeco",
+    name: "Sección de Servicio Social",
     title: "Sección de Servicio Social",
     logoImg: CobieneLogoLarge,
     menuList: [
@@ -907,6 +916,43 @@ export const saecoConfig = {
           link: "https://reparacion-proyectores.com/",
           title: "Servitec Proyectores",
         },
+        {
+          image: Samsung,
+          title: "Samsung",
+          descriptionLarge: [
+            {
+              title: "Alcance del convenio :",
+              descriptions: [
+                "Dirigido al personal militar debidamente acreditados",
+              ],
+            },
+            {
+              title: "Forma de Acreditación:",
+              descriptions: [
+                "Presentación del carnet de identificación personal militar CIP",
+              ],
+            },
+            {
+              title: "Bneficio:",
+              descriptions: [
+                "Otorga beneficios en productos y servicios ofrecidos por SAMSUMG.",
+                "Brindata acceso a su tienda virtual",
+                `<a href="https://www.samsung.com/pe/multistore/beneficios_empleados/mediante" target="_blank">https://www.samsung.com/pe/multistore/beneficios_empleados/mediante e siguiente dominio:</a>`,
+                "@ejercito.mil.pe",
+                "@escuelamilitar.edu.pe",
+                "@prg.edu.pe",
+                "@colegiodelejercitoarequipa.edu.pe",
+                "@nhgp.edu.pe",
+                "@jnep.edu.pe",
+                "@aacpuno.edu.pe",
+                "@iepmiguelcortes.edu.pe",
+                "@alfredobonifaz.edu.pe",
+                "@ete.edu.pe",
+                "@esge.edu.pe",
+              ],
+            },
+          ],
+        },
       ],
     },
     sectionProvincial: {
@@ -1312,7 +1358,7 @@ export const saecoConfig = {
       ],
     },
     sectionProvincial7: {
-      title: "Convenios Provinciales Chiclayo",
+      title: "Convenios Provinciales Huancayo",
       cards: [
         {
           image: NoImagen,
@@ -1484,6 +1530,11 @@ export const saecoConfig = {
           ],
         },
         {
+          image: BoliviaBandera,
+          title: "Bolivia",
+          description: "Próximamente...",
+        },
+        {
           image: BrasilBandera,
           title: "Brasil",
           descriptionLarge: [
@@ -1537,6 +1588,11 @@ export const saecoConfig = {
               ],
             },
           ],
+        },
+        {
+          image: EcuadorBandera,
+          title: "Ecuador",
+          description: "Próximamente...",
         },
         {
           image: EspanaBandera,

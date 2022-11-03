@@ -4,7 +4,7 @@ import {
   jaceConfig,
   jaeConfig,
   sadConfig,
-  saecoConfig,
+  apoyoSocialConfig,
   saedConfig,
 } from "../data-list";
 
@@ -14,7 +14,7 @@ const templateConfigs = {
   jae: jaeConfig,
   sad: sadConfig,
   saed: saedConfig,
-  saeco: saecoConfig,
+  apoyoSocial: apoyoSocialConfig,
   default: saedConfig,
 };
 
@@ -43,9 +43,9 @@ export const TemplateConfig = ({ children }) => {
       case "saed.cobiene.mil.pe":
         return setTemplateType("saed");
       case "apoyosocial.cobiene.mil.pe":
-        return setTemplateType("saeco");
+        return setTemplateType("apoyoSocial");
       default:
-        return setTemplateType("saeco");
+        return setTemplateType("default");
     }
   }, [hostName]);
 

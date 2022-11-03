@@ -45,9 +45,9 @@ const Container = styled.div`
     position: absolute;
     inset: 0px;
     background: linear-gradient(
-      rgb(20 20 20 / 89%),
-      rgb(0 0 0 / 0%),
-      rgb(7 7 7 / 99%)
+      rgba(7, 7, 7, 0.1),
+      rgba(0, 0, 0, 0.03),
+      rgba(7, 7, 7, 0.1)
     );
   }
 

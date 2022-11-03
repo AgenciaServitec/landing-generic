@@ -156,6 +156,12 @@ import {
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 export const jaeConfig = {
+  helmet: {
+    title: "Jefatura de Apoyo Educativo",
+    link: "https://jae.cobiene.mil.pe",
+    description: "Jefatura de Apoyo Educativo",
+    keywords: "educación,servicios,convenios",
+  },
   header: {
     name: "jae",
     title: "Jefatura de Apoyo Educativo",

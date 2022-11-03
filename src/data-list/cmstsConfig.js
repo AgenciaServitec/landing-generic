@@ -25,6 +25,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const cmstsConfig = {
+  helmet: {
+    title: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
+    link: "https://cmsts.cobiene.mil.pe",
+    description: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
+    keywords: "salud,servicios,convenios",
+  },
   header: {
     name: "cmsts",
     title: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
