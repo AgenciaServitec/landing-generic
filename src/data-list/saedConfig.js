@@ -1,5 +1,6 @@
 import {
   CobieneLogoLarge,
+  ImgUcal,
   Institute10,
   Institute11,
   Institute12,
@@ -184,22 +185,27 @@ export const saedConfig = {
             {
               title: "PREGRADO :",
               description:
-                "Categoría 3 en pensiones para todas las carreras profesionales.",
+                "Categoría B en pensiones para todas las carreras profesionales del programa Pregrado Regular. " +
+                "Categoría C en pensiones para los que ocupen el primer puesto del cuadro de meritos semestral",
+            },
+            {
+              title: "PROGRAMA FORMACIÓN ADULTOS:",
+              description:
+                "Categoría B en pensiones  para el programa de formación de adultos. " +
+                "Categoría C en pensiones para los que ocupen el primer puesto del cuadro de meritos semestral",
             },
             {
               title: "POSGRADO : ",
               description:
-                "Categoría 2 en pensiones para estudios de maestrías",
+                "Categoría B en pensiones para estudios de maestrías. " +
+                "Para mantener la Categoría B, deberá mantener el Promedio mínimo aprobatorio. " +
+                "Otorgara el 5% de descuento adicional  del costo de la Pensión por semestre, aquellos beneficiarios que realicen el pago total anticipado de la pensión de todas las materias establecidas en el ciclo académico.",
             },
+
             {
-              title: "Programac Formación Adultos",
+              title: "ALCANCE: ",
               description:
-                "Categoría 2 en pensiones en todas las carreras profesionales 5% descuento por pago anticipado a estudiantes regulares",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge , hijos, padres y hermanos en caso de ser trabajadores solteros)",
               link: "https://www.ucv.edu.pe/",
             },
           ],
@@ -698,6 +704,32 @@ export const saedConfig = {
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
               link: "https://economia.unmsm.edu.pe/",
+            },
+          ],
+        },
+        {
+          image: ImgUcal,
+          title: "UNIVERSIDAD DE CIENCIAS Y ARTES DE AMÉRICA LATINA",
+          descriptionLarge: [
+            {
+              title: "PREGRADO:",
+              description:
+                "Otorgar el 15% de descuento, sobre los costos por concepto de pensiones, para estudios en todas las carreras, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.",
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "Otorgar el 15% de descuento, sobre los costos por concepto de pensiones, para estudios de maestría, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.",
+            },
+            {
+              title: "DIPLOMADOS Y CURSOS ESPECIALIZADOS: \n",
+              description:
+                "Otorgar el 15% de descuento, sobre los costos por concepto de pensiones, para estudios de diplomados y cursos especializados, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.\n",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal  civil en actividad o cesantes así como  familiares directos (cónyuges e hijos), tropa servicio militar en actividad o licenciados.\n",
             },
           ],
         },

@@ -153,6 +153,7 @@ export { default as Institute32 } from "./institutes/instituto32.webp";
 export { default as Institute33 } from "./institutes/instituto33.webp";
 export { default as Institute34 } from "./institutes/instituto34.webp";
 export { default as Institute35 } from "./institutes/instituto35.webp";
+export { default as ImgUcal } from "./saed/ucal.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
