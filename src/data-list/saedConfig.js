@@ -1,5 +1,7 @@
 import {
   CobieneLogoLarge,
+  ImgCertus,
+  ImgTltc,
   ImgUcal,
   Institute10,
   Institute11,
@@ -1226,6 +1228,68 @@ export const saedConfig = {
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
               link: "https://www.institutovesalio.edu.pe",
+            },
+          ],
+        },
+        {
+          title: "CERTUS",
+          image: ImgCertus,
+          descriptionLarge: [
+            {
+              title: "CARRERAS TÉCNICAS:\n",
+              description:
+                "Otorgar el 20% de descuento en costo de enseñanza (mensualidades) considerando las diferentes modalidades y sedes a nivel nacional.\n",
+            },
+            {
+              title: "CARRERAS PARA GENTE QUE TRABAJA:\n",
+              description:
+                "Otorgar el 20% de descuento en costo de enseñanza (mensualidades) considerando las diferentes modalidades y sedes a nivel nacional.\n",
+            },
+            {
+              title: "CURSOS DE FORMACIÓN:\n",
+              description:
+                "Otorgar el 20% de descuento en costo de enseñanza (mensualidades) considerando las diferentes modalidades y sedes a nivel nacional.\n",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal  civil en actividad o cesantes así como  familiares directos (cónyuges e hijos), tropa servicio militar en actividad o licenciados.\n",
+            },
+          ],
+        },
+        {
+          image: ImgTltc,
+          title: "TOULOU LAUSE TRE C",
+          descriptionLarge: [
+            {
+              title: "CARRERAS DE BACHILLER (04) AÑOS: ",
+              description:
+                "Otorgar el 15% de descuento en costo de enseñanza (mensualidades) en todos los programas de carreras de bachiller de 04 años  considerando las diferentes modalidades y sedes a nivel nacional.",
+            },
+            {
+              title: "CARRERAS TÉCNICAS DE (03) AÑOS:",
+              description:
+                "Otorgar el 15% de descuento en costo de enseñanza (mensualidades) en todos las carreras técnicas de 03 años, considerando las diferentes modalidades y sedes a nivel nacional.",
+            },
+            {
+              title: "DIPLOMADOS : ",
+              description:
+                "Otorgar el 15% de descuento, en costo de enseñanza (mensualidades), para estudios de diplomados, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.",
+            },
+            {
+              title: "CURSOS DE FORMACIÓN:",
+              description:
+                "Otorgar el 15% de descuento en costo de enseñanza (mensualidades), considerando las diferentes modalidades y sedes a nivel nacional.",
+            },
+            {
+              title: "FORMACIÓN EXPRESS:",
+              description:
+                "Otorgar el 15% de descuento en costo de enseñanza (mensualidades) en formación EXPRESS, considerando las diferentes modalidades y sedes a nivel nacional.\n",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Para estudiantes de educación básica regular (nivel secundaria) de las instituciones educativas del ejército.\n",
             },
           ],
         },
