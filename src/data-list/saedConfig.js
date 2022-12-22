@@ -1,6 +1,7 @@
 import {
   CobieneLogoLarge,
   ImgCertus,
+  ImgColumbia,
   ImgTltc,
   ImgUcal,
   Institute10,
@@ -1290,6 +1291,28 @@ export const saedConfig = {
               title: "ALCANCE:",
               description:
                 "Para estudiantes de educación básica regular (nivel secundaria) de las instituciones educativas del ejército.\n",
+            },
+          ],
+        },
+        {
+          image: ImgColumbia,
+          title: "Columbia",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS QUE OFRECE:",
+              description:
+                "Turismo, Hostelería, Alta Cocina, Aviación Comercial ",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "100% de descuento en costo por derecho de admisión. " +
+                "50% de descuento en mensualidades",
+            },
+            {
+              title: "BENEFICIARIOS:",
+              description:
+                "Personal militar en actividad o retiro, personal civil y familiares directos (cónyuge e hijos) ",
             },
           ],
         },

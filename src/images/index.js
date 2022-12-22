@@ -156,6 +156,7 @@ export { default as Institute35 } from "./institutes/instituto35.webp";
 export { default as ImgUcal } from "./saed/ucal.webp";
 export { default as ImgCertus } from "./institutes/certus.webp";
 export { default as ImgTltc } from "./institutes/tltc.webp";
+export { default as ImgColumbia } from "./institutes/columbia.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
