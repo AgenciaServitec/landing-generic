@@ -574,43 +574,6 @@ export const apoyoSocialConfig = {
         //   ],
         // },
         {
-          image: TiendaRenzoCosta,
-          title: "Renzo Costa",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Exclusivo para compras presenciales.",
-                "b) No aplica compras por web, app, o Facebook",
-                "c) Descuento del 10% en todos los productos tiendas propias",
-                "d) Descuento del 5% en todos los productos, toda la cadena de tiendas a nivel nacional (centros comerciales)",
-              ],
-            },
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                " Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1MIAudy4sU8wGOjzaqcvbtvG2CMTKod0n/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.renzocosta.com",
-                },
-              ],
-            },
-          ],
-        },
-        {
           image: SmartFit,
           title: "SmartFit",
           descriptionLarge: [
