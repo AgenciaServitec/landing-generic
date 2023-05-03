@@ -884,34 +884,18 @@ export const apoyoSocialConfig = {
           title: "Samsung",
           descriptionLarge: [
             {
-              title: "Alcance del convenio :",
+              title: "Beneficio:",
               descriptions: [
-                "Dirigido al personal militar debidamente acreditados",
+                "Acceso a los diversos productos y servicios de su marca a precios reducidos, a través de la tienda virtual de" +
+                  " “SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
+                  " siendo válido para Lima y provincias.",
+                "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
               ],
             },
             {
-              title: "Forma de Acreditación:",
+              title: "Alcance:",
               descriptions: [
-                "Presentación del carnet de identificación personal militar CIP",
-              ],
-            },
-            {
-              title: "Bneficio:",
-              descriptions: [
-                "Otorga beneficios en productos y servicios ofrecidos por SAMSUMG.",
-                "Brindata acceso a su tienda virtual",
-                `<a href="https://www.samsung.com/pe/multistore/beneficios_empleados/mediante" target="_blank">https://www.samsung.com/pe/multistore/beneficios_empleados/mediante e siguiente dominio:</a>`,
-                "@ejercito.mil.pe",
-                "@escuelamilitar.edu.pe",
-                "@prg.edu.pe",
-                "@colegiodelejercitoarequipa.edu.pe",
-                "@nhgp.edu.pe",
-                "@jnep.edu.pe",
-                "@aacpuno.edu.pe",
-                "@iepmiguelcortes.edu.pe",
-                "@alfredobonifaz.edu.pe",
-                "@ete.edu.pe",
-                "@esge.edu.pe",
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)\n",
               ],
             },
           ],
