@@ -1,7 +1,11 @@
 import {
   CobieneLogoLarge,
+  ImgAvia,
+  ImgCamaraLima,
+  ImgCegicap,
   ImgCertus,
   ImgColumbia,
+  ImgSanJudas,
   ImgTltc,
   ImgUcal,
   Institute10,
@@ -48,7 +52,6 @@ import {
   UniversidadSanJuanBautista,
   UniversidadSanMarcos,
   UniversidadSanmartinPorres,
-  UniversidadSeñorSipan,
   UniversidadUnifeSagradoCorazon,
   UniversidadUpc,
   UniversidadUtp,
@@ -633,29 +636,7 @@ export const saedConfig = {
             },
           ],
         },
-        {
-          image: UniversidadSeñorSipan,
-          title: "SEÑOR DE SIPAN",
-          descriptionLarge: [
-            {
-              title: "PREGRADO :",
-              description:
-                "Categoría(04), descuento en las pensiones en todas las\n" +
-                "carreras (a excepción de medicina humana, estomatología y\n" +
-                "enfermería)",
-            },
-            {
-              title: "POSGRADO :",
-              description: "20% de descuento en las pensiones",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.uss.edu.pe/",
-            },
-          ],
-        },
+
         {
           image: UniversidadUtp,
           title: "UTP",
@@ -1316,36 +1297,74 @@ export const saedConfig = {
             },
           ],
         },
-
-        // {
-        //   image: Institute4,
-        //   title: "CESCA",
-        // },
-        // {
-        //   image: Institute5,
-        //   title: "CETRO GAMOR",
-        // },
-        //
-        // {
-        //   image: Institute15,
-        //   title: "HEADWAY COLLEGE",
-        // },
-        // {
-        //   image: Institute17,
-        //   title: "LECTURA VELOZ(ILVEM)",
-        // },
-        // {
-        //   image: Institute18,
-        //   title: "LATINO",
-        // },
-        // {
-        //   image: Institute19,
-        //   title: "LIBERTADOR",
-        // },
-        // {
-        //   image: Institute27,
-        //   title: "ALIANZA FRANCESA",
-        // },
+        {
+          title: "CÁMARA DE COMERCIO LIMA",
+          image: ImgCamaraLima,
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS QUE OFRECE:",
+              description: [
+                "25%  descuento en diplomados, seminarios y en programas de especialización\n",
+                "30%  descuento aplica a todos los cursos virtuales\n",
+                "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el participante mantenga" +
+                  "  un promedio de nota no menor a 14 (a partir del 2do ciclo)\n",
+                "25%   descuento en las mensualidades\n",
+              ],
+            },
+          ],
+        },
+        {
+          title: "AVIA",
+          image: ImgAvia,
+          descriptionLarge: [
+            {
+              title: "CARRERAS TECNICAS",
+              description: [
+                "20% DE DESCUENTO EN COSTO DE ENSEÑANZA (MENSUALIDADES) EN TODOS LOS PROGRAMAS Y CARRERAS TÉCNICAS PARA ESTUDIOS DE AVIACIÓN COMERCIAL, PROGRAMA COUNTER PROFESIONAL, PROGRAMA DE ESPECIALIZACIÓN COMO TRIPULANTE DE CABINA. \n",
+                "CURSOS O PROGRAMAS DE ESPECIALIZACIÓN. \n",
+                "20% DE DESCUENTO EN COSTO DE ENSEÑANZA (MENSUALIDADES) \n",
+              ],
+            },
+            {
+              title: "ALCANCE",
+              description: [
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
+                  "así como sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
+              ],
+            },
+          ],
+        },
+        {
+          title: "Corporación Educativa PEAH San Judas",
+          image: ImgSanJudas,
+          descriptionLarge: [
+            {
+              title: "CURSOS DE ESPECIALIZACIÓN PROFESIONAL",
+              description: [
+                "25% descuento en el pago de matrícula\n",
+                "25% descuento  en el pago de pensiones\n",
+              ],
+            },
+            {
+              title: "ALCANCE",
+              description: [
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como" +
+                  " sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
+              ],
+            },
+          ],
+        },
+        {
+          title: "CEGICAP",
+          image: ImgCegicap,
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              description:
+                "30% DE DESCUENTO EN MATRICULA Y COSTOS DE ENSEÑANZA EN (MENSUALIDADES), EN TODOS SUS CURSOS DE ESPECIALIZACIÓN PROFESIONAL, CONSIDERANDO LAS DIFERENTES MODALIDADES, SEDES O LOCALES, INCLUSO SI EXISTIERA A NIVEL NACIONAL.\n",
+            },
+          ],
+        },
       ],
     },
   },

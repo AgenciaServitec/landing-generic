@@ -157,6 +157,10 @@ export { default as ImgUcal } from "./saed/ucal.webp";
 export { default as ImgCertus } from "./institutes/certus.webp";
 export { default as ImgTltc } from "./institutes/tltc.webp";
 export { default as ImgColumbia } from "./institutes/columbia.webp";
+export { default as ImgAvia } from "./saed/avia.webp";
+export { default as ImgCamaraLima } from "./saed/camara-lima.webp";
+export { default as ImgCegicap } from "./saed/cegicap.webp";
+export { default as ImgSanJudas } from "./saed/san-judas.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
