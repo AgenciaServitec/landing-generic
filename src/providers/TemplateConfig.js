@@ -15,7 +15,7 @@ const templateConfigs = {
   sad: sadConfig,
   saed: saedConfig,
   apoyoSocial: apoyoSocialConfig,
-  default: saedConfig,
+  default: apoyoSocialConfig,
 };
 
 const TemplateConfigContext = createContext({

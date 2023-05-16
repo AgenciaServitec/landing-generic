@@ -757,54 +757,54 @@ export const apoyoSocialConfig = {
     sectionHoteles: {
       title: "Convenios con Hoteles :",
       cards: [
-        {
-          image: Hotel1,
-          title: "Hotel Casa Andina",
-          descriptionLarge: [
-            {
-              title: "ALCANCE DEL CONVENIO: ",
-              description:
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados”.\n",
-            },
-            {
-              title: "FORMA DE ACREDITACIÓN: ",
-              description:
-                "Presentación del carnet de identificación personal militar o civil CIP\n" +
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos)." +
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-            },
-            {
-              title: "BENEFICIO: ",
-              descriptions: [
-                "3.1. Brindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 29%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
-                "3.2. El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web que adjuntada , canales de atención a través de correo electrónico",
-                `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
-                "Canales de atención a través de correo electrónico:",
-                `<a href="mailto:centraldereservas@casa-andina.com" target="_blank">centraldereservas@casa-andina.com</a>`,
-                "Y call center",
-                `<a href="tel:013916500" target="_blank">(01) 3916500</a>`,
-                "El código de acceso al descuento es EJERCITOPERU22.",
-                "3.3 Beneficio previa presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.",
-                "3.4 En caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.",
-                "3.5 Las reservas realizadas son de tarifas NO REEMBOLSABLE.",
-                "3.6 Al finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
-                },
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1c-r__vS6vfKcRTSOXe85pw2pHiR1OuRW/view?usp=sharing",
-                },
-              ],
-            },
-          ],
-        },
+        // {
+        //   image: Hotel1,
+        //   title: "Hotel Casa Andina",
+        //   descriptionLarge: [
+        //     {
+        //       title: "ALCANCE DEL CONVENIO: ",
+        //       description:
+        //         "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados”.\n",
+        //     },
+        //     {
+        //       title: "FORMA DE ACREDITACIÓN: ",
+        //       description:
+        //         "Presentación del carnet de identificación personal militar o civil CIP\n" +
+        //         "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos)." +
+        //         "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+        //     },
+        //     {
+        //       title: "BENEFICIO: ",
+        //       descriptions: [
+        //         "3.1. Brindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 29%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
+        //         "3.2. El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web que adjuntada , canales de atención a través de correo electrónico",
+        //         `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
+        //         "Canales de atención a través de correo electrónico:",
+        //         `<a href="mailto:centraldereservas@casa-andina.com" target="_blank">centraldereservas@casa-andina.com</a>`,
+        //         "Y call center",
+        //         `<a href="tel:013916500" target="_blank">(01) 3916500</a>`,
+        //         "El código de acceso al descuento es EJERCITOPERU22.",
+        //         "3.3 Beneficio previa presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.",
+        //         "3.4 En caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.",
+        //         "3.5 Las reservas realizadas son de tarifas NO REEMBOLSABLE.",
+        //         "3.6 Al finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.",
+        //       ],
+        //       links: [
+        //         {
+        //           icon: faGlobe,
+        //           link: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+        //         },
+        //       ],
+        //       detalles: [
+        //         {
+        //           icon: faLink,
+        //           detalle:
+        //             "https://drive.google.com/file/d/1c-r__vS6vfKcRTSOXe85pw2pHiR1OuRW/view?usp=sharing",
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
         {
           image: Hotel2,
           title: "Hotel Costa del Sol",
