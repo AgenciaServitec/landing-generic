@@ -31,7 +31,6 @@ import {
   Institute35,
   Institute5,
   Institute6,
-  Institute7,
   Institute9,
   SaedAboutUs,
   SaedBannePublic,
@@ -759,7 +758,7 @@ export const saedConfig = {
             },
           ],
         },
-        {
+        /*{
           image: Institute7,
           title: "CORPORACION EDUCATIVA SAN VICENTE",
           descriptionLarge: [
@@ -778,7 +777,7 @@ export const saedConfig = {
               link: "https://es-la.facebook.com/ceesanvicente/",
             },
           ],
-        },
+        },*/
         {
           image: Institute10,
           title: "INSTITUTO DESARROLLO PROFESIONAL Y TECNOLOGICO",
