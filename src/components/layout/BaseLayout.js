@@ -18,6 +18,10 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
     (socialRed) => socialRed.name === "Whatsapp"
   );
 
+  const siracaseButton = (sectionContact?.socialsRed || []).find(
+    (social) => social.name === "Siracase"
+  );
+
   return (
     <Container>
       <Drawer
@@ -37,7 +41,14 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
           headerTemplate={headerTemplate}
           menuList={headerTemplate.menuList}
         />
-        {wspPhone && <ButtonsFloating wspPhone={wspPhone} />}
+        {wspPhone && <ButtonsFloating socialRed={wspPhone} />}
+        {siracaseButton && (
+          <ButtonsFloating
+            socialRed={siracaseButton}
+            bottom="30%"
+            bg="#689F38"
+          />
+        )}
       </WrapperContent>
     </Container>
   );

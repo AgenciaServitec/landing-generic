@@ -1,7 +1,7 @@
 import {
   CobieneLogoLarge,
-  JaceMap,
   JaceAbout2,
+  JaceMap,
   JaceMap2,
   JacePaso1,
   JacePaso2,
@@ -18,6 +18,7 @@ import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faGlobe,
+  faHouse,
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -43,18 +44,7 @@ export const jaceConfig = {
       {
         title: "CASAS DE SERVICIO.",
         image: JaceSlider1,
-        buttons: [
-          // {
-          //   type: "primary",
-          //   id: "about-us",
-          //   title: "Nosotros",
-          // },
-          // {
-          //   type: "secondary",
-          //   id: "requisitos",
-          //   title: "Requisitos",
-          // },
-        ],
+        buttons: [],
       },
     ],
     sectionAbout: {
@@ -129,14 +119,6 @@ export const jaceConfig = {
             "-La opinion del Crl Ing.Jefe de la DACE.",
             "-La Aprobacion del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
           ],
-          // descriptionlist: [
-          //   "- Los documentos que acrediten la situación de especialidad o excepcionalidad.",
-          //
-          //   "- El dictamen legal favorable.",
-          //   "- La opinión del Crl Ing. Jefe de la DACE.",
-          //
-          //   "- La aprobación del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
-          // ],
         },
       ],
     },
@@ -174,6 +156,11 @@ export const jaceConfig = {
         icon: faGlobe,
         name: "Dirección",
         value: "Lima-Perú",
+      },
+      {
+        href: "https://ws.ejercito.mil.pe/sirecase/#/login",
+        name: "Siracase",
+        value: "Siracase",
       },
     ],
   },
