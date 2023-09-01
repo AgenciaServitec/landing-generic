@@ -160,7 +160,8 @@ export const jaceConfig = {
       {
         href: "https://ws.ejercito.mil.pe/sirecase/#/login",
         name: "Siracase",
-        value: "Siracase",
+        value: "Solicitud",
+        icon: faHouse,
       },
     ],
   },

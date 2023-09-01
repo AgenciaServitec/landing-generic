@@ -47,6 +47,7 @@ export const BaseLayout = ({ children, onClickVisibleFormContact }) => {
             socialRed={siracaseButton}
             bottom="30%"
             bg="#689F38"
+            sizeIcon="1em"
           />
         )}
       </WrapperContent>

@@ -7,8 +7,9 @@ export const ButtonsFloating = ({
   socialRed,
   bottom = "15%",
   bg = "#5cc753",
+  sizeIcon = "3rem",
 }) => (
-  <Container $bottom={bottom}>
+  <Container $bottom={bottom} $sizeIcon={sizeIcon}>
     <a href={socialRed.href} target="_blank" rel="noreferrer">
       <WrapperButton bg={bg}>
         <div className="item-text">
@@ -60,7 +61,7 @@ const WrapperButton = styled.div`
         font-size: 2.5rem;
 
         ${mediaQuery.minTablet} {
-          font-size: 3rem;
+          font-size: ${({ $sizeIcon }) => $sizeIcon};
         }
       }
     }
