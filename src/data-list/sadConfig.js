@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
   CobieneLogoLarge,
   SadAboutTwo,
@@ -16,6 +18,7 @@ import {
   faGlobe,
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
+import { BtnLink } from "../components/ui/BtnLink";
 
 export const sadConfig = {
   helmet: {
@@ -29,6 +32,17 @@ export const sadConfig = {
     title: "Sección de Apoyo al Discapacitado",
     logoImg: CobieneLogoLarge,
     menuList: [
+      {
+        id: "btn-repedis",
+        name: (
+          <BtnLink href="#">
+            <>
+              <strong>Registro REPEDIS</strong> <br />{" "}
+              <small>Registro de discapacitados</small>
+            </>
+          </BtnLink>
+        ),
+      },
       { id: "Nosotros", name: "Nosotros" },
       { id: "services", name: "Especialidades" },
       { id: "contact", name: "Contacto" },
