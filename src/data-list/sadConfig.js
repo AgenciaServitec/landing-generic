@@ -35,9 +35,9 @@ export const sadConfig = {
       {
         id: "btn-repedis",
         name: (
-          <BtnLink href="#">
+          <BtnLink href="https://korekenke.mil.pe/">
             <>
-              <strong>Registro REPEDIS</strong> <br />{" "}
+              <strong>Registro REPEDIS</strong> <br />
               <small>Registro de discapacitados</small>
             </>
           </BtnLink>

@@ -92,7 +92,7 @@ const Container = styled.div`
         li {
           color: #000;
           font-weight: bold;
-          font-size: 1.1rem;
+          font-size: 1rem;
           border-bottom: 2px solid transparent;
           transition: all 0.3s ease-in-out;
           margin-left: 0.9em;
