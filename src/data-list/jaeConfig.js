@@ -663,7 +663,7 @@ export const jaeConfig = {
         value: "contacto@cobiene.mil.pe",
       },
       {
-        href: "https://es-la.facebook.com/BienestarEP",
+        href: "https://www.facebook.com/profile.php?id=61555409192993&mibextid=sCpJLy",
         icon: faFacebook,
         name: "Facebook",
       },
