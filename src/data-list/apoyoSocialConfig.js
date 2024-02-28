@@ -211,7 +211,7 @@ export const apoyoSocialConfig = {
             {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -245,7 +245,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS :",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -285,7 +285,7 @@ export const apoyoSocialConfig = {
               title: "BENEFICIARIOS :",
               descriptions: [
                 "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -336,7 +336,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -375,7 +375,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -413,7 +413,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
@@ -447,7 +447,7 @@ export const apoyoSocialConfig = {
               title: "BENEFICIARIOS: ",
               descriptions: [
                 "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -532,7 +532,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS : ",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
@@ -592,7 +592,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -690,7 +690,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, Padres).",
@@ -721,7 +721,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
