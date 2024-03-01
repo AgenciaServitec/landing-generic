@@ -32,6 +32,7 @@ export const Home = () => {
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionBancos = templateConfig.main.sectionBancos || false;
   const sectionSalud = templateConfig.main.sectionSalud || false;
+  const sectionAsesoriaLegal = templateConfig.main.sectionAsesoriaLegal || false;
   const sectionDiversos = templateConfig.main.sectionDiversos || false;
   const sectionFinancieras = templateConfig.main.sectionFinancieras || false;
   const sectionSeguros = templateConfig.main.sectionSeguros || false;
@@ -121,6 +122,13 @@ export const Home = () => {
           <ListCards
             title={sectionSalud.title}
             items={sectionSalud.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionAsesoriaLegal || sectionAsesoriaLegal.cards) && (
+          <ListCards
+            title={sectionAsesoriaLegal.title}
+            items={sectionAsesoriaLegal.cards}
             type="secondary"
           />
         )}

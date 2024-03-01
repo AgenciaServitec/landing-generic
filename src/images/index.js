@@ -380,6 +380,9 @@ export { default as ConvenioSalud9 } from "./saeco/conveniosSalud/oftalmosalud.w
 export { default as ConvenioSalud10 } from "./saeco/conveniosSalud/otiklens.webp";
 export { default as ConvenioSalud11 } from "./saeco/conveniosSalud/globallaser.webp";
 export { default as ConvenioSalud12 } from "./saeco/conveniosSalud/suizalab.webp";
+export { default as ConvenioSalud13 } from "./saeco/conveniosSalud/fesalud.webp";
+export { default as ConvenioSalud14 } from "./saeco/conveniosSalud/resocentro.webp";
+export { default as ConvenioSalud15 } from "./saeco/conveniosSalud/auna.webp";
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
@@ -405,6 +408,7 @@ export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
 // ------ SAECO HOTELES IMAGES -------
 export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";
 export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";
+export { default as Hotel3 } from "./saeco/hoteles/hotelcarrera.webp";
 // ------ SAECO TECNOLOGIA IMAGES -------
 export { default as Servitec } from "./saeco/tecnologia/serviteclogo.webp";
 export { default as StoreServitec } from "./saeco/tecnologia/storeservitec.webp";

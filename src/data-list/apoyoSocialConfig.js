@@ -59,6 +59,10 @@ import {
   ConvenioSalud11,
   Transporte3,
   ConvenioSalud12,
+  ConvenioSalud13,
+  ConvenioSalud14,
+  ConvenioSalud15,
+  Hotel3,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -210,22 +214,22 @@ export const apoyoSocialConfig = {
           title: "Apelac",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "Servicios psicopedagógicos, especializados en problemas de lenguaje, aprendizaje y conducta, a través de tarifas especiales, mediante porcentaje de descuento, según grado de el BENEFICIARIO, así como costos diferenciados en las sedes de APEPLAC. SURCO y RÌMAC",
-                "Direcciones y citas telefónicas",
-                `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:990436788" target="_blank" >990436788</a>.`,
-                'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:990436788" target="_blank" >990436788</a>. ',
-              ],
-            },
-            {
-              title: "ALCANCE DEL CONVENIO: ",
+              title: "BENEFICIARIOS:",
               descriptions: [
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge e hijos).",
                 "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+            },
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "Servicios psicopedagógicos, especializados en problemas de lenguaje, aprendizaje y conducta, a través de tarifas especiales, mediante porcentaje de descuento, según grado de el BENEFICIARIO, así como costos diferenciados en las sedes de APEPLAC. SURCO y RÌMAC",
+                "Direcciones y citas telefónicas",
+                `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:990436788" target="_blank" >990436788</a>.`,
+                'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:990436788" target="_blank" >990436788</a>. ',
               ],
               detalles: [
                 {
@@ -298,29 +302,19 @@ export const apoyoSocialConfig = {
               title: "BENEFICIARIOS: ",
               descriptions: [
                 "ALCANCE DEL CONVENIO:\n",
-                "El presente Convenio de cooperación por su naturaleza será dirigido al personal militar en situación de" +
-                  " actividad o retiro, personal civil; así como sus " +
-                  "familiares directos (cónyuge e hijos menores de 25 años); debidamente" +
-                  "acreditados; que en adelante serán denominados BENEFICIARIOS. Mediante" +
-                  "un plan odontológico familiar con un costo de afiliación de S/. 35.00" +
-                  "mensuales y no afiliación con tarifas preferenciales.\n",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos y padres).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
               ],
             },
             {
               title: "BENEFICIOS: ",
               descriptions: [
-                "Con el Plan Odontológico de 35.00, accederán el titular cónyuge e hijos\n" +
-                  "menores de 25 años a:\n" +
-                  "CONSULTA ODONTOLÓGICA, LIMPIEZA COMPLETA CON ULTRASONIDO,\n" +
-                  "FLUORIZACIÓN, SELLANTE DE FOSAS Y FISURAS, CURACIONES SIMPLES CON\n" +
-                  "RESINA Y LUZ HALÓGENA, CURACIONES COMPUESTAS CON RESINA Y LUZ\n" +
-                  "HALÓGENA, EXTRACCIONES SIMPLES, ENDODONCIA EN PIEZAS ANTERIORES, 02\n" +
-                  "RX PERIAPICALES.\n",
-                "Descontar el 10% a los BENEFICIARIOS afiliados y no afiliados en tratamientos\n" +
-                  "especializados por encima de la tarifa especial indicada.\n",
+                "Acceso al 20% de descuento en los servicios ofrecidos al personal afiliado y no afiliado.",
+                "CONSULTA ODONTOLÓGICA, LIMPIEZA COMPLETA CON ULTRASONIDO, FLUORIZACIÓN, SELLANTE DE FOSAS Y FISURAS, CURACIONES SIMPLES CON RESINA Y LUZ HALÓGENA, CURACIONES COMPUESTAS CON RESINA Y LUZ HALÓGENA, EXTRACCIONES SIMPLES, ENDODONCIA EN PIEZAS ANTERIORES, 02 RX PERIAPICALES.",
               ],
-            },
-            {
               detalles: [
                 {
                   icon: faLink,
@@ -341,9 +335,9 @@ export const apoyoSocialConfig = {
                 "ALCANCE DEL CONVENIO:",
                 "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
               ],
             },
             {
@@ -417,29 +411,35 @@ export const apoyoSocialConfig = {
           title: "MultiDent",
           descriptionLarge: [
             {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+            },
+            {
               title: "BENEFICIOS :",
               descriptions: [
-                "Acceso a los distintos servicios odontológicos ofrecidos, a través de costos diferenciados, mediante porcentaje de descuento sobre las tarifas regulares, de acuerdo a lo establecido.",
+                "Acceso a los distintos servicios odontológicos ofrecidos, a través de costos diferenciados, mediante porcentaje de descuento sobre las tarifas regulares, de acuerdo a lo establecido para personal afiliado.",
                 "Implementará a través la programación a través del call center, y de forma presencial en todas sedes a nivel nacional, y en todos sus horarios.",
                 "Servicios de emergencias dentales, las 24 horas del día, los 7 días de la semana en la sede de la Av. César Vallejo N° 1560 - Lince y en todas las sedes a nivel nacional en horario de atención.",
                 "CONSULTA GRATUITA",
                 "Examen odontológico de cortesía.",
               ],
-            },
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              sedes: [
+                {
+                  icon: faBuilding,
+                  sede: "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
+                },
               ],
               detalles: [
                 {
                   icon: faLink,
                   detalle:
-                    "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
+                    "https://drive.google.com/file/d/1Vvdazj1v7BynWtIN6ylDxmM1SPbDrm2n/view?usp=sharing",
                 },
               ],
               links: [
@@ -461,15 +461,16 @@ export const apoyoSocialConfig = {
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
               ],
             },
             {
               title: "BENEFICIOS :",
               descriptions: [
+                "a) Descuento del 30% en audífonos medicados programables que comercialice la empresa.",
+                "b) Descuento del 20% de en servicios de audiología y psicología nutrición.",
                 "Consultas e informes a través del celular y WhatsApp: 980688232, así como correo electrónico comercial@grupoinfinitech.com y presencial en la Av. Canadá Nº 3630, consultorio 205 San Borja en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
-                "Descuento del 30% en audífonos medicados programables que comercialice la empresa.",
-                "Descuento del 20% de en servicios de audiología y psicología nutrición.",
               ],
               links: [
                 {
@@ -485,26 +486,25 @@ export const apoyoSocialConfig = {
           title: "Unilabs",
           descriptionLarge: [
             {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge e hijos).",
+                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+            },
+            {
               title: "BENEFICIOS :",
               descriptions: [
-                "BENEFICIO",
                 "a) Acceso al 40% de descuento sobre la tarifa regular, de los exámenes de laboratorio de rutina.",
                 "b) Acceso a la tarifa hospitalaria en el Centro CIMEDIC en las pruebas de diagnóstico por imágenes (tomografía, resonancia magnética).",
                 "c) Acceso al 10% de descuento sobre la tarifa base, de los denominados exámenes de Anatomía Patológica (citología y quirúrgicos, inmunohistoquímica – marcadores inmunohistoquímicos, biología molecular, citometría de flujo, genética) y pruebas especiales.",
                 "d) Realización de citas mediante:",
                 "• Forma PRESENCIAL",
                 "• Vía CALL CENTER, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las ordenes médicas emitidas por el HMC o centros de salud privados.",
-              ],
-            },
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
               ],
               links: [
                 {
@@ -540,7 +540,6 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "BENEFICIO",
                 "a) Acceso al 50% de descuento en consultas medicas.",
                 "b) Acceso al 30% de descuento sobre la tarifa regular, en exámenes auxiliares sobre tarifario vigente de paciente particular.",
                 "c) Acceso al 30% de descuento sobre la tarifa regular vigente del paciente particular sobre los procedimientos de cirugías oftálmicas.",
@@ -572,14 +571,16 @@ export const apoyoSocialConfig = {
                 "ALCANCE DEL CONVENIO:",
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
-                "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).\n",
-                "Horarios: Miércoles, jueves y viernes de 9 am a 3 pm.",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+                "HORARIOS:",
+                "Miércoles, jueves y viernes de 9 am a 3 pm.",
               ],
             },
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "BENEFICIO",
                 "a) Brinda servicio gratuito de medida de vista computarizada y despistaje de defecto de refracción, miopía ambliopía",
                 "b) Acceso al 15% de descuento en servicio de lunas (blancas, blue antireflex, monofocales bifocales).",
                 "c) Acceso al 25% de descuento en servicio de monturas económicas e intermedias y alta gama.",
@@ -601,7 +602,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "servicios especializados en  oftamalogica mediante\n" +
+                "Servicios especializados en  oftamalogica mediante\n" +
                   "\n" +
                   "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
                 "ALCANCE DEL CONVENIO:\n",
@@ -614,9 +615,8 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "BENEFICIO",
-                "Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
-                "Breinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
+                "a) Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
+                "b) Brinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
               ],
               detalles: [
                 {
@@ -648,15 +648,14 @@ export const apoyoSocialConfig = {
                 "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
                 "FORMA DE ACREDITACIÓN:\n",
                 "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
               ],
             },
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "BENEFICIO",
-                "Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
-                "Breinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
+                "a) Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
+                "b) Brinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
               ],
               detalles: [
                 {
@@ -674,34 +673,148 @@ export const apoyoSocialConfig = {
             },
           ],
         },
+        {
+          image: ConvenioSalud13,
+          title: "FeSalud",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:\n",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:\n",
+                "Presentación del carnet de identificación personal militar o civil CIP\n",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "a) Brinda tarifa plana sin anular sistema públicos de salud (ESSALUD y SIS). Incluye beneficio de sepelio completo en caso de fallecimiento a personal afiliado.",
+                "b) Plan Emergencia: S/ 22.00",
+                "c) Plan Integral: S/ 55.00",
+                "d) Plan Integral Plus: S/ 78.00",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/18y0E7u3jukz9vJaG_e7mZdV9jKHmm8lQ/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://fesalud.com.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ConvenioSalud14,
+          title: "Resocentro",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:\n",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos,  padres y nietos); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:\n",
+                "Presentación del carnet de identificación personal militar o civil CIP\n",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos,  padres y nietos).\n",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "a) Brinda tarifas preferenciales en resonancia magnética, tomografía, fibroscan, rayos x, ecografías y medicina nuclear.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1Jil2canGE6gr6z-q1Y5InoqU__S9g11J/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://resocentro.com/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ConvenioSalud15,
+          title: "Auna",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:\n",
+                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:\n",
+                "Presentación del carnet de identificación personal militar o civil CIP\n",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).\n",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "a) Brinda servicios medicos y asistenciales medicas con costos diferenciados para personal afiliado",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1wc8-2qmUUjFYFSzizuz1fL9qKgy6r_ar/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.auna.org/pe/auna-salud",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
+    // sectionAsesoriaLegal: {
+    //   title: "Convenios de Asesoría Legal:",
+    //   cards: []
+    // },
     sectionDiversos: {
-      title: "Convenios con Tiendas :",
+      title: "Convenios con Tiendas:",
       cards: [
         {
           image: TiendaFootloose,
           title: "Footloose",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
-              description:
-                "20 % DE DESCUENTO MARCAS PROPIAS Y 10% OTRAS MARCAS",
+              title: "BENEFICIARIOS :",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
+              ],
             },
             {
-              title: "BENEFICIARIOS: ",
+              title: "BENEFICIOS: ",
               descriptions: [
-                "a) Exclusivo para compras presenciales.",
-                "b) No aplica compras por web, app, o Facebook.",
-                "c) Descuento del 15% en marcas propias.",
-                "d) Descuento del 10% en todas marcas diferentes.",
-                "e) Tiendas ubicadas en todos los centros comerciales",
+                "a) Acceso del 20% de descuento en calzado de marcas propias.",
+                "b) Acceso del 10% de descuento en calzado nacional e importados inclusive zapatillas deportivas y de vestir de marca.",
+                "c) Tiendas ubicadas en todos los centros comerciales",
               ],
-              detalles: [
+              sedes: [
                 {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
+                  icon: faBuilding,
+                  sede: "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
                 },
               ],
               links: [
@@ -718,15 +831,20 @@ export const apoyoSocialConfig = {
           title: "Lazzos",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
-              description:
-                "20% DE DESCUENTO SOBRE EL PRECIO DE ETIQUETA EN TODAS LAS TIENDAS MOSSA SHOES Y VISANO TIENDA FÍSICO Y VIRTUAL",
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
+              ],
             },
             {
-              title: "BENEFICIARIOS: ",
+              title: "BENEFICIOS :",
               description:
-                "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-              link: "https://www.lazzos.com.pe",
+                "a) Acceso del 20% de descuento en productos de calzados y accesorios para damas y caballeros, sobre el precio de etiqueta, en todas las tiendas Mossa Shoes.",
+              // link: "https://www.lazzos.com.pe",
             },
           ],
         },
@@ -741,7 +859,11 @@ export const apoyoSocialConfig = {
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
-                "BENEFICIO",
+              ],
+            },
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
                 "a) Compras presenciales, solo en tiendas propias.",
                 "b) Aplica para compras en tienda virtual, mediante el uso del cupón al momento de hacer el pago",
                 `<a href="https://www.mossashoes.com/">https://www.mossashoes.com/<a/>`,
@@ -1106,43 +1228,73 @@ export const apoyoSocialConfig = {
         //     },
         //   ],
         // },
+        // {
+        //   image: Hotel2,
+        //   title: "Hotel Costa del Sol",
+        //   descriptionLarge: [
+        //     {
+        //       title: "BENEFICIOS : ",
+        //       descriptions: [
+        //         "Nuestras tarifas de alojamiento incluyen:",
+        //         "Desayuno Buffet",
+        //         "10% deDSCTO en Restaurante Paprika sobre precio de Carta. No aplica para menú.",
+        //         "10% de DSCTO en Alimentos y Bebidas, aplica para bebidas alcohólicas",
+        //         "10% de DSCTO en Lavandería.",
+        //         "10% de DSCTO en SPA Sobre precios de masajes, para las sedes Piura, Trujillo Golf, Trujillo centro,\n" +
+        //           "Cajamarca, Aeropuerto, Salaverry.",
+        //         "Una bebida de bienvenida a elección (welcome drink)",
+        //         "Servicio de WI FI en todas nuestras instalaciones",
+        //         "Business Center",
+        //         "Uso del Gimnasio, piscina y sauna donde esté disponible. De acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19.",
+        //         "Servicio de recojo y traslado al aeropuerto para reservas individuales, previa reserva (no aplica grupos) en las ciudades de: Tumbes, Piura, Trujillo, Chiclayo, Pucallpa, Arequipa y Cajamarca.",
+        //         "No aplica para los Hoteles de Lima y Cusco.",
+        //         "El recojo y traslado al aeropuerto se brindará de acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19 y bajo previa reserva en servicio compartido y sólo en los horarios establecidos por cada Hotel (cualquier retraso por parte del cliente será su responsabilidad). Este servicio no aplica para Grupos sólo para pasajeros Individuales.",
+        //         "A continuación le brindamos mayor información al respecto:",
+        //         "CDSW Lima Aeropuerto.- No es necesario trasladarse en auto ya que nuestro hotel se localiza a 25 metros de la puerta de Salidas Internacionales. Asimismo, contamos con acceso directo desde el segundo nivel del Aeropuerto al Hotel.",
+        //         "CDSW Lima City.- El servicio de traslado Ida o Vuelta tiene un costo de S/ 70 neto (en efectivo) por unidad pagando directamente al conductor. Si desea cargar el servicio a la cuenta de la habitación, es posible pero tendría que adicionar el 18% IGV y el 10% servicios.",
+        //       ],
+        //       links: [
+        //         {
+        //           icon: faGlobe,
+        //           link: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
+        //         },
+        //       ],
+        //       detalles: [
+        //         {
+        //           icon: faLink,
+        //           detalle:
+        //             "https://drive.google.com/file/d/1uq6ZomiXJkiQlECigzB9DL75uaJ5kmJu/view?usp=sharing",
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
         {
-          image: Hotel2,
-          title: "Hotel Costa del Sol",
+          image: Hotel3,
+          title: "Hotel Carrera",
           descriptionLarge: [
             {
-              title: "BENEFICIOS : ",
+              title: "BENEFICIARIOS:",
               descriptions: [
-                "Nuestras tarifas de alojamiento incluyen:",
-                "Desayuno Buffet",
-                "10% deDSCTO en Restaurante Paprika sobre precio de Carta. No aplica para menú.",
-                "10% de DSCTO en Alimentos y Bebidas, aplica para bebidas alcohólicas",
-                "10% de DSCTO en Lavandería.",
-                "10% de DSCTO en SPA Sobre precios de masajes, para las sedes Piura, Trujillo Golf, Trujillo centro,\n" +
-                  "Cajamarca, Aeropuerto, Salaverry.",
-                "Una bebida de bienvenida a elección (welcome drink)",
-                "Servicio de WI FI en todas nuestras instalaciones",
-                "Business Center",
-                "Uso del Gimnasio, piscina y sauna donde esté disponible. De acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19.",
-                "Servicio de recojo y traslado al aeropuerto para reservas individuales, previa reserva (no aplica grupos) en las ciudades de: Tumbes, Piura, Trujillo, Chiclayo, Pucallpa, Arequipa y Cajamarca.",
-                "No aplica para los Hoteles de Lima y Cusco.",
-                "El recojo y traslado al aeropuerto se brindará de acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19 y bajo previa reserva en servicio compartido y sólo en los horarios establecidos por cada Hotel (cualquier retraso por parte del cliente será su responsabilidad). Este servicio no aplica para Grupos sólo para pasajeros Individuales.",
-                "A continuación le brindamos mayor información al respecto:",
-                "CDSW Lima Aeropuerto.- No es necesario trasladarse en auto ya que nuestro hotel se localiza a 25 metros de la puerta de Salidas Internacionales. Asimismo, contamos con acceso directo desde el segundo nivel del Aeropuerto al Hotel.",
-                "CDSW Lima City.- El servicio de traslado Ida o Vuelta tiene un costo de S/ 70 neto (en efectivo) por unidad pagando directamente al conductor. Si desea cargar el servicio a la cuenta de la habitación, es posible pero tendría que adicionar el 18% IGV y el 10% servicios.",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+                "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
+                "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
               ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
-                },
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1uq6ZomiXJkiQlECigzB9DL75uaJ5kmJu/view?usp=sharing",
-                },
+            },
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "-\t35% de descuento sobre el valor total en los diferentes tipos de alojamiento (habitación simple, doble, matrimonial) incluye impuesto, servicios, internet wifi y desayuno. \n",
+                "-\tOtorgará el 10% de descuento en los servicios de restaurantes LA ALAMEDA, en el consumo de alimentos y bebidas, no válido para servicio a la habitación.\n",
+                "-\tOtorgará 10% de descuento en los servicios de bar LOS DESCALZOS, no válido para servicio a la habitación.\n",
+                "-\tConsideraciones especiales para niños alojados en el hotel:\n",
+                "  Niños de 0 a 05 años incluye el servicio de desayuno.\n",
+                "  Niños de 06 a 11 años se cobrara el costo por desayuno según tarifa asignada.\n",
+                "  Niños a partir de los 12 años se considera como adultos con cargo adicional, incluyendo el desayuno.\n",
+                "-\tLas reservas deberán ser realizadas a través de central de reservas <a href='tel:016195200' target='_blank'>016195200</a> whatsapp <a href='https://wa.me/989468821' target='_blank'>989468821</a> y mediante correo electrónico <a href='mailto:reservasonline@hotelcarrera.com.pe' target='_blank'>reservasonline@hotelcarrera.com.pe</a>",
               ],
             },
           ],
@@ -1185,18 +1337,23 @@ export const apoyoSocialConfig = {
           title: "Samsung",
           descriptionLarge: [
             {
-              title: "Beneficio:",
+              title: "BENEFICIARIOS:",
               descriptions: [
-                "Acceso a los diversos productos y servicios de su marca a precios reducidos, a través de la tienda virtual de" +
-                  " “SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
-                  " siendo válido para Lima y provincias.",
-                "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigio al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+                "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos y padres).\n",
+                "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
               ],
             },
             {
-              title: "Alcance:",
+              title: "BENEFICIOS:",
               descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)\n",
+                "Acceso a los diversos productos y servicios de su marca a precios reducidos, a través de la tienda virtual de" +
+                  "“SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
+                  "siendo válido para Lima y provincias.",
+                "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
               ],
             },
           ],
