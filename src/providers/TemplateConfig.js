@@ -26,8 +26,9 @@ const TemplateConfigContext = createContext({
 export const TemplateConfig = ({ children }) => {
 	const [templateType, setTemplateType] = useState('default');
 
-	const hostName = window.location.hostname;
-
+	// const hostName = window.location.hostname;
+	const hostName = "apoyosocial.cobiene.mil.pe";
+	
 	console.log('HostName: ', hostName);
 
 	useEffect(() => {

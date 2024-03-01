@@ -370,12 +370,16 @@ export { default as GrupServices } from "./saeco/grup3services.webp";
 // ------ SAECO CONVENIOS SALUD IMAGES -------
 export { default as ConvenioSalud1 } from "./saeco/conveniosSalud/apelac.webp";
 export { default as ConvenioSalud2 } from "./saeco/conveniosSalud/biolinks.webp";
-export { default as ConvenioSalud3 } from "./saeco/conveniosSalud/dent.webp";
 export { default as ConvenioSalud4 } from "./saeco/conveniosSalud/inppares.webp";
+export { default as ConvenioSalud3 } from "./saeco/conveniosSalud/uchismed.webp";
 export { default as ConvenioSalud5 } from "./saeco/conveniosSalud/medifon.webp";
 export { default as ConvenioSalud6 } from "./saeco/conveniosSalud/multident.webp";
 export { default as ConvenioSalud7 } from "./saeco/conveniosSalud/tinnitus.webp";
 export { default as ConvenioSalud8 } from "./saeco/conveniosSalud/unilabs.webp";
+export { default as ConvenioSalud9 } from "./saeco/conveniosSalud/oftalmosalud.webp";
+export { default as ConvenioSalud10 } from "./saeco/conveniosSalud/otiklens.webp";
+export { default as ConvenioSalud11 } from "./saeco/conveniosSalud/globallaser.webp";
+export { default as ConvenioSalud12 } from "./saeco/conveniosSalud/suizalab.webp";
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
@@ -396,6 +400,7 @@ export { default as SeguroVehicularPositiva } from "./saeco/seguros/segurovehicu
 // ------ SAECO TRANSPORTE IMAGES -------
 export { default as Transporte1 } from "./saeco/transporte/movilbus.webp";
 export { default as Transporte2 } from "./saeco/transporte/oltursa.webp";
+export { default as Transporte3 } from "./saeco/transporte/cruzdelsur.webp";
 export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
 // ------ SAECO HOTELES IMAGES -------
 export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";

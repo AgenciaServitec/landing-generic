@@ -1,8 +1,10 @@
 import {
   ArgentinaBandera,
   BancoComercio,
+  BancoContinental,
   BancoGng,
   BancoInterbank,
+  BancoPichincha,
   BancoScotiabank,
   BannerEconomico,
   BannerSalud,
@@ -20,6 +22,8 @@ import {
   ConvenioSalud6,
   ConvenioSalud7,
   ConvenioSalud8,
+  ConvenioSalud9,
+  ConvenioSalud10,
   CoreaBandera,
   EcuadorBandera,
   EspanaBandera,
@@ -52,6 +56,9 @@ import {
   TitleReli,
   Transporte1,
   Transporte2,
+  ConvenioSalud11,
+  Transporte3,
+  ConvenioSalud12,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -60,6 +67,7 @@ import {
   faGlobe,
   faLink,
   faMobile,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const apoyoSocialConfig = {
@@ -167,22 +175,24 @@ export const apoyoSocialConfig = {
         {
           image: BancoGng,
           link: "https://www.bancognb.com.pe",
-          title: "Banco Gng",
-          description: "TEA hasta 9.5% por convenio",
+          title: "Banco Gnb",
+          description: "TEA hasta 16% por convenio",
         },
-        // {
-        //   image: BancoPichincha,
-        //   title: "Banco Pichincha",
-        // },
-        // {
-        //   image: BancoContinental,
-        //   title: "Banco Continental",
-        // },
+        {
+          image: BancoPichincha,
+          title: "Banco Pichincha",
+          description: "TEA hasta 14% por convenio",
+        },
+        {
+          image: BancoContinental,
+          title: "Banco Continental",
+          description: "TEA hasta 15.5% por convenio",
+        },
         {
           image: BancoInterbank,
           link: "https://interbank.pe",
           title: "Banco Interbank",
-          description: "TEA hasta 16% por convenio",
+          description: "TEA hasta 19.5% por convenio",
         },
         {
           image: BancoScotiabank,
@@ -211,11 +221,18 @@ export const apoyoSocialConfig = {
             {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Presentación del carnet de identificación familiar CIF (cónyuge e hijos).",
                 "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1jlom4Wo99Bl46huoZT9x3KAmS6PVlkXh/view?usp=sharing",
+                },
               ],
             },
           ],
@@ -225,10 +242,20 @@ export const apoyoSocialConfig = {
           title: "Biolinks",
           descriptionLarge: [
             {
+              title: "BENEFICIARIOS :",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
+              ],
+            },
+            {
               title: "BENEFICIOS : ",
               descriptions: [
                 " a) Acceso a costo diferenciado de porcentaje de descuento sobre la tarifa regular, en todas sus sedes propias y sedes con colaboradores con alianzas estratégicas, de los exámenes de laboratorios que se indican:",
-                "• Pruebas de Paternidad Parentesco.",
+                "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
                 "• Oncológicos aérea diagnostico",
                 "• Áreas infecciosas",
                 "b) Realización de citas mediante:",
@@ -241,16 +268,6 @@ export const apoyoSocialConfig = {
                 `• Informes a los teléfonos: <a href="tel:2614411" target="_blank">2614411</a> y <a href="tel:2614412" target="_blank">2614412</a>, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las órdenes médicas respectivas.`,
                 `Correo electrónico <a href="mailto:adn@biolinksperù.com">adn@biolinksperù.com</a> – <a href="https://biolinksperu.com" target="_blank">www.biolinksperu.com</a>.`,
               ],
-            },
-            {
-              title: "BENEFICIARIOS :",
-              descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
-              ],
               sedes: [
                 {
                   icon: faBuilding,
@@ -261,7 +278,7 @@ export const apoyoSocialConfig = {
                 {
                   icon: faLink,
                   detalle:
-                    "https://drive.google.com/file/d/19cC4wjIEd7SI5ISCS87xyomg0nOaMxzY/view?usp=sharing",
+                    "https://drive.google.com/file/d/1w10YrPqy46Qf3b6mcFLdfW2BDWW3UCf5/view?usp=drive_link",
                 },
               ],
               links: [
@@ -275,7 +292,44 @@ export const apoyoSocialConfig = {
         },
         {
           image: ConvenioSalud3,
-          title: "Uchis Med",
+          title: "Uchi's Med",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:\n",
+                "El presente Convenio de cooperación por su naturaleza será dirigido al personal militar en situación de" +
+                  " actividad o retiro, personal civil; así como sus " +
+                  "familiares directos (cónyuge e hijos menores de 25 años); debidamente" +
+                  "acreditados; que en adelante serán denominados BENEFICIARIOS. Mediante" +
+                  "un plan odontológico familiar con un costo de afiliación de S/. 35.00" +
+                  "mensuales y no afiliación con tarifas preferenciales.\n",
+              ],
+            },
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "Con el Plan Odontológico de 35.00, accederán el titular cónyuge e hijos\n" +
+                  "menores de 25 años a:\n" +
+                  "CONSULTA ODONTOLÓGICA, LIMPIEZA COMPLETA CON ULTRASONIDO,\n" +
+                  "FLUORIZACIÓN, SELLANTE DE FOSAS Y FISURAS, CURACIONES SIMPLES CON\n" +
+                  "RESINA Y LUZ HALÓGENA, CURACIONES COMPUESTAS CON RESINA Y LUZ\n" +
+                  "HALÓGENA, EXTRACCIONES SIMPLES, ENDODONCIA EN PIEZAS ANTERIORES, 02\n" +
+                  "RX PERIAPICALES.\n",
+                "Descontar el 10% a los BENEFICIARIOS afiliados y no afiliados en tratamientos\n" +
+                  "especializados por encima de la tarifa especial indicada.\n",
+              ],
+            },
+            {
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1zIzNtkIsPTxFUqSOLJ_nD5zMVxMuxRya/view?usp=sharing",
+                },
+              ],
+            },
+          ],
         },
         {
           image: ConvenioSalud4,
@@ -293,9 +347,9 @@ export const apoyoSocialConfig = {
               ],
             },
             {
-              title: "BENEFICIO: ",
+              title: "BENEFICIOS: ",
               descriptions: [
-                "a) Descuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA.",
+                "a) Descuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS 27 ESPECIALIDADES MÉDICAS.",
                 "b) Descuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
                 "c) Descuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.",
               ],
@@ -303,7 +357,7 @@ export const apoyoSocialConfig = {
                 {
                   icon: faLink,
                   detalle:
-                    "https://drive.google.com/file/d/12sqPYvBLOgP1_XeonoiGnCNeHMIJyEyY/view?usp=sharing",
+                    "https://drive.google.com/file/d/19cAIqRNbvHeBmruHBRYdDluZvxIY9rsy/view?usp=drive_link",
                 },
               ],
               links: [
@@ -320,27 +374,27 @@ export const apoyoSocialConfig = {
           title: "Medifon",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "Implementará el acceso al beneficio a través del call center y presencial en las sedes de Miraflores, Jesús María, Los Olivos, San Borja, San juan de Lurigancho, San juan de Miraflores, san miguel y Cercado de Lima, en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
-                "Otorgará el valor de $150 dólares americanos, de descuento sobre los costos de las tarifas regulares, en dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
-                "Otorgará garantía por un año, recalibraciones, limpiezas y mantenimiento ilimitados, así como dotación de seis baterías, en los dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
-                "Otorgará el 25% de descuento sobre los costos de las tarifas regulares, en baterías, pilas, accesorios de limpieza, en las diferentes sedes.",
-                "Otorgará el valor de cien s/100 soles, en el costo por consulta especializada previa cita en la especialidad de otorrinolaringología.",
-                "Otorgará acceso gratuito a los servicios de audiológicos (audiometría y otoscopía), previa cita.",
-                "Otorgará a los BENEFICIARIOS de “EL EJÉRCITO” el valor de $150 ciento cincuenta dólares americanos de descuento sobre el costo tarifa regular de los DISPOSITIVOS VIBRADORES ÓSEOS.",
-                "Otorgará el valor de $2000 dos mil dólares americanos de descuento sobre el costo tarifa regular del dispositivo medico a largo plazo, IMPLANTE COCLEAR, en lo correspondiente a la colocación quirúrgica (clínica, operación, anestesiólogo, equipo, post operatorio, cincuenta terapías de lenguaje y otros).",
-                "Los beneficios antes indicados serán en todas las sedes de MEDIFON.",
-              ],
-            },
-            {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados sin límite de edad.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
                 "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
                 "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Implementará el acceso al beneficio a través del call center y presencial en las sedes de Miraflores, Jesús María, Los Olivos, San Borja, San juan de Lurigancho, San juan de Miraflores, san miguel y Cercado de Lima, en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
+                "Otorgará el valor de $150.00 dólares americanos, de descuento sobre los costos de las tarifas regulares, en dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
+                "Otorgará garantía por un año, recalibraciones, limpiezas y mantenimiento ilimitados, así como dotación de seis baterías, en los dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
+                "Otorgará el 25% de descuento sobre los costos de las tarifas regulares, en baterías, pilas, accesorios de limpieza, en las diferentes sedes.",
+                "Otorgará el valor de cien S/100.00 soles, en el costo por consulta especializada previa cita en la especialidad de otorrinolaringología.",
+                "Otorgará acceso gratuito a los servicios de audiológicos (audiometría y otoscopía), previa cita.",
+                "Otorgará a los BENEFICIARIOS de “EL EJÉRCITO” el valor de $150 ciento cincuenta dólares americanos de descuento sobre el costo tarifa regular de los DISPOSITIVOS VIBRADORES ÓSEOS.",
+                "Otorgará el valor de $2000 dos mil dólares americanos de descuento sobre el costo tarifa regular del dispositivo medico a largo plazo, IMPLANTE COCLEAR, en lo correspondiente a la colocación quirúrgica (clínica, operación, anestesiólogo, equipo, post operatorio, cincuenta terapías de lenguaje y otros).",
+                "Los beneficios antes indicados serán en todas las sedes de MEDIFON.",
               ],
               links: [
                 {
@@ -352,7 +406,7 @@ export const apoyoSocialConfig = {
                 {
                   icon: faLink,
                   detalle:
-                    "https://drive.google.com/file/d/1TuvuRj3_e4N2eM1IhgMb7rowjYQxEg9x/view?usp=sharing",
+                    "https://drive.google.com/file/d/13ZRqsN3mBARxug_4O55DAVk6RoUZatT2/view?usp=drive_link",
                 },
               ],
             },
@@ -402,21 +456,20 @@ export const apoyoSocialConfig = {
           title: "Tinnitus",
           descriptionLarge: [
             {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+              ],
+            },
+            {
               title: "BENEFICIOS :",
               descriptions: [
                 "Consultas e informes a través del celular y WhatsApp: 980688232, así como correo electrónico comercial@grupoinfinitech.com y presencial en la Av. Canadá Nº 3630, consultorio 205 San Borja en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
                 "Descuento del 30% en audífonos medicados programables que comercialice la empresa.",
-                "Gratis Kit de limpieza por la compra de audífonos medicados.",
-                "Descuento del 20% de en servicios de audiología, psicología nutrición.",
-              ],
-            },
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
+                "Descuento del 20% de en servicios de audiología y psicología nutrición.",
               ],
               links: [
                 {
@@ -447,7 +500,7 @@ export const apoyoSocialConfig = {
               title: "BENEFICIARIOS: ",
               descriptions: [
                 "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "a) Presentación del carnet de identificación personal militar o civil CIP",
                 "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
@@ -463,7 +516,159 @@ export const apoyoSocialConfig = {
                 {
                   icon: faLink,
                   detalle:
-                    "https://drive.google.com/file/d/144YibViWp6vReO7y61RCcVrv9PL8AkK3/view?usp=sharing",
+                    "https://drive.google.com/file/d/12e784IZpTKyEcfdtT2HWarKWk2e6ib7P/view?usp=drive_link",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ConvenioSalud9,
+          title: "Oftalmo Salud",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "a) Presentación del carnet de identificación personal militar o civil CIP",
+                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
+                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "BENEFICIO",
+                "a) Acceso al 50% de descuento en consultas medicas.",
+                "b) Acceso al 30% de descuento sobre la tarifa regular, en exámenes auxiliares sobre tarifario vigente de paciente particular.",
+                "c) Acceso al 30% de descuento sobre la tarifa regular vigente del paciente particular sobre los procedimientos de cirugías oftálmicas.",
+                "d) Pueden aplicarse restricciones por motivo de insumos o complejidad.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/12e784IZpTKyEcfdtT2HWarKWk2e6ib7P/view?usp=drive_link",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://oftalmosalud.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ConvenioSalud10,
+          title: "Otik Lens",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
+                "FORMA DE ACREDITACIÓN:",
+                "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).\n",
+                "Horarios: Miércoles, jueves y viernes de 9 am a 3 pm.",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "BENEFICIO",
+                "a) Brinda servicio gratuito de medida de vista computarizada y despistaje de defecto de refracción, miopía ambliopía",
+                "b) Acceso al 15% de descuento en servicio de lunas (blancas, blue antireflex, monofocales bifocales).",
+                "c) Acceso al 25% de descuento en servicio de monturas económicas e intermedias y alta gama.",
+              ],
+              phones: [
+                {
+                  icon: faPhone,
+                  url: "tel:968624571",
+                  text: "968624571",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ConvenioSalud11,
+          title: "Global Laser",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "servicios especializados en  oftamalogica mediante\n" +
+                  "\n" +
+                  "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
+                "ALCANCE DEL CONVENIO:\n",
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:\n",
+                "Presentación del carnet de identificación personal militar o civil CIP\n",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "BENEFICIO",
+                "Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
+                "Breinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1f_4bBVuRMRoE67i00NYsmnn9NmA_d8T4/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.globallaserperu.com/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ConvenioSalud12,
+          title: "Suiza Lab",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "servicios especializados en  oftamalogica mediante\n" +
+                  "\n" +
+                  "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
+                "ALCANCE DEL CONVENIO:\n",
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+                "FORMA DE ACREDITACIÓN:\n",
+                "Presentación del carnet de identificación personal militar o civil CIP\n",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+              ],
+            },
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "BENEFICIO",
+                "Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
+                "Breinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1f_4bBVuRMRoE67i00NYsmnn9NmA_d8T4/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.globallaserperu.com/",
                 },
               ],
             },
@@ -640,19 +845,19 @@ export const apoyoSocialConfig = {
           image: FinancieraEfectiva,
           link: "https://www.efectiva.com.pe",
           title: "Financiera Efectiva",
-          description: "TEA hasta 18.5% por convenio",
+          description: "TEA hasta 19% por convenio",
         },
-        {
-          image: FinancieraFinantel,
-          link: "https://www.finantel.pe",
-          title: "Financiera Finantel",
-          description: "TEA hasta 18.5% por convenio",
-        },
+        // {
+        //   image: FinancieraFinantel,
+        //   link: "https://www.finantel.pe",
+        //   title: "Financiera Finantel",
+        //   description: "TEA hasta 18.5% por convenio",
+        // },
         {
           image: FinancieraLarehabilitadora,
           link: "https://larehabilitadora.com",
           title: "Financiera La Rehabilitadora",
-          description: "TEA hasta 18% por convenio",
+          description: "TEA hasta 18.5% por convenio",
         },
       ],
     },
@@ -661,21 +866,93 @@ export const apoyoSocialConfig = {
       cards: [
         {
           image: SeguroRimac,
-          link: "https://www.rimac.com",
           title: "Seguros Rimac",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge e hijos).",
+                "BENEFICIO:",
+                "-\tProtección familiar vida, desde S/ 33.00",
+                "-\tProtección familiar sepelio, desde S/ 22.90",
+                "-\tProtección familiar ahorro, desde S/ 23.90",
+                "-\tProtección familiar accidental, desde S/ 21.00",
+                "-\tSeguro domiciliario",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.rimac.com",
+                },
+              ],
+            },
+          ],
         },
         {
           image: SeguroSaludPositiva,
-          link: "https://www.lapositiva.com.pe",
           title: "Seguro Salud Positiva",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante.",
+                "BENEFICIO:",
+                "Seguro empresa salud en coberturas básicas de acuerdo a red de clínicas, desde S/ 160.00",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.lapositiva.com.pe/wps/portal/landing/medisalud",
+                },
+              ],
+            },
+          ],
         },
         {
-          image: SeguroVehicular,
+          image: SeguroSaludPositiva,
           title: "Seguro Vida Positiva",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante.",
+                "BENEFICIO:",
+                "Desde $ 15.94 en seguro vida individual positiva vida futuro vida entera. (con devolución)",
+                "Suma asegurada según contrato.",
+                "Fallecimiento",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.lapositiva.com.pe/wps/portal/landing/seguros-vida-individual",
+                },
+              ],
+            },
+          ],
         },
         {
           image: SeguroVehicularPositiva,
-          title: "Seguro Vida Positiva",
+          title: "Seguro Vehicular Positiva",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge e hijos).",
+                "BENEFICIO:",
+                "Todo riesgo, desde $ 37",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.lapositiva.com.pe/wps/portal/corporativo/home/proteger/mi-vehiculo/seguro-vehicular",
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -684,7 +961,6 @@ export const apoyoSocialConfig = {
       cards: [
         {
           image: Transporte1,
-          // link: "https://www.movilbus.pe/",
           title: "Movilbus",
           descriptionLarge: [
             {
@@ -698,10 +974,9 @@ export const apoyoSocialConfig = {
                 "d) Deberá de presentar copia de CIP al momento de la compra.",
                 "BENEFICIO",
                 "a) No aplica para compras por página web, call center",
-                "b) Acceso los 364 días del año, de forma PRESENCIAL",
+                "b) Acceso los 365 días del año, de forma PRESENCIAL",
                 "c) Acceso al 20% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros (económico, premier, presidencial, ejecutivo, vip), hacia cualquiera de los destinos.",
-                "d) Acceso al 30% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER, que inicien en provincias (hacia Lima) a excepción de Lima como origen.",
-                "e) Acceso al 15% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER que inicien en Lima, hacia cualquiera de los destinos ofrecidos.",
+                "e) Acceso al 15% de descuento en servicio de transporte de correspondencia, paqueteria, encomiendas, carga ligera o mediana.",
                 "f) Costos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de MOVILBUS.",
               ],
               links: [
@@ -715,7 +990,6 @@ export const apoyoSocialConfig = {
         },
         {
           image: Transporte2,
-          // link: "https://www.oltursa.pe",
           title: "Oltursa",
           descriptionLarge: [
             {
@@ -745,6 +1019,35 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://www.oltursa.pe",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: Transporte3,
+          title: "Cruz del Sur",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres), debidamente acreditados, los 365 días del año.",
+                "Válido solo para compras mediante página web <a href='https://www.cruzdelsur.com.pe/'>https://www.cruzdelsur.com.pe/</a>, mediante la asignación de un código de descuento al titular, el cual debe de ser usado por los BENEFICIARIOS acreditados, al momento de la compra virtual de los boletos.",
+                "FORMA DE ACREDITACIÓN:",
+                "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
+                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el DNI.",
+                "BENEFICIO:",
+                "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution,  cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
+                "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus hacia cualquiera de los destinos ofrecidos.",
+                "-\t15% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada baja, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, hacia cualquiera de los destinos ofrecidos.",
+                "-\t10% de descuento sobre la tarifa regular, en los servicios de correspondencia, encomiendas, paquetería y carga ligera o mediana.\n",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.cruzdelsur.com.pe/",
                 },
               ],
             },

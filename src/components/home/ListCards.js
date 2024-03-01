@@ -143,6 +143,24 @@ export const ListCards = ({
                         </a>
                       </li>
                     ))}
+                  {requirement.phones &&
+                    requirement.phones.map((phone, index) => (
+                      <li
+                        key={index}
+                        style={{
+                          listStyle: "none",
+                          fontSize: "1.1rem",
+                          paddingBottom: "0.5rem",
+                        }}
+                      >
+                        <a href={phone.url} target="_blank" rel="noreferrer">
+                          <FontAwesomeIcon icon={phone.icon} size="sm" />
+                          <span style={{ paddingLeft: "0.5rem" }}>
+                            {phone.text}
+                          </span>
+                        </a>
+                      </li>
+                    ))}
                   {requirement.links &&
                     requirement.links.map((link, index) => (
                       <li
