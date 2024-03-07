@@ -34,6 +34,8 @@ export const App = () => {
         return setThemeType("default");
       case "saed.cobiene.mil.pe":
         return setThemeType("default");
+      case "dscs.cobiene.mil.pe":
+        return setThemeType("default");
       case "apoyosocial.cobiene.mil.pe":
         return setThemeType("default");
       default:

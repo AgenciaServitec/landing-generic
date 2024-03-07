@@ -4,6 +4,7 @@ import {
   jaceConfig,
   jaeConfig,
   sadConfig,
+  dscsConfig,
   apoyoSocialConfig,
   saedConfig,
 } from "../data-list";
@@ -14,6 +15,7 @@ const templateConfigs = {
   jae: jaeConfig,
   sad: sadConfig,
   saed: saedConfig,
+  dscs: dscsConfig,
   apoyoSocial: apoyoSocialConfig,
   default: saedConfig,
 };
@@ -26,7 +28,8 @@ const TemplateConfigContext = createContext({
 export const TemplateConfig = ({ children }) => {
   const [templateType, setTemplateType] = useState("default");
 
-  const hostName = window.location.hostname;
+  // const hostName = window.location.hostname;
+  const hostName = "dscs.cobiene.mil.pe";
 
   console.log("HostName: ", hostName);
 
@@ -44,6 +47,8 @@ export const TemplateConfig = ({ children }) => {
         return setTemplateType("saed");
       case "apoyosocial.cobiene.mil.pe":
         return setTemplateType("apoyoSocial");
+      case "dscs.cobiene.mil.pe":
+        return setTemplateType("dscs");
       default:
         return setTemplateType("jace");
     }
