@@ -40,6 +40,9 @@ export { default as SadServiceCuero } from "./sad/services-cuero.webp";
 export { default as SadServiceEstampado } from "./sad/services-estampado.webp";
 export { default as SadServiceTextil } from "./sad/services-textil.webp";
 
+// ------ DSCS IMAGES -------
+export { default as DscsBanner } from "./dscs/banner-dscs.webp";
+
 // ------ JACE IMAGES -------
 export { default as JaceAbout } from "./jace/jace-about.webp";
 export { default as JaceMap } from "./jace/jace-map.webp";

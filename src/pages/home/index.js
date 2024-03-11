@@ -8,6 +8,7 @@ import {
   CardsBlack,
   ComponentImages,
   Collage,
+  SuggestionsComplaints,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
 
@@ -21,6 +22,8 @@ export const Home = () => {
   const sectionContentImages = templateConfig.main.contentImages || false;
   const cardsConventions = templateConfig.main.sectionConvenios || false;
   const cardsInstitutes = templateConfig.main.sectionInstitutes || false;
+  const sectionSuggestionsComplaints =
+    templateConfig.main.sectionSuggestionsComplaints || false;
   const sectionContact = templateConfig.sectionContact || false;
   const sectionServices = templateConfig.main.sectionServices || false;
   const collageImages = templateConfig.main.collageImages || false;
@@ -32,7 +35,8 @@ export const Home = () => {
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionBancos = templateConfig.main.sectionBancos || false;
   const sectionSalud = templateConfig.main.sectionSalud || false;
-  const sectionAsesoriaLegal = templateConfig.main.sectionAsesoriaLegal || false;
+  const sectionAsesoriaLegal =
+    templateConfig.main.sectionAsesoriaLegal || false;
   const sectionDiversos = templateConfig.main.sectionDiversos || false;
   const sectionFinancieras = templateConfig.main.sectionFinancieras || false;
   const sectionSeguros = templateConfig.main.sectionSeguros || false;
@@ -70,6 +74,9 @@ export const Home = () => {
             buttons={sectionAboutUs.buttons}
             images={sectionAboutUs.images}
           />
+        )}
+        {sectionSuggestionsComplaints && (
+          <SuggestionsComplaints title={sectionSuggestionsComplaints.title} />
         )}
         {(sectionSetPro || sectionSetPro.images) && (
           <CardsInlineBlock

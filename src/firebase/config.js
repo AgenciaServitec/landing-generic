@@ -16,4 +16,6 @@ const contactData = configs.common.contactData;
 
 const { version, apiUrl } = currentConfig;
 
+console.log(currentEnvironment, ":", version);
+
 export { version, apiUrl, currentConfig, common, contactData };

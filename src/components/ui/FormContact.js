@@ -1,120 +1,117 @@
 import React, { useState } from "react";
-import styled, { css } from "styled-components";
-import ModalAntd from "antd/lib/modal/Modal";
-import { mediaQuery } from "../../styles/constants/mediaQuery";
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { useFormUtils } from "../../hooks";
-import { Input } from "./Input";
+import { useFormUtils, useDevice } from "../../hooks";
 import { Form } from "./Form";
-import { defaultTo } from "lodash";
-import { phoneCodes } from "../../data-list";
-import { Select } from "./Select";
-import { InputNumber } from "./InputNumber";
-import { TextArea } from "./TextArea";
-import { notification } from "./notification";
 import { currentConfig } from "../../firebase";
-import { useNavigate } from "react-router";
-import { Button } from "./Button";
-import { useDevice } from "../../hooks";
+import { FormButton, Input, Select, TextArea, notification } from "../ui";
+import { phoneCodes } from "../../data-list";
+import styled from "styled-components";
 
-export const FormContact = ({
-  visibleFormContact,
-  onClickVisibleFormContact,
-  onEventGaClickButton,
-}) => {
+export const FormContact = () => {
   const { isMobile } = useDevice();
-  const navigate = useNavigate();
 
   const [loadingContact, setLoadingContact] = useState(false);
 
   const schema = yup.object({
     firstName: yup.string().required(),
     lastName: yup.string().required(),
+    degree: yup.string().required(),
+    dni: yup.string().required().min(8),
+    cip: yup.string().required().min(9),
+    situation: yup.string().required(),
+    departament: yup.string().required(),
+    province: yup.string().required(),
+    district: yup.string().required(),
+    phone: yup.number().required(),
     email: yup.string().email().required(),
-    countryCode: yup.string().required(),
-    phoneNumber: yup.number().required(),
-    issue: yup.string().required(),
-    message: yup.string(),
+    suggestionComplaint: yup.string().required(),
   });
 
   const {
     formState: { errors },
     handleSubmit,
     control,
+    reset,
   } = useForm({
     resolver: yupResolver(schema),
   });
 
   const { required, error } = useFormUtils({ errors, schema });
 
+  console.log(errors);
+
   const onSubmitFetchContacts = async (formData) => {
     try {
+      console.log(formData);
       setLoadingContact(true);
-
-      onEventGaClickButton(
-        "click-boton-enviar-formulario-contactanos",
-        "Click boton enviar de formulario contactanos"
-      );
-
       const contact = mapContactData(formData);
-
       const response = await fetchSendEmail(contact);
 
       if (!response.ok) throw new Error(response.statusText);
 
       notification({ type: "success", title: "Enviado exitosamente" });
-
-      navigate("/contact-success");
     } catch (e) {
-      console.log("Error email send:", e);
       notification({ type: "error", placement: "topLeft" });
     } finally {
       setLoadingContact(false);
+      onResetForm();
     }
   };
 
   const fetchSendEmail = async (contact) =>
-    await fetch(
-      `${currentConfig.sendingEmailsApiUrl}/publicidad-google/contact`,
-      {
-        method: "POST",
-        headers: {
-          "Access-Control-Allow-Origin": null,
-          "content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify(contact),
-      }
-    );
+    await fetch(`${currentConfig.apiServitecSales}/generic/contact`, {
+      method: "POST",
+      headers: {
+        "Access-Control-Allow-Origin": null,
+        "content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(contact),
+    });
 
   const mapContactData = (formData) => ({
     contact: {
       firstName: formData.firstName,
       lastName: formData.lastName,
-      email: formData.email,
+      degree: formData.degree,
+      dni: formData.dni,
+      cip: formData.cip,
+      situation: formData.situation,
+      departament: formData.departament,
+      province: formData.province,
+      district: formData.district,
       phone: {
         number: formData.phoneNumber,
         countryCode: formData.countryCode,
       },
-      issue: formData.issue,
-      message: formData.message,
-      termsAndConditions: true,
-      hostname: window.location.hostname || "publicidadgoogle.site",
+      email: formData.email,
+      suggestionComplaint: formData.suggestionComplaint,
+      hostname: "cobiene-mil-pe.web.app",
     },
   });
 
+  const onResetForm = () =>
+    reset({
+      firstName: "",
+      lastName: "",
+      degree: "",
+      dni: "",
+      cip: "",
+      situation: "",
+      departament: "",
+      province: "",
+      district: "",
+      phone: "",
+      email: "",
+      suggestionComplaint: "",
+    });
+
   return (
-    <ModalComponent
-      title={<h3 style={{ margin: "0" }}>CONTÁCTANOS</h3>}
-      visible={visibleFormContact}
-      onOk={() => onClickVisibleFormContact()}
-      onCancel={() => onClickVisibleFormContact()}
-      footer={null}
-    >
+    <Container>
       <Form onSubmit={handleSubmit(onSubmitFetchContacts)}>
         <Row gutter={[16, 15]}>
           <Col xs={24} sm={24} md={12}>
@@ -151,14 +148,14 @@ export const FormContact = ({
               )}
             />
           </Col>
-          <Col span={24}>
+          <Col xs={24} sm={24} md={12}>
             <Controller
-              name="email"
+              name="degree"
               control={control}
               defaultValue=""
               render={({ field: { onChange, value, name } }) => (
                 <Input
-                  label="Ingrese email"
+                  label="Ingrese su grado"
                   name={name}
                   value={value}
                   onChange={onChange}
@@ -168,7 +165,113 @@ export const FormContact = ({
               )}
             />
           </Col>
-          <Col xs={24} sm={24} md={10}>
+          <Col xs={24} sm={24} md={12}>
+            <Controller
+              name="dni"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <Input
+                  label="Ingrese su DNI"
+                  name={name}
+                  value={value}
+                  onChange={onChange}
+                  error={error(name)}
+                  required={required(name)}
+                />
+              )}
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12}>
+            <Controller
+              name="cip"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <Input
+                  label="Ingrese su CIP"
+                  name={name}
+                  value={value}
+                  onChange={onChange}
+                  error={error(name)}
+                  required={required(name)}
+                />
+              )}
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12}>
+            <Controller
+              name="situation"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <Select
+                  label="Situación"
+                  value={value}
+                  onChange={(value) => onChange(value)}
+                  error={error(name)}
+                  required={required(name)}
+                  isMobile={isMobile}
+                  options={[
+                    { value: "actividad", label: "Actividad" },
+                    { value: "retiro", label: "Retiro" },
+                  ]}
+                />
+              )}
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12}>
+            <Controller
+              name="departament"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <Input
+                  label="Ingrese su departamento"
+                  name={name}
+                  value={value}
+                  onChange={onChange}
+                  error={error(name)}
+                  required={required(name)}
+                />
+              )}
+            />
+          </Col>
+          <Col xs={24} sm={24} md={12}>
+            <Controller
+              name="province"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <Input
+                  label="Ingrese su provincia"
+                  name={name}
+                  value={value}
+                  onChange={onChange}
+                  error={error(name)}
+                  required={required(name)}
+                />
+              )}
+            />
+          </Col>
+          <Col span={24}>
+            <Controller
+              name="district"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <Input
+                  label="Ingrese su distrito"
+                  name={name}
+                  value={value}
+                  onChange={onChange}
+                  error={error(name)}
+                  required={required(name)}
+                />
+              )}
+            />
+          </Col>
+          <Col xs={24} sm={24} md={8}>
             <Controller
               name="countryCode"
               control={control}
@@ -190,30 +293,14 @@ export const FormContact = ({
               )}
             />
           </Col>
-          <Col xs={24} sm={24} md={14}>
+          <Col xs={24} sm={24} md={16}>
             <Controller
-              name="phoneNumber"
-              control={control}
-              render={({ field: { onChange, value, name } }) => (
-                <InputNumber
-                  label="Ingrese teléfono"
-                  name={name}
-                  value={value}
-                  onChange={onChange}
-                  error={error(name)}
-                  required={required(name)}
-                />
-              )}
-            />
-          </Col>
-          <Col span={24}>
-            <Controller
-              name="issue"
+              name="phone"
               control={control}
               defaultValue=""
               render={({ field: { onChange, value, name } }) => (
                 <Input
-                  label="Ingrese asunto"
+                  label="Ingrese su celular"
                   name={name}
                   value={value}
                   onChange={onChange}
@@ -225,12 +312,12 @@ export const FormContact = ({
           </Col>
           <Col span={24}>
             <Controller
-              name="message"
+              name="email"
               control={control}
               defaultValue=""
               render={({ field: { onChange, value, name } }) => (
-                <TextArea
-                  label="Ingrese mensaje"
+                <Input
+                  label="Ingrese email"
                   name={name}
                   value={value}
                   onChange={onChange}
@@ -240,89 +327,54 @@ export const FormContact = ({
               )}
             />
           </Col>
-          <Col xs={24} sm={24} md={24} lg={10}>
-            <Button
-              type="primary"
-              width="100%"
-              margin="0"
-              block
-              onClick={() => {
-                onClickVisibleFormContact();
-                onEventGaClickButton(
-                  "click-boton-cancelar-de-formulario-contactanos",
-                  "Click boton cancelar de formulario contactanos"
-                );
-              }}
-              disabled={loadingContact}
-              text="Cancelar"
+          <Col span={24}>
+            <Controller
+              name="suggestionComplaint"
+              control={control}
+              defaultValue=""
+              render={({ field: { onChange, value, name } }) => (
+                <TextArea
+                  label="Sugerencia/Reclamo"
+                  name={name}
+                  value={value}
+                  onChange={onChange}
+                  error={error(name)}
+                  required={required(name)}
+                  style={{borderRadius: 0}}
+                />
+              )}
             />
           </Col>
-          <Col xs={24} sm={24} md={24} lg={14}>
-            <Button
-              type="secondary"
-              width="100%"
-              margin="0"
-              block
+          <Col span={24}>
+            <FormButton
               htmlType="submit"
               loading={loadingContact}
               disabled={loadingContact}
-              text="Enviar"
-            />
+            >
+              Enviar
+            </FormButton>
           </Col>
         </Row>
       </Form>
-    </ModalComponent>
+    </Container>
   );
 };
 
-const ModalBackground = css`
-  background-color: ${({ backgroundModal, theme }) =>
-    defaultTo(backgroundModal, theme.colors.tertiary)};
-  color: ${({ theme }) => theme.colors.font2};
-`;
-
-const ModalComponent = styled(ModalAntd)`
-  position: relative;
-  min-width: 100vw;
-  min-height: 100vh;
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
-  top: 0;
-  z-index: 9999999 !important;
-
-  ${mediaQuery.minTablet} {
-    min-width: inherit;
-    min-height: inherit;
-    width: inherit;
-    height: auto;
-    top: 2vh;
-  }
-  .ant-modal-content {
-    position: absolute;
-    inset: 0;
-    ${ModalBackground};
-
-    .ant-modal-header {
-      ${ModalBackground};
-      border-bottom: 1px solid #53575a;
-
-      .ant-modal-title {
-        color: ${({ theme }) => theme.colors.font1};
-        h2 {
-          margin: 0;
-        }
-      }
+const Container = styled.section`
+  Form {
+    max-width: 600px;
+    margin: 0 auto;
     }
 
-    .ant-modal-close {
-      color: ${({ theme }) => theme.colors.font1};
+    input {
+      height: 2.5rem;
+      color: #fff;
+      border-radius: 0;
     }
 
-    .ant-modal-body {
-      ${ModalBackground};
+    textarea {
+      height: 200px;
+      border-radius: none;
+      color: #fff;
     }
-  }
 `;

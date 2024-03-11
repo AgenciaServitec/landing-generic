@@ -4,6 +4,7 @@ export * from "./CardsInlineBlock";
 export * from "../layout/Footer";
 export * from "./ListCards";
 export * from "./Contact";
+export * from "./SuggestionsComplaints";
 export * from "./CardsBlock";
 export * from "./ComponentImages";
 export * from "./Collage";

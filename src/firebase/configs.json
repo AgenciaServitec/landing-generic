@@ -39,7 +39,7 @@
     },
     "buckets": {},
     "apiUrl": "-",
-    "sendingEmailsApiUrl": "-",
+    "apiServitecSales": "-",
     "ipInfoApi": "-"
   },
   "production": {
@@ -55,6 +55,6 @@
     },
     "buckets": {},
     "apiUrl": "-",
-    "sendingEmailsApiUrl": "https://us-central1-sendingemails-348505.cloudfunctions.net/api"
+    "apiServitecSales": "https://api-servitecsales.web.app"
   }
 }
