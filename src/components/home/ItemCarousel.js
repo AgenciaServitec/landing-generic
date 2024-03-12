@@ -35,7 +35,7 @@ export const ItemCarousel = ({
 
 const Container = styled.div`
   background: url(${({ imgBackground }) => imgBackground}) 100% 100% no-repeat;
-  background-position: center;
+  background-position: left center;
   background-size: cover;
   width: 100%;
   height: 85vh;
