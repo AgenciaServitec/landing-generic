@@ -3,16 +3,16 @@ import {
   faGlobe,
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
-import { CobieneLogoLarge, DscsBanner, JaceAbout2, JaceSlider1 } from "../images";
+import { CobieneLogoLarge, DscsBanner, JaceAbout2 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const dscsConfig = {
-  helment: {
+  helmet: {
     title: "Departamento de Supervisión de Calidad del Servicio",
     link: "https://dscs.cobiene.mil.pe",
     description:
       "Garantizando calidad en servicios clave del Ejército para personal militar y sus familias.",
-    keywords: "",
+    keywords: "supervision,calidad,servicio",
   },
   header: {
     name: "dscs",
