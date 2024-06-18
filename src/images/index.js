@@ -10,6 +10,7 @@ export { default as ServitecSlider4 } from "./others/servitec-slider4.webp";
 export { default as ServitecSlider2 } from "./others/servitec-slider1.webp";
 export { default as ServitecSlider3 } from "./others/servitec-slider3.webp";
 export { default as ImgCongratulation } from "./others/congratulation.webp";
+export { default as ImgConvenioProvinciaTacna } from "./others/convenio-provincia-tacna.png";
 
 // -------SVG-------
 export * from "./svg/Phone";

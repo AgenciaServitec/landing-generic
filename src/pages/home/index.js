@@ -192,6 +192,7 @@ export const Home = () => {
           <ListCards
             title={sectionProvincial2.title}
             items={sectionProvincial2.cards}
+            redirectPage={true}
             type="secondary"
           />
         )}

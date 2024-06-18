@@ -28,6 +28,7 @@ export const ListCards = ({
   title,
   titleImage,
   items = [],
+  redirectPage = false,
   type = "primary",
 }) => {
   const listCardsStyle = listCardsTypes[type];
@@ -57,24 +58,45 @@ export const ListCards = ({
               imgHeight={listCardsStyle.imgHeight}
               descriptionLarge={item.descriptionLarge}
             >
-              <a
-                href={item.link && item.link}
-                target={item.link && "_blank"}
-                rel={item.link && "noreferrer"}
-              >
-                {item.image && (
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="image-bg"
-                    onClick={() => {
-                      item.descriptionLarge &&
-                        setRequirements(item.descriptionLarge);
-                      item.descriptionLarge && showModal();
-                    }}
-                  />
-                )}
-              </a>
+              {redirectPage ? (
+                <a
+                  href="https://cobiene.mil.pe/pdf-view/conveniosProvinciaTacna"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {item.image && (
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="image-bg"
+                      onClick={() => {
+                        item.descriptionLarge &&
+                          setRequirements(item.descriptionLarge);
+                        item.descriptionLarge && showModal();
+                      }}
+                    />
+                  )}
+                </a>
+              ) : (
+                <a
+                  href={item.link && item.link}
+                  target={item.link && "_blank"}
+                  rel={item.link && "noreferrer"}
+                >
+                  {item.image && (
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="image-bg"
+                      onClick={() => {
+                        item.descriptionLarge &&
+                          setRequirements(item.descriptionLarge);
+                        item.descriptionLarge && showModal();
+                      }}
+                    />
+                  )}
+                </a>
+              )}
               {item.title && <h3>{item.title}</h3>}
               {item.title2 && <h5>{item.title2}</h5>}
               {item.title3 && <h5>{item.title3}</h5>}
