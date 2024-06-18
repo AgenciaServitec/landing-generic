@@ -1510,75 +1510,72 @@ export const apoyoSocialConfig = {
       title: "Convenios Provinciales Tacna:",
       cards: [
         {
-          image: ImgConvenioProvinciaTacna,
+          image: NoImagen,
+          title: "EL HOTEL MAXIMO'S",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "20% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "BRINDARA HOSPEDAJE, DE LA LISTA DE PRECIOS VIGENTES A LA FECHA, EN QUE SEAN SOLICITADOS LOS SERVICIOS, INCLUYE DESAYUNO BUFFET DE CORTESÍA.",
+                "REQUISITOS:",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+              ],
+            },
+          ],
         },
-        // {
-        //   image: NoImagen,
-        //   title: "EL HOTEL MAXIMO'S",
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS :",
-        //       descriptions: [
-        //         "20% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
-        //         "ALCANCE:",
-        //         "BRINDARA HOSPEDAJE, DE LA LISTA DE PRECIOS VIGENTES A LA FECHA, EN QUE SEAN SOLICITADOS LOS SERVICIOS, INCLUYE DESAYUNO BUFFET DE CORTESÍA.",
-        //         "REQUISITOS:",
-        //         "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
-        //       ],
-        //     },
-        //   ],
-        // },
-        // {
-        //   image: NoImagen,
-        //   title: "DM HOTEL",
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS :",
-        //       descriptions: [
-        //         "TARIFAS PREFERENCIALES",
-        //         "ALCANCE:",
-        //         "REQUISITOS:",
-        //         "BRINDARA DESCUENTOS EN TODAS SUS HABITACIONES, INCLUYE DESAYUNO BUFFET:",
-        //         "HABITACION ESTÁNDAR INDIVIDUAL $ 55.00",
-        //         "HABITACIÓN ESTÁNDAR MATRIMONIAL $65.00",
-        //         "HABITACIÓN ESTÁNDAR DOBLE $ 75.OO",
-        //         "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
-        //       ],
-        //     },
-        //   ],
-        // },
-        // {
-        //   image: NoImagen,
-        //   title: 'PARQUE GASTRONOMICO "DON MAXIMO"',
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS :",
-        //       descriptions: [
-        //         "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
-        //         "ALCANCE:",
-        //         "BRINDARA ATENCIÓN CON UNA VARIADA GASTRONOMÍA Y DE CALIDAD EN LA PREPARACIÓN DE SUS ALIMENTOS Y BEBIDAS, EN TODO SU STAND",
-        //         "REQUISITOS:",
-        //         "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
-        //       ],
-        //     },
-        //   ],
-        // },
-        // {
-        //   image: NoImagen,
-        //   title: "MB REHAB FISOTERAPIA REA BILITACIÓN Y SALUD S.A.C.",
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS :",
-        //       descriptions: [
-        //         "TARIFAS PREFERENCIAL EN EVALUACION FISIOTETERAPÉUTICA Y REHABILITACIÓN",
-        //         "ALCANDE:",
-        //         "REALIZA SERVICIOS EN FISIOTERAPIA Y REHABILITACIÓN FISICA, BRINDANDO TRATAMIENTOS CONTRA DIVERSOS TIPOS DE DOLORES, DISFUNCIONES, LESIONES TRAUMATOLÓGICAS, NEUROLÓGICAS, DEPORTIVA Y OTRAS , DE ACUERDO A UNA TARIFA PREFERENCIAL, OTORGANDO DESCUENTOS DEL 20% Y 30%",
-        //         "REQUISITOS",
-        //         "PERSONAL DE OFICIALES, TÉCNICOS, SUBOFICIALES, CLASES, SOLDADOS, PERSONAL CIVIL Y FAMILIARES DIRECTOS",
-        //       ],
-        //     },
-        //   ],
-        // },
+        {
+          image: NoImagen,
+          title: "DM HOTEL",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "TARIFAS PREFERENCIALES",
+                "ALCANCE:",
+                "REQUISITOS:",
+                "BRINDARA DESCUENTOS EN TODAS SUS HABITACIONES, INCLUYE DESAYUNO BUFFET:",
+                "HABITACION ESTÁNDAR INDIVIDUAL $ 55.00",
+                "HABITACIÓN ESTÁNDAR MATRIMONIAL $65.00",
+                "HABITACIÓN ESTÁNDAR DOBLE $ 75.OO",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: 'PARQUE GASTRONOMICO "DON MAXIMO"',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "ALCANCE:",
+                "BRINDARA ATENCIÓN CON UNA VARIADA GASTRONOMÍA Y DE CALIDAD EN LA PREPARACIÓN DE SUS ALIMENTOS Y BEBIDAS, EN TODO SU STAND",
+                "REQUISITOS:",
+                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+              ],
+            },
+          ],
+        },
+        {
+          image: NoImagen,
+          title: "MB REHAB FISOTERAPIA REA BILITACIÓN Y SALUD S.A.C.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "TARIFAS PREFERENCIAL EN EVALUACION FISIOTETERAPÉUTICA Y REHABILITACIÓN",
+                "ALCANDE:",
+                "REALIZA SERVICIOS EN FISIOTERAPIA Y REHABILITACIÓN FISICA, BRINDANDO TRATAMIENTOS CONTRA DIVERSOS TIPOS DE DOLORES, DISFUNCIONES, LESIONES TRAUMATOLÓGICAS, NEUROLÓGICAS, DEPORTIVA Y OTRAS , DE ACUERDO A UNA TARIFA PREFERENCIAL, OTORGANDO DESCUENTOS DEL 20% Y 30%",
+                "REQUISITOS",
+                "PERSONAL DE OFICIALES, TÉCNICOS, SUBOFICIALES, CLASES, SOLDADOS, PERSONAL CIVIL Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
       ],
     },
     sectionProvincial3: {
