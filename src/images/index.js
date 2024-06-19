@@ -431,3 +431,6 @@ export { default as MexicoBandera } from "./saeco/international/mexicobandera.we
 export { default as BoliviaBandera } from "./saeco/international/bolivia.webp";
 export { default as EcuadorBandera } from "./saeco/international/ecuador.webp";
 export { default as NoImagen } from "./saeco/noPicture.webp";
+
+// CONVENIOS DE LAS PROVINCIAS
+export * from "./agreements-provinces";

@@ -64,6 +64,27 @@ import {
   ConvenioSalud15,
   Hotel3,
   ImgConvenioProvinciaTacna,
+  ImgEgatur,
+  ImgIepDayperPeruIerl,
+  ImgDireccionRegionalEducacionTacna,
+  ImgUap,
+  ImgUpt,
+  ImgRestauranteTradicionesPeruanas,
+  ImgPacificSuitesHotel,
+  ImgBthHotelRebelTacna,
+  ImgRestaurantePastaEirl,
+  ImgMirandaEscobarPeruTravels,
+  ImgRestauranteFuegosPeruanos,
+  ImgCentroOpticoJesusEirl,
+  ImgMbRehabFisioterapiaRehabilitacionSalud,
+  ImgHotelMaximo,
+  ImgDmHotel,
+  ImgHotelLaSiesta,
+  ImgChifaRestauranteWongsen,
+  ImgDPaletas,
+  ImgDonLimon,
+  ImgMayuComidaSalon,
+  ImgSaintRose,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -1365,29 +1386,32 @@ export const apoyoSocialConfig = {
       title: "Convenios Provinciales Piura -Sullana:",
       cards: [
         {
-          image: NoImagen,
+          image: ImgHotelLaSiesta,
           title: 'HOTEL "LA SIESTA"',
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
-                "ALCANCE:",
-                "SOLO EN ALOJAMIENTO (HABITACIONES).",
-                "METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS.",
-                "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO",
-                "REQUISITOS:",
-                "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
+                "- 10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP.",
+                "- SOLO EN ALOJAMIENTO (HABITACIONES).",
+                "- METODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR.",
+                "- PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO",
               ],
             },
           ],
         },
         {
-          image: NoImagen,
+          image: ImgDPaletas,
           title: "D' PALETAS",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
                 "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
                 "ALCANCE:",
@@ -1400,10 +1424,14 @@ export const apoyoSocialConfig = {
                 "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
               ],
             },
+            {
+              title: "ALCANCE:",
+              description: [],
+            },
           ],
         },
         {
-          image: NoImagen,
+          image: ImgDonLimon,
           title: "DON LIMÓN",
           descriptionLarge: [
             {
@@ -1439,7 +1467,7 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: NoImagen,
+          image: ImgChifaRestauranteWongsen,
           title: 'CHIFA RESTAURANTE "WONG SEN"',
           descriptionLarge: [
             {
@@ -1457,7 +1485,7 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: NoImagen,
+          image: ImgSaintRose,
           title: "CHIFA SAN ZI",
           descriptionLarge: [
             {
@@ -1489,7 +1517,7 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: NoImagen,
+          image: ImgMayuComidaSalon,
           title: "MAYU COMIDA Y SALÓN",
           descriptionLarge: [
             {
@@ -1510,36 +1538,42 @@ export const apoyoSocialConfig = {
       title: "Convenios Provinciales Tacna:",
       cards: [
         {
-          image: NoImagen,
+          image: ImgHotelMaximo,
           title: "EL HOTEL MAXIMO'S",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "20% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
-                "ALCANCE:",
-                "BRINDARA HOSPEDAJE, DE LA LISTA DE PRECIOS VIGENTES A LA FECHA, EN QUE SEAN SOLICITADOS LOS SERVICIOS, INCLUYE DESAYUNO BUFFET DE CORTESÍA.",
-                "REQUISITOS:",
-                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+                "- 20% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+                "- BRINDARA HOSPEDAJE, DE LA LISTA DE PRECIOS VIGENTES A LA FECHA, EN QUE SEAN SOLICITADOS LOS SERVICIOS, INCLUYE DESAYUNO BUFFET DE CORTESÍA.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
               ],
             },
           ],
         },
         {
-          image: NoImagen,
+          image: ImgDmHotel,
           title: "DM HOTEL",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "TARIFAS PREFERENCIALES",
-                "ALCANCE:",
-                "REQUISITOS:",
-                "BRINDARA DESCUENTOS EN TODAS SUS HABITACIONES, INCLUYE DESAYUNO BUFFET:",
-                "HABITACION ESTÁNDAR INDIVIDUAL $ 55.00",
-                "HABITACIÓN ESTÁNDAR MATRIMONIAL $65.00",
-                "HABITACIÓN ESTÁNDAR DOBLE $ 75.OO",
-                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+                "- TARIFAS PREFERENCIALES",
+                "- BRINDARA DESCUENTOS EN TODAS SUS HABITACIONES, INCLUYE DESAYUNO BUFFET:",
+                "- HABITACION ESTÁNDAR INDIVIDUAL $ 55.00",
+                "- HABITACIÓN ESTÁNDAR MATRIMONIAL $65.00",
+                "- HABITACIÓN ESTÁNDAR DOBLE $ 75.OO",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
               ],
             },
           ],
@@ -1549,29 +1583,280 @@ export const apoyoSocialConfig = {
           title: 'PARQUE GASTRONOMICO "DON MAXIMO"',
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
-                "ALCANCE:",
-                "BRINDARA ATENCIÓN CON UNA VARIADA GASTRONOMÍA Y DE CALIDAD EN LA PREPARACIÓN DE SUS ALIMENTOS Y BEBIDAS, EN TODO SU STAND",
-                "REQUISITOS:",
-                "PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
+                "- 10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP.",
+                "- BRINDARA ATENCIÓN CON UNA VARIADA GASTRONOMÍA Y DE CALIDAD EN LA PREPARACIÓN DE SUS ALIMENTOS Y BEBIDAS, EN TODO SU STAND.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASI COMO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS",
               ],
             },
           ],
         },
         {
-          image: NoImagen,
-          title: "MB REHAB FISOTERAPIA REA BILITACIÓN Y SALUD S.A.C.",
+          image: ImgMbRehabFisioterapiaRehabilitacionSalud,
+          title: "MB REHAB FISOTERAPIA REHABILITACIÓN Y SALUD S.A.C.",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "TARIFAS PREFERENCIAL EN EVALUACION FISIOTETERAPÉUTICA Y REHABILITACIÓN",
-                "ALCANDE:",
-                "REALIZA SERVICIOS EN FISIOTERAPIA Y REHABILITACIÓN FISICA, BRINDANDO TRATAMIENTOS CONTRA DIVERSOS TIPOS DE DOLORES, DISFUNCIONES, LESIONES TRAUMATOLÓGICAS, NEUROLÓGICAS, DEPORTIVA Y OTRAS , DE ACUERDO A UNA TARIFA PREFERENCIAL, OTORGANDO DESCUENTOS DEL 20% Y 30%",
-                "REQUISITOS",
-                "PERSONAL DE OFICIALES, TÉCNICOS, SUBOFICIALES, CLASES, SOLDADOS, PERSONAL CIVIL Y FAMILIARES DIRECTOS",
+                "- TARIFAS PREFERENCIAL EN EVALUACION FISIOTETERAPÉUTICA Y REHABILITACIÓN",
+                "- REALIZA SERVICIOS EN FISIOTERAPIA Y REHABILITACIÓN FISICA, BRINDANDO TRATAMIENTOS CONTRA DIVERSOS TIPOS DE DOLORES, DISFUNCIONES, LESIONES TRAUMATOLÓGICAS, NEUROLÓGICAS, DEPORTIVA Y OTRAS , DE ACUERDO A UNA TARIFA PREFERENCIAL, OTORGANDO DESCUENTOS DEL 20% Y 30%",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL DE OFICIALES, TÉCNICOS, SUBOFICIALES, CLASES, SOLDADOS, PERSONAL CIVIL Y FAMILIARES DIRECTOS",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgEgatur,
+          title: "ESCUELA DE GASTRONOMIA, ADMINISTRACIÓN Y TURISMO (EGATUR)",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- BRINDA EL 50% DE DESCUENTO EN LAS CARRERAS QUE OFRECEN.",
+                "- OTORGA TRES (03) BECAS INTEGRALES.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN ACTIVIDAD Y SITUACIÓN DE RETIRO, ASÍ COMO PARA SUS FAMILIARES DIRECTOS.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgIepDayperPeruIerl,
+          title: 'I.E.P "DAYPER PERÚ" E.I.R.L.',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- BRINDA EL 60% DE DESCUENTO DE MATRÍCULA Y PENSIÓN EN TODAS LAS CARRERAS TÉCNICAS QUE OFRECE.",
+                "- OTORGA 50 (CINCUENTA) BECAS SEMI-INTEGRALES DE ESTUDIO (BSIE) CADA SEMESTRE.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN ACTIVIDAD Y SITUACIÓN DE RETIRO, ASÍ COMO PARA SUS FAMILIARES DIRECTOS.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgDireccionRegionalEducacionTacna,
+          title: "DRE TACNA Y LA UGEL DE TACNA",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                '- EL PRESENTE CONVENIO TIENE POR OBJETO ESTABLECER LOS LINEAMIENTOS ESPECÍFICOS DE MUTUA COOPERACIÓN QUE PERMITAN GENERAR OPORTUNIDADES y RESULTADOS EDUCATIVOS DE CALIDAD AL PERSONAL DE TROPA QUE ESTUDIA EN EL CEBA "JOSÉ JOAQUÍN INCLÁN" EN EDUCACIÓN BÁSICA ALTERNATIVA. SE HA SUSCRITO UNA ADENDA PARA PROLONGAR UN AÑO MÁS EL CONVENIO.',
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                '- PERSONAL DE TROPA SERVICIO MILITAR VOLUNTARIO DE LA 3RA BRIGADA DE CABALLERÍA "TACNA".',
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgUap,
+          title: 'UNIVERSIDAD "ALAS PERUANAS" - FILIAL TACNA',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- ESTABLECE ACUERDOS PARA DESARROLLAR ACTIVIDADES DE FORMACIÓN DE PREGRADO (ESTOMATOLOGÍA, SICOLOGÍA Y MEDICINA FÍSICA), CON LA FINALIDAD DE MEJORAR LA CALIDAD DE VIDA Y EL NIVEL DE LA SALUD DEL PERSONAL, MEDIANTE UN PROGRAMA DE PRÁCTICAS  PROFESIONALES PARA LOS ALUMNOS DE LA UAP, EN LOS CUARTELES DE TARAPACÁ, ALBARRACÍN, PALCA Y MICULLA DE LA 3A BRIGADA DE CABALLERÍA, LUGARES DONDE LA UAP-TACNA, PARTICIPARÁ CON SUS RESPECTIVAS CARRERAS PROFESIONALES DE SALUD; LAS CUALES TAMBIÉN SERVIRÁN COMO SEDE DE DOCENCIA ASISTENCIAL, DENTRO DEL MARCO NORMATIVO VIGENTE.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL DE OFICIALES, SUPERVISORES, TÉCNICOS, SUB OFICIALES Y PERSONAL DE TROPA SMV.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgUpt,
+          title: "UNIVERSIDAD PRIVADA DE TACNA",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- COORDINAR, CONCERTAR Y EJECUTAR PROGRAMAS DE APOYO RECÍPROCO ENTRE AMBAS INSTITUCIONES EN LAS ÁREAS ACADÉMICAS, DOCENCIA, ASISTENCIAL Y OTROS DE INTERÉS COMÚN.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                '- PERSONAL DE LA 3A BRIGADA DE CABALLERÍA "TACNA".',
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgRestauranteTradicionesPeruanas,
+          title: 'RESTAURANTE "TRADICIONES PERUANAS" S.R.L.',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- SE OTORGARÁ EL DESCUENTO DEL 10% PARA PEDIDOS A LA CARTA DE COMIDA CRIOLLA, PARRILLAS Y COCKTAILS. EL PAGO SERÁ EN EFECTIVO.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASÍ COMO PARA SUS FAMILIARES DIRECTOS, DEBIDAMENTE IDENTIFICADOS CON SU CARNET DE IDENTIDAD.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgPacificSuitesHotel,
+          title: "PACIFIC SUITES HOTEL",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "BRINDARÁ EL SERVICIO DE HOSPEDAJE, CON UN DESCUENTO DEL:",
+                "- 20% DE LA LISTA DE PRECIOS VIGENTES A LA FECHA, PARA PAGO EN EFECTIVO.",
+                "- 15% DE DESCUENTO PARA PAGO CON TARJETA DE CRÉDITO. INCLUYE DESAYUNO BUFFET DE CORTESÍA",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS PROTOCOLARES Y PERSONALES.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgBthHotelRebelTacna,
+          title: "BTH HOTEL REBEL TACNA",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "TARIFAS INCLUYEN IMPUESTOS (10% SERVICIOS / 18% IGV).",
+                "- TARIFA INCLUYE DESAYUNO DE 7:00 AM. A 10:00 AM.",
+                "- CHECK IN 15:00 HRS / CHECK OUT: 12:00 HRS.",
+                "- ESTACIONAMIENTOS SUJETOS A DISPONIBILIDAD.",
+                "- TARIFAS EXCLUSIVAS SOLO PARA PERSONAL DE LA FFAA:",
+                "• 20% DE DESCUENTO EN NOMAD Y MADBAR. ",
+                "• EARLY CHECK IN Y LATE CHECK OUT FREE (SUJETO A DISPONIBILIDAD DEL HOTEL) ",
+                "• 30% DE DESCUENTO EN ALQUILER DE SALONES DE EVENTOS Y SALA DE CINE",
+                "• 1 SALÓN DE CORTESÍA UNA VEZ AL MES GRATIS (SOLICITADO POR ALGÚN ALTO MANDO).",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS PROTOCOLARES Y PERSONALES.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgRestaurantePastaEirl,
+          title: "RESTAURANTE DA PASTA E.I.R.L.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- SERVICIO DE ATENCIÓN LOS DÍAS LUNES, MARTES, MIÉRCOLES Y JUEVES DE TODO EL AÑO CON UN 10% DE DESCUENTO EN TODA LA CARTA DE COMIDA.  (GASTRONOMÍA DE COMIDA ITALIANA, COMIDA CRIOLLA, COMIDA CHINA,  ASÍ COMO COMIDA CON PRODUCTOS HIDROBIOLÓGICOS, ETC.).",
+                "- DESCORCHO LIBRE AL MES PARA QUE DISFRUTAR DEL VINO QUE  SE PREFIERA Y  EN EL DÍA DEL CUMPLEAÑOS DEL BENEFICIARIO LE OTORGARÁ UN POSTRE LIBRE A ELEGIR.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR Y CIVIL EN SITUACIÓN DE ACTIVIDAD Y RETIRO, ASÍ COMO PARA SUS FAMILIARES DIRECTOS, DEBIDAMENTE IDENTIFICADOS CON SU CARNET DE IDENTIDAD.",
+                "- PERSONAL MILITAR DEL PAÍS DE CHILE, QUE VISITAN LA CIUDAD DE TACNA, EN VISITAS PROTOCOLARES Y PERSONALES, DEBIDAMENTE ACREDITADOS.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgMirandaEscobarPeruTravels,
+          title: "AGENCIA DE VIAJES MIRANDA Y ESCOBAR PERÚ TRAVELS S.A.C.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- PAGO DEL SERVICIO EN DOS (02) PARTES, EL 50% DEL TOTAL DEBERÁ SER CANCELADO AL MOMENTO DE LA EMISIÓN DEL SERVICIO Y EL 50% RESTANTE EN UN PLAZO DE TREINTA (30) DÍAS, EN LOS SERVICIOS QUE SE INDICA:",
+                "A.	EMISIÓN DE BOLETOS TERRESTRES.",
+                "B.	EMISIÓN DE BOLETOS AÉREOS.",
+                "C. EMISIÓN DE PROGRAMAS TURÍSTICOS LOCALES, NACIONALES E INTERNACIONES.",
+                "- EN EL CASO DE PROGRAMAS LOCALES, NACIONALES E INTERNACIONALES, TENDRÁN LA MISMA FACILIDAD DE PAGO PERO DEBERÁN SOLICITAR DICHOS SERVICIOS COMO MÍNIMO 2 MESES DE ANTICIPACIÓN Y DEBERÁ SER PAGADO EN SU TOTALIDAD ANTES DE LA FECHA DE INICIO DEL VIAJE.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL DE OFICIALES, SUPERVISORES, TÉCNICOS, SUB OFICIALES, PERSONAL DE TROPA SERVICIO MILITAR OBLIGATORIO Y PERSONAL CIVIL, EN ACTIVIDAD Y EN RETIRO ASÍ COMO PARA SUS FAMILIARES DIRECTOS.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgRestauranteFuegosPeruanos,
+          title: "RESTAURANTE FUEGOS PERUANOS",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "- SERVICIO DE ATENCIÓN CON UNA VARIADA GASTRONOMÍA, CON UN DESCUENTO DEL 30%, EN TODO CONSUMO.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD O RETIRO, AL PERSONAL CIVIL ASÍ COMO A SUS FAMILIARES; ASIMISMO, AL PERSONAL MILITAR DEL EJÉRCITO DE CHILE, DEBIDAMENTE ACREDITADOS.",
+              ],
+            },
+          ],
+        },
+        {
+          image: ImgCentroOpticoJesusEirl,
+          title: 'CENTRO ÓPTICO "JESÚS" E.I.R.L.',
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "SERVICIO DE ATENCIÓN CON LOS DESCUENTOS DIFERENCIALES QUE A CONTINUACIÓN SE INDICAN:",
+                "PRODUCTO	PRECIO CON DESCUENTO = DESDE S/",
+                "LENTES ANTIREFLEJO FILTRO UV = 49.90",
+                "LENTES ANTIREFLEJO FILTRO AZUL Y FILTRO UV = 69.90",
+                "LENTES FOTOCROMÁTICO FILTRO UV = 89.90",
+                "GAFAS DE SOL OPTICO = 59.90",
+                "BIFOCALES BLANCO UV = 89.90",
+                "BIFOCALES ANTIREFLEJO FILTRO UV = 99.90",
+                "BIFOCALES FOTOCROMÁTICO FILTRO UV = 149.90",
+                "MULTIFOCAL BLANCO FILTRO UV = 139.90",
+                "MULTIFOCAL ANTIREFLEJO FILTRO UV = 150.00",
+                "SEGUNDO PAR DE LENTE = 50% DE DESCUENTO",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              description: [
+                "- PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD O RETIRO, AL PERSONAL CIVIL ASÍ COMO A SUS FAMILIARES; ASIMISMO, AL PERSONAL MILITAR DEL EJÉRCITO DE CHILE, DEBIDAMENTE ACREDITADOS.",
               ],
             },
           ],
