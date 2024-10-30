@@ -15,6 +15,12 @@ import {
   CobieneLogoLarge,
   ColombianaBandera,
   ConvenioSalud1,
+  ConvenioSalud10,
+  ConvenioSalud11,
+  ConvenioSalud12,
+  ConvenioSalud13,
+  ConvenioSalud14,
+  ConvenioSalud15,
   ConvenioSalud2,
   ConvenioSalud3,
   ConvenioSalud4,
@@ -23,16 +29,35 @@ import {
   ConvenioSalud7,
   ConvenioSalud8,
   ConvenioSalud9,
-  ConvenioSalud10,
   CoreaBandera,
   EcuadorBandera,
   EspanaBandera,
   FacturaServitec,
   FinancieraEfectiva,
-  FinancieraFinantel,
   FinancieraLarehabilitadora,
   FranciaBandera,
-  Hotel2,
+  Hotel3,
+  ImgBthHotelRebelTacna,
+  ImgCentroOpticoJesusEirl,
+  ImgChifaRestauranteWongsen,
+  ImgDireccionRegionalEducacionTacna,
+  ImgDmHotel,
+  ImgDonLimon,
+  ImgDPaletas,
+  ImgEgatur,
+  ImgHotelLaSiesta,
+  ImgHotelMaximo,
+  ImgIepDayperPeruIerl,
+  ImgMayuComidaSalon,
+  ImgMbRehabFisioterapiaRehabilitacionSalud,
+  ImgMirandaEscobarPeruTravels,
+  ImgPacificSuitesHotel,
+  ImgRestauranteFuegosPeruanos,
+  ImgRestaurantePastaEirl,
+  ImgRestauranteTradicionesPeruanas,
+  ImgSaintRose,
+  ImgUap,
+  ImgUpt,
   MexicoBandera,
   MisaPadre,
   NoImagen,
@@ -43,7 +68,6 @@ import {
   Samsung,
   SeguroRimac,
   SeguroSaludPositiva,
-  SeguroVehicular,
   SeguroVehicularPositiva,
   Servitec,
   SmartFit,
@@ -56,35 +80,7 @@ import {
   TitleReli,
   Transporte1,
   Transporte2,
-  ConvenioSalud11,
   Transporte3,
-  ConvenioSalud12,
-  ConvenioSalud13,
-  ConvenioSalud14,
-  ConvenioSalud15,
-  Hotel3,
-  ImgConvenioProvinciaTacna,
-  ImgEgatur,
-  ImgIepDayperPeruIerl,
-  ImgDireccionRegionalEducacionTacna,
-  ImgUap,
-  ImgUpt,
-  ImgRestauranteTradicionesPeruanas,
-  ImgPacificSuitesHotel,
-  ImgBthHotelRebelTacna,
-  ImgRestaurantePastaEirl,
-  ImgMirandaEscobarPeruTravels,
-  ImgRestauranteFuegosPeruanos,
-  ImgCentroOpticoJesusEirl,
-  ImgMbRehabFisioterapiaRehabilitacionSalud,
-  ImgHotelMaximo,
-  ImgDmHotel,
-  ImgHotelLaSiesta,
-  ImgChifaRestauranteWongsen,
-  ImgDPaletas,
-  ImgDonLimon,
-  ImgMayuComidaSalon,
-  ImgSaintRose,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -152,9 +148,6 @@ export const apoyoSocialConfig = {
         {
           id: "AyudaEconomicaSocial",
           titleImage: TitleAyudaEconomica,
-          // titleImage: ,
-          // title:
-          //   "La Ayuda Económica social otorga, bienes y servicios en los siguientes rubros:",
           descriptionTop:
             "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa)",
           images: [BannerServices],
@@ -177,16 +170,6 @@ export const apoyoSocialConfig = {
         },
       ],
     },
-
-    // sectionCollageAliments: {
-    //   subtitle:
-    //     "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa",
-    //   images: [Alimentos, Alimentos2],
-    // },
-    // sectionCollageServices: {
-    //   title: "Convenios Multiservicios",
-    //   images: [],
-    // },
     sectionBancos: {
       id: "Convenios",
       titleImage: TitleConvenios,
@@ -805,10 +788,6 @@ export const apoyoSocialConfig = {
         },
       ],
     },
-    // sectionAsesoriaLegal: {
-    //   title: "Convenios de Asesoría Legal:",
-    //   cards: []
-    // },
     sectionDiversos: {
       title: "Convenios con Tiendas:",
       cards: [
@@ -903,23 +882,6 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        // {
-        //   image: TiendaLogistas,
-        //   title: "Logistas",
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS :",
-        //       description:
-        //         "SERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n" +
-        //         "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
-        //     },
-        //     {
-        //       title: "BENEFICIARIOS: ",
-        //       description:
-        //         "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-        //     },
-        //   ],
-        // },
         {
           image: SmartFit,
           title: "SmartFit",
@@ -963,23 +925,6 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        // {
-        //   image: TiendaSugo,
-        //   title: "Sugo",
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS :",
-        //       description:
-        //         "ACCESO EN LÍNEA EN SUS PLATAFORMAS EN COMPRAS DE CONSUMO SOSTENIBLE HASTA 50% DEL PRECIO EN EL MERCADO",
-        //     },
-        //     {
-        //       title: "BENEFICIARIOS: ",
-        //       description:
-        //         "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES Y FAMILIARES DIRECTOS",
-        //       link: "https://www.sugo.pe",
-        //     },
-        //   ],
-        // },
       ],
     },
     sectionFinancieras: {
@@ -991,12 +936,6 @@ export const apoyoSocialConfig = {
           title: "Financiera Efectiva",
           description: "TEA hasta 19% por convenio",
         },
-        // {
-        //   image: FinancieraFinantel,
-        //   link: "https://www.finantel.pe",
-        //   title: "Financiera Finantel",
-        //   description: "TEA hasta 18.5% por convenio",
-        // },
         {
           image: FinancieraLarehabilitadora,
           link: "https://larehabilitadora.com",
@@ -1202,95 +1141,6 @@ export const apoyoSocialConfig = {
     sectionHoteles: {
       title: "Convenios con Hoteles :",
       cards: [
-        // {
-        //   image: Hotel1,
-        //   title: "Hotel Casa Andina",
-        //   descriptionLarge: [
-        //     {
-        //       title: "ALCANCE DEL CONVENIO: ",
-        //       description:
-        //         "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados”.\n",
-        //     },
-        //     {
-        //       title: "FORMA DE ACREDITACIÓN: ",
-        //       description:
-        //         "Presentación del carnet de identificación personal militar o civil CIP\n" +
-        //         "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos)." +
-        //         "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-        //     },
-        //     {
-        //       title: "BENEFICIO: ",
-        //       descriptions: [
-        //         "3.1. Brindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 29%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
-        //         "3.2. El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web que adjuntada , canales de atención a través de correo electrónico",
-        //         `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
-        //         "Canales de atención a través de correo electrónico:",
-        //         `<a href="mailto:centraldereservas@casa-andina.com" target="_blank">centraldereservas@casa-andina.com</a>`,
-        //         "Y call center",
-        //         `<a href="tel:013916500" target="_blank">(01) 3916500</a>`,
-        //         "El código de acceso al descuento es EJERCITOPERU22.",
-        //         "3.3 Beneficio previa presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.",
-        //         "3.4 En caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.",
-        //         "3.5 Las reservas realizadas son de tarifas NO REEMBOLSABLE.",
-        //         "3.6 Al finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.",
-        //       ],
-        //       links: [
-        //         {
-        //           icon: faGlobe,
-        //           link: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
-        //         },
-        //       ],
-        //       detalles: [
-        //         {
-        //           icon: faLink,
-        //           detalle:
-        //             "https://drive.google.com/file/d/1c-r__vS6vfKcRTSOXe85pw2pHiR1OuRW/view?usp=sharing",
-        //         },
-        //       ],
-        //     },
-        //   ],
-        // },
-        // {
-        //   image: Hotel2,
-        //   title: "Hotel Costa del Sol",
-        //   descriptionLarge: [
-        //     {
-        //       title: "BENEFICIOS : ",
-        //       descriptions: [
-        //         "Nuestras tarifas de alojamiento incluyen:",
-        //         "Desayuno Buffet",
-        //         "10% deDSCTO en Restaurante Paprika sobre precio de Carta. No aplica para menú.",
-        //         "10% de DSCTO en Alimentos y Bebidas, aplica para bebidas alcohólicas",
-        //         "10% de DSCTO en Lavandería.",
-        //         "10% de DSCTO en SPA Sobre precios de masajes, para las sedes Piura, Trujillo Golf, Trujillo centro,\n" +
-        //           "Cajamarca, Aeropuerto, Salaverry.",
-        //         "Una bebida de bienvenida a elección (welcome drink)",
-        //         "Servicio de WI FI en todas nuestras instalaciones",
-        //         "Business Center",
-        //         "Uso del Gimnasio, piscina y sauna donde esté disponible. De acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19.",
-        //         "Servicio de recojo y traslado al aeropuerto para reservas individuales, previa reserva (no aplica grupos) en las ciudades de: Tumbes, Piura, Trujillo, Chiclayo, Pucallpa, Arequipa y Cajamarca.",
-        //         "No aplica para los Hoteles de Lima y Cusco.",
-        //         "El recojo y traslado al aeropuerto se brindará de acuerdo a las disposiciones del gobierno y Mincetur por la llegada del COVID-19 y bajo previa reserva en servicio compartido y sólo en los horarios establecidos por cada Hotel (cualquier retraso por parte del cliente será su responsabilidad). Este servicio no aplica para Grupos sólo para pasajeros Individuales.",
-        //         "A continuación le brindamos mayor información al respecto:",
-        //         "CDSW Lima Aeropuerto.- No es necesario trasladarse en auto ya que nuestro hotel se localiza a 25 metros de la puerta de Salidas Internacionales. Asimismo, contamos con acceso directo desde el segundo nivel del Aeropuerto al Hotel.",
-        //         "CDSW Lima City.- El servicio de traslado Ida o Vuelta tiene un costo de S/ 70 neto (en efectivo) por unidad pagando directamente al conductor. Si desea cargar el servicio a la cuenta de la habitación, es posible pero tendría que adicionar el 18% IGV y el 10% servicios.",
-        //       ],
-        //       links: [
-        //         {
-        //           icon: faGlobe,
-        //           link: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
-        //         },
-        //       ],
-        //       detalles: [
-        //         {
-        //           icon: faLink,
-        //           detalle:
-        //             "https://drive.google.com/file/d/1uq6ZomiXJkiQlECigzB9DL75uaJ5kmJu/view?usp=sharing",
-        //         },
-        //       ],
-        //     },
-        //   ],
-        // },
         {
           image: Hotel3,
           title: "Hotel Carrera",

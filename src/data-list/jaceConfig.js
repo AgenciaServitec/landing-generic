@@ -42,7 +42,7 @@ export const jaceConfig = {
   main: {
     sectionCarousel: [
       {
-        title: "CASAS DE SERVICIO.",
+        title: "CASAS DE SERVICIO",
         image: JaceSlider1,
         buttons: [],
       },
@@ -113,11 +113,7 @@ export const jaceConfig = {
           image: JacePaso8,
           title: "Paso 8",
           description: [
-            "El personal militar candidato a “usuario” que solicite asignación especial o excepcional deberá contar con lo siguiente:\n",
-            "-Documentos que acreditn la situacion de especialidad o excepcionalidad.",
-            "-El Dictamen legal favorable.",
-            "-La opinion del Crl Ing.Jefe de la DACE.",
-            "-La Aprobacion del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
+            "El personal militar candidato a “usuario” que solicite asignación especial o excepcional deberá contar con lo siguiente: Documentos que acreditn la situacion de especialidad o excepcionalidad, El Dictamen legal favorable, La opinion del Crl Ing. Jefe de la DACE y La Aprobacion del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
           ],
         },
       ],

@@ -225,10 +225,6 @@ export const jaeConfig = {
         },
       ],
     },
-    // sectionOther: {
-    //   title: "",
-    //   images: [JaeOthers],
-    // },
     sectionSchoolsLima: {
       id: "ColegiosdeLima",
       title: "Colegios de Lima",

@@ -41,8 +41,6 @@ export const cmstsConfig = {
       { id: "SedeTarapacá", name: "Tarapacá" },
       { id: "SedeRimac", name: "Rimac" },
       { id: "contact", name: "Contacto" },
-      // { id: "services", name: "Servicios" },
-      // { id: "campus", name: "Sedes" },
     ],
   },
   main: {
@@ -64,109 +62,10 @@ export const cmstsConfig = {
       id: "about-us",
       title: "Nosotros",
       descriptions: [
-        "La Asociación Círculo Militar de Supervisores Técnico y Sub Oficiales del Ejército (ACM-STS), brinda bienestar al personal de Supervisores, Técnicos y sub Oficiales del Ejército del Perú en situación de Actividad, Disponibilidad o Retiro y sus FAMILIARES DIRECTOS, en el área de alojamiento, alimentaciones, recreación, deporte y cultura.\n" +
-          "\n" +
-          "Los beneficios que brinda a los ASOCIADOS es única y exclusivamente para el: \n" +
-          "\n" +
-          "TITULAR Y SUS FAMILIARES DIRECTOS.",
+        "La Asociación Círculo Militar de Supervisores Técnico y Sub Oficiales del Ejército (ACM-STS), brinda bienestar al personal de Supervisores, Técnicos y sub Oficiales del Ejército del Perú en situación de Actividad, Disponibilidad o Retiro y sus FAMILIARES DIRECTOS, en el área de alojamiento, alimentaciones, recreación, deporte y cultura. Los beneficios que brinda a los ASOCIADOS es única y exclusivamente para el: TITULAR Y SUS FAMILIARES DIRECTOS.",
       ],
       images: [CirculoChorrillosCentral],
     },
-    // sectionCampus: [
-    //   {
-    //     titleImage: TitleChorrillos,
-    //     viewType: "carousel",
-    //     items: [
-    //       {
-    //         images: [
-    //           CirculoChorrillos2,
-    //           CirculoChorrillos3,
-    //           CirculoChorrillos4,
-    //           CirculoChorrillos5,
-    //         ],
-    //         description:
-    //           "Dispone de espacios ideales para todo tipo de reuniones, Ademas de contar canchas de futbol ",
-    //         icons: [
-    //           {
-    //             href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
-    //             icon: faFacebook,
-    //             name: "Facebook",
-    //           },
-    //           {
-    //             href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
-    //             icon: faLocation,
-    //             name: "Av.Escuela Militar S/N - Chorrillos",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    //   {
-    //     titleImage: TitleTarapaca,
-    //     viewType: "carousel",
-    //     items: [
-    //       {
-    //         images: [
-    //           CirculoTarapaca1,
-    //           CirculoTarapaca2,
-    //           CirculoTarapaca3,
-    //           CirculoTarapaca4,
-    //         ],
-    //         description:
-    //           "CONTAMOS CON ÁREAS PARA REALIZAR TODO TIPO DE EVENTOS. ADEMÁS DE TENER DISPONIBLE LA PISCINA OLÍMPICA, RESTAURANTE Y CANCHAS DEPORTIVAS DE MATERIAL SINTÉTICO.",
-    //         icons: [
-    //           {
-    //             href: "https://www.facebook.com/Campo-Deportivo-Tarapaca-Chorrillos-101277401232183/",
-    //             icon: faFacebook,
-    //             name: "Facebook",
-    //           },
-    //           {
-    //             href: "https://www.google.com/maps/dir/?api=1&destination=-12.194105661443%2C-77.00196146965",
-    //             icon: faLocation,
-    //             name: "Av. Defensores del Morro 1170, Lima 15067",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    //   {
-    //     titleImage: TitleRimac,
-    //     viewType: "carousel",
-    //     items: [
-    //       {
-    //         images: [
-    //           CirculoRimac1,
-    //           CirculoRimac2,
-    //           CirculoRimac3,
-    //           CirculoRimac4,
-    //           CirculoRimac5,
-    //           CirculoRimac6,
-    //           CirculoRimac7,
-    //           CirculoRimac8,
-    //           CirculoRimac9,
-    //         ],
-    //         description:
-    //           "Cuenta con los ambientes ideales para realizar todo tipo de eventos. Además de tener disponible la piscina semi olímpica y cancha deportiva de material sintético.",
-    //         icons: [
-    //           {
-    //             href: "https://m.facebook.com/profile.php?id=2154609457903406&__tn__=C-R",
-    //             icon: faFacebook,
-    //             name: "Facebook",
-    //           },
-    //           {
-    //             href: "https://www.bing.com/maps?osid=7e07ef8c-0b72-47ed-893b-de74aefa10ee&cp=-12.026899~-77.040314&lvl=17&v=2&sV=2&form=S00027",
-    //             icon: faLocation,
-    //             name: "Av. Morro De Arica 499, Lima, Perú",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // ],
-    // sectionCollage: {
-    //   title: "",
-    //   images: [CmstsCollage1, CmstsCollage2, CmstsCollage3, CmstsCollage4],
-    // },
     sectionCollages: {
       collages: [
         {
@@ -188,8 +87,6 @@ export const cmstsConfig = {
           title: "Toldo de Ceremonias",
           descriptionTop: "",
           images: [CirculoChorrillosSalon],
-          // description:
-          //     "Ambientes principal y áreas para realizar todo tipo de eventos.",
         },
         {
           title: "Zona de Esparcimiento",
@@ -202,8 +99,6 @@ export const cmstsConfig = {
           title: "Zonas Deportivas",
           descriptionTop: "",
           images: [CirculoChorrillosDeportivo],
-          // description:
-          //     "Ambientes ideales para realizar actividades de recreación y deporte.",
         },
         {
           id: "SedeTarapacá",

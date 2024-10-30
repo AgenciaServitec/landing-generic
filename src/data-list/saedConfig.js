@@ -1,39 +1,42 @@
 import {
   CobieneLogoLarge,
-  ImgAvia,
-  ImgCamaraLima,
-  ImgCegicap,
-  ImgCertus,
-  IntituteColumbia,
-  ImgSanJudas,
-  InstituteToulouseLautrec,
-  ImgUcal,
-  Institute10,
-  Institute11,
-  Institute12,
-  Institute13,
-  Institute14,
-  InstituteInteci,
-  InstituteCepea,
-  Institute20,
-  Institute21,
-  InstituteIsil,
-  Institute23,
-  Institute24,
-  Institute25,
-  Institute26,
-  Institute30,
-  Institute31,
-  Institute32,
-  Institute33,
-  Institute34,
+  InstituteAvia,
+  InstituteCamaraLima,
+  UniversidadCertus,
+  UniversidadUcal,
+  InstituteEiger,
+  InstituteInidhe,
+  InstituteIcpna,
+  InstituteBritanico,
+  InstituteIfeep,
+  InstituteCim,
+  InstituteCarrion,
+  InstituteAllianceFrancaise,
   InstituteAndresVesalio,
-  Institute5,
-  Institute6,
-  Institute9,
+  InstituteCegicap,
+  InstituteCepea,
   InstituteCepeban,
+  InstituteCeuce,
   InstituteCibertec,
+  InstituteCivime,
   InstituteCorazonDeJesus,
+  InstituteDesarrolloGerencial,
+  InstituteEcaprev,
+  InstituteEigra,
+  InstituteEsinfron,
+  InstituteGamor,
+  InstituteIdept,
+  InstituteInteci,
+  InstituteInternationalBilingualCertification,
+  InstituteIsil,
+  InstituteIspacj,
+  InstituteLimaInstituteTechnicalStudies,
+  InstituteMilitaresDelPeru,
+  InstitutePrivateacher,
+  InstituteSanJudas,
+  InstituteSenati,
+  InstituteToulouseLautrec,
+  IntituteColumbia,
   SaedAboutUs,
   SaedBannePublic,
   SaedSlider1,
@@ -362,7 +365,7 @@ export const saedConfig = {
         // 				'doble grado.',
         // 		},
         // 		{
-        // 			title: 'ALCANZE: ',
+        // 			title: 'ALCANCE: ',
         // 			description:
         // 				'Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)',
         // 			links: [{icon: faGlobe, link: 'https://www.ucss.edu.pe/'}],
@@ -673,7 +676,7 @@ export const saedConfig = {
         // 				'Cursos virtules, descuento del 20% en el pago de las pensiones',
         // 		},
         // 		{
-        // 			title: 'ALCANZE: ',
+        // 			title: 'ALCANCE: ',
         // 			description:
         // 				'Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)',
         // 			link: 'https://www.unm.edu.pe/',
@@ -873,7 +876,7 @@ export const saedConfig = {
         // 				'programas de idiomas para niños o adolescentes',
         // 		},
         // 		{
-        // 			title: 'ALCANZE: ',
+        // 			title: 'ALCANCE: ',
         // 			description:
         // 				'Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos s/n)',
         // 			links: [{icon: faGlobe, link: 'https://www.up.edu.pe/'}],
@@ -962,7 +965,7 @@ export const saedConfig = {
           ],
         },
         {
-          image: ImgUcal,
+          image: UniversidadUcal,
           title: "UNIVERSIDAD DE CIENCIAS Y ARTES DE AMÉRICA LATINA",
           descriptionLarge: [
             {
@@ -1035,42 +1038,162 @@ export const saedConfig = {
       title: "Institutos :",
       cards: [
         {
-          image: Institute5,
-          title: "CETPRO Benjamin Galecio Matos",
+          image: InstituteEsinfron,
+          title: "Esinfron",
           descriptionLarge: [
             {
-              title: "CURSOS DE CARRERAS TÉCNICAS Y TALLER : ",
+              title: "ESTUDIOS EN EL IDIOMA FRANCES: ",
               description:
-                "25% descuento en el pago de los costos de programas\n" +
-                "académicos",
+                "50% de descuento en costo de enseñanza (mensualidades) en inglés, considerando la modalidad sincrónica (on-line) y asincrónica (grabaciones).",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.gamor.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [{ icon: faGlobe, link: "https://esinfron.com/" }],
             },
           ],
         },
         {
-          image: Institute6,
-          title: "CEVATUR PERÚ",
+          image: InstituteAllianceFrancaise,
+          title: "Alliance Francaise",
           descriptionLarge: [
             {
-              title: "CARRERAS PROFESIONALES, TÉCNICAS Y DIPLOMADOS : ",
+              title: "ESTUDIOS EN EL IDIOMA FRANCES: ",
               description:
-                "30% descuento en matrícula\n" +
-                "20% descuento en el pago de pensiones en las (en las\n" +
-                "distintas sedes)",
+                "15 % descuento en el pago de las pensiones en francés para niños, jóvenes y adultos en todos los horarios diarios y sabatinos, en costo de enseñanza (mensualidades)",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.cevaturperu.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [
+                { icon: faGlobe, link: "https://alianzafrancesa.org.pe/" },
+              ],
             },
           ],
         },
+        {
+          image: InstituteInternationalBilingualCertification,
+          title: "International Bilingual Certification",
+          descriptionLarge: [
+            {
+              title:
+                "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y DIPLOMADOS): ",
+              description: "50% descuento en el pago de pensiones",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [{ icon: faGlobe, link: "https://lits.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: InstituteLimaInstituteTechnicalStudies,
+          title: "Lima Institute of Technical Studies",
+          descriptionLarge: [
+            {
+              title: "IDIOMAS: ",
+              descriptions: [
+                "30% descuento en el pago de pensiones de los programas de Ingles, para jóvenes y adultos.",
+                "10% descuento en el pago de pensiones de los programas de portugués, alemán e ingles virtual de manera general.",
+                "10% descuento en el pago de pensiones de los programas de Alemán.",
+                "20% descuento en el pago de pensiones de los programas de Ingles para Niños y Juniors.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [{ icon: faGlobe, link: "https://lits.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: InstituteCivime,
+          title: "Civime Centro de Idiomas",
+          descriptionLarge: [
+            {
+              title: "IDIOMAS: ",
+              description:
+                "Tarifas preferenciales en las mensualidades al personal Militar Titular - Familiar en los diferentes idiomas, cursos y programas de las clases presenciales, Online y virtuales.",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.civime.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: InstituteGamor,
+          title: "CETPRO Benjamin Galecio Matos",
+          descriptionLarge: [
+            {
+              title: "CURSOS DE CARRERAS TÉCNICAS Y TALLER: ",
+              description:
+                "25% descuento en el pago de los costos de programas académicos en módulos.",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.gamor.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: InstituteSenati,
+          title: "Senati",
+          descriptionLarge: [
+            {
+              title:
+                "CARRERAS DE: NIVEL TÉCNICO OPERATIVO, NIVEL PROFESIONAL TÉCNICO: ",
+              description:
+                "10% de descuento en el pago anticipado (pronto pago), hasta un día antes de la fecha de vencimiento, sobre las mensualidades de costo de enseñanza en todos los programas de formación",
+            },
+            {
+              title:
+                "15%, de descuento en costo de enseñanza (mensualidades) en los diferentes programas de verano para escolares; a nivel nacional. en etapa escolar entre 07 y 17 años.",
+            },
+            {
+              title:
+                "15%, de descuento en costo de enseñanza (mensualidades) en los diferentes programas modulares para adultos, en Tecnologías de la Información, entre otros que se definan en conjunto con 'EL EJÉRCITO'.",
+            },
+            {
+              title:
+                "15% de descuento en costo de enseñanza (mensualidades) en todos los diplomados, cursos y especializaciones.",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.senati.edu.pe/" }],
+            },
+          ],
+        },
+        // {
+        //   image: Institute6,
+        //   title: "CEVATUR PERÚ",
+        //   descriptionLarge: [
+        //     {
+        //       title: "CARRERAS PROFESIONALES, TÉCNICAS Y DIPLOMADOS : ",
+        //       description:
+        //         "30% descuento en matrícula\n" +
+        //         "20% descuento en el pago de pensiones en las (en las\n" +
+        //         "distintas sedes)",
+        //     },
+        //     {
+        //       title: "ALCANCE: ",
+        //       description:
+        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+        //       link: "https://www.cevaturperu.edu.pe/",
+        //     },
+        //   ],
+        // },
         /*{
           image: Institute7,
           title: "CORPORACION EDUCATIVA SAN VICENTE",
@@ -1084,7 +1207,7 @@ export const saedConfig = {
                 "30% descuento en el pago de pensiones.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
               link: "https://es-la.facebook.com/ceesanvicente/",
@@ -1092,46 +1215,62 @@ export const saedConfig = {
           ],
         },*/
         {
-          image: Institute10,
-          title: "INSTITUTO DESARROLLO PROFESIONAL Y TECNOLOGICO",
+          image: InstituteDesarrolloGerencial,
+          title: "INSTITUTO DESARROLLO GERENCIAL",
           descriptionLarge: [
             {
               title:
-                "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS,ESPECIALIDADES Y DIPLOMADOS) : ",
+                "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS): ",
               description:
-                "20% descuento en el pago de matrícula\n" +
-                "20% descuento en el pago de las pensiones",
+                "20% descuento en los costos de los programas académicos en especializaciones, cursos y diplomados.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://virtualeduca.org/idp/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://idg.edu.pe/" }],
             },
           ],
         },
         {
-          image: Institute11,
+          image: InstituteMilitaresDelPeru,
+          title: "INSTITUTO MILITARES DEL PERÚ",
+          descriptionLarge: [
+            {
+              title:
+                "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS): ",
+              descriptions: [
+                "30% de descuento en matricula y costos de enseñanza en (matricula y mensualidades), en todos sus programas de capacitación a oficina es de las FFAA y PNP, que tengan proyección de postular a los centros de formación castrense, cursos de especialización profesional e ingles profesional, en las diferentes modalidades, sedes o locales, incluso si existiera a nivel nacional.",
+                "30% de descuento en matricula y costos de enseñanza en (matricula y mensualidades), en el programa academia a pre universitaria, pre militar e ingles en las diferentes modalidades, sedes o locales, incluso si existiera a nivel nacional.",
+                "03 Becas integrales y 03 medias becas en todos los cursos",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal tropa servicio militar en actividad, licenciados",
+            },
+          ],
+        },
+        {
+          image: InstituteIdept,
           title: "INSTITUTO DE DESARROLLO PROFESIONAL Y TÉCNICO",
           descriptionLarge: [
             {
-              title:
-                "CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y\n" +
-                "DIPLOMADOS : ",
+              title: "CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y DIPLOMADOS: ",
               description:
-                "20% descuento en el pago de matrícula\n" +
-                "20% descuento en el pago de pensiones",
+                "20% descuento en el pago en los costos de los programas académicos.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.idept.edu.pe/",
+              links: [{ icon: faGlobe, link: "https://educacionidept.com/" }],
             },
           ],
         },
         {
-          image: Institute12,
+          image: InstituteEiger,
           title: "ESCUELA INTERNACIONAL DE GERENCIA",
           descriptionLarge: [
             {
@@ -1148,84 +1287,85 @@ export const saedConfig = {
             },
           ],
         },
+        // {
+        //   image: Institute13,
+        //   title: "AKRON",
+        //   descriptionLarge: [
+        //     {
+        //       title:
+        //         "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS,\n" +
+        //         "ESPECIALIDADES Y DIPLOMADOS):",
+        //       description: "50% descuento en el pago de pensiones",
+        //     },
+        //     {
+        //       title: "ALCANCE: ",
+        //       description:
+        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+        //       link: "https://akronenglish1.com/",
+        //     },
+        //   ],
+        // },
+        // {
+        //   image: Institute14,
+        //   title: "EUROIDIOMAS",
+        //   descriptionLarge: [
+        //     {
+        //       title: "IDIOMAS",
+        //       description:
+        //         "30% descuento en el pago de pensiones de los programas de Ingles\n" +
+        //         "10% descuento en el pago de pensiones de los programas de portugués\n" +
+        //         "10% descuento en el pago de pensiones de los programas de Alemán\n" +
+        //         "20% descuento en el pago de pensiones de los programas de Ingles\n" +
+        //         "para Niños y Juniors\n" +
+        //         "10% descuento en el pago de pensiones de los programas de Inglés\n" +
+        //         "Virtual, de manera general",
+        //     },
+        //     {
+        //       title: "ALCANCE: ",
+        //       description:
+        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+        //       link: "https://euroidiomas.edu.pe/",
+        //     },
+        //   ],
+        // },
         {
-          image: Institute13,
-          title: "AKRON",
-          descriptionLarge: [
-            {
-              title:
-                "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS,\n" +
-                "ESPECIALIDADES Y DIPLOMADOS):",
-              description: "50% descuento en el pago de pensiones",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://akronenglish1.com/",
-            },
-          ],
-        },
-        {
-          image: Institute14,
-          title: "EUROIDIOMAS",
-          descriptionLarge: [
-            {
-              title: "IDIOMAS",
-              description:
-                "30% descuento en el pago de pensiones de los programas de Ingles\n" +
-                "10% descuento en el pago de pensiones de los programas de portugués\n" +
-                "10% descuento en el pago de pensiones de los programas de Alemán\n" +
-                "20% descuento en el pago de pensiones de los programas de Ingles\n" +
-                "para Niños y Juniors\n" +
-                "10% descuento en el pago de pensiones de los programas de Inglés\n" +
-                "Virtual, de manera general",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://euroidiomas.edu.pe/",
-            },
-          ],
-        },
-        {
-          image: Institute23,
+          image: InstituteIcpna,
           title: "ICPNA",
           descriptionLarge: [
             {
-              title: "ESTUDIOS EN EL IDIOMA INGLÉS",
-              description:
+              title: "ESTUDIOS EN EL IDIOMA INGLÉS: ",
+              descriptions: [
                 "15% descuento sobre la base de las tarifas publicadas en su portal",
+                "15% descuento en las tarifas de paquetes",
+              ],
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.icpna.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [{ icon: faGlobe, link: "https://www.icpna.edu.pe/" }],
             },
           ],
         },
         {
-          image: Institute24,
-          title: "BRITANICO",
+          image: InstituteBritanico,
+          title: "BRITÁNICO",
           descriptionLarge: [
             {
-              title: "ESTUDIOS EN EL IDIOMA INGLÉS",
+              title: "ESTUDIOS EN EL IDIOMA INGLÉS: ",
               description:
-                "12.5% descuento sobre la base de las tarifas en los programas\n" +
-                "académicos de enseñanza del idioma (básico, intermedio o avanzado)",
+                "12% de los costos de los programas académicos, en el idioma de inglés (kids, junior, básico, intermedio y avanzado) de los programas de británico online.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.britanico.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [{ icon: faGlobe, link: "https://britanico.edu.pe/" }],
             },
           ],
         },
         {
-          image: Institute25,
+          image: InstituteIfeep,
           title: "INSTITUTO FORMACIÓN EMPRESARIAL Y EXTENSIÓN PROFESIONAL",
           descriptionLarge: [
             {
@@ -1244,112 +1384,113 @@ export const saedConfig = {
           ],
         },
         {
-          image: Institute26,
+          image: InstituteEigra,
           title: "ESCUELA INTERNACIONAL DE GRADUADOS",
           descriptionLarge: [
             {
               title:
-                "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS\n" +
-                "CORTOS Y SEMINARIOS:",
-              description: "30% de descuento en las pensiones para estudios",
+                "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS CORTOS Y SEMINARIOS: ",
+              description: "30% de descuento en las pensiones para estudios.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.eigra.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.eigra.edu.pe/" }],
             },
           ],
         },
+        // {
+        //   image: Institute30,
+        //   title: "GUIDE",
+        //   descriptionLarge: [
+        //     {
+        //       title: "CURSOS DE PREPARACIÓN:",
+        //       description: "20% de descuento en los diferentes programas",
+        //     },
+        //     {
+        //       title: "ALCANCE: ",
+        //       description:
+        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+        //       link: "https://guideasesores.com/cursosmilitares/",
+        //     },
+        //   ],
+        // },
+        // {
+        //   image: Institute31,
+        //   title: "Von Braun",
+        //   descriptionLarge: [
+        //     {
+        //       title: "PROGRAMAS DE FORMACIÓN :",
+        //       description:
+        //         "30% descuento en el pago de matrícula y pensiones\n" +
+        //         "mensuales",
+        //     },
+        //     {
+        //       title: "ALCANCE: ",
+        //       description:
+        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+        //       link: "https://www.istvonbraun.edu.pe/",
+        //     },
+        //   ],
+        // },
         {
-          image: Institute30,
-          title: "GUIDE",
-          descriptionLarge: [
-            {
-              title: "CURSOS DE PREPARACIÓN:",
-              description: "20% de descuento en los diferentes programas",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://guideasesores.com/cursosmilitares/",
-            },
-          ],
-        },
-        {
-          image: Institute31,
-          title: "Von Braun",
-          descriptionLarge: [
-            {
-              title: "PROGRAMAS DE FORMACIÓN :",
-              description:
-                "30% descuento en el pago de matrícula y pensiones\n" +
-                "mensuales",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.istvonbraun.edu.pe/",
-            },
-          ],
-        },
-        {
-          image: Institute32,
+          image: InstituteEcaprev,
           title: "ECAPREV",
           descriptionLarge: [
             {
               title:
-                "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS\n" +
-                "CORTOS Y SEMINARIOS :",
+                "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS CORTOS Y SEMINARIOS: ",
               description:
-                "Costo diferenciado por convenio, en el pago de las cuotas mensuales",
+                "Costo diferenciado por convenio, en el pago de las cuotas mensuales.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.ecaprev.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://ecaprev.edu.pe/" }],
             },
           ],
         },
         {
-          image: Institute33,
+          image: InstituteIspacj,
           title: "ISPACJ",
           descriptionLarge: [
             {
               title: "PROGRAMAS DE ESPECIALIZACIÓN Y DIPLOMADOS :",
-              description:
-                "20% descuento en el costo de los diplomados (ingeniería, gestión\n" +
-                "empresarial y administración)\n" +
-                "30% descuento en el costo total del programa de capacitación de\n" +
-                "ingles\n" +
-                "35% descuento en el costo tal del programa de capacitación de\n" +
-                "computación",
+              descriptions: [
+                "20% descuento en el costo de los diplomados (ingeniería, gestión, administración, derecho, educación, ciencias de la salud, ciencias políticas).",
+                "30% descuento en el costo total del programa de capacitación de ingles.",
+                "35% descuento en el costo tal del programa de capacitación de computación.",
+              ],
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.ispacj.com/",
+              links: [{ icon: faGlobe, link: "https://ispacj.com/" }],
             },
           ],
         },
         {
-          image: Institute20,
+          image: InstituteInidhe,
           title: "INIDHE",
           descriptionLarge: [
             {
-              title: "PROGRAMAS DE DIPLOMADOS Y ESPECIALIZACIONES :",
+              title: "PROGRAMAS DE DIPLOMADOS Y ESPECIALIZACIONES: ",
               description:
-                "50% descuento en el costo de los diferentes programas académicos (cursos de especialización, diplomados, seminarios, talleres)",
+                "50% descuento en el costo de los diferentes programas académicos (cursos de especialización, diplomados, seminarios, talleres).",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.inidhe.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.facebook.com/Inidheoficial/?locale=es_LA",
+                },
+              ],
             },
           ],
         },
@@ -1373,7 +1514,7 @@ export const saedConfig = {
           ],
         },
         {
-          image: Institute9,
+          image: InstituteCarrion,
           title: "Instituto Carrión",
           descriptionLarge: [
             {
@@ -1428,20 +1569,21 @@ export const saedConfig = {
           ],
         },
         {
-          image: Institute21,
-          title: "PRIVATEACHER",
+          image: InstitutePrivateacher,
+          title: "Privateacher International",
           descriptionLarge: [
             {
-              title: "IDIOMAS",
+              title: "IDIOMAS: ",
               description:
-                "Costo diferenciado por convenio, en el pago de las cuotas\n" +
-                "mensuales",
+                "Costo diferenciado por convenio, en el pago de las cuotas mensuales.",
             },
             {
-              title: "ALCANZE: ",
+              title: "ALCANCE: ",
               description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.privateacher.edu.pe/",
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados. (Hermanos solteros solo para Alianza Francesa)",
+              links: [
+                { icon: faGlobe, link: "https://englishonline.pe/inicio" },
+              ],
             },
           ],
         },
@@ -1490,27 +1632,27 @@ export const saedConfig = {
             },
           ],
         },
-        {
-          image: Institute34,
-          title: "CIM",
-          descriptionLarge: [
-            {
-              title: "CARRERAS PROFESIONALES TÉCNICAS : ",
-              description:
-                "15% descuento en el pago de pensiones de las tarifas\n" +
-                "publicadas.",
-            },
-            {
-              title: "ALCANZE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://www.icim.edu.pe/",
-            },
-          ],
-        },
+        // {
+        //   image: Institute34,
+        //   title: "CIM",
+        //   descriptionLarge: [
+        //     {
+        //       title: "CARRERAS PROFESIONALES TÉCNICAS : ",
+        //       description:
+        //         "15% descuento en el pago de pensiones de las tarifas\n" +
+        //         "publicadas.",
+        //     },
+        //     {
+        //       title: "ALCANCE: ",
+        //       description:
+        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+        //       link: "https://www.icim.edu.pe/",
+        //     },
+        //   ],
+        // },
         {
           image: InstituteAndresVesalio,
-          title: "I.E.S.T.P. ANDRES VESALIO",
+          title: "I.E.S.T.P. ANDRE VESALIO",
           descriptionLarge: [
             {
               title: "PROGRAMAS DE CARRERAS TÉCNICAS: ",
@@ -1535,7 +1677,7 @@ export const saedConfig = {
           ],
         },
         {
-          image: ImgCertus,
+          image: UniversidadCertus,
           title: "ESCUELA CERTUS",
           descriptionLarge: [
             {
@@ -1675,7 +1817,7 @@ export const saedConfig = {
         },
         {
           title: "CÁMARA DE COMERCIO LIMA",
-          image: ImgCamaraLima,
+          image: InstituteCamaraLima,
           descriptionLarge: [
             {
               title: "BENEFICIOS QUE OFRECE: ",
@@ -1697,7 +1839,7 @@ export const saedConfig = {
         },
         {
           title: "AVIA",
-          image: ImgAvia,
+          image: InstituteAvia,
           descriptionLarge: [
             {
               title: "CARRERAS TÉCNICAS: ",
@@ -1718,33 +1860,53 @@ export const saedConfig = {
           ],
         },
         {
-          title: "Corporación Educativa PEAH San Judas",
-          image: ImgSanJudas,
+          image: InstituteSanJudas,
+          title: "Corporación Educativa PEAH San Judas E.I.R.L.",
           descriptionLarge: [
             {
-              title: "CURSOS DE ESPECIALIZACIÓN PROFESIONAL",
-              description: [
-                "25% descuento en el pago de matrícula\n",
-                "25% descuento  en el pago de pensiones\n",
-              ],
+              title: "CURSOS DE ESPECIALIZACIÓN PROFESIONAL: ",
+              description:
+                "25% descuento en el pago de matrícula y pensiones, en todos sus cursos de especialización profesional considerando las diferentes modalidades",
             },
             {
               title: "ALCANCE",
-              description: [
-                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como" +
-                  " sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
-              ],
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.peahsanjudas.com/" }],
             },
           ],
         },
         {
           title: "CEGICAP",
-          image: ImgCegicap,
+          image: InstituteCegicap,
           descriptionLarge: [
             {
-              title: "BENEFICIOS:",
+              title: "BENEFICIOS: ",
               description:
-                "30% DE DESCUENTO EN MATRICULA Y COSTOS DE ENSEÑANZA EN (MENSUALIDADES), EN TODOS SUS CURSOS DE ESPECIALIZACIÓN PROFESIONAL, CONSIDERANDO LAS DIFERENTES MODALIDADES, SEDES O LOCALES, INCLUSO SI EXISTIERA A NIVEL NACIONAL.\n",
+                "25% de descuento en matricula y costos de enseñanza en (mensualidades), en todos sus cursos de especialización profesional, considerando las diferentes modalidades, sedes o locales, incluso si existiera a nivel nacional.",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.cegicap.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          title: "CEUCE",
+          image: InstituteCeuce,
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              description:
+                "25% en descuento en matrícula y el 25% de descuentos en costos de enseñanza en mensualidades; en posgrado, cursos de capacitación, talleres y de especialización profesional, considerando en las diferentes especialidades.",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.ceuce.edu.pe/" }],
             },
           ],
         },

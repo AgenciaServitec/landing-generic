@@ -1,6 +1,6 @@
 import {
   CobieneLogoLarge,
-  SadAboutTwo,
+  SadAbout,
   SadCarousel,
   SadPro,
   SadServiceArtesania,
@@ -39,38 +39,14 @@ export const sadConfig = {
       {
         title: "PRESENTE HOY Y SIEMPRE.",
         image: [SadCarousel],
-        buttons: [
-          // {
-          //   id: "about-us",
-          //   title: "Nosotros",
-          // },
-          // {
-          //   id: "services",
-          //   title: "Especialidades Técnicas",
-          // },
-        ],
+        buttons: [],
       },
     ],
     sectionAbout: {
       id: "Nosotros",
       title: "Nosotros",
       descriptions: [
-        // "La Sección de Apoyo al Discapacitado somos los encargados de proporcionar asesoramiento al personal militar pensionista en la condición de discapacitado, para orientarlos a solucionar sus problemas de vivienda, salud, educación, pensión y otros, asimismo ejecutar acciones de bienestar a favor de dicho personal y su familia.",
-        "La Sección de Apoyo al Personal con\n" +
-          "Discapacidad (SAD), brindará orientación y/o\n" +
-          "capacitación al personal militar pensionista en\n" +
-          "la condición de discapacidad sobre: salud,\n" +
-          "educación, pensión y otros beneficios que por\n" +
-          "ley le corresponda a fin de contribuir en el\n" +
-          "bienestar de la familia militar.\n" +
-          "\n" +
-          // "Las Actividades de bienestar se desarrolla de\n" +
-          // "acuerdo a lo programado por el COBIENE,\n" +
-          // "realizando las coordinaciones con entidades\n" +
-          // "públicas y privadas, para el mejoramiento de la\n" +
-          // "calidad en la atención del personal con\n" +
-          // "discapacidad.\n" +
-          "\f",
+        "La Sección de Apoyo al Personal con Discapacidad (SAD), brindará orientación y/o capacitación al personal militar pensionista en la condición de discapacidad sobre: salud, educación, pensión y otros beneficios que por ley le corresponda a fin de contribuir en el bienestar de la familia militar.",
       ],
       images: [SadPro],
     },
@@ -78,15 +54,14 @@ export const sadConfig = {
       title: "Funciones sad ",
       direction: true,
       descriptions: [
-        // "En las instalaciones del SAD funciona el CETPRO, reconocido mediante R.D. USE 07 N° 3321 del 10 dic de 1999 y con R.D.R. N° 01531-2008 –DRELM, su funcionamiento se encuentra enmarcado dentro de las cláusulas del convenio interinstitucional entre el COBIENE y la UGEL-03. Proporcionará conocimientos teóricos y prácticos en las seis (06) especialidades técnicas al personal de Tropa que presta su Servicio Militar Voluntario en el COSALE (HMC y Btn San A/M N° 511) y SINTE (Btn Int A/M N° 511), en atención a la Ley del Servicio Militar Voluntario N° 29248 y su reglamento, al personal militar en situación de discapacidad del Ejército del Perú y sus familiares directos, asimismo al personal civil de la comunidad considerado en pobreza y/o extrema pobreza",
-        "Brinda apoyo y orientación al personal del personal Oficiales, Tcos SSOO pensionistas en la condición de discapacidad en las diversas gestiones administrativas\n",
-        "En coordinación con el personal de Informática llevar al día la base de datos alimentando con información actualizada del personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad\n",
-        "Apertura y elabora legajos al personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad\n",
-        "Organiza y clasifica los legajos del Personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad \n",
-        "Organiza el archivo de su responsabilidad, a fin de ser explotados con facilidad\n",
+        "Brinda apoyo y orientación al personal del personal Oficiales, Tcos SSOO pensionistas en la condición de discapacidad en las diversas gestiones administrativas",
+        "En coordinación con el personal de Informática llevar al día la base de datos alimentando con información actualizada del personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad",
+        "Apertura y elabora legajos al personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad",
+        "Organiza y clasifica los legajos del Personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad ",
+        "Organiza el archivo de su responsabilidad, a fin de ser explotados con facilidad",
         "Dispone de legajos con reportes actualizados que contengan reporte de la base de datos del personal de Oficiales, Supervisores, Técnicos y Suboficiales pensionistas en la condición de discapacidad",
       ],
-      images: [SadAboutTwo],
+      images: [SadAbout],
     },
     sectionServices: {
       title: "Especialidades :",

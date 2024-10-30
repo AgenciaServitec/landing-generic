@@ -1,14 +1,4 @@
 // ------Img Servitec-------
-export { default as LogoServitec } from "./others/logo-servitec.webp";
-export { default as OffersServitec } from "./others/offers1.webp";
-export { default as SeoOne } from "./others/info-box7.webp";
-export { default as SeoTwo } from "./others/info-box8.webp";
-export { default as SeoThree } from "./others/info-box9.webp";
-export { default as SeoFour } from "./others/info-box10.webp";
-export { default as ServitecSlider1 } from "./others/servitec-slider2.webp";
-export { default as ServitecSlider4 } from "./others/servitec-slider4.webp";
-export { default as ServitecSlider2 } from "./others/servitec-slider1.webp";
-export { default as ServitecSlider3 } from "./others/servitec-slider3.webp";
 export { default as ImgCongratulation } from "./others/congratulation.webp";
 export { default as ImgConvenioProvinciaTacna } from "./others/convenio-provincia-tacna.png";
 
@@ -20,10 +10,6 @@ export * from "./svg/Location";
 // ------ COMMON IMAGES -------
 export { default as CobieneLogoLarge } from "./common/cobiene-logo-large.webp";
 
-// ------ COMMON/CONVENIONS IMAGES -------
-export { default as AgrariaLogo } from "./common/convenios/agraria.webp";
-export { default as CientificaDelSur } from "./common/convenios/cientifica-del-sur.webp";
-
 // ------ SAED IMAGES -------
 export { default as SaedSlider1 } from "./saed/saedslyder1.webp";
 export { default as SaedAboutUs } from "./saed/aboutUs.png";
@@ -31,7 +17,6 @@ export { default as SaedBannePublic } from "./saed/banner1.webp";
 
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";
-export { default as SadAboutTwo } from "./sad/nosotrossadnew.webp";
 export { default as SadPro } from "./sad/sadfunciones.webp";
 export { default as SadCarousel } from "./sad/carousel-sad.webp";
 export { default as SadServiceTejido } from "./sad/service-tejido.webp";
@@ -97,78 +82,73 @@ export { default as CirculoChorrillos5 } from "./cmsts/circulochorrillos5.webp";
 // --
 //------- UNIVERSITIES --------
 export { default as UniversidadAutonoma } from "./universities/autonoma.webp";
-export { default as UniversidadAgraria } from "./universities/logo1.webp";
 export { default as UniversidadCientifica } from "./universities/cientifica-del-sur.webp";
-export { default as UniversidadCatolica } from "./universities/logo3.webp";
-export { default as UniversidadCesarVallejo } from "./universities/logo4.webp";
-export { default as UniversidadESAN } from "./universities/logo5.webp";
-export { default as UniversidadJaimeBausate } from "./universities/logo7.webp";
-export { default as UniversidadChampagnat } from "./universities/logo8.webp";
-export { default as UniversidadNorbert } from "./universities/logo9.webp";
-export { default as UniversidadDelPacifico } from "./universities/logo24.webp";
-export { default as UniversidadRicardoPalma } from "./universities/logo11.webp";
-export { default as UniversidadSanIgnacioLoyola } from "./universities/logo12.webp";
-export { default as UniversidadSanJuanBautista } from "./universities/logo13.webp";
-export { default as UniversidadSanmartinPorres } from "./universities/logo14.webp";
+export { default as UniversidadCesarVallejo } from "./universities/cesar-vallejo.webp";
+export { default as UniversidadESAN } from "./universities/esan.webp";
+export { default as UniversidadJaimeBausate } from "./universities/jaime-bausate-mesa.webp";
+export { default as UniversidadChampagnat } from "./universities/marcelino-champagnat.webp";
+export { default as UniversidadNorbert } from "./universities/norbert-wiener.webp";
+export { default as UniversidadDelPacifico } from "./universities/centro-idiomas-pacifico.webp";
+export { default as UniversidadRicardoPalma } from "./universities/ricardo-palma.webp";
+export { default as UniversidadSanIgnacioLoyola } from "./universities/usil.webp";
+export { default as UniversidadSanJuanBautista } from "./universities/san-juan-bautista.webp";
+export { default as UniversidadSanmartinPorres } from "./universities/san-martin-porres.webp";
 export { default as UniversidadUpal } from "./universities/upal.webp";
-export { default as UniversidadSeñorSipan } from "./universities/logo16.webp";
 export { default as UniversidadUtp } from "./universities/utp.webp";
-export { default as UniversidadCatolicaSedeSapientiale } from "./universities/logo18.webp";
-export { default as UniversidadUnifeSagradoCorazon } from "./universities/logo19.webp";
+export { default as UniversidadCatolicaSedeSapientiale } from "./universities/catolica-sede-sapientiae.webp";
+export { default as UniversidadUnifeSagradoCorazon } from "./universities/unife-sagrado-corazon-jesus.webp";
 export { default as UniversidadPrivadadelNorte } from "./universities/upn.webp";
-export { default as UniversidadNacionalMusica } from "./universities/logo22.webp";
-export { default as UniversidadFedericoVillareal } from "./universities/logo23.webp";
-export { default as UniversidadUpc } from "./universities/logo21.webp";
+export { default as UniversidadNacionalMusica } from "./universities/nacional-musica.webp";
+export { default as UniversidadFedericoVillareal } from "./universities/federico-villareal.webp";
+export { default as UniversidadUpc } from "./universities/upc.webp";
 export { default as UnviersidadContinental } from "./universities/continental.webp";
 export { default as UnviersidadAnahuac } from "./universities/anahuac-mexico.webp";
 export { default as UnviersidadSanMarcosCienciasEconomicas } from "./universities/san-marcos-ciencias-economicas.webp";
 export { default as UnviersidadAutonomaDeIca } from "./universities/autonoma-de-ica.webp";
 
 //----- INSTITUTOS --------
-export { default as Institute1 } from "./institutes/instituto1.webp";
+export { default as InstituteAllianceFrancaise } from "./institutes/alliance-francaise.webp";
+export { default as InstituteInternationalBilingualCertification } from "./institutes/ibc.webp";
+export { default as InstituteLimaInstituteTechnicalStudies } from "./institutes/lits.webp";
+export { default as InstituteEsinfron } from "./institutes/esinfron.webp";
+export { default as InstituteCivime } from "./institutes/civime.webp";
 export { default as InstituteCepea } from "./institutes/cepea.webp";
 export { default as InstituteCepeban } from "./institutes/cepeban.webp";
 export { default as InstituteCibertec } from "./institutes/cibertec.webp";
 export { default as InstituteCorazonDeJesus } from "./institutes/ies-corazon-de-jesus.webp";
-export { default as Institute4 } from "./institutes/instituto4.webp";
-export { default as Institute5 } from "./institutes/instituto5.webp";
-export { default as Institute6 } from "./institutes/instituto6.webp";
-export { default as Institute7 } from "./institutes/instituto7.webp";
-export { default as Institute8 } from "./institutes/instituto8.webp";
-export { default as Institute9 } from "./institutes/instituto9.webp";
-export { default as Institute10 } from "./institutes/instituto10.webp";
-export { default as Institute11 } from "./institutes/instituto11.webp";
-export { default as Institute12 } from "./institutes/instituto12.webp";
-export { default as Institute13 } from "./institutes/instituto13.webp";
-export { default as Institute14 } from "./institutes/instituto14.webp";
-export { default as Institute15 } from "./institutes/instituto15.webp";
-export { default as InstituteInteci } from "./institutes/instituto16.webp";
-export { default as Institute17 } from "./institutes/instituto17.webp";
-export { default as Institute18 } from "./institutes/instituto18.webp";
-export { default as Institute19 } from "./institutes/instituto19.webp";
-export { default as Institute20 } from "./institutes/instituto20.webp";
-export { default as Institute21 } from "./institutes/instituto21.webp";
+export { default as InstituteSenati } from "./institutes/senati.webp";
+export { default as InstituteCeuce } from "./institutes/ceuce.webp";
+export { default as InstituteMilitaresDelPeru } from "./institutes/instituto-militares-del-peru.webp";
+export { default as InstituteGamor } from "./institutes/gamor.webp";
+export { default as InstituteCevaturPeru } from "./institutes/cevatur.webp";
+export { default as InstituteCarrion } from "./institutes/carrion.webp";
+export { default as InstituteDesarrolloGerencial } from "./institutes/instituto-desarrollo-gerencial.webp";
+export { default as InstituteIdept } from "./institutes/idept.webp";
+export { default as InstituteEiger } from "./institutes/eiger.webp";
+export { default as InstituteAkron } from "./institutes/akron.webp";
+export { default as InstituteEuroidiomas } from "./institutes/euroidiomas.webp";
+export { default as InstituteInteci } from "./institutes/inteci.webp";
+export { default as InstituteInidhe } from "./institutes/inidhe.webp";
+export { default as InstitutePrivateacher } from "./institutes/privateacher.webp";
 export { default as InstituteIsil } from "./institutes/isil.webp";
-export { default as Institute23 } from "./institutes/instituto23.webp";
-export { default as Institute24 } from "./institutes/instituto24.webp";
-export { default as Institute25 } from "./institutes/instituto25.webp";
-export { default as Institute26 } from "./institutes/instituto26.webp";
-export { default as Institute27 } from "./institutes/instituto27.webp";
-export { default as Institute28 } from "./institutes/instituto28.webp";
-export { default as Institute30 } from "./institutes/instituto30.webp";
-export { default as Institute31 } from "./institutes/instituto31.webp";
-export { default as Institute32 } from "./institutes/instituto32.webp";
-export { default as Institute33 } from "./institutes/instituto33.webp";
-export { default as Institute34 } from "./institutes/instituto34.webp";
+export { default as InstituteIcpna } from "./institutes/icpna.webp";
+export { default as InstituteBritanico } from "./institutes/britanico.webp";
+export { default as InstituteIfeep } from "./institutes/ifeep.webp";
+export { default as InstituteEigra } from "./institutes/eigra.webp";
+export { default as InstituteGuideMilitary } from "./institutes/guide-military.webp";
+export { default as InstituteVonBraun } from "./institutes/von-braun.webp";
+export { default as InstituteEcaprev } from "./institutes/ecaprev.webp";
+export { default as InstituteIspacj } from "./institutes/ispacj.webp";
+export { default as InstituteCim } from "./institutes/cim.webp";
 export { default as InstituteAndresVesalio } from "./institutes/andres-vesalio.webp";
-export { default as ImgUcal } from "./saed/ucal.webp";
-export { default as ImgCertus } from "./institutes/certus.webp";
+export { default as UniversidadUcal } from "./saed/ucal.webp";
+export { default as UniversidadCertus } from "./institutes/certus.webp";
 export { default as InstituteToulouseLautrec } from "./institutes/tltc.webp";
 export { default as IntituteColumbia } from "./institutes/columbia.webp";
-export { default as ImgAvia } from "./saed/avia.webp";
-export { default as ImgCamaraLima } from "./saed/camara-lima.webp";
-export { default as ImgCegicap } from "./saed/cegicap.webp";
-export { default as ImgSanJudas } from "./saed/san-judas.webp";
+export { default as InstituteAvia } from "./saed/avia.webp";
+export { default as InstituteCamaraLima } from "./saed/camara-lima.webp";
+export { default as InstituteCegicap } from "./saed/cegicap.webp";
+export { default as InstituteSanJudas } from "./saed/san-judas.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
@@ -201,6 +181,7 @@ export { default as JaeAbout } from "./jae/jae-about.webp";
 export { default as JaeCarousel } from "./jae/new11.webp";
 export { default as JaeCarousel2 } from "./jae/jae-carousel.webp";
 export { default as JaeOthers } from "./jae/jae-others.webp";
+
 // ------ JAE IMAGES -------
 export { default as PedroRuiz } from "./schools/lima-schools/imgSchools/Group 24.webp";
 export { default as AlfredoBonifaz } from "./schools/lima-schools/imgSchools/2alfredobonifazcollage.webp";
@@ -240,6 +221,7 @@ export { default as CollageEmilioCuatro } from "./schools/lima-schools/imgSchool
 export { default as CollageEmilioCinco } from "./schools/lima-schools/imgSchools/5emilio.webp";
 export { default as CollageEmilioSeis } from "./schools/lima-schools/imgSchools/6emilio.webp";
 export { default as CollageEmilioSiete } from "./schools/lima-schools/imgSchools/7emilio.webp";
+
 // ------ JAE IMAGES DE JESUS -------
 export { default as CollageJesus } from "./schools/lima-schools/imgSchools/1jesus.webp";
 export { default as CollageJesusDos } from "./schools/lima-schools/imgSchools/2jesus.webp";
@@ -251,18 +233,21 @@ export { default as CollageJesusSiete } from "./schools/lima-schools/imgSchools/
 export { default as CollageJesusOcho } from "./schools/lima-schools/imgSchools/8jesus.webp";
 export { default as CollageJesusNueve } from "./schools/lima-schools/imgSchools/9jesus.webp";
 export { default as CollageJesusDiez } from "./schools/lima-schools/imgSchools/10jesus.webp";
+
 // ------ JAE IMAGES DE LA ESPERANZA -------
 export { default as CollageEsperanza } from "./schools/lima-schools/imgSchools/1esperanza.webp";
 export { default as CollageEsperanzaDos } from "./schools/lima-schools/imgSchools/2esperanza.webp";
 export { default as CollageEsperanzaTres } from "./schools/lima-schools/imgSchools/3esperanza.webp";
 export { default as CollageEsperanzaCuatro } from "./schools/lima-schools/imgSchools/4esperanza.webp";
 export { default as CollageEsperanzaCinco } from "./schools/lima-schools/imgSchools/5esperanza.webp";
+
 // ------ JAE IMAGES DE MATELLINI -------
 export { default as CollageMatellini } from "./schools/lima-schools/imgSchools/1matellini.webp";
 export { default as CollageMatelliniDos } from "./schools/lima-schools/imgSchools/2matellini.webp";
 export { default as CollageMatelliniTres } from "./schools/lima-schools/imgSchools/3matellini.webp";
 export { default as CollageMatelliniCuatro } from "./schools/lima-schools/imgSchools/4matellini.webp";
 export { default as CollageMatelliniCinco } from "./schools/lima-schools/imgSchools/5matellini.webp";
+
 // ------ JAE IMAGES DE SANTA ISABEL -------
 export { default as CollageSantaIsabel } from "./schools/lima-schools/imgSchools/1SantaIsabel.webp";
 export { default as CollageSantaIsabelDos } from "./schools/lima-schools/imgSchools/2SantaIsabel.webp";
@@ -271,18 +256,21 @@ export { default as CollageSantaIsabelCuatro } from "./schools/lima-schools/imgS
 export { default as CollageSantaIsabelCinco } from "./schools/lima-schools/imgSchools/5santaisabel.webp";
 export { default as CollageSantaIsabelSeis } from "./schools/lima-schools/imgSchools/6santaisabel.webp";
 export { default as CollageSantaIsabelSiete } from "./schools/lima-schools/imgSchools/7santaisabel.webp";
+
 // ------ JAE IMAGES DE ANDRES AVELINO TUMBES -------
 export { default as CollageAndresTumbes } from "./schools/lima-schools/imgSchools/andrestumbes.webp";
 export { default as CollageAndresTumbesDos } from "./schools/lima-schools/imgSchools/andrestumbes2.webp";
 export { default as CollageAndresTumbesTres } from "./schools/lima-schools/imgSchools/andrestumbes3.webp";
 export { default as CollageAndresTumbesCuatro } from "./schools/lima-schools/imgSchools/andrestumbes4.webp";
 export { default as CollageAndresTumbesCinco } from "./schools/lima-schools/imgSchools/andrestumbes5.webp";
+
 // ------ JAE IMAGES DE MIGUEL CORTEZ -------
 export { default as CollageMiguelCortez } from "./schools/lima-schools/imgSchools/miguelcortez1.webp";
 export { default as CollageMiguelCortezDos } from "./schools/lima-schools/imgSchools/miguelcortez2.webp";
 export { default as CollageMiguelCortezTres } from "./schools/lima-schools/imgSchools/miguelcortez3.webp";
 export { default as CollageMiguelCortezCuatro } from "./schools/lima-schools/imgSchools/miguelcortez4.webp";
 export { default as CollageMiguelCortezCinco } from "./schools/lima-schools/imgSchools/miguelcortez5.webp";
+
 // ------ JAE IMAGES DE INGLAN -------
 export { default as CollageInclan } from "./schools/lima-schools/imgSchools/inclanpiura1.webp";
 export { default as CollageInclanDos } from "./schools/lima-schools/imgSchools/inclanpiura2.webp";
@@ -290,12 +278,14 @@ export { default as CollageInclanTres } from "./schools/lima-schools/imgSchools/
 export { default as CollageInclanCuatro } from "./schools/lima-schools/imgSchools/inclanpiura4.webp";
 export { default as CollageInclanCinco } from "./schools/lima-schools/imgSchools/inclanpiura5.webp";
 export { default as CollageInclanSeis } from "./schools/lima-schools/imgSchools/inclanpiura6.webp";
+
 // ------ JAE IMAGES DE BOLOGNESI -------
 export { default as CollageBolognesi } from "./schools/lima-schools/imgSchools/bolognesi1.webp";
 export { default as CollageBolognesiDos } from "./schools/lima-schools/imgSchools/bolognesi2.webp";
 export { default as CollageBolognesiTres } from "./schools/lima-schools/imgSchools/bolognesi3.webp";
 export { default as CollageBolognesiCuatro } from "./schools/lima-schools/imgSchools/bolognesi4.webp";
 export { default as CollageBolognesiCinco } from "./schools/lima-schools/imgSchools/bolognesi5.webp";
+
 // ------ JAE IMAGES DE NuestrosHeroes -------
 export { default as CollageNuestrosHeroes } from "./schools/lima-schools/imgSchools/nuestrosheroes1.webp";
 export { default as CollageNuestrosHeroesDos } from "./schools/lima-schools/imgSchools/nuestrosheroes2.webp";
@@ -303,31 +293,37 @@ export { default as CollageNuestrosHeroesTres } from "./schools/lima-schools/img
 export { default as CollageNuestrosHeroesCuatro } from "./schools/lima-schools/imgSchools/nuestrosheroes4.webp";
 export { default as CollageNuestrosHeroesCinco } from "./schools/lima-schools/imgSchools/nuestrosheroes5.webp";
 export { default as CollageNuestrosHeroesSeis } from "./schools/lima-schools/imgSchools/nuestrosheroes6.webp";
+
 // ------ JAE IMAGES DE CASERES LOCUMBA -------
 export { default as CollageAndresLocumba } from "./schools/lima-schools/imgSchools/casereslocumba.webp";
 export { default as CollageAndresLocumbaDos } from "./schools/lima-schools/imgSchools/casereslocumba2.webp";
 export { default as CollageAndresLocumbaTres } from "./schools/lima-schools/imgSchools/casereslocumba3.webp";
 export { default as CollageAndresLocumbaCuatro } from "./schools/lima-schools/imgSchools/casereslocumba4.webp";
+
 // ------ JAE IMAGES DE RAMON ZAVALA -------
 export { default as CollageRamonZavala } from "./schools/lima-schools/imgSchools/ramonzavala.webp";
 export { default as CollageRamonZavalaDos } from "./schools/lima-schools/imgSchools/ramonzavala2.webp";
 export { default as CollageRamonZavalaTres } from "./schools/lima-schools/imgSchools/ramonzavala3.webp";
 export { default as CollageRamonZavalaCuatro } from "./schools/lima-schools/imgSchools/ramonzavala4.webp";
+
 // ------ JAE IMAGES DE RAMON ZAVALA -------
 export { default as CollageTarapacaIquitos } from "./schools/lima-schools/imgSchools/tarapacaiquito.webp";
 export { default as CollageTarapacaIquitosDos } from "./schools/lima-schools/imgSchools/tarapacaiquito2.webp";
 export { default as CollageTarapacaIquitosTres } from "./schools/lima-schools/imgSchools/tarapacaiquito3.webp";
 export { default as CollageTarapacaIquitosCuatro } from "./schools/lima-schools/imgSchools/tarapacaiquito4.webp";
 export { default as CollageTarapacaIquitosCinco } from "./schools/lima-schools/imgSchools/tarapacaiquito5.webp";
+
 // ------ JAE IMAGES DE MONTESSORI -------
 export { default as CollageMontessori } from "./schools/lima-schools/imgSchools/montessori.webp";
 export { default as CollageMontessoriDos } from "./schools/lima-schools/imgSchools/montessori2.webp";
 export { default as CollageMontessoriTres } from "./schools/lima-schools/imgSchools/montessori3.webp";
+
 // ------ JAE IMAGES DE ANDRES AVELINO CACERES PUNO -------
 export { default as CollageAndresPuno } from "./schools/lima-schools/imgSchools/andrespuno.webp";
 export { default as CollageAndresPuno2 } from "./schools/lima-schools/imgSchools/andrespuno2.webp";
 export { default as CollageAndresPuno3 } from "./schools/lima-schools/imgSchools/andrespuno3.webp";
 export { default as CollageAndresPuno4 } from "./schools/lima-schools/imgSchools/andrespuno4.webp";
+
 // ------ JAE IMAGES DE AREQUIPA COLEGIO -------
 export { default as CollageArequipa } from "./schools/lima-schools/imgSchools/arequipa.webp";
 export { default as CollageArequipa2 } from "./schools/lima-schools/imgSchools/arequipa2.webp";
@@ -337,6 +333,7 @@ export { default as CollageArequipa5 } from "./schools/lima-schools/imgSchools/a
 export { default as CollageArequipa6 } from "./schools/lima-schools/imgSchools/arequipa6.webp";
 export { default as CollageArequipa7 } from "./schools/lima-schools/imgSchools/arequipa7.webp";
 export { default as CollageArequipa8 } from "./schools/lima-schools/imgSchools/arequipa8.webp";
+
 // ------ JAE IMAGES DE ANDRES AVELINO CACERES IQUITOS -------
 export { default as CollageAndresIquitos } from "./schools/lima-schools/imgSchools/andresiquitos.webp";
 export { default as CollageAndresIquitos2 } from "./schools/lima-schools/imgSchools/andresiquitos2.webp";
@@ -346,6 +343,7 @@ export { default as CollageAndresIquitos5 } from "./schools/lima-schools/imgScho
 export { default as CollageAndresIquitos6 } from "./schools/lima-schools/imgSchools/andresiquitos6.webp";
 export { default as CollageAndresIquitos7 } from "./schools/lima-schools/imgSchools/andresiquitos7.webp";
 export { default as CollageAndresIquitos8 } from "./schools/lima-schools/imgSchools/andresiquitos8.webp";
+
 // ------ SAECO IMAGES -------
 export { default as TitleAyudaEconomica } from "./saeco/titleayudaeconomica.webp";
 export { default as SaecoImgCarousel } from "./saeco/img-carousel.webp";
