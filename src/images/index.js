@@ -362,10 +362,10 @@ export { default as Alimentos2 } from "./saeco/alimentosservices2.webp";
 // ------ SAECO BANCOS IMAGES -------
 
 export { default as TitleConvenios } from "./saeco/bancos-img/conveniosServicios.webp";
-export { default as BancoComercio } from "./saeco/bancos-img/bancocomercio.webp";
-export { default as BancoGng } from "./saeco/bancos-img/bancognb.webp";
+export { default as BancoComercio } from "./saeco/bancos-img/bancom.webp";
+export { default as BancoGng } from "./saeco/bancos-img/gnb.webp";
 export { default as BancoPichincha } from "./saeco/bancos-img/bancopichincha.webp";
-export { default as BancoContinental } from "./saeco/bancos-img/bbvacontinental.webp";
+export { default as BancoContinental } from "./saeco/bancos-img/bbva.webp";
 export { default as BancoInterbank } from "./saeco/bancos-img/interbank.webp";
 export { default as BancoScotiabank } from "./saeco/bancos-img/scotiabank.webp";
 export { default as BannerServices } from "./saeco/ultimasaecoalimento.webp";
@@ -397,9 +397,10 @@ export { default as TiendaRenzoCosta } from "./saeco/diversos/renzocosta.webp";
 export { default as SmartFit } from "./saeco/diversos/smartfit.webp";
 export { default as TiendaSugo } from "./saeco/diversos/sugootros.webp";
 export { default as TiendaVizzano } from "./saeco/diversos/calzado-vizzano.webp";
+export { default as Azaleia } from "./saeco/diversos/azaleia.webp";
 // ------ SAECO FINANCIERAS IMAGES -------
-export { default as FinancieraEfectiva } from "./saeco/financieras/efectivafinaciera.webp";
-export { default as FinancieraFinantel } from "./saeco/financieras/finantelfinanciera.webp";
+export { default as FinancieraEfectiva } from "./saeco/financieras/efectiva.webp";
+export { default as FinancieraAutoplan } from "./saeco/financieras/autoplan.webp";
 export { default as FinancieraLarehabilitadora } from "./saeco/financieras/larehabilitadorafinanciera.webp";
 // ------ SAECO SEGUROS IMAGES -------
 export { default as SeguroRimac } from "./saeco/seguros/segurorimac.webp";
@@ -407,20 +408,26 @@ export { default as SeguroSaludPositiva } from "./saeco/seguros/segurossaludposi
 export { default as SeguroVehicular } from "./saeco/seguros/segurovehicular.webp";
 export { default as SeguroVehicularPositiva } from "./saeco/seguros/segurovehicularpositiva.webp";
 // ------ SAECO TRANSPORTE IMAGES -------
-export { default as Transporte1 } from "./saeco/transporte/movilbus.webp";
-export { default as Transporte2 } from "./saeco/transporte/oltursa.webp";
-export { default as Transporte3 } from "./saeco/transporte/cruzdelsur.webp";
+export { default as Movilbus } from "./saeco/transporte/movilbus.webp";
+export { default as Oltursa } from "./saeco/transporte/oltursa.webp";
+export { default as CruzDelSur } from "./saeco/transporte/cruzdelsur.webp";
+export { default as StarPeru } from "./saeco/transporte/starperu.webp";
+export { default as MultiserviciosTuringCusco } from "./saeco/transporte/multiservicios-turing-cusco.webp";
 export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
 // ------ SAECO HOTELES IMAGES -------
 export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";
 export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";
-export { default as Hotel3 } from "./saeco/hoteles/hotelcarrera.webp";
+export { default as HotelCarrera } from "./saeco/hoteles/hotelcarrera.webp";
+export { default as Decameron } from "./saeco/hoteles/decameron.webp";
+export { default as HolidayInn } from "./saeco/hoteles/holiday-inn.webp";
+export { default as HolidayInnExpress } from "./saeco/hoteles/holiday-inn-express.webp";
 // ------ SAECO TECNOLOGIA IMAGES -------
 export { default as Servitec } from "./saeco/tecnologia/serviteclogo.webp";
 export { default as StoreServitec } from "./saeco/tecnologia/storeservitec.webp";
 export { default as FacturaServitec } from "./saeco/tecnologia/facilfactura.webp";
 export { default as PublicidadServitec } from "./saeco/tecnologia/logo-servitec.webp";
 export { default as Samsung } from "./saeco/tecnologia/samsunglogo.webp";
+export { default as Lg } from "./saeco/tecnologia/lg.webp";
 // ------ SAECO CONVENIOS INTERNACIONALES IMAGES -------
 export { default as ArgentinaBandera } from "./saeco/international/argentinabandera.webp";
 export { default as BrasilBandera } from "./saeco/international/brasilbandera.webp";

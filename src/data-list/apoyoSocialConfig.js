@@ -1,5 +1,6 @@
 import {
   ArgentinaBandera,
+  Azaleia,
   BancoComercio,
   BancoContinental,
   BancoGng,
@@ -30,13 +31,18 @@ import {
   ConvenioSalud8,
   ConvenioSalud9,
   CoreaBandera,
+  CruzDelSur,
+  Decameron,
   EcuadorBandera,
   EspanaBandera,
   FacturaServitec,
+  FinancieraAutoplan,
   FinancieraEfectiva,
   FinancieraLarehabilitadora,
   FranciaBandera,
-  Hotel3,
+  HolidayInn,
+  HolidayInnExpress,
+  HotelCarrera,
   ImgBthHotelRebelTacna,
   ImgCentroOpticoJesusEirl,
   ImgChifaRestauranteWongsen,
@@ -58,9 +64,13 @@ import {
   ImgSaintRose,
   ImgUap,
   ImgUpt,
+  Lg,
   MexicoBandera,
   MisaPadre,
+  Movilbus,
+  MultiserviciosTuringCusco,
   NoImagen,
+  Oltursa,
   PublicidadServitec,
   SaecoBautismo,
   SaecoImgAbout,
@@ -71,6 +81,7 @@ import {
   SeguroVehicularPositiva,
   Servitec,
   SmartFit,
+  StarPeru,
   StoreServitec,
   TiendaFootloose,
   TiendaLazzos,
@@ -78,9 +89,6 @@ import {
   TitleAyudaEconomica,
   TitleConvenios,
   TitleReli,
-  Transporte1,
-  Transporte2,
-  Transporte3,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -177,37 +185,153 @@ export const apoyoSocialConfig = {
       cards: [
         {
           image: BancoComercio,
-          link: "https://www.bancomercio.com",
-          title: "Banco Comercio",
-          description: "TEA hasta 16% por convenio",
+          title: "Banco de Comercio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 16%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.bancom.pe/personas",
+                },
+              ],
+            },
+          ],
         },
         {
           image: BancoGng,
-          link: "https://www.bancognb.com.pe",
           title: "Banco Gnb",
-          description: "TEA hasta 16% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 16%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.bancognb.com.pe/",
+                },
+              ],
+            },
+          ],
         },
         {
           image: BancoPichincha,
           title: "Banco Pichincha",
-          description: "TEA hasta 14% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 14%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.pichincha.pe/",
+                },
+              ],
+            },
+          ],
         },
         {
           image: BancoContinental,
           title: "Banco Continental",
-          description: "TEA hasta 15.5% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 15.5%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.pichincha.pe/",
+                },
+              ],
+            },
+          ],
         },
         {
           image: BancoInterbank,
-          link: "https://interbank.pe",
           title: "Banco Interbank",
-          description: "TEA hasta 19.5% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 19.5%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://interbank.pe/",
+                },
+              ],
+            },
+          ],
         },
         {
           image: BancoScotiabank,
-          link: "https://www.scotiabank.com.pe",
           title: "Banco Scotiabank",
-          description: "TEA hasta 16% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 16%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.scotiabank.com.pe/",
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -216,31 +340,33 @@ export const apoyoSocialConfig = {
       cards: [
         {
           image: ConvenioSalud1,
-          title: "Apelac",
+          title: "Apeplac",
           descriptionLarge: [
             {
-              title: "BENEFICIARIOS:",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge e hijos).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-              ],
-            },
-            {
-              title: "BENEFICIOS: ",
+              title: "BENEFICIOS:",
               descriptions: [
                 "Servicios psicopedagógicos, especializados en problemas de lenguaje, aprendizaje y conducta, a través de tarifas especiales, mediante porcentaje de descuento, según grado de el BENEFICIARIO, así como costos diferenciados en las sedes de APEPLAC. SURCO y RÌMAC",
                 "Direcciones y citas telefónicas",
                 `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:990436788" target="_blank" >990436788</a>.`,
                 'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:990436788" target="_blank" >990436788</a>. ',
               ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)",
+              ],
               detalles: [
                 {
                   icon: faLink,
                   detalle:
                     "https://drive.google.com/file/d/1jlom4Wo99Bl46huoZT9x3KAmS6PVlkXh/view?usp=sharing",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://apeplac.com/",
                 },
               ],
             },
@@ -491,37 +617,34 @@ export const apoyoSocialConfig = {
           title: "Unilabs",
           descriptionLarge: [
             {
-              title: "BENEFICIARIOS: ",
+              title: "BENEFICIOS :",
               descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge e hijos).",
-                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
+                "HASTA 40% DE DESCUENTO EN: ANÁLISIS CLÍNICOS",
+                "TARIFA HOSPITALARIA EN:",
+                "Ø ANALISIS ESPECIALES",
+                "Ø TOMAGRAFIA",
+                "Ø RESONANCIA",
+                "Ø ANATOMIA PATOLOGICA",
+                "Ø CITOLOGIA, MARCADORES",
+                "Ø BIOLOGÌA MOLECULAR, CITOMETRÌA, GENÈTICA",
               ],
             },
             {
-              title: "BENEFICIOS :",
+              title: "ALCANCE:",
               descriptions: [
-                "a) Acceso al 40% de descuento sobre la tarifa regular, de los exámenes de laboratorio de rutina.",
-                "b) Acceso a la tarifa hospitalaria en el Centro CIMEDIC en las pruebas de diagnóstico por imágenes (tomografía, resonancia magnética).",
-                "c) Acceso al 10% de descuento sobre la tarifa base, de los denominados exámenes de Anatomía Patológica (citología y quirúrgicos, inmunohistoquímica – marcadores inmunohistoquímicos, biología molecular, citometría de flujo, genética) y pruebas especiales.",
-                "d) Realización de citas mediante:",
-                "• Forma PRESENCIAL",
-                "• Vía CALL CENTER, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las ordenes médicas emitidas por el HMC o centros de salud privados.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://unilabs.pe",
-                },
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)",
               ],
               detalles: [
                 {
                   icon: faLink,
                   detalle:
                     "https://drive.google.com/file/d/12e784IZpTKyEcfdtT2HWarKWk2e6ib7P/view?usp=drive_link",
+                },
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://unilabs.pe",
                 },
               ],
             },
@@ -828,6 +951,30 @@ export const apoyoSocialConfig = {
           ],
         },
         {
+          image: Azaleia,
+          title: "Azaleia",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS :",
+              descriptions: [
+                "Otorgará un descuento del 20% del costo total en las marcas azaleia, olympikus y dijean, al personal militar y civil en actividad, retiro y/o cesante (debiendo presentar su carnet de identidad cip o cif) en cualquiera de sus tiendas por departamentos y a nivel nacional. (compra de manera presencial) concederá a los beneficiarios, el descuento de tres (03) productos máximo por mes en las marcas azaleia, olympikus y dijean. brindará el 20 % de descuento a través de su tienda online de azaleia perú, (https://www.azaleia.pe/ https://www.olympikus.pe/tiendas), momento de la compra se enviará un código de seguridad (ejercito20) que deberá ser respaldado por el usuario (titular) a través de su correo institucional en caso del personal en actividad. el descuento aplica al valor del precio real.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a su familiar directo (esposa).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.azaleia.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
           image: TiendaLazzos,
           title: "Lazzos",
           descriptionLarge: [
@@ -932,15 +1079,79 @@ export const apoyoSocialConfig = {
       cards: [
         {
           image: FinancieraEfectiva,
-          link: "https://www.efectiva.com.pe",
           title: "Financiera Efectiva",
-          description: "TEA hasta 19% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 19%",
+                "MODALIDAD: Prestamo por consumo bajo la modalidad de descuento por planilla.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro y personalcivil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.efectiva.com.pe/",
+                },
+              ],
+            },
+          ],
         },
         {
           image: FinancieraLarehabilitadora,
-          link: "https://larehabilitadora.com",
           title: "Financiera La Rehabilitadora",
-          description: "TEA hasta 18.5% por convenio",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 18.5%",
+                "MODALIDAD: Prestamo por consumo bajo la modalidad de descuento por planilla, previa afiliación.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro y personalcivil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://larehabilitadora.com",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: FinancieraAutoplan,
+          title: "Auto Plan",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "Ofrece a través de un modelo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a elección del beneficiario, siendo válido para lima y provincias.",
+                "Otorga un beneficio corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por única vez) sobre el valor del certificado.",
+                "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado plan 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una tasa del gasto administrativo del 28%.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personalcivil en actividad o cesante asícomo a sus familiares directos.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.autoplan.pe/",
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -1043,24 +1254,20 @@ export const apoyoSocialConfig = {
       title: "Convenios con Empresas de Transporte :",
       cards: [
         {
-          image: Transporte1,
+          image: Movilbus,
           title: "Movilbus",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, Padres).",
-                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-                "d) Deberá de presentar copia de CIP al momento de la compra.",
-                "BENEFICIO",
-                "a) No aplica para compras por página web, call center",
-                "b) Acceso los 365 días del año, de forma PRESENCIAL",
-                "c) Acceso al 20% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros (económico, premier, presidencial, ejecutivo, vip), hacia cualquiera de los destinos.",
-                "e) Acceso al 15% de descuento en servicio de transporte de correspondencia, paqueteria, encomiendas, carga ligera o mediana.",
-                "f) Costos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de MOVILBUS.",
+                "20% de descuento en todos los servicios: económico, premier, presidencial, ejecutivo y vip en todos los destinos ofrecidos.",
+                "15% de descuento en servicio de transporte de correspondencia, paquetería, encomiendas, carga ligera o mediana.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, padres y hermanos).",
               ],
               links: [
                 {
@@ -1072,24 +1279,20 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: Transporte2,
+          image: Oltursa,
           title: "Oltursa",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS: ",
               descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
-                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-                "d) Deberá de presentar copia de CIP al momento de la compra.",
-                "BENEFICIO",
-                "a) No aplica para compras por página web, call center",
-                "b) Acceso los 364 días del año, de forma PRESENCIAL",
-                "c) Acceso al 15% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros (bus cama 140,160,180), hacia cualquiera de los destinos.",
-                "d) Acceso al 10% de descuento sobre la tarifa regular, en el servicio de envió a través de Servicio expreso y Servicio consolidado, en todos sus destinos.",
-                "e) Costos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de OLTURSA.",
+                "15% de descuento en todos sus serivicios.",
+                "10% de descuento transporte de correspondencia, paquetería, encomiendas, carga ligera o mediana.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, padres y hermanos).",
               ],
               detalles: [
                 {
@@ -1108,29 +1311,84 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: Transporte3,
+          image: CruzDelSur,
           title: "Cruz del Sur",
           descriptionLarge: [
             {
-              title: "BENEFICIOS :",
+              title: "BENEFICIOS:",
               descriptions: [
-                "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres), debidamente acreditados, los 365 días del año.",
-                "Válido solo para compras mediante página web <a href='https://www.cruzdelsur.com.pe/'>https://www.cruzdelsur.com.pe/</a>, mediante la asignación de un código de descuento al titular, el cual debe de ser usado por los BENEFICIARIOS acreditados, al momento de la compra virtual de los boletos.",
-                "FORMA DE ACREDITACIÓN:",
-                "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el DNI.",
-                "BENEFICIO:",
-                "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution,  cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
-                "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus hacia cualquiera de los destinos ofrecidos.",
-                "-\t15% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada baja, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, hacia cualquiera de los destinos ofrecidos.",
-                "-\t10% de descuento sobre la tarifa regular, en los servicios de correspondencia, encomiendas, paquetería y carga ligera o mediana.\n",
+                "10% de descuento, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
+                "10% de descuento en temporada alta, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus.",
+                "15% de descuento en temporada baja, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus.",
+                "10% de descuento en los servicios de correspondencia, encomiendas, paquetería y carga ligera o mediana.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, padres y hermanos).",
               ],
               links: [
                 {
                   icon: faGlobe,
                   link: "https://www.cruzdelsur.com.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: StarPeru,
+          title: "Star Perú",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "20% descuento en los viajes sobre el valor neto de las siguientes clases según ruta.",
+                "De Lima / hacia Lima",
+                "- Pucallpa, Tarapoto, Cajamarca, Chiclayo",
+                "- Iquitos",
+                "No aplica rutas intermedias. Ejem. (Tarapoto – Chiclayo o Cajamarca – Iquitos).",
+                "Equipajes de bodega no mayor a 23k.",
+                "Menores de edad 50% dcto.",
+                "Equipaje de mano no debe exceder a 8k.",
+                "Se accederá la compra a través de las oficinas de lima 997522792, tarapoto 993558645, pucallpa 961841201, iquitos 984765939 y huánuco 936338145 en los horarios de lun - vie 0900 a 1300 y 1400 a 1800, sab 0900 a 1300.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a susfamiliares directos (cónyuge, hijos). Identificándose con CIP o CIF Y DNI",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.starperu.com/es",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: MultiserviciosTuringCusco,
+          title: "Multiservicios Turing Cusco",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "30% de descuento del costo total de cualquier vehículo de cuatro ruedas a más a pasar revisión técnica en cualquiera de sus locales de “multiservicios turing cusco e.i.r.l.” ubicados a nivel nacional.",
+                "10% de descuento del costo total para vehículo menor (moto lineal, moto taxi), a pasar revisión técnica en cualquiera de sus locales ubicados a nivel nacional.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.facebook.com/profile.php?id=61558472939083&sk=reels_tab",
                 },
               ],
             },
@@ -1142,31 +1400,126 @@ export const apoyoSocialConfig = {
       title: "Convenios con Hoteles :",
       cards: [
         {
-          image: Hotel3,
+          image: HotelCarrera,
           title: "Hotel Carrera",
           descriptionLarge: [
             {
-              title: "BENEFICIARIOS:",
+              title: "BENEFICIOS:",
               descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-                "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
-                "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
+                "35% de descuento sobre la tarifa final en los diferentes tipos de alojamiento (habitación simple, doble, matrimonial). estos incluyen impuesto, servicios, internet wifi y desayuno.",
+                "10% de descuento en los servicios del restaurante la alameda, y bar los descalzos, en el consumo de alimentos y bebidas sobre el costo total al momento del pago. no válido para servicio a la habitación.",
               ],
             },
             {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.hotelcarrera.com.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: Decameron,
+          title: "Decameron - El Pueblo",
+          descriptionLarge: [
+            {
               title: "BENEFICIOS:",
               descriptions: [
-                "-\t35% de descuento sobre el valor total en los diferentes tipos de alojamiento (habitación simple, doble, matrimonial) incluye impuesto, servicios, internet wifi y desayuno. \n",
-                "-\tOtorgará el 10% de descuento en los servicios de restaurantes LA ALAMEDA, en el consumo de alimentos y bebidas, no válido para servicio a la habitación.\n",
-                "-\tOtorgará 10% de descuento en los servicios de bar LOS DESCALZOS, no válido para servicio a la habitación.\n",
-                "-\tConsideraciones especiales para niños alojados en el hotel:\n",
-                "  Niños de 0 a 05 años incluye el servicio de desayuno.\n",
-                "  Niños de 06 a 11 años se cobrara el costo por desayuno según tarifa asignada.\n",
-                "  Niños a partir de los 12 años se considera como adultos con cargo adicional, incluyendo el desayuno.\n",
-                "-\tLas reservas deberán ser realizadas a través de central de reservas <a href='tel:016195200' target='_blank'>016195200</a> whatsapp <a href='https://wa.me/989468821' target='_blank'>989468821</a> y mediante correo electrónico <a href='mailto:reservasonline@hotelcarrera.com.pe' target='_blank'>reservasonline@hotelcarrera.com.pe</a>",
+                "Blue marlin beach club s.a.” en adelante será “hoteles decameron el pueblo” concederá a los beneficiarios el acceso a los servicios hoteleros ofrecidos, a través de un 25% de descuento en tarifas expresadas, en temporada baja (excepto las fechas festivas u otras que se indiquen). que va del 13 ago al 29 set y del 15 oct al 28 dic.",
+                "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número (01) 6342424 y a través del whatsapp al 989211707 indicando el código promocional PER-H194PB.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.decameron.com/es/pe-destinos/peru/santa-clara/decameron-el-pueblo",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: Decameron,
+          title: "Decameron - Punta Sal",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "Blue marlin beach club s.a.” en adelante será “hoteles decameron el pueblo” concederá a los beneficiarios el acceso a los servicios hoteleros ofrecidos, a través de un 25% de descuento en tarifas expresadas, en temporada baja (excepto las fechas festivas u otras que se indiquen). que va del 13 ago al 29 set y del 15 oct al 28 dic.",
+                "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número (01) 6342424 y a través del whatsapp al 989211707 indicando el código promocional PER-H194PB.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.decameron.com/es/pe-destinos/peru/punta-sal/royal-decameron-punta-sal",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: HolidayInn,
+          title: "Holiday Inn",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "Concederá a los BENEFICIARIOS, el acceso a los servicios hoteleros ofrecidos, a través de descuentos sobre las tarifas regulares, excepto las fechas festivas u otras que se indiquen",
+                "Brindará a los BENEFICIARIOS, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.ihg.com/holidayinn/hotels/es/es/lima/limmi/hoteldetail",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: HolidayInnExpress,
+          title: "Holiday Inn Express",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "Concederá a los BENEFICIARIOS, el acceso a los servicios hoteleros ofrecidos, a través de descuentos sobre las tarifas regulares, excepto las fechas festivas u otras que se indiquen",
+                "Brindará a los BENEFICIARIOS, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.ihg.com/holidayinnexpress/hotels/es/es/lima/limsi/hoteldetail",
+                },
               ],
             },
           ],
@@ -1226,6 +1579,31 @@ export const apoyoSocialConfig = {
                   "“SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
                   "siendo válido para Lima y provincias.",
                 "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
+              ],
+            },
+          ],
+        },
+        {
+          image: Lg,
+          title: "LG Electronics Perú S.A.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS:",
+              descriptions: [
+                "brindará acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual lg vip, e-commerce, propia de la marca, siendo válido para lima y provincias.",
+                "Brindará acceso a la tienda virtual de “lg” a través de su página principal https: www.lg.com/pe, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón ejército vip.",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.lg.com/pe/",
+                },
               ],
             },
           ],
