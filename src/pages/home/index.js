@@ -35,13 +35,13 @@ export const Home = () => {
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionBancos = templateConfig.main.sectionBancos || false;
   const sectionSalud = templateConfig.main.sectionSalud || false;
-  const sectionAsesoriaLegal =
-    templateConfig.main.sectionAsesoriaLegal || false;
   const sectionDiversos = templateConfig.main.sectionDiversos || false;
   const sectionFinancieras = templateConfig.main.sectionFinancieras || false;
+  const sectionLegalAdvice = templateConfig.main.sectionLegalAdvice || false;
   const sectionSeguros = templateConfig.main.sectionSeguros || false;
   const sectionTransporte = templateConfig.main.sectionTransporte || false;
   const sectionHoteles = templateConfig.main.sectionHoteles || false;
+  const sectionEvents = templateConfig.main.sectionEvents || false;
   const sectionTecnologia = templateConfig.main.sectionTecnologia || false;
   const sectionProvincial = templateConfig.main.sectionProvincial || false;
   const sectionProvincial2 = templateConfig.main.sectionProvincial2 || false;
@@ -132,10 +132,10 @@ export const Home = () => {
             type="secondary"
           />
         )}
-        {(sectionAsesoriaLegal || sectionAsesoriaLegal.cards) && (
+        {(sectionLegalAdvice || sectionLegalAdvice.cards) && (
           <ListCards
-            title={sectionAsesoriaLegal.title}
-            items={sectionAsesoriaLegal.cards}
+            title={sectionLegalAdvice.title}
+            items={sectionLegalAdvice.cards}
             type="secondary"
           />
         )}
@@ -171,6 +171,13 @@ export const Home = () => {
           <ListCards
             title={sectionHoteles.title}
             items={sectionHoteles.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionEvents || sectionEvents.cards) && (
+          <ListCards
+            title={sectionEvents.title}
+            items={sectionEvents.cards}
             type="secondary"
           />
         )}

@@ -373,6 +373,12 @@ export { default as BannerSalud } from "./saeco/ultimaaopoyosalud.webp";
 export { default as BannerEconomico } from "./saeco/ultimasaecoapoyo.webp";
 export { default as GrupServices } from "./saeco/grup3services.webp";
 
+// ------ SAECO EVENTOS IMAGES -------
+export { default as DpromartPeru } from "./saeco/events/dpromartperu.webp";
+
+// ------ SAECO ASESORÍA LEGAL IMAGES -------
+export { default as ElCentro } from "./saeco/legal-advice/el-centro.webp";
+
 // ------ SAECO CONVENIOS SALUD IMAGES -------
 export { default as ConvenioSalud1 } from "./saeco/conveniosSalud/apelac.webp";
 export { default as ConvenioSalud2 } from "./saeco/conveniosSalud/biolinks.webp";
@@ -389,6 +395,8 @@ export { default as ConvenioSalud12 } from "./saeco/conveniosSalud/suizalab.webp
 export { default as ConvenioSalud13 } from "./saeco/conveniosSalud/fesalud.webp";
 export { default as ConvenioSalud14 } from "./saeco/conveniosSalud/resocentro.webp";
 export { default as ConvenioSalud15 } from "./saeco/conveniosSalud/auna.webp";
+export { default as ClinicaDelInca } from "./saeco/conveniosSalud/clinica-del-inca.webp";
+export { default as Niuovida } from "./saeco/conveniosSalud/niuvida.webp";
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
@@ -421,6 +429,7 @@ export { default as HotelCarrera } from "./saeco/hoteles/hotelcarrera.webp";
 export { default as Decameron } from "./saeco/hoteles/decameron.webp";
 export { default as HolidayInn } from "./saeco/hoteles/holiday-inn.webp";
 export { default as HolidayInnExpress } from "./saeco/hoteles/holiday-inn-express.webp";
+export { default as Domireps } from "./saeco/hoteles/domireps.webp";
 // ------ SAECO TECNOLOGIA IMAGES -------
 export { default as Servitec } from "./saeco/tecnologia/serviteclogo.webp";
 export { default as StoreServitec } from "./saeco/tecnologia/storeservitec.webp";
