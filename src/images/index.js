@@ -14,6 +14,7 @@ export { default as CobieneLogoLarge } from "./common/cobiene-logo-large.webp";
 export { default as SaedSlider1 } from "./saed/saedslyder1.webp";
 export { default as SaedAboutUs } from "./saed/aboutUs.png";
 export { default as SaedBannePublic } from "./saed/banner1.webp";
+export { default as SaedBannerMiCarrera } from "./saed/banner-mi-carrera.webp";
 
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";

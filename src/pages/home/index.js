@@ -17,6 +17,7 @@ export const Home = () => {
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
+  const sectionBanner = templateConfig.main.sectionBanner || false;
   const sectionSetPro = templateConfig.main.sectionSetPro || false;
   const sectionOther = templateConfig.main.sectionOther || false;
   const sectionContentImages = templateConfig.main.contentImages || false;
@@ -74,6 +75,11 @@ export const Home = () => {
             buttons={sectionAboutUs.buttons}
             images={sectionAboutUs.images}
           />
+        )}
+        {sectionBanner && (
+          <a href="https://micarrera.trabajo.gob.pe/" target="_blank">
+            <img src={sectionBanner.image} alt="" />
+          </a>
         )}
         {sectionSuggestionsComplaints && (
           <SuggestionsComplaints title={sectionSuggestionsComplaints.title} />
@@ -346,4 +352,8 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   background: #fff;
+
+  img {
+    width: 100%;
+  }
 `;

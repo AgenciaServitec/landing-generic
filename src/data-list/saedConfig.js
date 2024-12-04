@@ -36,6 +36,7 @@ import {
   IntituteColumbia,
   SaedAboutUs,
   SaedBannePublic,
+  SaedBannerMiCarrera,
   SaedSlider1,
   UniversidadAutonoma,
   UniversidadCertus,
@@ -111,6 +112,9 @@ export const saedConfig = {
       ],
       buttons: [{ type: "secondary", id: "contact", title: "CONTÁCTANOS" }],
       images: [SaedAboutUs],
+    },
+    sectionBanner: {
+      image: SaedBannerMiCarrera,
     },
     sectionConvenios: {
       id: "convenios",
