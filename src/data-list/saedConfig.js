@@ -787,6 +787,10 @@ export const saedConfig = {
               ],
             },
             {
+              title: "BACHILLERATO: ",
+              descriptions: ["33% descuento por convenio"],
+            },
+            {
               title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
