@@ -423,6 +423,7 @@ export { default as CruzDelSur } from "./saeco/transporte/cruzdelsur.webp";
 export { default as StarPeru } from "./saeco/transporte/starperu.webp";
 export { default as MultiserviciosTuringCusco } from "./saeco/transporte/multiservicios-turing-cusco.webp";
 export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
+export {default as SkyAirline} from "./saeco/transporte/sky-airline.webp";
 // ------ SAECO HOTELES IMAGES -------
 export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";
 export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";

@@ -5,7 +5,6 @@ import {
   BancoContinental,
   BancoGng,
   BancoInterbank,
-  BancoPichincha,
   BancoScotiabank,
   BannerEconomico,
   BannerSalud,
@@ -85,6 +84,7 @@ import {
   SeguroSaludPositiva,
   SeguroVehicularPositiva,
   Servitec,
+  SkyAirline,
   SmartFit,
   StarPeru,
   StoreServitec,
@@ -95,15 +95,8 @@ import {
   TitleConvenios,
   TitleReli,
 } from "../images";
-import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import {
-  faBuilding,
-  faEnvelope,
-  faGlobe,
-  faLink,
-  faMobile,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import {faFacebook, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import {faBuilding, faEnvelope, faGlobe, faLink, faMobile, faPhone,} from "@fortawesome/free-solid-svg-icons";
 
 export const apoyoSocialConfig = {
   helmet: {
@@ -233,31 +226,6 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://www.bancognb.com.pe/",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: BancoPichincha,
-          title: "Banco Pichincha",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "TASA EFECTIVA ANUAL (TEA): 14%",
-                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y personal civil en actividad.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.pichincha.pe/",
                 },
               ],
             },
@@ -1605,6 +1573,33 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://www.facebook.com/profile.php?id=61558472939083&sk=reels_tab",
+                },
+              ],
+            },
+          ],
+        },{
+          image: SkyAirline,
+          title: "Sky airline",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
+                "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
+                "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode enero 2025 : skyejercito5 valido del 01/012025 hasta el 31/01/2025",
+                "b).  Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CIF y DNI",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.skyairline.com/es/peru",
                 },
               ],
             },
