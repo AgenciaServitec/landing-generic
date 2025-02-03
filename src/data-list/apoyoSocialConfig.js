@@ -90,7 +90,6 @@ import {
   StoreServitec,
   TiendaFootloose,
   TiendaLazzos,
-  TiendaVizzano,
   TitleAyudaEconomica,
   TitleConvenios,
   TitleReli,
