@@ -1124,39 +1124,6 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: TiendaVizzano,
-          title: "Calzado Vizzano",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS : ",
-              descriptions: [
-                "Dirigido al personal militar y civil en actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
-              ],
-            },
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "a) Compras presenciales, solo en tiendas propias.",
-                "b) Aplica para compras en tienda virtual, mediante el uso del cupón al momento de hacer el pago",
-                `<a href="https://www.mossashoes.com/">https://www.mossashoes.com/<a/>`,
-                "Cupón MOSSAEJE20",
-                "c) Descuento del 20% en marcas propias",
-                "d) Descuento del 20% en todas marcas diferentes.",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
-                },
-              ],
-            },
-          ],
-        },
-        {
           image: SmartFit,
           title: "SmartFit",
           descriptionLarge: [
