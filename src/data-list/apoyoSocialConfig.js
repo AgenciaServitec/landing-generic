@@ -373,8 +373,7 @@ export const apoyoSocialConfig = {
               descriptions: [
                 " a) Acceso a costo diferenciado de porcentaje de descuento sobre la tarifa regular, en todas sus sedes propias y sedes con colaboradores con alianzas estratégicas, de los exámenes de laboratorios que se indican:",
                 "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
-                "• Oncológicos aérea diagnostico",
-                "• Áreas infecciosas",
+                "• Brinda costo diferenciado en examenes de laboratorio clinico (Oncológicos Área diagnostico y Áreas infecciosas)",
                 "b) Realización de citas mediante:",
                 "• Forma PRESENCIAL, en las sedes siguientes:",
                 "- Sede Lima Av. Javier Prado Oeste 844 Magdalena y Av. Carlos Izaguirre 736, Los Olivos.",
@@ -414,7 +413,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
+                "ALCANCE DEL CONVENIO:",
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
@@ -746,8 +745,8 @@ export const apoyoSocialConfig = {
               phones: [
                 {
                   icon: faPhone,
-                  url: "tel:968624571",
-                  text: "968624571",
+                  url: "tel:968915660",
+                  text: "968915660",
                 },
               ],
             },
@@ -760,14 +759,12 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "Servicios especializados en  oftamalogica mediante\n" +
-                  "\n" +
-                  "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+                "Servicios especializados en  oftamalogica mediante un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
               ],
             },
             {
@@ -803,14 +800,13 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "servicios especializados en  oftamalogica mediante\n" +
-                  "\n" +
-                  "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
-                "ALCANCE DEL CONVENIO:\n",
+                "Servicios especializados en  oftamalogica mediante",
+                "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
+                "ALCANCE DEL CONVENIO:",
                 "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
               ],
             },
             {
@@ -820,8 +816,9 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "a) Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
-                "b) Brinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
+                "a) Brinda hasta el 40% de descuento en servicio de laboratorio cllinico y biologia molecular",
+                "b) Brinda hasta el 20% de descuento en consultas por especialidad",
+                "c) Brinda hasta el 20% de descuento en diagnostico porimagenes (radiografías, ecografía, ecodopler, mamografía 2D y 3D, densitometría, etc)",
               ],
               detalles: [
                 {
@@ -846,11 +843,11 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
               ],
             },
             {
@@ -890,11 +887,11 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos,  padres y nietos); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos,  padres y nietos).\n",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos,  padres y nietos); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos,  padres y nietos).",
               ],
             },
             {
@@ -932,11 +929,11 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).\n",
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.",
+                "FORMA DE ACREDITACIÓN:",
+                "Presentación del carnet de identificación personal militar o civil CIP",
+                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
               ],
             },
             {
@@ -1499,6 +1496,7 @@ export const apoyoSocialConfig = {
                 "Menores de edad 50% dcto.",
                 "Equipaje de mano no debe exceder a 8k.",
                 "Se accederá la compra a través de las oficinas de lima <a href='tel:997522792'>997522792</a>, tarapoto <a href='tel:993558645'>993558645</a>, pucallpa <a href='tel:961841201'>961841201</a>, iquitos <a href='tel:984765939'>984765939</a> y huánuco <a href='tel:'>936338145</a> en los horarios de lun - vie 0900 a 1300 y 1400 a 1800, sab 0900 a 1300.",
+                "Seleccionar la ruta y fechas de vuelo y al costado donde indica codigo promocional, ingresar el código promocional: EJERCITO20",
               ],
             },
             {
@@ -1553,8 +1551,8 @@ export const apoyoSocialConfig = {
                 "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
-                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Febrero 2025 : SKYEJERCITO7 valido del 01/03/2025 hasta el 31/03/2025",
-                "b).  Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Mayo 2025 : SKYEJERCITO10 valido del 01/06/2025 hasta el 31/06/2025",
+                "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
               ],
             },
             {
@@ -1707,7 +1705,7 @@ export const apoyoSocialConfig = {
               title: "BENEFICIOS:",
               descriptions: [
                 "Concederá a los BENEFICIARIOS, el acceso a los servicios hoteleros ofrecidos, a través de descuentos sobre las tarifas regulares, excepto las fechas festivas u otras que se indiquen",
-                "Brindará a los BENEFICIARIOS, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet; acceso a las compras virtuales mediante la \treserva al correo electrónico <a href='mailto:sandra.pineda@agrisal.com'>sandra.pineda@agrisal.com</a>; reservas en caso sea de noche o días festivos para Piura <a href='mailto:reservas.limsi@agrisal.com'>reservas.limsi@agrisal.com</a>.",
+                "Brindará a los BENEFICIARIOS, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet; acceso a las compras virtuales mediante la \treserva al correo electrónico <a href='mailto:sandra.pineda@agrisal.com'>sandra.pineda@agrisal.com</a>; reservas en caso sea de noche y para Lima <a href='mailto:reservas.limsi@agrisal.com'>reservas.limsi@agrisal.com</a>.",
               ],
             },
             {
@@ -1767,7 +1765,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS:",
               descriptions: [
-                "Brinda tarifa preferenciales en (eventos circense, teatro infantil y adulto (no valido en 28 julio al 20 agosto",
+                "Brinda tarifa preferenciales en (eventos circense, teatro infantil y adulto (no valido en 28 julio al 20 agosto)",
               ],
             },
             {
