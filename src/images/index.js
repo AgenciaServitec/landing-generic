@@ -373,6 +373,8 @@ export { default as BannerServices } from "./saeco/ultimasaecoalimento.webp";
 export { default as BannerSalud } from "./saeco/ultimaaopoyosalud.webp";
 export { default as BannerEconomico } from "./saeco/ultimasaecoapoyo.webp";
 export { default as GrupServices } from "./saeco/grup3services.webp";
+export { default as BancoBCP } from "./saeco/bancos-img/bcp.webp";
+export { default as Enazul} from "./saeco/bancos-img/enazul.webp"
 
 // ------ SAECO EVENTOS IMAGES -------
 export { default as DpromartPeru } from "./saeco/events/dpromartperu.webp";
@@ -398,6 +400,7 @@ export { default as ConvenioSalud14 } from "./saeco/conveniosSalud/resocentro.we
 export { default as ConvenioSalud15 } from "./saeco/conveniosSalud/auna.webp";
 export { default as ClinicaDelInca } from "./saeco/conveniosSalud/clinica-del-inca.webp";
 export { default as Niuovida } from "./saeco/conveniosSalud/niuvida.webp";
+export { default as SMC} from "./saeco/conveniosSalud/smc.webp"
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";

@@ -4,6 +4,7 @@ import {
   BancoComercio,
   BancoContinental,
   BancoGng,
+  BancoBCP,
   BancoInterbank,
   BancoScotiabank,
   BannerEconomico,
@@ -37,6 +38,7 @@ import {
   DpromartPeru,
   EcuadorBandera,
   ElCentro,
+  Enazul,
   EspanaBandera,
   FacturaServitec,
   FinancieraAutoplan,
@@ -92,7 +94,7 @@ import {
   TiendaLazzos,
   TitleAyudaEconomica,
   TitleConvenios,
-  TitleReli,
+  TitleReli, SMC,
 } from "../images";
 import {faFacebook, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import {faBuilding, faEnvelope, faGlobe, faLink, faMobile, faPhone,} from "@fortawesome/free-solid-svg-icons";
@@ -206,6 +208,32 @@ export const apoyoSocialConfig = {
           ],
         },
         {
+          image: BancoBCP,
+          title: "Banco BCP",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 15%",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+                "EDAD: Hasta 60 años al finalizar el credito"
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.viabcp.com/",
+                },
+              ],
+            },
+          ],
+        },
+        {
           image: BancoGng,
           title: "Banco Gnb",
           descriptionLarge: [
@@ -300,6 +328,32 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://www.scotiabank.com.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: Enazul,
+          title: "Enazul",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 13.99% hasta el 43.50% ",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+                "EDAD: MÁXIMO HASTA LOS 70 AÑOS  ",
+              ],
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad  y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://enazulfintech.com/",
                 },
               ],
             },
@@ -414,7 +468,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIARIOS: ",
               descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
+                "ALCANCE DEL CONVENIO:",
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
                 "FORMA DE ACREDITACIÓN:",
                 "Presentación del carnet de identificación personal militar o civil CIP",
@@ -431,6 +485,37 @@ export const apoyoSocialConfig = {
               descriptions: [
                 "Acceso al 20% de descuento en los servicios ofrecidos al personal afiliado y no afiliado.",
                 "CONSULTA ODONTOLÓGICA, LIMPIEZA COMPLETA CON ULTRASONIDO, FLUORIZACIÓN, SELLANTE DE FOSAS Y FISURAS, CURACIONES SIMPLES CON RESINA Y LUZ HALÓGENA, CURACIONES COMPUESTAS CON RESINA Y LUZ HALÓGENA, EXTRACCIONES SIMPLES, ENDODONCIA EN PIEZAS ANTERIORES, 02 RX PERIAPICALES.",
+              ],
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1zIzNtkIsPTxFUqSOLJ_nD5zMVxMuxRya/view?usp=sharing",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: SMC,
+          title: "Salud Medic CArrión",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "ALCANCE DEL CONVENIO:",
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
+              ],
+            },
+            {
+              title: "CONTACTOS:",
+              descriptions: ["<a href='https://api.whatsapp.com/send/?phone=51942868076'>942868076</a>"],
+            },
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                " BRINDA UN DESCUENTO DEL 30% EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
+                " BRINDA UN DESCUENTO DEL 20%  A LOS PADRES DEL PERSONAL TITULAR EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
               ],
               detalles: [
                 {
@@ -1498,7 +1583,9 @@ export const apoyoSocialConfig = {
                 "Equipajes de bodega no mayor a 23k.",
                 "Menores de edad 50% dcto.",
                 "Equipaje de mano no debe exceder a 8k.",
-                "Se accederá la compra a través de las oficinas de lima <a href='tel:997522792'>997522792</a>, tarapoto <a href='tel:993558645'>993558645</a>, pucallpa <a href='tel:961841201'>961841201</a>, iquitos <a href='tel:984765939'>984765939</a> y huánuco <a href='tel:'>936338145</a> en los horarios de lun - vie 0900 a 1300 y 1400 a 1800, sab 0900 a 1300.",
+                "Se accederá la compra a través de la pagima web https://www.starperu.com/es  debiendo tomar encuenta las siguientes : ",
+                "Seleccionar la ruta y fechas de vuelo y al costado donde indica  codigo promocional ingresar el código promocional EJERCITO20 ",
+                "Oficinas de lima: <a href='tel:997522792'>997522792</a>, tarapoto <a href='tel:993558645'>993558645</a>, pucallpa <a href='tel:961841201'>961841201</a>, iquitos <a href='tel:984765939'>984765939</a> y huánuco <a href='tel:'>936338145</a> en los horarios de lun - vie 0900 a 1300 y 1400 a 1800, sab 0900 a 1300.",
               ],
             },
             {
@@ -1553,8 +1640,8 @@ export const apoyoSocialConfig = {
                 "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
-                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Febrero 2025 : SKYEJERCITO7 valido del 01/03/2025 hasta el 31/03/2025",
-                "b).  Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Julio 2025 : SKYEJERCITO11 valido del 07/07/2025 hasta el 31/07/2025",
+                "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
               ],
             },
             {
