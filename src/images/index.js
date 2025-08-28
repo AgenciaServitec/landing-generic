@@ -401,6 +401,7 @@ export { default as ConvenioSalud15 } from "./saeco/conveniosSalud/auna.webp";
 export { default as ClinicaDelInca } from "./saeco/conveniosSalud/clinica-del-inca.webp";
 export { default as Niuovida } from "./saeco/conveniosSalud/niuvida.webp";
 export { default as SMC} from "./saeco/conveniosSalud/smc.webp"
+export { default as cayetano} from "./saeco/conveniosSalud/cayetano.webp"
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
@@ -410,6 +411,7 @@ export { default as SmartFit } from "./saeco/diversos/smartfit.webp";
 export { default as TiendaSugo } from "./saeco/diversos/sugootros.webp";
 export { default as TiendaVizzano } from "./saeco/diversos/calzado-vizzano.webp";
 export { default as Azaleia } from "./saeco/diversos/azaleia.webp";
+export { default as Vega } from "./saeco/diversos/vega.webp";
 // ------ SAECO FINANCIERAS IMAGES -------
 export { default as FinancieraEfectiva } from "./saeco/financieras/efectiva.webp";
 export { default as FinancieraAutoplan } from "./saeco/financieras/autoplan.webp";
@@ -427,6 +429,7 @@ export { default as StarPeru } from "./saeco/transporte/starperu.webp";
 export { default as MultiserviciosTuringCusco } from "./saeco/transporte/multiservicios-turing-cusco.webp";
 export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
 export {default as SkyAirline} from "./saeco/transporte/sky-airline.webp";
+export {default as Palomino} from "./saeco/transporte/palomino.webp";
 // ------ SAECO HOTELES IMAGES -------
 export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";
 export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";
