@@ -380,7 +380,7 @@ export const apoyoSocialConfig = {
             {
               title: "CONTACTOS:",
               descriptions: [
-                  "<a href='tel:+51970302066'>970 302 066</a>", "<a href='maito:admisión04@apeplac.com '>admisión04@apeplac.com</a>",
+                  "<a href='tel:+51970302066'>970 302 066</a>", "<a href='maito:admisión04@apeplac.com'>admisión04@apeplac.com</a>",
                 "LIC. EDDY FUENTES: <a href='mailto:efuentes@apeplac.com'>efuentes@apeplac.com</a>",
               ],
             },
