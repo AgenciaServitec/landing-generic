@@ -94,7 +94,7 @@ import {
     TiendaLazzos,
     TitleAyudaEconomica,
     TitleConvenios,
-    TitleReli, SMC, Palomino, Vega, cayetano,
+    TitleReli, SMC, Palomino, Vega, cayetano, botiperu, ChichaKio,
 } from "../images";
 import {faFacebook, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import {faBuilding, faEnvelope, faGlobe, faLink, faMobile, faPhone,} from "@fortawesome/free-solid-svg-icons";
@@ -380,6 +380,7 @@ export const apoyoSocialConfig = {
             {
               title: "CONTACTOS:",
               descriptions: [
+                  "<a href='tel:+51970302066'>970 302 066</a>", "<a href='maito:admisión04@apeplac.com'>admisión04@apeplac.com</a>",
                 "LIC. EDDY FUENTES: <a href='mailto:efuentes@apeplac.com'>efuentes@apeplac.com</a>",
               ],
             },
@@ -477,7 +478,8 @@ export const apoyoSocialConfig = {
             },
             {
               title: "CONTACTOS:",
-              descriptions: ["<a href='tel:017575492'>(01) 757-5492</a>"],
+              descriptions:
+                  ["<a href='tel:017575492'>(01) 757-5492</a>"],
             },
             {
               title: "BENEFICIOS: ",
@@ -1106,7 +1108,10 @@ export const apoyoSocialConfig = {
             },
             {
               title: "CONTACTOS:",
-              descriptions: ["<a href='tel:967419645'>967419645</a>"],
+              descriptions: [
+                  "<a href='tel:978606917'>978606917</a>",
+                  "<a href='tel:967419645'>967419645</a>"
+              ],
             },
             {
               title: "BENEFICIOS :",
@@ -1155,7 +1160,31 @@ export const apoyoSocialConfig = {
 
             },
           ],
-        },
+          },
+          {
+              image: botiperu,
+          title: "Boticas Perú",
+          descriptionLarge: [
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Personal militar en actividad y retiro, personal civil en actividad o cesante.",
+                "Familiares directos (cónyuge e hijos) Identificándose con CIP o CIF YDNI.",
+              ],
+            },
+
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Brinda un descuento del 12% sobre el precio regular de los productos ofrecidos en Botica Perú.",
+                  "Este beneficio será contado con cualquier modalidad de pago.",
+                  "Solo a productos de categoría FARMA, FARMA OTC y VITAMINAS, no cubre pañales, leches, ni productos de innovación.",
+                  "Asimismo, cabe señalar que no es acumulables con otras promociones.",
+              ],
+
+            },
+          ],
+          },
       ],
     },
     sectionDiversos: {
@@ -1263,15 +1292,17 @@ export const apoyoSocialConfig = {
                 "• Entrenamiento en cualquier sede del perú y el extranjero.",
                 "• Invitación de amigos 5 veces al mes.",
                 "• Acceso a sillones de masajes.",
-                "• Acceso a sillones de masajes.",
-                "• Acceso de manera ilimitada a la plataforma Virtual SMART FIT GO.",
-                "• Es libre de tomar el servicio el mes que desee mínimo un mes.",
-                "CODIGO: CORPORATIVOEP.",
+              ],
+            }, {
+              title: "PÉRDIDA :",
+              descriptions: [
+                "Pérdida de condiciones para beneficiarios:",
+                "• si el beneficiario pierde su vínculo con la empresa y Smart Fit pierde su calidad como tal, en un futuro no accederá a los beneficios.",
               ],
             },            {
               title: "CODIGO :",
               descriptions: [
-                "CORPORATIVOEP.",
+                "“EJERCITOFIT”.",
               ],
             },
             {
@@ -1318,6 +1349,46 @@ export const apoyoSocialConfig = {
                           {
                               icon: faGlobe,
                               link: "https://www.vega.pe/",
+                          },
+                      ],
+                  },
+              ],
+          },          {
+              image: ChichaKio,
+              title: "Chicharrones KIO",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS :",
+                      descriptions: [
+                          "Otorgará un descuento del 10% desde 07:00 a.m. hasta las 12:00 p.m.",
+                          "El 20% desde las 13:00 p.m. hasta las 23:00 p.m. según su producto en los horarios de atención indicados.",
+                      ],
+                  },  {
+                      title: "Locales KIO:",
+                      descriptions: [
+                          "UNIVERSITARIA - Avenida Universitaria 871",
+                          "LA MAR - Ca. Mariscal Jose de la Mar 233",
+                          "LA MARINA - Av. la Marina 2683",
+                          "PUEBLO LIBRE - Avenida Brasil 2687",
+                          "BARRANC - av. almte. miguel Grau 312",
+                          "MIRAFLORES - Avenida josé pardo 399",
+                          "SAN JUAN DE LURIGANCHO - av. las flores 248",
+                          "LINCE - Avenida general antonio alvarez de arenales 1998",
+                          "MAGDALENA - jirón tacna 400",
+                          "SALAMANCA - garcilazo de la vega 209",
+                          "LA MOLINA - Constructores 1025",
+                      ],
+                  },
+                  {
+                      title: "BENEFICIARIOS: ",
+                      descriptions: [
+                          "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.El beneficio es de manera presencial, delivery y recojo en tienda.",
+                      ],
+
+                      links: [
+                          {
+                              icon: faGlobe,
+                              link: "https://www.chicharroneskio.com.pe/",
                           },
                       ],
                   },
@@ -2040,7 +2111,7 @@ export const apoyoSocialConfig = {
               title: "BENEFICIARIOS:",
               descriptions: [
                 "Brindará acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual lg vip, e-commerce, propia de la marca, siendo válido para lima y provincias.",
-                "Brindará acceso a la tienda virtual de “lg” a través de su página principal https: <a href='www.lg.com/pe' target='_blank'>www.lg.com/pe</a>, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón ejército vip.",
+                "Brindará acceso a la tienda virtual de “lg” a través de su página principal https: <a href='www.lg.com/pe' target='_blank'>www.lg.com/pe</a>, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón EJÉRCITOVIP.",
               ],
             },
             {

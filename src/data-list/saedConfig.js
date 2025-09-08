@@ -1,66 +1,67 @@
 import {
-  CobieneLogoLarge,
-  InstituteAllianceFrancaise,
-  InstituteAndresVesalio,
-  InstituteAvia,
-  InstituteBritanico,
-  InstituteCamaraLima,
-  InstituteCarrion,
-  InstituteCegicap,
-  InstituteCepea,
-  InstituteCepeban,
-  InstituteCeuce,
-  InstituteCibertec,
-  InstituteCivime,
-  InstituteCorazonDeJesus,
-  InstituteDesarrolloGerencial,
-  InstituteEcaprev,
-  InstituteEiger,
-  InstituteEigra,
-  InstituteEsinfron,
-  InstituteGamor,
-  InstituteIcpna,
-  InstituteIdept,
-  InstituteIfeep,
-  InstituteInidhe,
-  InstituteInteci,
-  InstituteInternationalBilingualCertification,
-  InstituteIsil,
-  InstituteIspacj,
-  InstituteLimaInstituteTechnicalStudies,
-  InstituteMilitaresDelPeru,
-  InstitutePrivateacher,
-  InstituteSanJudas,
-  InstituteSenati,
-  InstituteToulouseLautrec,
-  IntituteColumbia,
-  SaedAboutUs,
-  SaedBannePublic,
-  SaedBannerMiCarrera,
-  SaedSlider1,
-  UniversidadAutonoma,
-  UniversidadCertus,
-  UniversidadCesarVallejo,
-  UniversidadChampagnat,
-  UniversidadCientifica,
-  UniversidadESAN,
-  UniversidadFedericoVillareal,
-  UniversidadJaimeBausate,
-  UniversidadNorbert,
-  UniversidadPrivadadelNorte,
-  UniversidadRicardoPalma,
-  UniversidadSanIgnacioLoyola,
-  UniversidadSanJuanBautista,
-  UniversidadSanmartinPorres,
-  UniversidadUcal,
-  UniversidadUnifeSagradoCorazon,
-  UniversidadUpal,
-  UniversidadUpc,
-  UniversidadUtp,
-  UnviersidadAnahuac,
-  UnviersidadAutonomaDeIca,
-  UnviersidadContinental,
-  UnviersidadSanMarcosCienciasEconomicas,
+    cayetano,
+    CobieneLogoLarge, FORCE,
+    InstituteAllianceFrancaise,
+    InstituteAndresVesalio,
+    InstituteAvia,
+    InstituteBritanico,
+    InstituteCamaraLima,
+    InstituteCarrion,
+    InstituteCegicap,
+    InstituteCepea,
+    InstituteCepeban,
+    InstituteCeuce,
+    InstituteCibertec,
+    InstituteCivime,
+    InstituteCorazonDeJesus,
+    InstituteDesarrolloGerencial,
+    InstituteEcaprev,
+    InstituteEiger,
+    InstituteEigra,
+    InstituteEsinfron,
+    InstituteGamor,
+    InstituteIcpna,
+    InstituteIdept,
+    InstituteIfeep,
+    InstituteInidhe,
+    InstituteInteci,
+    InstituteInternationalBilingualCertification,
+    InstituteIsil,
+    InstituteIspacj,
+    InstituteLimaInstituteTechnicalStudies,
+    InstituteMilitaresDelPeru,
+    InstitutePrivateacher,
+    InstituteSanJudas,
+    InstituteSenati,
+    InstituteToulouseLautrec,
+    IntituteColumbia, NEWMAN,
+    SaedAboutUs,
+    SaedBannePublic,
+    SaedBannerMiCarrera,
+    SaedSlider1, UNIR,
+    UniversidadAutonoma,
+    UniversidadCertus,
+    UniversidadCesarVallejo,
+    UniversidadChampagnat,
+    UniversidadCientifica,
+    UniversidadESAN,
+    UniversidadFedericoVillareal,
+    UniversidadJaimeBausate,
+    UniversidadNorbert,
+    UniversidadPrivadadelNorte,
+    UniversidadRicardoPalma,
+    UniversidadSanIgnacioLoyola,
+    UniversidadSanJuanBautista,
+    UniversidadSanmartinPorres,
+    UniversidadUcal,
+    UniversidadUnifeSagradoCorazon,
+    UniversidadUpal,
+    UniversidadUpc,
+    UniversidadUtp,
+    UnviersidadAnahuac,
+    UnviersidadAutonomaDeIca,
+    UnviersidadContinental,
+    UnviersidadSanMarcosCienciasEconomicas,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -214,30 +215,40 @@ export const saedConfig = {
               ],
             },
             {
-              title: "PREGRADO: ",
-              description:
+              title: "Pregrado: ",
+              description: [
                 "Escala “C”: 25% de descuento en el pago de las pensiones en todas las carreras profesionales.",
+                "En la modalidad semipresencial: 15%.",
+              ]
             },
             {
-              title: "PROGRAMA ESPECIAL PARA ADULTOS: ",
+              title: "Posgrado: ",
               description:
-                "Escala “C”: 25% de descuento en el pago de las pensiones de carreras de contabilidad y administración de negocios.",
+                "Escala “C”: 25% de descuento en el pago de las pensiones.",
             },
             {
-              title: "POSGRADO: ",
+              title: "Programa de estudio segunda especialidad en enfermería y estomatología:",
               description:
-                "Escala “C”: 25 % de descuento en el pago de las pensiones en maestría en gestión pública, maestría en gestión estratégica, maestría en derecho civil y comercial. ",
+                "15% de descuento.",
             },
             {
               title:
-                "CENTRO DE IDIOMAS - CURSOS DE CAPACITACIÓN, DIPLOMADOS, SIMPOSIOS, PROGRAMAS DE PERFECCIONAMIENTO Y COMPLEMENTACIÓN ACADÉMICA PROFESIONAL: ",
+                "Centro preuniversitario:",
               description:
-                "Escala “C”: 50 % de descuento en el pago de las pensiones de los diferentes cursos de idiomas",
+                "20% de descuento.",
             },
             {
-              title: "CURSOS DE EXTENSIÓN: ",
+              title: "Centro de idiomas – cursos de capacitación, diplomados, simposios, programas de perfeccionamiento y complementación académica profesional, cultural:",
               description:
-                "Escala “C”: 50% de descuento en el pago de las pensiones en todos los cursos.",
+                "Escala “C”: 25%.",
+            },            {
+              title: "Cursos de extensión:",
+              description:
+                "25% de descuento.",
+            },            {
+              title: "Derecho de admisión:",
+              description:
+                "Descuento del 100%, siempre que este se realice en las instalaciones del Ejército con un número mínimo de 40 postulantes.",
             },
             {
               title: "ALCANCE: ",
@@ -261,7 +272,7 @@ export const saedConfig = {
             {
               title: "PREGRADO:",
               description:
-                "27.5 % de descuento en el pago de las pensiones en las carreras de educación, psicología, administración y contabilidad. Asimismo en diplomados y cursos de especialización.",
+                "20 % de descuento en el pago de las pensiones en las carreras de educación, psicología, administración y contabilidad. Asimismo en diplomados y cursos de especialización.",
             },
             {
               title: "POSGRADO: ",
@@ -507,18 +518,26 @@ export const saedConfig = {
                 "Facultad de Ciencias de la Salud",
                 "Facultad de Comunicaciones",
               ],
-            },
-            {
-              title: "PREGRADO: ",
-              description:
-                "15 % de descuento en el pago de las pensiones en todas las carreras profesionales",
-            },
-            {
-              title: "PROGRAMA WORRINKG ADULTO : ",
-              description: "15 % de descuento en el pago de las pensiones",
-            },
-            {
-              title: "(VACANTES LIMITADAS 153)",
+            }, {
+              title: "PREGRADO UG Y WA: ",
+              descriptions: [
+                "30% de descuento en Prematricula. Colaboradores y familiares directos 15%",
+                "30% de descuento confirmación de matrícula, colaboradores y familiares directos 15%.",
+                "30% de descuento por ciclo académico, colaboradores y familiares directos 15%.",
+              ],
+            }, {
+              title: "CARRERAS PREGRADO WA ONLINE: (CARRERAS A DISTANCIA)",
+              descriptions: [
+                "30% de descuento prematricula colaboradores y 15% familiares directos",
+                "30% de descuento de matricula colaboradores y 15% familiares directos",
+                "30% de descuento Cuotas por ciclo académico y 15% familiares directos",
+              ],
+            },{
+              title: "EPEC ESCUELA DE POSGRADO, MBA, DIPLOMADOS, ESPECIALIZACIONES Y CURSOS: ",
+              descriptions: [
+                "30% de descuento en las pensiones de enseñanza y 15% familiares directos.",
+
+              ],
             },
             {
               title: "ALCANCE: ",
@@ -891,7 +910,7 @@ export const saedConfig = {
         // 	],
         // },
 
-        {
+          {
           image: UniversidadUtp,
           title: "Universidad Tecnológica del Perú",
           descriptionLarge: [
@@ -921,7 +940,7 @@ export const saedConfig = {
             },
           ],
         },
-        {
+          {
           image: UniversidadUpc,
           title: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS",
           descriptionLarge: [
@@ -938,21 +957,39 @@ export const saedConfig = {
                 "Facultad de Economía / Facultad de Educación",
                 "Facultad de Ingeniería / Facultad de Negocios",
               ],
-            },
-            {
+            },            {
               title: "PREGRADO: ",
-              description:
-                "Escala mínima de pensiones en diferentes carreras y programa de estudios profesionales para ejecutivos (EPE) gente que trabaja.",
+              descriptions: [
+                "50% de descuento en matrícula – alumnos nuevos.",
+                "25% en la primera cuota – alumnos nuevos.",
+                "20% de descuento en las cuotas por ciclo académico (aplica a las 5 boletas).",
+              ],
+            },            {
+              title: "EPE Online:",
+              descriptions: [
+                "20% de descuento en matrícula – alumnos nuevos.",
+                "25% en la primera cuota – alumnos nuevos.",
+                "20% de descuento en las 4 cuotas por ciclo académico (aplica desde la 2.ª cuota hasta la 5.ª, sin retroactividad).",
+              ],
+            },            {
+              title: "EPG Escuela de Posgrado:",
+              descriptions: [
+                "20% de descuento en las pensiones de enseñanza.",
+                "Wetalk (programa de ingles) modalidad virtual regular intensiva.",
+                "Descuento en las pensione de enseñanza.",
+              ],
             },
+
             {
               title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)",
               links: [{ icon: faGlobe, link: "https://www.upc.edu.pe/" }],
             },
+
           ],
         },
-        {
+          {
           image: UnviersidadSanMarcosCienciasEconomicas,
           title: "UNMSM FACULTAD DE CIENCIAS ECONÓMICAS",
           descriptionLarge: [
@@ -971,7 +1008,82 @@ export const saedConfig = {
             },
           ],
         },
-        {
+          {
+              image: UniversidadUpal,
+              title: "UNIVERSIDAD PRIVADA PERUANO ALEMANA",
+              descriptionLarge: [
+                  {
+                      title: "FACULTADES AFECTADAS: ",
+                      descriptions: [
+                          "Facultad de Administración y Tecnología",
+                          "Facultad de Administración y Negocios Internacionales",
+                          "Facultad de Ingeniería Industrial",
+                          "Facultad de Ingeniería de Sistemas y Software",
+                          "Facultad de Ingeniería de Ciberseguridad",
+                          "Facultad Ciencia de Datos",
+                          "Facultad de Comunicaciones",
+                      ],
+                  },
+                  {
+                      title: "PREGRADO: ",
+                      description:
+                          "Exoneración de matrícula. 25 % de descuento en pensiones en todas las carreras de pregrado; considerando las diferentes sedes e incluso si existiera a nivel nacional.",
+                  },
+                  {
+                      title: "POSGRADO: ",
+                      description:
+                          "40 % de descuento en programas de: formación continua y especializaciones, sobre el valor comercial del programa, considerando las diferentes sedes e incluso si existiera a nivel nacional.",
+                  },
+                  {
+                      title: "ALCANCE:",
+                      description:
+                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+                      links: [{ icon: faGlobe, link: "https://upal.edu.pe/" }],
+                  },
+              ],
+          },          {
+              image: cayetano,
+              title: "UNIVERSIDAD PERUANA CAYETANO HEREDIA",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "10% de descuento en las carreras de Medicina y Estomatología.",
+                          "15% de descuento en las carreras de Farmacia y Bioquímica, Nutrición, Medicina Veterinaria y Zootecnia.",
+                          "20% de descuento en la carrera de Biología.",
+                          "25% de descuento en las carreras de Ingeniería Ambiental, Ingeniería Informática, Administración, Educación y Psicología.",
+                          "15% de descuento en Educación Continua, Maestrías y Doctorados.",
+                          "20% de descuento en Idiomas: inglés y portugués.",
+                      ],
+                  },
+                  {
+                      title: "ALCANCE:",
+                      description:
+                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+                      links: [{ icon: faGlobe, link: "https://cayetano.edu.pe/" }],
+                  },
+              ],
+          },
+          {
+              image: UNIR,
+              title: "UNIVERSIDAD INTERNACIONAL DE LA RIOJA",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "5% sobre los descuentos oficiales que tenga en ese momento, a los beneficiarios de “el ejército” interesados en cursar maestrías oficiales online de “unir”, el descuento se aplicará sobre las tarifas vigentes para Perú.",
+                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “UNIR” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% y 45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
+                      ],
+                  },
+
+                  {
+                      title: "ALCANCE:",
+                      description:
+                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+                  },
+              ],
+          },
+          {
           image: UniversidadUcal,
           title: "UNIVERSIDAD DE CIENCIAS Y ARTES DE AMÉRICA LATINA",
           descriptionLarge: [
@@ -1002,40 +1114,6 @@ export const saedConfig = {
               title: "ALCANCE:",
               description:
                 "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos); tropa servicio militar en actividad, licenciados.",
-            },
-          ],
-        },
-        {
-          image: UniversidadUpal,
-          title: "UNIVERSIDAD PRIVADA PERUANO ALEMANA",
-          descriptionLarge: [
-            {
-              title: "FACULTADES AFECTADAS: ",
-              descriptions: [
-                "Facultad de Administración y Tecnología",
-                "Facultad de Administración y Negocios Internacionales",
-                "Facultad de Ingeniería Industrial",
-                "Facultad de Ingeniería de Sistemas y Software",
-                "Facultad de Ingeniería de Ciberseguridad",
-                "Facultad Ciencia de Datos",
-                "Facultad de Comunicaciones",
-              ],
-            },
-            {
-              title: "PREGRADO: ",
-              description:
-                "Exoneración de matrícula. 25 % de descuento en pensiones en todas las carreras de pregrado; considerando las diferentes sedes e incluso si existiera a nivel nacional.",
-            },
-            {
-              title: "POSGRADO: ",
-              description:
-                "40 % de descuento en programas de: formación continua y especializaciones, sobre el valor comercial del programa, considerando las diferentes sedes e incluso si existiera a nivel nacional.",
-            },
-            {
-              title: "ALCANCE:",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-              links: [{ icon: faGlobe, link: "https://upal.edu.pe/" }],
             },
           ],
         },
@@ -1182,6 +1260,25 @@ export const saedConfig = {
             },
           ],
         },
+          {
+              image: NEWMAN,
+              title: "ESCUELA DE POSGRADO NEWMAN",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
+                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
+                      ],
+                  },
+
+                  {
+                      title: "ALCANCE:",
+                      description:
+                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+                  },
+              ],
+          },
         // {
         //   image: Institute6,
         //   title: "CEVATUR PERÚ",
@@ -1627,11 +1724,6 @@ export const saedConfig = {
               ],
             },
             {
-              title:
-                "CARRERAS DE ADMINISTRACIÓN/CONTABILIDAD/DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:",
-              description: "30% descuento en el pago de pensiones",
-            },
-            {
               title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
@@ -1914,6 +2006,21 @@ export const saedConfig = {
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
               links: [{ icon: faGlobe, link: "https://www.ceuce.edu.pe/" }],
+            },
+          ],
+        },        {
+          title: "FORCE PERÚ",
+          image: FORCE,
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              description:
+                "Incorporar en la tarifa referencial el porcentaje de descuento (52%) .",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
             },
           ],
         },

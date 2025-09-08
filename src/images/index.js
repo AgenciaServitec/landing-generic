@@ -15,6 +15,9 @@ export { default as SaedSlider1 } from "./saed/saedslyder1.webp";
 export { default as SaedAboutUs } from "./saed/aboutUs.png";
 export { default as SaedBannePublic } from "./saed/banner1.webp";
 export { default as SaedBannerMiCarrera } from "./saed/banner-mi-carrera.webp";
+export { default as UNIR } from "./saed/Logo_UNIR.webp";
+export { default as NEWMAN } from "./saed/newman.webp";
+export { default as FORCE } from "./saed/force-peru.webp";
 
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";
@@ -402,6 +405,7 @@ export { default as ClinicaDelInca } from "./saeco/conveniosSalud/clinica-del-in
 export { default as Niuovida } from "./saeco/conveniosSalud/niuvida.webp";
 export { default as SMC} from "./saeco/conveniosSalud/smc.webp"
 export { default as cayetano} from "./saeco/conveniosSalud/cayetano.webp"
+export { default as botiperu} from "./saeco/conveniosSalud/boticas-peru.webp"
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
@@ -412,6 +416,7 @@ export { default as TiendaSugo } from "./saeco/diversos/sugootros.webp";
 export { default as TiendaVizzano } from "./saeco/diversos/calzado-vizzano.webp";
 export { default as Azaleia } from "./saeco/diversos/azaleia.webp";
 export { default as Vega } from "./saeco/diversos/vega.webp";
+export { default as ChichaKio } from "./saeco/diversos/CHICHARRONES-KIO.webp";
 // ------ SAECO FINANCIERAS IMAGES -------
 export { default as FinancieraEfectiva } from "./saeco/financieras/efectiva.webp";
 export { default as FinancieraAutoplan } from "./saeco/financieras/autoplan.webp";
