@@ -1,6 +1,6 @@
 import {
     cayetano,
-    CobieneLogoLarge,
+    CobieneLogoLarge, FORCE,
     InstituteAllianceFrancaise,
     InstituteAndresVesalio,
     InstituteAvia,
@@ -34,7 +34,7 @@ import {
     InstituteSanJudas,
     InstituteSenati,
     InstituteToulouseLautrec,
-    IntituteColumbia,
+    IntituteColumbia, NEWMAN,
     SaedAboutUs,
     SaedBannePublic,
     SaedBannerMiCarrera,
@@ -1063,37 +1063,23 @@ export const saedConfig = {
                       links: [{ icon: faGlobe, link: "https://cayetano.edu.pe/" }],
                   },
               ],
-          },          {
+          },
+          {
               image: UNIR,
               title: "UNIVERSIDAD INTERNACIONAL DE LA RIOJA",
               descriptionLarge: [
                   {
-                      title: "FACULTADES AFECTADAS: ",
+                      title: "BENEFICIOS: ",
                       descriptions: [
-                          "Facultad de Administración y Tecnología",
-                          "Facultad de Administración y Negocios Internacionales",
-                          "Facultad de Ingeniería Industrial",
-                          "Facultad de Ingeniería de Sistemas y Software",
-                          "Facultad de Ingeniería de Ciberseguridad",
-                          "Facultad Ciencia de Datos",
-                          "Facultad de Comunicaciones",
+                          "5% sobre los descuentos oficiales que tenga en ese momento, a los beneficiarios de “el ejército” interesados en cursar maestrías oficiales online de “unir”, el descuento se aplicará sobre las tarifas vigentes para Perú.",
+                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “UNIR” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% y 45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
                       ],
                   },
-                  {
-                      title: "PREGRADO: ",
-                      description:
-                          "Exoneración de matrícula. 25 % de descuento en pensiones en todas las carreras de pregrado; considerando las diferentes sedes e incluso si existiera a nivel nacional.",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "40 % de descuento en programas de: formación continua y especializaciones, sobre el valor comercial del programa, considerando las diferentes sedes e incluso si existiera a nivel nacional.",
-                  },
+
                   {
                       title: "ALCANCE:",
                       description:
                           "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://upal.edu.pe/" }],
                   },
               ],
           },
@@ -1274,6 +1260,25 @@ export const saedConfig = {
             },
           ],
         },
+          {
+              image: NEWMAN,
+              title: "ESCUELA DE POSGRADO NEWMAN",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
+                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
+                      ],
+                  },
+
+                  {
+                      title: "ALCANCE:",
+                      description:
+                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+                  },
+              ],
+          },
         // {
         //   image: Institute6,
         //   title: "CEVATUR PERÚ",
@@ -1719,11 +1724,6 @@ export const saedConfig = {
               ],
             },
             {
-              title:
-                "CARRERAS DE ADMINISTRACIÓN/CONTABILIDAD/DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:",
-              description: "30% descuento en el pago de pensiones",
-            },
-            {
               title: "ALCANCE: ",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
@@ -2006,6 +2006,21 @@ export const saedConfig = {
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
               links: [{ icon: faGlobe, link: "https://www.ceuce.edu.pe/" }],
+            },
+          ],
+        },        {
+          title: "FORCE PERÚ",
+          image: FORCE,
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              description:
+                "Incorporar en la tarifa referencial el porcentaje de descuento (52%) .",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
             },
           ],
         },
