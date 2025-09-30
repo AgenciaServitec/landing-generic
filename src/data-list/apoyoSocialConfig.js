@@ -333,32 +333,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: Enazul,
-          title: "Enazul",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "TASA EFECTIVA ANUAL (TEA): 13.99% hasta el 43.50% ",
-                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
-                "EDAD: MÁXIMO HASTA LOS 70 AÑOS  ",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y personal civil en actividad  y personal civil en actividad.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://enazulfintech.com/",
-                },
-              ],
-            },
-          ],
-        },
+
       ],
     },
     sectionSalud: {
@@ -1481,6 +1456,32 @@ export const apoyoSocialConfig = {
             },
           ],
         },
+          {
+              image: Enazul,
+              title: "Enazul",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "TASA EFECTIVA ANUAL (TEA): 13.99% hasta el 43.50% ",
+                          "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+                          "EDAD: MÁXIMO HASTA LOS 70 AÑOS  ",
+                      ],
+                  },
+                  {
+                      title: "ALCANCE:",
+                      descriptions: [
+                          "Personal militar en situación de actividad y personal civil en actividad  y personal civil en actividad.",
+                      ],
+                      links: [
+                          {
+                              icon: faGlobe,
+                              link: "https://enazulfintech.com/",
+                          },
+                      ],
+                  },
+              ],
+          },
       ],
     },
     sectionSeguros: {
