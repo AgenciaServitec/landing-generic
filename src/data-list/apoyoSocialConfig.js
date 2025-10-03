@@ -17,10 +17,7 @@ import {
     CobieneLogoLarge,
     ColombianaBandera,
     ConvenioSalud1,
-    ConvenioSalud10,
-    ConvenioSalud11,
     ConvenioSalud12,
-    ConvenioSalud13,
     ConvenioSalud14,
     ConvenioSalud15,
     ConvenioSalud2,
@@ -29,8 +26,6 @@ import {
     ConvenioSalud5,
     ConvenioSalud6,
     ConvenioSalud7,
-    ConvenioSalud8,
-    ConvenioSalud9,
     CoreaBandera,
     CruzDelSur,
     Decameron,
@@ -707,184 +702,6 @@ export const apoyoSocialConfig = {
           ],
         },
         {
-          image: ConvenioSalud8,
-          title: "Unilabs",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "HASTA 40% DE DESCUENTO EN: ANÁLISIS CLÍNICOS",
-                "TARIFA HOSPITALARIA EN:",
-                "Ø ANALISIS ESPECIALES",
-                "Ø TOMAGRAFIA",
-                "Ø RESONANCIA",
-                "Ø ANATOMIA PATOLOGICA",
-                "Ø CITOLOGIA, MARCADORES",
-                "Ø BIOLOGÌA MOLECULAR, CITOMETRÌA, GENÈTICA",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: [
-                "<a href='tel:012220505'>(01) 222-0505</a>",
-                "<a href='tel:014422222'>(01) 442-2222</a>",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/12e784IZpTKyEcfdtT2HWarKWk2e6ib7P/view?usp=drive_link",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://unilabs.pe",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud9,
-          title: "Oftalmo Salud",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a) Presentación del carnet de identificación personal militar o civil CIP",
-                "b) Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "c) Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-              ],
-            },
-            {
-              title: "SEDES:",
-              descriptions: [
-                "SEDE SAN ISIDRO: <a href='tel:015121300'>(01) 512-1300</a>",
-                "LOS OLIVOS: <a href='tel:015237777'>(01) 523-7777</a>",
-                "EL POLO: <a href='tel:013552222'>(01) 355-2222</a>",
-                "SAN JUAN DE MIRAFLORES: <a href='tel:014660022'>(01) 466-0022</a>",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Acceso al 50% de descuento en consultas medicas.",
-                "b) Acceso al 30% de descuento sobre la tarifa regular, en exámenes auxiliares sobre tarifario vigente de paciente particular.",
-                "c) Acceso al 30% de descuento sobre la tarifa regular vigente del paciente particular sobre los procedimientos de cirugías oftálmicas.",
-                "d) Pueden aplicarse restricciones por motivo de insumos o complejidad.",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/12e784IZpTKyEcfdtT2HWarKWk2e6ib7P/view?usp=drive_link",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://oftalmosalud.pe/",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud10,
-          title: "Otik Lens",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-                "HORARIOS:",
-                "Miércoles, jueves y viernes de 9 am a 3 pm.",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: [
-                "<a href='tel:968915660'>968915660</a>",
-                "<a href='mailto:marothmoralesmarreros@gmail.com'>marothmoralesmarreros@gmail.com</a>",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Brinda servicio gratuito de medida de vista computarizada y despistaje de defecto de refracción, miopía ambliopía",
-                "b) Acceso al 15% de descuento en servicio de lunas (blancas, blue antireflex, monofocales bifocales).",
-                "c) Acceso al 25% de descuento en servicio de monturas económicas e intermedias y alta gama.",
-              ],
-              phones: [
-                {
-                  icon: faPhone,
-                  url: "tel:968624571",
-                  text: "968624571",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud11,
-          title: "Global Laser",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "Servicios especializados en  oftamalogica mediante\n" +
-                  "\n" +
-                  "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: ["<a href='tel:945940824'>945940824</a>"],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Brinda descuentos especiales en consultas (agudeza visual, motilidadocular, presión intraocular, etc)",
-                "b) Brinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria láser pterigion)",
-                "c) Tarifa preferencial en exámenes especiales.",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1f_4bBVuRMRoE67i00NYsmnn9NmA_d8T4/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.globallaserperu.com/",
-                },
-              ],
-            },
-          ],
-        },
-        {
           image: ConvenioSalud12,
           title: "Suiza Lab",
           descriptionLarge: [
@@ -923,50 +740,6 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://www.globallaserperu.com/",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud13,
-          title: "FeSalud",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: [
-                "Contacto Yadhira Rada : <a href='tel:990903959'>990903959</a>",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Brinda tarifa plana sin anular sistema públicos de salud (ESSALUD y SIS). Incluye beneficio de sepelio completo en caso de fallecimiento a personal afiliado.",
-                "b) Plan Emergencia: S/ 22.00",
-                "c) Plan Integral: S/ 55.00",
-                "d) Plan Integral Plus: S/ 78.00",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/18y0E7u3jukz9vJaG_e7mZdV9jKHmm8lQ/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://fesalud.com.pe/",
                 },
               ],
             },
