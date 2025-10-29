@@ -154,7 +154,7 @@ export const jaceConfig = {
         value: "Lima-Perú",
       },
       {
-        href: "https://ws.ejercito.mil.pe/sirecase/#/login",
+        href: "https://sisace.ejercito.mil.pe/#/pages/home",
         name: "Siracase",
         value: "Solicitud",
         icon: faHouse,
