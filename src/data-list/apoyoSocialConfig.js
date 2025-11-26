@@ -91,7 +91,6 @@ import {
     TitleConvenios,
     TitleReli, SMC, Palomino, Vega, cayetano, botiperu, ChichaKio, Cencosud
 } from "../images";
-import Cobiene from '../images/saeco/bancos-img/cobiene.webp';
 import {faFacebook, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import {faBuilding, faEnvelope, faGlobe, faLink, faMobile, faPhone,} from "@fortawesome/free-solid-svg-icons";
 
@@ -389,7 +388,7 @@ export const apoyoSocialConfig = {
             {
               title: "CONTACTOS:",
               descriptions: [
-                  "<a href='tel:+51970302066'>970 302 066</a>", "<a href='maito:admisión04@apeplac.com'>admisión04@apeplac.com</a>",
+                  "<a href='tel:+51970302066'>970 302 066</a>", "<a href='mailto:admisión04@apeplac.com'>admisión04@apeplac.com</a>",
                 "LIC. EDDY FUENTES: <a href='mailto:efuentes@apeplac.com'>efuentes@apeplac.com</a>",
               ],
             },
