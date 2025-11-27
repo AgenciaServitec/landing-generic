@@ -377,7 +377,9 @@ export { default as BannerSalud } from "./saeco/ultimaaopoyosalud.webp";
 export { default as BannerEconomico } from "./saeco/ultimasaecoapoyo.webp";
 export { default as GrupServices } from "./saeco/grup3services.webp";
 export { default as BancoBCP } from "./saeco/bancos-img/bcp.webp";
+export { default as Cencosud } from "./saeco/bancos-img/cencosud.webp";
 export { default as Enazul} from "./saeco/bancos-img/enazul.webp"
+export { default as Cobiene} from "./saeco/bancos-img/cobiene.webp"
 
 // ------ SAECO EVENTOS IMAGES -------
 export { default as DpromartPeru } from "./saeco/events/dpromartperu.webp";
