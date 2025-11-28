@@ -1244,7 +1244,7 @@ export const saedConfig = {
                       title: "ALCANCE:",
                       description:
                           "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://ulima.edu.pe/" }],
+                      links: [{ icon: faGlobe, link: "https://uprit.edu.pe/" }],
                   },
               ],
           },
