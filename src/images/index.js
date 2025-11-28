@@ -109,7 +109,8 @@ export { default as UnviersidadContinental } from "./universities/continental.we
 export { default as UnviersidadAnahuac } from "./universities/anahuac-mexico.webp";
 export { default as UnviersidadSanMarcosCienciasEconomicas } from "./universities/san-marcos-ciencias-economicas.webp";
 export { default as UnviersidadAutonomaDeIca } from "./universities/autonoma-de-ica.webp";
-
+export { default as UniversidadDeLima} from "./universities/u-lima.webp";
+export { default as UniversidadPrivadaDeTrujillo} from "./universities/u-privada-trujillo.webp";
 //----- INSTITUTOS --------
 export { default as InstituteAllianceFrancaise } from "./institutes/alliance-francaise.webp";
 export { default as InstituteInternationalBilingualCertification } from "./institutes/ibc.webp";
