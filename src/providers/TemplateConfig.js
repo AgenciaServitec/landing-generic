@@ -1,5 +1,13 @@
-import React, {createContext, useContext, useEffect, useState} from "react";
-import {apoyoSocialConfig, cmstsConfig, dscsConfig, jaceConfig, jaeConfig, sadConfig, saedConfig,} from "../data-list";
+import React, { createContext, useContext, useEffect, useState } from "react";
+import {
+  apoyoSocialConfig,
+  cmstsConfig,
+  dscsConfig,
+  jaceConfig,
+  jaeConfig,
+  sadConfig,
+  saedConfig,
+} from "../data-list";
 
 const templateConfigs = {
   cmsts: cmstsConfig,
@@ -14,6 +22,7 @@ const templateConfigs = {
 
 const TemplateConfigContext = createContext({
   templateConfig: null,
+  templateType: null,
   onClickTemplateType: () => null,
 });
 
@@ -21,7 +30,6 @@ export const TemplateConfig = ({ children }) => {
   const [templateType, setTemplateType] = useState("default");
 
   const hostName = window.location.hostname;
-  console.log("HostName: ", hostName);
 
   useEffect(() => {
     switch (hostName) {
@@ -50,6 +58,7 @@ export const TemplateConfig = ({ children }) => {
     <TemplateConfigContext.Provider
       value={{
         templateConfig: templateConfigs[templateType],
+        templateType,
         onClickTemplateType,
       }}
     >
