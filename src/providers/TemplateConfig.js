@@ -1,13 +1,5 @@
-import React, { createContext, useContext, useEffect, useState } from "react";
-import {
-  cmstsConfig,
-  jaceConfig,
-  jaeConfig,
-  sadConfig,
-  dscsConfig,
-  apoyoSocialConfig,
-  saedConfig,
-} from "../data-list";
+import React, {createContext, useContext, useEffect, useState} from "react";
+import {apoyoSocialConfig, cmstsConfig, dscsConfig, jaceConfig, jaeConfig, sadConfig, saedConfig,} from "../data-list";
 
 const templateConfigs = {
   cmsts: cmstsConfig,
@@ -28,8 +20,7 @@ const TemplateConfigContext = createContext({
 export const TemplateConfig = ({ children }) => {
   const [templateType, setTemplateType] = useState("default");
 
-  //const hostName = window.location.hostname;
-  const hostName = "saed.cobiene.mil.pe";
+  const hostName = window.location.hostname;
   console.log("HostName: ", hostName);
 
   useEffect(() => {
