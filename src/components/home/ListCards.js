@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
-import { mediaQuery } from "../../styles/constants/mediaQuery";
-import { Modal } from "../ui";
-import { CarouselOnlyImages } from "./CarouselOnlyImages";
+import {mediaQuery} from "../../styles/constants/mediaQuery";
+import {Modal} from "../ui";
+import {CarouselOnlyImages} from "./CarouselOnlyImages";
 import Parser from "html-react-parser";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const listCardsTypes = {
   primary: {
