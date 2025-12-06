@@ -1,19 +1,41 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import {
+  CardsBlack,
   CardsInlineBlock,
   Carousel,
+  Collage,
+  ComponentImages,
   Contact,
   ListCards,
-  CardsBlack,
-  ComponentImages,
-  Collage,
   SuggestionsComplaints,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
+import { ListAgreements } from "../../components/home/ListAgreements";
 
 export const Home = () => {
-  const { templateConfig } = useTemplateConfig();
+  const { templateConfig, templateType } = useTemplateConfig();
+
+  const [agreementCategory, setAgreementCategory] = useState("");
+  const [agreements, setAgreements] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      if (templateType !== "apoyoSocial" && templateType !== "saed")
+        return false;
+
+      if (templateType === "apoyoSocial") setAgreementCategory("company");
+      if (templateType === "saed")
+        setAgreementCategory("educationalInstitution");
+
+      const response = await fetch(
+        `https://api-korekenke.web.app/agreements?category=${agreementCategory}`
+      );
+      const data = await response.json();
+
+      setAgreements(data);
+    })();
+  }, [templateType]);
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
@@ -303,19 +325,10 @@ export const Home = () => {
             type="secondary"
           />
         )}
-        {/*<Banner />*/}
-        {(cardsConventions || cardsConventions.cards) && (
-          <ListCards
-            id={cardsConventions.id}
-            title={cardsConventions.title}
-            items={cardsConventions.cards}
-            type="secondary"
-          />
-        )}
-        {(cardsInstitutes || cardsInstitutes.cards) && (
-          <ListCards
-            title={cardsInstitutes.title}
-            items={cardsInstitutes.cards}
+        {templateType === "saed" && (
+          <ListAgreements
+            title="Instituciones Educativas"
+            agreements={agreements}
             type="secondary"
           />
         )}

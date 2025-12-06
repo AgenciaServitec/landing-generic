@@ -6,3 +6,4 @@ export { cmstsConfig } from "./cmstsConfig";
 export { dscsConfig } from "./dscsConfig";
 export { saedConfig } from "./saedConfig";
 export { apoyoSocialConfig } from "./apoyoSocialConfig";
+export { default as subCategoriesAgreements } from "./subCategoriesAgreements.json";
