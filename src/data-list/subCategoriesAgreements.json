@@ -39,6 +39,10 @@
     {
       "label": "Hotel",
       "value": "Hotel"
+    },
+    {
+      "label": "Servicios técnicos",
+      "value": "Technical Services"
     }
   ]
 }
