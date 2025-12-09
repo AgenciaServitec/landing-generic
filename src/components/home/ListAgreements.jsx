@@ -21,6 +21,7 @@ const listCardsTypes = {
 };
 
 export const ListAgreements = ({
+  key,
   title,
   agreements = [],
   type = "primary",
@@ -37,7 +38,7 @@ export const ListAgreements = ({
   };
 
   return (
-    <Container>
+    <Container key={key}>
       <div className="content-items">
         {title && <h2 className="title">{title}</h2>}
         <div className="content-img">
@@ -89,7 +90,7 @@ export const ListAgreements = ({
       >
         {moreInformation.title && (
           <div>
-            {moreInformation?.educationalInstitutionBenefits.map((benefit) => (
+            {moreInformation?.educationalInstitutionBenefits?.map((benefit) => (
               <div>
                 <p>
                   <strong
