@@ -11,8 +11,8 @@ import {
 
 const templateConfigs = {
   cmsts: cmstsConfig,
-  jace: jaceConfig,
-  jae: jaeConfig,
+  sdace: jaceConfig,
+  sdae: jaeConfig,
   sad: sadConfig,
   saed: saedConfig,
   dscs: dscsConfig,
@@ -33,22 +33,22 @@ export const TemplateConfig = ({ children }) => {
 
   useEffect(() => {
     switch (hostName) {
-      case "cmsts.cobiene.mil.pe":
+      case "cmsts.jbiene.com":
         return setTemplateType("cmsts");
-      case "jace.cobiene.mil.pe":
-        return setTemplateType("jace");
-      case "jae.cobiene.mil.pe":
-        return setTemplateType("jae");
-      case "sad.cobiene.mil.pe":
+      case "sdace.jbiene.com":
+        return setTemplateType("sdace");
+      case " sdae.jbiene.com":
+        return setTemplateType("sdae");
+      case "sad.jbiene.com":
         return setTemplateType("sad");
-      case "saed.cobiene.mil.pe":
+      case "saed.jbiene.com":
         return setTemplateType("saed");
-      case "apoyosocial.cobiene.mil.pe":
-        return setTemplateType("apoyoSocial");
-      case "dscs.cobiene.mil.pe":
+      case "dscs.jbiene.com":
         return setTemplateType("dscs");
+      case "apoyosocial.jbiene.com":
+        return setTemplateType("apoyoSocial");
       default:
-        return setTemplateType("jace");
+        return setTemplateType("sdace");
     }
   }, [hostName]);
 

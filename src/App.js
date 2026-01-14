@@ -26,9 +26,9 @@ export const App = () => {
     switch (hostName) {
       case "cmsts.cobiene.mil.pe":
         return setThemeType("default");
-      case "jace.cobiene.mil.pe":
+      case "sdace.cobiene.mil.pe":
         return setThemeType("default");
-      case "jae.cobiene.mil.pe":
+      case "sdae.cobiene.mil.pe":
         return setThemeType("default");
       case "sad.cobiene.mil.pe":
         return setThemeType("default");
