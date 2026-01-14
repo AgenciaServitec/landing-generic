@@ -7,7 +7,10 @@ export const SuggestionsComplaints = ({ title }) => {
     <Container id="sugerencias">
       <h2 className="title">{title}</h2>
       <FormContact />
-      <QRCode value="https://dscs.cobiene.mil.pe/#sugerencias" style={{display: "none"}} />
+      <QRCode
+        value="https://dscs.jbiene.com/#sugerencias"
+        style={{ display: "none" }}
+      />
     </Container>
   );
 };

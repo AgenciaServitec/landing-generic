@@ -24,14 +24,14 @@ import {
 
 export const jaceConfig = {
   helmet: {
-    title: "Jefatura de Administración de Casas del Ejército",
-    link: "https://jace.cobiene.mil.pe",
+    title: "Dirección de Administración de Casas del Ejército",
+    link: "https://sdace.jbiene.com",
     description: "Apoyo social",
     keywords: "salud,servicios,convenios",
   },
   header: {
     name: "jace",
-    title: "Jefatura de Administración de Casas del Ejército",
+    title: "Dirección de Administración de Casas del Ejército",
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "Nosotros" },
@@ -50,7 +50,7 @@ export const jaceConfig = {
     sectionAbout: {
       title: "Nosotros",
       descriptions: [
-        "La Jefatura de Administración de Casas del Ejército asesora al Comando de Bienestar del Ejército en los aspectos inherentes de la administración de casas de servicios del Ejército. Asimismo, planificará, ejecutará y supervisará los trabajos de conservación, mejoramiento y rehabilitación de la infraestructura, inmobiliaria de las casas de servicio de la guarnición de Lima, a fin de contribuir a la consecución de los objetivos de Bienestar del Ejército.",
+        "La Dirección de Administración de Casas del Ejército asesora al Comando de Bienestar del Ejército en los aspectos inherentes de la administración de casas de servicios del Ejército. Asimismo, planificará, ejecutará y supervisará los trabajos de conservación, mejoramiento y rehabilitación de la infraestructura, inmobiliaria de las casas de servicio de la guarnición de Lima, a fin de contribuir a la consecución de los objetivos de Bienestar del Ejército.",
       ],
       buttons: [{ type: "secondary", id: "contact", title: "CONTÁCTANOS" }],
       images: [JaceAbout2],

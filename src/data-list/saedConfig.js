@@ -1,70 +1,72 @@
 import {
-    cayetano,
-    CobieneLogoLarge, FORCE,
-    InstituteAllianceFrancaise,
-    InstituteAndresVesalio,
-    InstituteAvia,
-    InstituteBritanico,
-    InstituteCamaraLima,
-    InstituteCarrion,
-    InstituteCegicap,
-    InstituteCepea,
-    InstituteCepeban,
-    InstituteCeuce,
-    InstituteCibertec,
-    InstituteCivime,
-    InstituteCorazonDeJesus,
-    InstituteDesarrolloGerencial,
-    InstituteEcaprev,
-    InstituteEiger,
-    InstituteEigra,
-    InstituteEsinfron,
-    InstituteGamor,
-    InstituteIcpna,
-    InstituteIdept,
-    InstituteIfeep,
-    InstituteInidhe,
-    InstituteInteci,
-    InstituteInternationalBilingualCertification,
-    InstituteIsil,
-    InstituteIspacj,
-    InstituteLimaInstituteTechnicalStudies,
-    InstituteMilitaresDelPeru,
-    InstitutePrivateacher,
-    InstituteSanJudas,
-    InstituteSenati,
-    InstituteToulouseLautrec,
-    IntituteColumbia, NEWMAN,
-    SaedAboutUs,
-    SaedBannePublic,
-    SaedBannerMiCarrera,
-    SaedSlider1, UNIR,
-    UniversidadAutonoma,
-    UniversidadCertus,
-    UniversidadCesarVallejo,
-    UniversidadChampagnat,
-    UniversidadCientifica,
-    UniversidadESAN,
-    UniversidadFedericoVillareal,
-    UniversidadJaimeBausate,
-    UniversidadNorbert,
-    UniversidadPrivadadelNorte,
-    UniversidadRicardoPalma,
-    UniversidadSanIgnacioLoyola,
-    UniversidadSanJuanBautista,
-    UniversidadSanmartinPorres,
-    UniversidadUcal,
-    UniversidadUnifeSagradoCorazon,
-    UniversidadUpal,
-    UniversidadUpc,
-    UniversidadUtp,
-    UnviersidadAnahuac,
-    UnviersidadAutonomaDeIca,
-    UnviersidadContinental,
-    UnviersidadSanMarcosCienciasEconomicas,
-    UniversidadDeLima,
-    UniversidadPrivadaDeTrujillo,
-
+  cayetano,
+  CobieneLogoLarge,
+  FORCE,
+  InstituteAllianceFrancaise,
+  InstituteAndresVesalio,
+  InstituteAvia,
+  InstituteBritanico,
+  InstituteCamaraLima,
+  InstituteCarrion,
+  InstituteCegicap,
+  InstituteCepea,
+  InstituteCepeban,
+  InstituteCeuce,
+  InstituteCibertec,
+  InstituteCivime,
+  InstituteCorazonDeJesus,
+  InstituteDesarrolloGerencial,
+  InstituteEcaprev,
+  InstituteEiger,
+  InstituteEigra,
+  InstituteEsinfron,
+  InstituteGamor,
+  InstituteIcpna,
+  InstituteIdept,
+  InstituteIfeep,
+  InstituteInidhe,
+  InstituteInteci,
+  InstituteInternationalBilingualCertification,
+  InstituteIsil,
+  InstituteIspacj,
+  InstituteLimaInstituteTechnicalStudies,
+  InstituteMilitaresDelPeru,
+  InstitutePrivateacher,
+  InstituteSanJudas,
+  InstituteSenati,
+  InstituteToulouseLautrec,
+  IntituteColumbia,
+  NEWMAN,
+  SaedAboutUs,
+  SaedBannePublic,
+  SaedBannerMiCarrera,
+  SaedSlider1,
+  UNIR,
+  UniversidadAutonoma,
+  UniversidadCertus,
+  UniversidadCesarVallejo,
+  UniversidadChampagnat,
+  UniversidadCientifica,
+  UniversidadDeLima,
+  UniversidadESAN,
+  UniversidadFedericoVillareal,
+  UniversidadJaimeBausate,
+  UniversidadNorbert,
+  UniversidadPrivadadelNorte,
+  UniversidadPrivadaDeTrujillo,
+  UniversidadRicardoPalma,
+  UniversidadSanIgnacioLoyola,
+  UniversidadSanJuanBautista,
+  UniversidadSanmartinPorres,
+  UniversidadUcal,
+  UniversidadUnifeSagradoCorazon,
+  UniversidadUpal,
+  UniversidadUpc,
+  UniversidadUtp,
+  UnviersidadAnahuac,
+  UnviersidadAutonomaDeIca,
+  UnviersidadContinental,
+  UnviersidadSanMarcosCienciasEconomicas,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -76,7 +78,7 @@ import {
 export const saedConfig = {
   helmet: {
     title: "Sección Apoyo Estudios Superiores",
-    link: "https://saed.cobiene.mil.pe",
+    link: "https://saed.jbiene.com",
     description: "Sección Apoyo Estudios Superiores",
     keywords: "beneficios,futuro,jovenes",
   },
@@ -158,9 +160,9 @@ export const saedConfig = {
                 "15% dscto. (3 a más beneficiarios) de acuerdo a los matriculados.",
               ],
             },
-              {
-                  title: "VIG. 10-11-22 / 10-11-27",
-              },
+            {
+              title: "VIG. 10-11-22 / 10-11-27",
+            },
             {
               title: "ALCANCE: ",
               description:
@@ -169,833 +171,838 @@ export const saedConfig = {
             },
           ],
         },
-          {
-              image: UniversidadCesarVallejo,
-              title: "UNIVERSIDAD CÉSAR VALLEJO",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS:",
-                      descriptions: [
-                          "Facultad de Ciencias de la Salud",
-                          "Facultad de Ciencias Empresariales",
-                          "Facultad de Derecho y Humanidades",
-                          "Facultad de Ingeniería y Arquitectura",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO:",
-                      descriptions: [
-                          "Categoría B: en pensiones para los ingresantes de pregrado regular en todas las carreras profesionales.",
-                          "Otorgar el 5% de descuento adicional del costo total de la pensión del semestre al momento de la matrícula, a los beneficiarios del presente convenio que se matriculen en todas las materias establecidas.",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      descriptions: [
-                          "Categoría B: para los ingresantes de posgrado y para estudios de maestrías.",
-                          "Categoría C: en pensiones para los que ocupen el primer puesto del cuadro de méritos semestral.",
-                      ],
-                  },
-                  {
-                      title: "PROGRAMA FORMACIÓN ADULTOS:",
-                      descriptions: [
-                          "Categoría B en pensiones para el programa de formación de adultos.",
-                          "Categoría C: en el programa de formación para adultos que habiendo culminado en semestre académico anterior se ubique en el primer puesto del cómputo general",
-                      ],
-                  },
-                  {
-                      title: "VIG. 30-11-22 / 30-11-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en situación de actividad y retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge , hijos, padres y hermanos en caso de ser trabajadores solteros) tropa servicio militar en actividad, licenciados. Deberá mantenerse el promedio mínimo aprobatorio catorce.",
-                      links: [{ icon: faGlobe, link: "https://www.ucv.edu.pe/" }],
-                  },
+        {
+          image: UniversidadCesarVallejo,
+          title: "UNIVERSIDAD CÉSAR VALLEJO",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS:",
+              descriptions: [
+                "Facultad de Ciencias de la Salud",
+                "Facultad de Ciencias Empresariales",
+                "Facultad de Derecho y Humanidades",
+                "Facultad de Ingeniería y Arquitectura",
               ],
-          },
-          {
-              image: UniversidadUcal,
-              title: "UNIVERSIDAD DE CIENCIAS Y ARTES DE AMÉRICA LATINA",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Arquitectura",
-                          "Facultad de Comunicaciones",
-                          "Facultad de Diseño Grafico",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      description:
-                          "15% de descuento, sobre los costos por concepto de pensiones, para estudios de, en todas las carreras",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "15% de descuento, sobre los costos por concepto de pensiones, para estudios de MAESTRÍA en cualquiera de sus modalidades.",
-                  },
-                  {
-                      title: "DIPLOMA Y CURSOS ESPECIALIZADOS: ",
-                      description:
-                          "15% de descuento, sobre los costos por concepto de pensiones.",
-                  },
-                  {
-                      title: "VIG. 02-12-22 / 02-12-27",
-                  },
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos); tropa servicio militar en actividad, licenciados.",
-                  },
+            },
+            {
+              title: "PREGRADO:",
+              descriptions: [
+                "Categoría B: en pensiones para los ingresantes de pregrado regular en todas las carreras profesionales.",
+                "Otorgar el 5% de descuento adicional del costo total de la pensión del semestre al momento de la matrícula, a los beneficiarios del presente convenio que se matriculen en todas las materias establecidas.",
               ],
-          },
-          {
-              image: UniversidadCientifica,
-              title: "UNIVERSIDAD CIENTÍFICA DEL SUR",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Ciencias Empresariales",
-                          "Facultad de Ciencias Ambientales",
-                          "Facultad de Ciencias Humanas",
-                          "Facultad de Ciencias Veterinarias y Biológicas",
-                          "Facultad de Ciencias de la Salud",
-                      ],
-                  },
-                  {
-                      title: "CENTRO DE IDIOMAS (CIDIO): ",
-                      description:
-                          "15 % de descuento en el pago de las pensiones de inglés y portugués.",
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "40 % de descuento en pago de las pensiones en carreras de enfermería, obstetricia y medicina humana, sobre la escala E.",
-                          "60% de descuento en pago de la pensiones en las otras carreras, sobre la escala E.",
-                      ],
-                  },
-                  {
-                      title: "CARRERAS PARA LAS PERSONAS QUE TRABAJAN (CPE): ",
-                      description:
-                          "30% de descuento en el pago de las pensiones, Administración de empresas, Ingeniería de sistemas, Derecho, Psicología, Comunicación y publicidad, Nutrición y dietética",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description: "10 % de descuento en maestría y especializaciones.",
-                  },
-                  {
-                      title: "FORMACION CONTINUA: ",
-                      description:
-                          "30% descuento en el pago de las pensiones de los cursos.",
-                  },
-                  {
-                      title: "VIG. 06-12-20 / 06-12-25",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-                      links: [
-                          {
-                              icon: faGlobe,
-                              link: "https://evaluaciongeneral.cientifica.edu.pe/?utm_source=google&utm_medium=cpc&utm_campaign=UCS_AON_pregrado_performance_marca_2021_08_null_null_null_conversiones_subasta_null_audiencias_null_audiencias_null_null_null_CPC_todos_pregrado-marca-brand-universidad-cientifica-del-sur_null&utm_content=texto_universidad-cientifica-del-sur_null_nullseg_null_null_textad&gclid=Cj0KCQjw7KqZBhCBARIsAI-fTKIRA5KerQ-zzdbaP1bHeP8s7bTF5nPfscMW8xAw6U8KKPVE8A70saEaAlxbEALw_wcB",
-                          },
-                      ],
-                  },
+            },
+            {
+              title: "POSGRADO: ",
+              descriptions: [
+                "Categoría B: para los ingresantes de posgrado y para estudios de maestrías.",
+                "Categoría C: en pensiones para los que ocupen el primer puesto del cuadro de méritos semestral.",
               ],
-          },
-          {
-              image: UnviersidadContinental,
-              title: "UNIVERSIDAD CONTINENTAL",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Ingeniería",
-                          "Facultad de Ciencias de la Empresa",
-                          "Facultad de Ciencias de la Salud",
-                          "Facultad de Humanidades",
-                          "Facultad de Derecho",
-                      ],
-                  },
-                  {
-                      title: "MATRÍCULA: ",
-                      description:
-                          "100 % de beneficio, sobre los costos por concepto de examen de admisión y matrícula, en todas las carreras de pregrado, en sus diferentes modalidades y en todas sus sedes a nivel nacional.",
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      description:
-                          "10% de descuento sobre el costo de la pensión, en todas las carreras de pregrado, en sus diferentes modalidades de estudio y en todas sus sedes a nivel nacional.",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "10% de descuento sobre el costo de la pensión, en todos los programas de posgrado (formación continua, maestría), en cualquiera de sus modalidades de estudio y en todas sus sedes a nivel nacional.",
-                  },
-                  {
-                      title: "ESTUDIO IN HOUSE: ",
-                      description:
-                          "10% de descuento en denominado programa IN HOUSE, que contempla capacitaciones, dirigidas a un grupo de personas que soliciten un tema determinado de estudio.",
-                  },
-                  {
-                      title: "CENTRO DE IDIOMAS: ",
-                      description:
-                          "17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.",
-                  },
-                  {
-                      title: "VIG. 22-07-22 / 22-07-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://ucontinental.edu.pe/" }],
-                  },
+            },
+            {
+              title: "PROGRAMA FORMACIÓN ADULTOS:",
+              descriptions: [
+                "Categoría B en pensiones para el programa de formación de adultos.",
+                "Categoría C: en el programa de formación para adultos que habiendo culminado en semestre académico anterior se ubique en el primer puesto del cómputo general",
               ],
-          },
-          {
-              image: UniversidadESAN,
-              title: "UNIVERSIDAD ESAN",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Ciencias Económicas y Administrativas",
-                          "Facultad de Ingeniería",
-                          "Facultad de Derecho",
-                          "Facultad de Psicología",
-                      ],
-                  },
-                  {
-                      title: "CENTRO PRE UNIVERSITARIO: ",
-                      description: "10 % de descuento en el pago de las pensiones.",
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      description: "10 % de descuento en el pago de las pensiones.",
-                  },
-                  {
-                      title: "VIG. 14-12-22 / 14-12-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, así como sus familiares directos (cónyuge e hijos)",
-                      links: [{ icon: faGlobe, link: "https://www.ue.edu.pe/" }],
-                  },
+            },
+            {
+              title: "VIG. 30-11-22 / 30-11-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge , hijos, padres y hermanos en caso de ser trabajadores solteros) tropa servicio militar en actividad, licenciados. Deberá mantenerse el promedio mínimo aprobatorio catorce.",
+              links: [{ icon: faGlobe, link: "https://www.ucv.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadUcal,
+          title: "UNIVERSIDAD DE CIENCIAS Y ARTES DE AMÉRICA LATINA",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Arquitectura",
+                "Facultad de Comunicaciones",
+                "Facultad de Diseño Grafico",
               ],
-          },
-          {
-              image: UniversidadUnifeSagradoCorazon,
-              title: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Arquitectura",
-                          "Facultad de Derecho",
-                          "Facultad de Ciencias de la Educación",
-                          "Facultad de Gestión Empresarial",
-                          "Facultad de Nutrición y Alimentación",
-                          "Facultad de Psicología y Humanidades",
-                          "Facultad de Traducción, Interpretación y Ciencias de la Comunicación",
-                      ],
-                  },
-                  {
-                      title: "CENTRO PRE UNIFÉ: ",
-                      description: "20 % descuento en el ciclo completo.",
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "Personal de oficiales, actividad, retiro y familiares directos Escala N° 28 en pensiones.",
-                          "Personal de Tcos, SSOO actividad, retiro, familiares directos y Civiles en actividad Escala N° 30 en pensiones.",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO SEGUNDA CARRERA: ",
-                      descriptions: [
-                          "Personal de oficiales y familiares directos, descuento del 10% en pensiones.",
-                          "Personal de Tcos y SSOO actividad, retiro, familiares directos y Civiles en actividad, descuento del 15% en pensiones.",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      descriptions: [
-                          "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
-                          "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
-                      ],
-                  },
-                  {
-                      title: "SEGUNDA ESPECIALIDAD: ",
-                      descriptions: [
-                          "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
-                          "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
-                      ],
-                  },
-                  {
-                      title: "DIPLOMADOS Y/O SEMINARIOS: ",
-                      descriptions: [
-                          "Personal de oficiales Escala N° 28 en el pago de las pensiones.",
-                          "Personal de Tcos y SSOO Escala N° 30 en el pago de las pensiones",
-                      ],
-                  },
-                  {
-                      title: "VIG. 24-10-19 / 24-10-24",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://www.unife.edu.pe/" }],
-                  },
+            },
+            {
+              title: "PREGRADO: ",
+              description:
+                "15% de descuento, sobre los costos por concepto de pensiones, para estudios de, en todas las carreras",
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "15% de descuento, sobre los costos por concepto de pensiones, para estudios de MAESTRÍA en cualquiera de sus modalidades.",
+            },
+            {
+              title: "DIPLOMA Y CURSOS ESPECIALIZADOS: ",
+              description:
+                "15% de descuento, sobre los costos por concepto de pensiones.",
+            },
+            {
+              title: "VIG. 02-12-22 / 02-12-27",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos); tropa servicio militar en actividad, licenciados.",
+            },
+          ],
+        },
+        {
+          image: UniversidadCientifica,
+          title: "UNIVERSIDAD CIENTÍFICA DEL SUR",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Ciencias Empresariales",
+                "Facultad de Ciencias Ambientales",
+                "Facultad de Ciencias Humanas",
+                "Facultad de Ciencias Veterinarias y Biológicas",
+                "Facultad de Ciencias de la Salud",
               ],
-          },
-          {
-              image: UniversidadJaimeBausate,
-              title: "Universidad Jaime Bausate y Meza",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Comunicación Audiovisual",
-                          "Facultad de Administración",
-                          "Facultad de Periodismo",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      description:
-                          "20 % de descuento sobre el costo de la pensión en las carreras de periodismo, escuela profesional de comunicación audiovisual, en cualquiera de sus modalidades.",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "20 % de descuento sobre el costo de la pensión en enseñanza de posgrado, diplomados y curso de extensión educativa y proyección social, en cualquiera de sus modalidades",
-                  },
-                  {
-                      title: "VIG. 03-05-22 / 03-05-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://www.bausate.edu.pe/" }],
-                  },
+            },
+            {
+              title: "CENTRO DE IDIOMAS (CIDIO): ",
+              description:
+                "15 % de descuento en el pago de las pensiones de inglés y portugués.",
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "40 % de descuento en pago de las pensiones en carreras de enfermería, obstetricia y medicina humana, sobre la escala E.",
+                "60% de descuento en pago de la pensiones en las otras carreras, sobre la escala E.",
               ],
-          },
-          {
-              image: UniversidadChampagnat,
-              title: "UNIVERSIDAD MARCELINO CHAMPAGNAT",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Educación y Psicología",
-                          "Facultad de Administración y Contabilidad",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO:",
-                      description:
-                          "20 % de descuento en el pago de las pensiones en las carreras de educación, psicología, administración y contabilidad. Asimismo en diplomados y cursos de especialización.",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "10% de descuento en el pago de las pensiones en maestría y doctorado",
-                  },
-                  {
-                      title: "VIG. 18-04-22 / 18-04-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://umch.edu.pe/" }],
-                  },
+            },
+            {
+              title: "CARRERAS PARA LAS PERSONAS QUE TRABAJAN (CPE): ",
+              description:
+                "30% de descuento en el pago de las pensiones, Administración de empresas, Ingeniería de sistemas, Derecho, Psicología, Comunicación y publicidad, Nutrición y dietética",
+            },
+            {
+              title: "POSGRADO: ",
+              description: "10 % de descuento en maestría y especializaciones.",
+            },
+            {
+              title: "FORMACION CONTINUA: ",
+              description:
+                "30% descuento en el pago de las pensiones de los cursos.",
+            },
+            {
+              title: "VIG. 06-12-20 / 06-12-25",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://evaluaciongeneral.cientifica.edu.pe/?utm_source=google&utm_medium=cpc&utm_campaign=UCS_AON_pregrado_performance_marca_2021_08_null_null_null_conversiones_subasta_null_audiencias_null_audiencias_null_null_null_CPC_todos_pregrado-marca-brand-universidad-cientifica-del-sur_null&utm_content=texto_universidad-cientifica-del-sur_null_nullseg_null_null_textad&gclid=Cj0KCQjw7KqZBhCBARIsAI-fTKIRA5KerQ-zzdbaP1bHeP8s7bTF5nPfscMW8xAw6U8KKPVE8A70saEaAlxbEALw_wcB",
+                },
               ],
-          },
-          {
-              image: UniversidadUpal,
-              title: "UNIVERSIDAD PRIVADA PERUANO ALEMANA",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Administración y Tecnología",
-                          "Facultad de Administración y Negocios Internacionales",
-                          "Facultad de Ingeniería Industrial",
-                          "Facultad de Ingeniería de Sistemas y Software",
-                          "Facultad de Ingeniería de Ciberseguridad",
-                          "Facultad Ciencia de Datos",
-                          "Facultad de Comunicaciones",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      description:
-                          "Exoneración de matrícula. 25 % de descuento en pensiones en todas las carreras de pregrado; considerando las diferentes sedes e incluso si existiera a nivel nacional.",
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "40 % de descuento en programas de: formación continua y especializaciones, sobre el valor comercial del programa, considerando las diferentes sedes e incluso si existiera a nivel nacional.",
-                  },
-                  {
-                      title: "VIG. 18-07-23 / 18-07-23",
-                  },
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://upal.edu.pe/" }],
-                  },
+            },
+          ],
+        },
+        {
+          image: UnviersidadContinental,
+          title: "UNIVERSIDAD CONTINENTAL",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Ingeniería",
+                "Facultad de Ciencias de la Empresa",
+                "Facultad de Ciencias de la Salud",
+                "Facultad de Humanidades",
+                "Facultad de Derecho",
               ],
-          },
-          {
-              image: UniversidadFedericoVillareal,
-              title: "Universidad Nacional Federico Villarreal",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Ciencias de la Salud",
-                          "Ingeniería",
-                          "Ciencias Básicas",
-                          "Facultad de Humanidades",
-                          "Facultad de Ciencias Sociales",
-                          "Facultad de Derecho y Ciencia Política",
-                          "Facultad de Arquitectura y Urbanismo",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "25 % de descuento en matrícula y pensiones en los diferentes maestrías y doctorados",
-                  },
-                  {
-                      title: "VIG. 05-07-94 / 05-07-99",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description: "Personal militar en actividad.",
-                      links: [{ icon: faGlobe, link: "https://www.unfv.edu.pe/" }],
-                  },
+            },
+            {
+              title: "MATRÍCULA: ",
+              description:
+                "100 % de beneficio, sobre los costos por concepto de examen de admisión y matrícula, en todas las carreras de pregrado, en sus diferentes modalidades y en todas sus sedes a nivel nacional.",
+            },
+            {
+              title: "PREGRADO: ",
+              description:
+                "10% de descuento sobre el costo de la pensión, en todas las carreras de pregrado, en sus diferentes modalidades de estudio y en todas sus sedes a nivel nacional.",
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "10% de descuento sobre el costo de la pensión, en todos los programas de posgrado (formación continua, maestría), en cualquiera de sus modalidades de estudio y en todas sus sedes a nivel nacional.",
+            },
+            {
+              title: "ESTUDIO IN HOUSE: ",
+              description:
+                "10% de descuento en denominado programa IN HOUSE, que contempla capacitaciones, dirigidas a un grupo de personas que soliciten un tema determinado de estudio.",
+            },
+            {
+              title: "CENTRO DE IDIOMAS: ",
+              description:
+                "17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.",
+            },
+            {
+              title: "VIG. 22-07-22 / 22-07-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://ucontinental.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadESAN,
+          title: "UNIVERSIDAD ESAN",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Ciencias Económicas y Administrativas",
+                "Facultad de Ingeniería",
+                "Facultad de Derecho",
+                "Facultad de Psicología",
               ],
-          },
-          {
-              image: UnviersidadSanMarcosCienciasEconomicas,
-              title: "UNMSM FACULTAD DE CIENCIAS ECONÓMICAS",
-              descriptionLarge: [
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "20% de descuento en el costo total de diplomados, maestrías y doctorados a excepción del programa doble grado (sujeto a condiciones de universidades extranjeras.",
-                  },
-                  {
-                      title: "VIG. 28-12-19 / 28-12-24",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-                      links: [
-                          { icon: faGlobe, link: "https://economia.unmsm.edu.pe/" },
-                      ],
-                  },
+            },
+            {
+              title: "CENTRO PRE UNIVERSITARIO: ",
+              description: "10 % de descuento en el pago de las pensiones.",
+            },
+            {
+              title: "PREGRADO: ",
+              description: "10 % de descuento en el pago de las pensiones.",
+            },
+            {
+              title: "VIG. 14-12-22 / 14-12-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, así como sus familiares directos (cónyuge e hijos)",
+              links: [{ icon: faGlobe, link: "https://www.ue.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadUnifeSagradoCorazon,
+          title: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Arquitectura",
+                "Facultad de Derecho",
+                "Facultad de Ciencias de la Educación",
+                "Facultad de Gestión Empresarial",
+                "Facultad de Nutrición y Alimentación",
+                "Facultad de Psicología y Humanidades",
+                "Facultad de Traducción, Interpretación y Ciencias de la Comunicación",
               ],
-          },
-          {
-              image: UniversidadNorbert,
-              title: "UNIVERSIDAD NORBERT WIENER",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Ciencias de la Salud",
-                          "Facultad de Ingeniería y Negocios",
-                          "Facultad de Derecho y Ciencias Políticas",
-                          "Facultad de Farmacia y Bioquímica",
-                      ],
-                  },
-                  {
-                      title: "CENTRO PRE UNIVERSITARIO: ",
-                      description: "40% descuento por convenio",
-                  },
-                  {
-                      title: "CENTRO DE IDIOMAS: ",
-                      description: "40% descuento por convenio",
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "10% de descuento en las carreras de obstetricia, enfermería, farmacia y bioquímica, odontología, tecnología médica en laboratorio clínico, anatomía patológica y terapia física",
-                          "15% de descuento en las carreras de administración y negocios internacionales, contabilidad y auditoria, derecho y ciencia política, ingeniería industrial y gestión empresarial, ingeniería de sistemas e informática.",
-                      ],
-                  },
-                  {
-                      title: "BACHILLERATO: ",
-                      descriptions: ["33% descuento por convenio"],
-                  },
-                  {
-                      title: "VIG. 17-10-11 / AUTOMATICO RENOV",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://www.uwiener.edu.pe/" }],
-                  },
+            },
+            {
+              title: "CENTRO PRE UNIFÉ: ",
+              description: "20 % descuento en el ciclo completo.",
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "Personal de oficiales, actividad, retiro y familiares directos Escala N° 28 en pensiones.",
+                "Personal de Tcos, SSOO actividad, retiro, familiares directos y Civiles en actividad Escala N° 30 en pensiones.",
               ],
-          },
-          {
-              image: UniversidadUpc,
-              title: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Adm. en Hoteleria y Turismo",
-                          "Facultad de Arquitectura",
-                          "Facultad de Artes Contemporáneas",
-                          "Facultad de Ciencias de la Salud",
-                          "Facultad de Ciencias Humanas / Psicología",
-                          "Facultad de Comunicaciones",
-                          "Facultad de Derecho / Facultad de Diseño",
-                          "Facultad de Economía / Facultad de Educación",
-                          "Facultad de Ingeniería / Facultad de Negocios",
-                      ],
-                  },            {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "50% de descuento en matrícula – alumnos nuevos.",
-                          "25% en la primera cuota – alumnos nuevos.",
-                          "20% de descuento en las cuotas por ciclo académico (aplica a las 5 boletas).",
-                      ],
-                  },            {
-                      title: "EPE Online:",
-                      descriptions: [
-                          "20% de descuento en matrícula – alumnos nuevos.",
-                          "25% en la primera cuota – alumnos nuevos.",
-                          "20% de descuento en las 4 cuotas por ciclo académico (aplica desde la 2.ª cuota hasta la 5.ª, sin retroactividad).",
-                      ],
-                  },            {
-                      title: "EPG Escuela de Posgrado:",
-                      descriptions: [
-                          "20% de descuento en las pensiones de enseñanza.",
-                          "Wetalk (programa de ingles) modalidad virtual regular intensiva.",
-                          "Descuento en las pensiones de enseñanza.",
-                      ],
-                  },
-                  {
-                      title: "VIG. 15-12-24 / 15-12-29",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)",
-                      links: [{ icon: faGlobe, link: "https://www.upc.edu.pe/" }],
-                  },
+            },
+            {
+              title: "PREGRADO SEGUNDA CARRERA: ",
+              descriptions: [
+                "Personal de oficiales y familiares directos, descuento del 10% en pensiones.",
+                "Personal de Tcos y SSOO actividad, retiro, familiares directos y Civiles en actividad, descuento del 15% en pensiones.",
               ],
-          },
-          {
-              image: UniversidadPrivadadelNorte,
-              title: "UNIVERSIDAD PRIVADA DEL NORTE",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Administración / Contabilidad",
-                          "Economía / Gastronomía",
-                          "Facultad de Ingeniería",
-                          "Facultad de Arquitectura y Diseño",
-                          "Facultad de Derecho",
-                          "Facultad de Ciencias de la Salud",
-                          "Facultad de Comunicaciones",
-                      ],
-                  }, {
-                      title: "PREGRADO UG Y WA: ",
-                      descriptions: [
-                          "30% de descuento en Prematricula. Colaboradores y familiares directos 15%",
-                          "30% de descuento confirmación de matrícula, colaboradores y familiares directos 15%.",
-                          "30% de descuento por ciclo académico, colaboradores y familiares directos 15%.",
-                      ],
-                  }, {
-                      title: "CARRERAS PREGRADO WA ONLINE: (CARRERAS A DISTANCIA)",
-                      descriptions: [
-                          "30% de descuento prematricula colaboradores y 15% familiares directos",
-                          "30% de descuento de matricula colaboradores y 15% familiares directos",
-                          "30% de descuento Cuotas por ciclo académico y 15% familiares directos",
-                      ],
-                  },{
-                      title: "EPEC ESCUELA DE POSGRADO, MBA, DIPLOMADOS, ESPECIALIZACIONES Y CURSOS: ",
-                      descriptions: [
-                          "30% de descuento en las pensiones de enseñanza y 15% familiares directos.",
-
-                      ],
-                  },
-                  {
-                      title: "VIG. 31-12-24 / 31-12-29",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://www.upn.edu.pe/" }],
-                  },
+            },
+            {
+              title: "POSGRADO: ",
+              descriptions: [
+                "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
+                "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
               ],
-          },
-          {
-              image: UniversidadRicardoPalma,
-              title: "UNIVERSIDAD RICARDO PALMA",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Arquitectura y Urbanismo",
-                          "Facultad de Ingeniería",
-                          "Facultad de Medicina Humana",
-                          "Facultad de Ciencias Económicas y Empresariales",
-                          "Facultad de Humanidades y Lenguas Modernas",
-                          "Facultad de Ciencias Biológicas",
-                          "Facultad de Derecho y Ciencias Políticas",
-                          "Facultad de Psicología",
-                      ],
-                  },
-                  {
-                      title: "CENTRO PRE UNIVERSITARIO: ",
-                      description: "10% de descuento sobre el ciclo",
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "Carrera de arquitectura y urbanismo escala 14, en el pago de las pensiones.",
-                          "Carrera de medicina humana escala 9, en el pago de las pensiones.",
-                          "Carrera de administración y gerencia, administración de negocios globales, biología, contabilidad y finanzas, economía, hotelería y turismo, ingeniería civil, electrónica, industrial, informática, psicología, traducción e interpretación, escala 7.",
-                          "Oficiales del grado de coronel el descuento en el pago de pensiones es (de 5 cuotas pagan 4).",
-                          "Oficiales del grado de Teniente Coronel hasta Sub Oficiales de 3era, personal civil e Hijos, el descuento en el pago de las pensiones será(de 5cuotas pagan 3).",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "Maestría, doctorado, segunda especialización, descuento en el pago de las pensiones de 5 cuotas pagan 4",
-                  },
-                  {
-                      title: "VIG. 30-05-07 / AUTOMATICO RENOV",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos menores de 28 años)",
-                      links: [{ icon: faGlobe, link: "https://urp.edu.pe/" }],
-                  },
+            },
+            {
+              title: "SEGUNDA ESPECIALIDAD: ",
+              descriptions: [
+                "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
+                "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
               ],
-          },
-          {
-              image: UniversidadSanIgnacioLoyola,
-              title: "UNIVERSIDAD SAN IGNACIO DE LOYOLA",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Administración Hotelera, Turismo y Gastronomía",
-                          "Facultad de Ciencias Empresariales",
-                          "Facultad de Ingeniería",
-                          "Facultad de Arquitectura",
-                          "Facultad de Comunicación",
-                          "Facultad de Artes y Humanidades",
-                          "Facultad de Derecho",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "La categoría mínima de (CATEGORIA A), por única vez y si se conservará en los periodos académicos, en la medida que el rendimiento académico sea aprobatorio",
-                          "10% y 13% de descuento en los diferentes programas académicos. En IE, en cualquiera de sus modalidades",
-                          "Otorgará el descuento del 5% en cursos de duración de un mes, el 8% en cursos de duración de dos a tres meses y el 10% en cursos de duración de cuatro meses a más, sobre los precios de lista, ofrecidos en las instituciones educativas en cualquiera de sus modalidades.",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      description:
-                          "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en la EPG (maestría, doctorado, especializaciones, diplomados y formación continua), en cualquiera de sus modalidades en la Sede La Molina – Campus 2.",
-                  },
-                  {
-                      title: "PROGRAMA ONLINE: ",
-                      description:
-                          "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina – Campus 2.",
-                  },
-                  {
-                      title: "VIG. 13-09-22 / 13-09-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, Personal civil en actividad o cesante así como a familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://www.usil.edu.pe/" }],
-                  },
+            },
+            {
+              title: "DIPLOMADOS Y/O SEMINARIOS: ",
+              descriptions: [
+                "Personal de oficiales Escala N° 28 en el pago de las pensiones.",
+                "Personal de Tcos y SSOO Escala N° 30 en el pago de las pensiones",
               ],
-          },
-          {
-              image: UniversidadSanJuanBautista,
-              title: "UNIVERSIDAD SAN JUAN BAUTISTA",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Facultad de Ingenierías",
-                          "Facultad de Ingenierías",
-                          "Facultad de Comunicación",
-                          "Facultad de Ciencias Administrativas",
-                          "Facultad de Derecho",
-                          "Facultad de Ciencias de la Salud",
-                      ],
-                  },
-                  {
-                      title: "Pregrado: ",
-                      description: [
-                          "Escala “C”: 25% de descuento en el pago de las pensiones en todas las carreras profesionales.",
-                          "En la modalidad semipresencial: 15%.",
-                      ]
-                  },
-                  {
-                      title: "Posgrado: ",
-                      description:
-                          "Escala “C”: 25% de descuento en el pago de las pensiones.",
-                  },
-                  {
-                      title: "Programa de estudio segunda especialidad en enfermería y estomatología:",
-                      description:
-                          "15% de descuento.",
-                  },
-                  {
-                      title:
-                          "Centro preuniversitario:",
-                      description:
-                          "20% de descuento.",
-                  },
-                  {
-                      title: "Centro de idiomas – cursos de capacitación, diplomados, simposios, programas de perfeccionamiento y complementación académica profesional, cultural:",
-                      description:
-                          "Escala “C”: 25%.",
-                  },            {
-                      title: "Cursos de extensión:",
-                      description:
-                          "25% de descuento.",
-                  },            {
-                      title: "Derecho de admisión:",
-                      description:
-                          "Descuento del 100%, siempre que este se realice en las instalaciones del Ejército con un número de 40 postulantes.",
-                  },
-                  {
-                      title: "VIG. 28-05-24 / 28-05-29",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, Personal civil en actividad o cesante así como a familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados",
-                      links: [{ icon: faGlobe, link: "https://www.upsjb.edu.pe/" }],
-                  },
+            },
+            {
+              title: "VIG. 24-10-19 / 24-10-24",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.unife.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadJaimeBausate,
+          title: "Universidad Jaime Bausate y Meza",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Comunicación Audiovisual",
+                "Facultad de Administración",
+                "Facultad de Periodismo",
               ],
-          },
-          {
-              image: UniversidadSanmartinPorres,
-              title: "SAN MARTIN DE PORRES",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Administración",
-                          "Administración de Negocios Internacionales Arquitectura",
-                          "Ciencias Aeronáuticas",
-                          "Ciencias de la Comunicación",
-                          "Contabilidad y Finanzas Derecho",
-                          "Economía",
-                          "Educación",
-                          "Dirección e Interpretación Musical",
-                          "Enfermería",
-                          "Gestión de Recursos Humanos",
-                          "Ingeniería Civil",
-                          "Ingeniería de Computación y Sistemas",
-                          "Ingeniería Industrial",
-                          "Marketing",
-                          "Medicina Humana",
-                          "Obstetricia",
-                          "Odontología",
-                          "Psicología",
-                          "Turismo y Hotelería",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      description:
-                          "Costo diferenciado en el pago de las pensiones en las diferentes carreras profesionales",
-                  },
-                  {
-                      title: "PROGRAMA PARA ADULTOS QUE TRABAJAN (PAT): ",
-                      descriptions: [
-                          "15% de descuento en el pago de las pensiones dirigido a oficiales",
-                          "20% de descuento en el pago de las pensiones dirigido a Técnicos, suboficiales y personal civil",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      descriptions: [
-                          "25% de descuento en el pago de las diferentes carreras profesionales (maestría y doctorado)",
-                          "25% de descuento en segundas especializaciones",
-                          "25% de descuento en diplomados",
-                      ],
-                  },
-                  {
-                      title: "EN TRAMITE DE RENOVACIÓN",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
-                      links: [{ icon: faGlobe, link: "https://www.usmp.edu.pe/" }],
-                  },
+            },
+            {
+              title: "PREGRADO: ",
+              description:
+                "20 % de descuento sobre el costo de la pensión en las carreras de periodismo, escuela profesional de comunicación audiovisual, en cualquiera de sus modalidades.",
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "20 % de descuento sobre el costo de la pensión en enseñanza de posgrado, diplomados y curso de extensión educativa y proyección social, en cualquiera de sus modalidades",
+            },
+            {
+              title: "VIG. 03-05-22 / 03-05-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.bausate.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadChampagnat,
+          title: "UNIVERSIDAD MARCELINO CHAMPAGNAT",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Educación y Psicología",
+                "Facultad de Administración y Contabilidad",
               ],
-          },
-          {
-              image: UniversidadUtp,
-              title: "Universidad Tecnológica del Perú",
-              descriptionLarge: [
-                  {
-                      title: "FACULTADES AFECTADAS: ",
-                      descriptions: [
-                          "Ingeniería",
-                          "Comunicaciones",
-                          "Negocios",
-                          "Derechos",
-                          "Arquitectura",
-                          "Psicología",
-                      ],
-                  },
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "25 % de descuento en todas las carreras, en todas las sedes a nivel nacional.",
-                          "15% de descuento sobre el costo de pensiones en todas las carreras de pregrado, modalidad carreras para gente que trabaja, en todas las sedes a nivel nacional.",
-                      ],
-                  },
-                  {
-                      title: "VIG. 07-09-22 / 07-09-27",
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://www.utp.edu.pe/" }],
-                  },
+            },
+            {
+              title: "PREGRADO:",
+              description:
+                "20 % de descuento en el pago de las pensiones en las carreras de educación, psicología, administración y contabilidad. Asimismo en diplomados y cursos de especialización.",
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "10% de descuento en el pago de las pensiones en maestría y doctorado",
+            },
+            {
+              title: "VIG. 18-04-22 / 18-04-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://umch.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadUpal,
+          title: "UNIVERSIDAD PRIVADA PERUANO ALEMANA",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Administración y Tecnología",
+                "Facultad de Administración y Negocios Internacionales",
+                "Facultad de Ingeniería Industrial",
+                "Facultad de Ingeniería de Sistemas y Software",
+                "Facultad de Ingeniería de Ciberseguridad",
+                "Facultad Ciencia de Datos",
+                "Facultad de Comunicaciones",
               ],
-          },
+            },
+            {
+              title: "PREGRADO: ",
+              description:
+                "Exoneración de matrícula. 25 % de descuento en pensiones en todas las carreras de pregrado; considerando las diferentes sedes e incluso si existiera a nivel nacional.",
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "40 % de descuento en programas de: formación continua y especializaciones, sobre el valor comercial del programa, considerando las diferentes sedes e incluso si existiera a nivel nacional.",
+            },
+            {
+              title: "VIG. 18-07-23 / 18-07-23",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://upal.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadFedericoVillareal,
+          title: "Universidad Nacional Federico Villarreal",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Ciencias de la Salud",
+                "Ingeniería",
+                "Ciencias Básicas",
+                "Facultad de Humanidades",
+                "Facultad de Ciencias Sociales",
+                "Facultad de Derecho y Ciencia Política",
+                "Facultad de Arquitectura y Urbanismo",
+              ],
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "25 % de descuento en matrícula y pensiones en los diferentes maestrías y doctorados",
+            },
+            {
+              title: "VIG. 05-07-94 / 05-07-99",
+            },
+            {
+              title: "ALCANCE: ",
+              description: "Personal militar en actividad.",
+              links: [{ icon: faGlobe, link: "https://www.unfv.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UnviersidadSanMarcosCienciasEconomicas,
+          title: "UNMSM FACULTAD DE CIENCIAS ECONÓMICAS",
+          descriptionLarge: [
+            {
+              title: "POSGRADO: ",
+              description:
+                "20% de descuento en el costo total de diplomados, maestrías y doctorados a excepción del programa doble grado (sujeto a condiciones de universidades extranjeras.",
+            },
+            {
+              title: "VIG. 28-12-19 / 28-12-24",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+              links: [
+                { icon: faGlobe, link: "https://economia.unmsm.edu.pe/" },
+              ],
+            },
+          ],
+        },
+        {
+          image: UniversidadNorbert,
+          title: "UNIVERSIDAD NORBERT WIENER",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Ciencias de la Salud",
+                "Facultad de Ingeniería y Negocios",
+                "Facultad de Derecho y Ciencias Políticas",
+                "Facultad de Farmacia y Bioquímica",
+              ],
+            },
+            {
+              title: "CENTRO PRE UNIVERSITARIO: ",
+              description: "40% descuento por convenio",
+            },
+            {
+              title: "CENTRO DE IDIOMAS: ",
+              description: "40% descuento por convenio",
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "10% de descuento en las carreras de obstetricia, enfermería, farmacia y bioquímica, odontología, tecnología médica en laboratorio clínico, anatomía patológica y terapia física",
+                "15% de descuento en las carreras de administración y negocios internacionales, contabilidad y auditoria, derecho y ciencia política, ingeniería industrial y gestión empresarial, ingeniería de sistemas e informática.",
+              ],
+            },
+            {
+              title: "BACHILLERATO: ",
+              descriptions: ["33% descuento por convenio"],
+            },
+            {
+              title: "VIG. 17-10-11 / AUTOMATICO RENOV",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.uwiener.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadUpc,
+          title: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Adm. en Hoteleria y Turismo",
+                "Facultad de Arquitectura",
+                "Facultad de Artes Contemporáneas",
+                "Facultad de Ciencias de la Salud",
+                "Facultad de Ciencias Humanas / Psicología",
+                "Facultad de Comunicaciones",
+                "Facultad de Derecho / Facultad de Diseño",
+                "Facultad de Economía / Facultad de Educación",
+                "Facultad de Ingeniería / Facultad de Negocios",
+              ],
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "50% de descuento en matrícula – alumnos nuevos.",
+                "25% en la primera cuota – alumnos nuevos.",
+                "20% de descuento en las cuotas por ciclo académico (aplica a las 5 boletas).",
+              ],
+            },
+            {
+              title: "EPE Online:",
+              descriptions: [
+                "20% de descuento en matrícula – alumnos nuevos.",
+                "25% en la primera cuota – alumnos nuevos.",
+                "20% de descuento en las 4 cuotas por ciclo académico (aplica desde la 2.ª cuota hasta la 5.ª, sin retroactividad).",
+              ],
+            },
+            {
+              title: "EPG Escuela de Posgrado:",
+              descriptions: [
+                "20% de descuento en las pensiones de enseñanza.",
+                "Wetalk (programa de ingles) modalidad virtual regular intensiva.",
+                "Descuento en las pensiones de enseñanza.",
+              ],
+            },
+            {
+              title: "VIG. 15-12-24 / 15-12-29",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)",
+              links: [{ icon: faGlobe, link: "https://www.upc.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadPrivadadelNorte,
+          title: "UNIVERSIDAD PRIVADA DEL NORTE",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Administración / Contabilidad",
+                "Economía / Gastronomía",
+                "Facultad de Ingeniería",
+                "Facultad de Arquitectura y Diseño",
+                "Facultad de Derecho",
+                "Facultad de Ciencias de la Salud",
+                "Facultad de Comunicaciones",
+              ],
+            },
+            {
+              title: "PREGRADO UG Y WA: ",
+              descriptions: [
+                "30% de descuento en Prematricula. Colaboradores y familiares directos 15%",
+                "30% de descuento confirmación de matrícula, colaboradores y familiares directos 15%.",
+                "30% de descuento por ciclo académico, colaboradores y familiares directos 15%.",
+              ],
+            },
+            {
+              title: "CARRERAS PREGRADO WA ONLINE: (CARRERAS A DISTANCIA)",
+              descriptions: [
+                "30% de descuento prematricula colaboradores y 15% familiares directos",
+                "30% de descuento de matricula colaboradores y 15% familiares directos",
+                "30% de descuento Cuotas por ciclo académico y 15% familiares directos",
+              ],
+            },
+            {
+              title:
+                "EPEC ESCUELA DE POSGRADO, MBA, DIPLOMADOS, ESPECIALIZACIONES Y CURSOS: ",
+              descriptions: [
+                "30% de descuento en las pensiones de enseñanza y 15% familiares directos.",
+              ],
+            },
+            {
+              title: "VIG. 31-12-24 / 31-12-29",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.upn.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadRicardoPalma,
+          title: "UNIVERSIDAD RICARDO PALMA",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Arquitectura y Urbanismo",
+                "Facultad de Ingeniería",
+                "Facultad de Medicina Humana",
+                "Facultad de Ciencias Económicas y Empresariales",
+                "Facultad de Humanidades y Lenguas Modernas",
+                "Facultad de Ciencias Biológicas",
+                "Facultad de Derecho y Ciencias Políticas",
+                "Facultad de Psicología",
+              ],
+            },
+            {
+              title: "CENTRO PRE UNIVERSITARIO: ",
+              description: "10% de descuento sobre el ciclo",
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "Carrera de arquitectura y urbanismo escala 14, en el pago de las pensiones.",
+                "Carrera de medicina humana escala 9, en el pago de las pensiones.",
+                "Carrera de administración y gerencia, administración de negocios globales, biología, contabilidad y finanzas, economía, hotelería y turismo, ingeniería civil, electrónica, industrial, informática, psicología, traducción e interpretación, escala 7.",
+                "Oficiales del grado de coronel el descuento en el pago de pensiones es (de 5 cuotas pagan 4).",
+                "Oficiales del grado de Teniente Coronel hasta Sub Oficiales de 3era, personal civil e Hijos, el descuento en el pago de las pensiones será(de 5cuotas pagan 3).",
+              ],
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "Maestría, doctorado, segunda especialización, descuento en el pago de las pensiones de 5 cuotas pagan 4",
+            },
+            {
+              title: "VIG. 30-05-07 / AUTOMATICO RENOV",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos menores de 28 años)",
+              links: [{ icon: faGlobe, link: "https://urp.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadSanIgnacioLoyola,
+          title: "UNIVERSIDAD SAN IGNACIO DE LOYOLA",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Administración Hotelera, Turismo y Gastronomía",
+                "Facultad de Ciencias Empresariales",
+                "Facultad de Ingeniería",
+                "Facultad de Arquitectura",
+                "Facultad de Comunicación",
+                "Facultad de Artes y Humanidades",
+                "Facultad de Derecho",
+              ],
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "La categoría mínima de (CATEGORIA A), por única vez y si se conservará en los periodos académicos, en la medida que el rendimiento académico sea aprobatorio",
+                "10% y 13% de descuento en los diferentes programas académicos. En IE, en cualquiera de sus modalidades",
+                "Otorgará el descuento del 5% en cursos de duración de un mes, el 8% en cursos de duración de dos a tres meses y el 10% en cursos de duración de cuatro meses a más, sobre los precios de lista, ofrecidos en las instituciones educativas en cualquiera de sus modalidades.",
+              ],
+            },
+            {
+              title: "POSGRADO: ",
+              description:
+                "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en la EPG (maestría, doctorado, especializaciones, diplomados y formación continua), en cualquiera de sus modalidades en la Sede La Molina – Campus 2.",
+            },
+            {
+              title: "PROGRAMA ONLINE: ",
+              description:
+                "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina – Campus 2.",
+            },
+            {
+              title: "VIG. 13-09-22 / 13-09-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, Personal civil en actividad o cesante así como a familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.usil.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadSanJuanBautista,
+          title: "UNIVERSIDAD SAN JUAN BAUTISTA",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Facultad de Ingenierías",
+                "Facultad de Ingenierías",
+                "Facultad de Comunicación",
+                "Facultad de Ciencias Administrativas",
+                "Facultad de Derecho",
+                "Facultad de Ciencias de la Salud",
+              ],
+            },
+            {
+              title: "Pregrado: ",
+              description: [
+                "Escala “C”: 25% de descuento en el pago de las pensiones en todas las carreras profesionales.",
+                "En la modalidad semipresencial: 15%.",
+              ],
+            },
+            {
+              title: "Posgrado: ",
+              description:
+                "Escala “C”: 25% de descuento en el pago de las pensiones.",
+            },
+            {
+              title:
+                "Programa de estudio segunda especialidad en enfermería y estomatología:",
+              description: "15% de descuento.",
+            },
+            {
+              title: "Centro preuniversitario:",
+              description: "20% de descuento.",
+            },
+            {
+              title:
+                "Centro de idiomas – cursos de capacitación, diplomados, simposios, programas de perfeccionamiento y complementación académica profesional, cultural:",
+              description: "Escala “C”: 25%.",
+            },
+            {
+              title: "Cursos de extensión:",
+              description: "25% de descuento.",
+            },
+            {
+              title: "Derecho de admisión:",
+              description:
+                "Descuento del 100%, siempre que este se realice en las instalaciones del Ejército con un número de 40 postulantes.",
+            },
+            {
+              title: "VIG. 28-05-24 / 28-05-29",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, Personal civil en actividad o cesante así como a familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados",
+              links: [{ icon: faGlobe, link: "https://www.upsjb.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadSanmartinPorres,
+          title: "SAN MARTIN DE PORRES",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Administración",
+                "Administración de Negocios Internacionales Arquitectura",
+                "Ciencias Aeronáuticas",
+                "Ciencias de la Comunicación",
+                "Contabilidad y Finanzas Derecho",
+                "Economía",
+                "Educación",
+                "Dirección e Interpretación Musical",
+                "Enfermería",
+                "Gestión de Recursos Humanos",
+                "Ingeniería Civil",
+                "Ingeniería de Computación y Sistemas",
+                "Ingeniería Industrial",
+                "Marketing",
+                "Medicina Humana",
+                "Obstetricia",
+                "Odontología",
+                "Psicología",
+                "Turismo y Hotelería",
+              ],
+            },
+            {
+              title: "PREGRADO: ",
+              description:
+                "Costo diferenciado en el pago de las pensiones en las diferentes carreras profesionales",
+            },
+            {
+              title: "PROGRAMA PARA ADULTOS QUE TRABAJAN (PAT): ",
+              descriptions: [
+                "15% de descuento en el pago de las pensiones dirigido a oficiales",
+                "20% de descuento en el pago de las pensiones dirigido a Técnicos, suboficiales y personal civil",
+              ],
+            },
+            {
+              title: "POSGRADO: ",
+              descriptions: [
+                "25% de descuento en el pago de las diferentes carreras profesionales (maestría y doctorado)",
+                "25% de descuento en segundas especializaciones",
+                "25% de descuento en diplomados",
+              ],
+            },
+            {
+              title: "EN TRAMITE DE RENOVACIÓN",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
+              links: [{ icon: faGlobe, link: "https://www.usmp.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadUtp,
+          title: "Universidad Tecnológica del Perú",
+          descriptionLarge: [
+            {
+              title: "FACULTADES AFECTADAS: ",
+              descriptions: [
+                "Ingeniería",
+                "Comunicaciones",
+                "Negocios",
+                "Derechos",
+                "Arquitectura",
+                "Psicología",
+              ],
+            },
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "25 % de descuento en todas las carreras, en todas las sedes a nivel nacional.",
+                "15% de descuento sobre el costo de pensiones en todas las carreras de pregrado, modalidad carreras para gente que trabaja, en todas las sedes a nivel nacional.",
+              ],
+            },
+            {
+              title: "VIG. 07-09-22 / 07-09-27",
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.utp.edu.pe/" }],
+            },
+          ],
+        },
         {
           image: UnviersidadAutonomaDeIca,
           title: "UNIVERSIDAD AUTÓNOMA DE ICA",
@@ -1024,9 +1031,9 @@ export const saedConfig = {
               description:
                 "10 % de descuento, sobre el valor comercial del programa. Considerando las diferentes sedes e incluso si existiera a nivel nacional.",
             },
-              {
-                  title: "VIG. 11-10-23 / 11-10-23",
-              },
+            {
+              title: "VIG. 11-10-23 / 11-10-23",
+            },
             {
               title: "ALCANCE: ",
               description:
@@ -1080,9 +1087,9 @@ export const saedConfig = {
               title:
                 "50% en el pagó inicial para el ingreso de Enero hasta el treinta de octubre del año en curso, así como para el ingreso de agosto hasta el treinta de mayo del año en curso.",
             },
-              {
-                  title: "VIG. 20-09-22 / 20-09-27",
-              },
+            {
+              title: "VIG. 20-09-22 / 20-09-27",
+            },
             {
               title: "ALCANCE: ",
               description:
@@ -1094,27 +1101,27 @@ export const saedConfig = {
             },
           ],
         },
-          {
-              image: UNIR,
-              title: "UNIVERSIDAD INTERNACIONAL DE LA RIOJA",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS: ",
-                      descriptions: [
-                          "5% sobre los descuentos oficiales que tenga en ese momento, a los beneficiarios de “EL EJÉRCITO” interesados en cursar maestrías oficiales online de “UNIR”, el descuento se aplicará sobre las tarifas vigentes para Perú.",
-                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “UNIR” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% y 45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
-                      ],
-                  },
-                  {
-                      title: "VIG. 11-12-24 / 11-12-29",
-                  },
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                  },
+        {
+          image: UNIR,
+          title: "UNIVERSIDAD INTERNACIONAL DE LA RIOJA",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "5% sobre los descuentos oficiales que tenga en ese momento, a los beneficiarios de “EL EJÉRCITO” interesados en cursar maestrías oficiales online de “UNIR”, el descuento se aplicará sobre las tarifas vigentes para Perú.",
+                "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “UNIR” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% y 45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
               ],
-          },
+            },
+            {
+              title: "VIG. 11-12-24 / 11-12-29",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+            },
+          ],
+        },
 
         // {
         // 	image: UniversidadNacionalMusica,
@@ -1161,94 +1168,89 @@ export const saedConfig = {
         // 		},
         // 	],
         // },
-          {
-              image: cayetano,
-              title: "UNIVERSIDAD PERUANA CAYETANO HEREDIA",
-              descriptionLarge: [
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "10% de descuento en las carreras de Medicina y Estomatología.",
-                          "15% de descuento en las carreras de Farmacia y Bioquímica, Nutrición, Medicina Veterinaria y Zootecnia.",
-                          "20% de descuento en la carrera de Biología.",
-                          "25% de descuento en las carreras de Ingeniería Ambiental, Ingeniería Informática, Administración, Educación y Psicología.",
-                          "15% de descuento en Educación Continua, Maestrías y Doctorados.",
-                          "20% de descuento en Idiomas: inglés y portugués.",
-                      ],
-                  },
-                  {
-                      title: "VIG. 03-12-24 / 03-12-29",
-                  },
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://cayetano.edu.pe/" }],
-                  },
+        {
+          image: cayetano,
+          title: "UNIVERSIDAD PERUANA CAYETANO HEREDIA",
+          descriptionLarge: [
+            {
+              title: "PREGRADO: ",
+              descriptions: [
+                "10% de descuento en las carreras de Medicina y Estomatología.",
+                "15% de descuento en las carreras de Farmacia y Bioquímica, Nutrición, Medicina Veterinaria y Zootecnia.",
+                "20% de descuento en la carrera de Biología.",
+                "25% de descuento en las carreras de Ingeniería Ambiental, Ingeniería Informática, Administración, Educación y Psicología.",
+                "15% de descuento en Educación Continua, Maestrías y Doctorados.",
+                "20% de descuento en Idiomas: inglés y portugués.",
               ],
-          },
-          {
-              image:UniversidadDeLima,
-              title: "UNIVERSIDAD DE LIMA",
-              descriptionLarge: [
-                  {
-                      title: "POSGRADO: ",
-                      descriptions: [
-                          "15% en programas de maestría.",
-                          "10% en programas de doctorado.",
-                      ],
-                  },
-                  {
-                      title: "CURSOS DE EXTENSIÓN Y ESPECIALIZACIÓN: ",
-                      descriptions: [
-                          "15% sobre el valor de los cursos de extensión y especialización que brinda la dirección de educación continua.",
-                      ],
-                  },
-                  {
-                      title: "VIG. 26-09-25 / 26-09-30",
-                  },
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://ulima.edu.pe/" }],
-                  },
+            },
+            {
+              title: "VIG. 03-12-24 / 03-12-29",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://cayetano.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadDeLima,
+          title: "UNIVERSIDAD DE LIMA",
+          descriptionLarge: [
+            {
+              title: "POSGRADO: ",
+              descriptions: [
+                "15% en programas de maestría.",
+                "10% en programas de doctorado.",
               ],
-          },
-          {
-              image: UniversidadPrivadaDeTrujillo,
-              title: "UNIVERSIDAD PRIVADA DE TRUJILLO",
-              descriptionLarge: [
-                  {
-                      title: "PREGRADO: ",
-                      descriptions: [
-                          "25% DSCTO en el pago de pensiones.",
-                      ],
-                  },
-                  {
-                      title: "POSGRADO: ",
-                      descriptions: [
-                          "25% en programas de maestría y doctorado.",
-                      ],
-                  },
-                  {
-                      title: "CURSOS DE EXTENSIÓN Y ESPECIALIZACIÓN: ",
-                      descriptions: [
-                          "25% sobre el valor de los cursos de extensión y especialización que brinda la dirección de educación continua.",
-                      ],
-                  },
-                  {
-                      title: "VIG. 30-10-25 / 30-10-30",
-                  },
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                      links: [{ icon: faGlobe, link: "https://uprit.edu.pe/" }],
-                  },
+            },
+            {
+              title: "CURSOS DE EXTENSIÓN Y ESPECIALIZACIÓN: ",
+              descriptions: [
+                "15% sobre el valor de los cursos de extensión y especialización que brinda la dirección de educación continua.",
               ],
-          },
-
+            },
+            {
+              title: "VIG. 26-09-25 / 26-09-30",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://ulima.edu.pe/" }],
+            },
+          ],
+        },
+        {
+          image: UniversidadPrivadaDeTrujillo,
+          title: "UNIVERSIDAD PRIVADA DE TRUJILLO",
+          descriptionLarge: [
+            {
+              title: "PREGRADO: ",
+              descriptions: ["25% DSCTO en el pago de pensiones."],
+            },
+            {
+              title: "POSGRADO: ",
+              descriptions: ["25% en programas de maestría y doctorado."],
+            },
+            {
+              title: "CURSOS DE EXTENSIÓN Y ESPECIALIZACIÓN: ",
+              descriptions: [
+                "25% sobre el valor de los cursos de extensión y especialización que brinda la dirección de educación continua.",
+              ],
+            },
+            {
+              title: "VIG. 30-10-25 / 30-10-30",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://uprit.edu.pe/" }],
+            },
+          ],
+        },
       ],
     },
     sectionInstitutes: {
@@ -1392,25 +1394,25 @@ export const saedConfig = {
             },
           ],
         },
-          {
-              image: NEWMAN,
-              title: "ESCUELA DE POSGRADO NEWMAN",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS: ",
-                      descriptions: [
-                          "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
-                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
-                      ],
-                  },
-
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                  },
+        {
+          image: NEWMAN,
+          title: "ESCUELA DE POSGRADO NEWMAN",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
+                "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
               ],
-          },
+            },
+
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+            },
+          ],
+        },
         // {
         //   image: Institute6,
         //   title: "CEVATUR PERÚ",
@@ -2140,7 +2142,8 @@ export const saedConfig = {
               links: [{ icon: faGlobe, link: "https://www.ceuce.edu.pe/" }],
             },
           ],
-        },        {
+        },
+        {
           title: "FORCE PERÚ",
           image: FORCE,
           descriptionLarge: [

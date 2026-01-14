@@ -9,7 +9,7 @@ import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 export const dscsConfig = {
   helmet: {
     title: "Departamento de Supervisión de Calidad del Servicio",
-    link: "https://dscs.cobiene.mil.pe",
+    link: "https://dscs.jbiene.com",
     description:
       "Garantizando calidad en servicios clave del Ejército para personal militar y sus familias.",
     keywords: "supervision,calidad,servicio",
