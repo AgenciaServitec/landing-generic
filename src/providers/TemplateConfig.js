@@ -49,6 +49,7 @@ export const TemplateConfig = ({ children }) => {
         return setTemplateType("dscs");
       default:
         return setTemplateType("sdace");
+
     }
   }, [hostName]);
 
