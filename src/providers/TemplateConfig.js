@@ -11,8 +11,8 @@ import {
 
 const templateConfigs = {
   cmsts: cmstsConfig,
-  jace: jaceConfig,
-  jae: jaeConfig,
+  sdace: jaceConfig,
+  sdae: jaeConfig,
   sad: sadConfig,
   saed: saedConfig,
   dscs: dscsConfig,
@@ -37,16 +37,16 @@ export const TemplateConfig = ({ children }) => {
         return setTemplateType("cmsts");
       case "sdace.jbiene.com":
         return setTemplateType("sdace");
-      case " sdae.jbiene.com":
+      case "sdae.jbiene.com":
         return setTemplateType("sdae");
       case "sad.jbiene.com":
         return setTemplateType("sad");
       case "saed.jbiene.com":
         return setTemplateType("saed");
-      case "apoyosocial.jbiene.com":
-        return setTemplateType("apoyoSocial");
       case "dscs.jbiene.com":
         return setTemplateType("dscs");
+      case "apoyosocial.jbiene.com":
+        return setTemplateType("apoyoSocial");
       default:
         return setTemplateType("sdace");
     }

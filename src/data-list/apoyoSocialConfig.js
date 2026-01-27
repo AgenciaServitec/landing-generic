@@ -1,103 +1,117 @@
 import {
-    ArgentinaBandera,
-    Azaleia,
-    BancoComercio,
-    BancoContinental,
-    BancoGng,
-    BancoBCP,
-    BancoInterbank,
-    BancoScotiabank,
-    BannerEconomico,
-    BannerSalud,
-    BannerServices,
-    BoliviaBandera,
-    BrasilBandera,
-    ChileBandera,
-    ClinicaDelInca,
-    CobieneLogoLarge,
-    ColombianaBandera,
-    ConvenioSalud1,
-    ConvenioSalud12,
-    ConvenioSalud14,
-    ConvenioSalud15,
-    ConvenioSalud2,
-    ConvenioSalud3,
-    ConvenioSalud4,
-    ConvenioSalud5,
-    ConvenioSalud6,
-    ConvenioSalud7,
-    CoreaBandera,
-    CruzDelSur,
-    Decameron,
-    Domireps,
-    DpromartPeru,
-    EcuadorBandera,
-    ElCentro,
-    Enazul,
-    EspanaBandera,
-    FacturaServitec,
-    FinancieraAutoplan,
-    FinancieraEfectiva,
-    FinancieraLarehabilitadora,
-    FranciaBandera,
-    HolidayInn,
-    HolidayInnExpress,
-    HotelCarrera,
-    ImgBthHotelRebelTacna,
-    ImgCentroOpticoJesusEirl,
-    ImgChifaRestauranteWongsen,
-    ImgDireccionRegionalEducacionTacna,
-    ImgDmHotel,
-    ImgDonLimon,
-    ImgDPaletas,
-    ImgEgatur,
-    ImgHotelLaSiesta,
-    ImgHotelMaximo,
-    ImgIepDayperPeruIerl,
-    ImgMayuComidaSalon,
-    ImgMbRehabFisioterapiaRehabilitacionSalud,
-    ImgMirandaEscobarPeruTravels,
-    ImgPacificSuitesHotel,
-    ImgRestauranteFuegosPeruanos,
-    ImgRestaurantePastaEirl,
-    ImgRestauranteTradicionesPeruanas,
-    ImgSaintRose,
-    ImgUap,
-    ImgUpt,
-    Lg,
-    MexicoBandera,
-    MisaPadre,
-    Movilbus,
-    MultiserviciosTuringCusco,
-    Niuovida,
-    NoImagen,
-    Oltursa,
-    PublicidadServitec,
-    SaecoBautismo,
-    SaecoImgAbout,
-    SaecoImgCarousel,
-    Samsung,
-    SeguroRimac,
-    SeguroSaludPositiva,
-    SeguroVehicularPositiva,
-    Servitec,
-    SkyAirline,
-    SmartFit,
-    StarPeru,
-    StoreServitec,
-    TiendaFootloose,
-    TiendaLazzos,
-    TitleAyudaEconomica,
-    TitleConvenios,
-    TitleReli, SMC, Palomino, Vega, cayetano, botiperu, ChichaKio, Cencosud
+  ArgentinaBandera,
+  Azaleia,
+  BancoComercio,
+  BancoContinental,
+  BancoGng,
+  BancoBCP,
+  BancoInterbank,
+  BancoScotiabank,
+  BannerEconomico,
+  BannerSalud,
+  BannerServices,
+  BoliviaBandera,
+  BrasilBandera,
+  ChileBandera,
+  ClinicaDelInca,
+  CobieneLogoLarge,
+  ColombianaBandera,
+  ConvenioSalud1,
+  ConvenioSalud12,
+  ConvenioSalud14,
+  ConvenioSalud15,
+  ConvenioSalud2,
+  ConvenioSalud3,
+  ConvenioSalud4,
+  ConvenioSalud5,
+  ConvenioSalud6,
+  ConvenioSalud7,
+  CoreaBandera,
+  CruzDelSur,
+  Decameron,
+  Domireps,
+  DpromartPeru,
+  EcuadorBandera,
+  ElCentro,
+  Enazul,
+  EspanaBandera,
+  FacturaServitec,
+  FinancieraAutoplan,
+  FinancieraEfectiva,
+  FinancieraLarehabilitadora,
+  FranciaBandera,
+  HolidayInn,
+  HolidayInnExpress,
+  HotelCarrera,
+  ImgBthHotelRebelTacna,
+  ImgCentroOpticoJesusEirl,
+  ImgChifaRestauranteWongsen,
+  ImgDireccionRegionalEducacionTacna,
+  ImgDmHotel,
+  ImgDonLimon,
+  ImgDPaletas,
+  ImgEgatur,
+  ImgHotelLaSiesta,
+  ImgHotelMaximo,
+  ImgIepDayperPeruIerl,
+  ImgMayuComidaSalon,
+  ImgMbRehabFisioterapiaRehabilitacionSalud,
+  ImgMirandaEscobarPeruTravels,
+  ImgPacificSuitesHotel,
+  ImgRestauranteFuegosPeruanos,
+  ImgRestaurantePastaEirl,
+  ImgRestauranteTradicionesPeruanas,
+  ImgSaintRose,
+  ImgUap,
+  ImgUpt,
+  Lg,
+  MexicoBandera,
+  MisaPadre,
+  Movilbus,
+  MultiserviciosTuringCusco,
+  Niuovida,
+  NoImagen,
+  Oltursa,
+  PublicidadServitec,
+  SaecoBautismo,
+  SaecoImgAbout,
+  SaecoImgCarousel,
+  Samsung,
+  SeguroRimac,
+  SeguroSaludPositiva,
+  SeguroVehicularPositiva,
+  Servitec,
+  SkyAirline,
+  SmartFit,
+  StarPeru,
+  StoreServitec,
+  TiendaFootloose,
+  TiendaLazzos,
+  TitleAyudaEconomica,
+  TitleConvenios,
+  TitleReli,
+  SMC,
+  Palomino,
+  Vega,
+  cayetano,
+  botiperu,
+  ChichaKio,
+  Cencosud,
 } from "../images";
-import {faFacebook, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
-import {faBuilding, faEnvelope, faGlobe, faLink, faMobile, faPhone,} from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faBuilding,
+  faEnvelope,
+  faGlobe,
+  faLink,
+  faMobile,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const apoyoSocialConfig = {
   helmet: {
     title: "Sección de Servicio Social",
-    link: "https://apoyosocial.cobiene.mil.pe",
+    link: "https://apoyosocial.jbiene.com",
     description: "Apoyo social",
     keywords: "salud,servicios,convenios",
   },
@@ -206,25 +220,21 @@ export const apoyoSocialConfig = {
           image: BancoBCP,
           title: "Banco BCP",
           descriptionLarge: [
-              {
+            {
               title: "BENEFICIOS: ",
               descriptions: [
                 "TASA EFECTIVA ANUAL (TEA): 15%",
                 "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
-                "EDAD: Hasta 60 años al finalizar el credito"
+                "EDAD: Hasta 60 años al finalizar el credito",
               ],
             },
-              {
-                  title: "CONTACTO: ",
-                  descriptions: [
-                      "SRA. DORA REYNAGA: 962338711.",
-                  ],
-              },
-              {
+            {
+              title: "CONTACTO: ",
+              descriptions: ["SRA. DORA REYNAGA: 962338711."],
+            },
+            {
               title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad.",
-              ],
+              descriptions: ["Personal militar en situación de actividad."],
               links: [
                 {
                   icon: faGlobe,
@@ -333,7 +343,8 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-        },{
+        },
+        {
           image: Cencosud,
           title: "CENCOSUD RETAIL PERÚ S.A.",
           descriptionLarge: [
@@ -352,16 +363,16 @@ export const apoyoSocialConfig = {
                 "- CÓDIGO DE BARRA - CIP VIGENTE - DNI VIGENTE - CIF VIGENTE - OBLIGATORIO E IMPERATIVO LA PRESENCIA FÍSICAMENTE.",
               ],
             },
-              {
+            {
               title: "COMO ADQUIR AL CODIGO DE BARRA:",
               descriptions: [
                 "PERSONAL EN ACTIVIDAD: ",
                 "<a href='https://bienestarep.ejercito.mil.pe/' target='_blank' rel='noopener noreferrer'>bienestarep.ejercito.mil.pe/</a>",
-                  "(PERSONAL EN RETIRO /CESANTE):",
+                "(PERSONAL EN RETIRO /CESANTE):",
                 "<a href='https://www.facebook.com/ejercitodelperuoficial/posts/infoep-l-atenci%C3%B3n-personal-militar-y-civil-del-ej%C3%A9rcito-del-per%C3%BA-gracias-al-conv/1266688072162702/' target='_blank' rel='noopener noreferrer'>facebook.com/ejercitodelperuoficial/</a>",
               ],
             },
-              {
+            {
               title: "ALCANCE:",
               descriptions: [
                 "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiar directo(cónyuge).",
@@ -369,7 +380,6 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-
       ],
     },
     sectionSalud: {
@@ -388,7 +398,8 @@ export const apoyoSocialConfig = {
             {
               title: "CONTACTOS:",
               descriptions: [
-                  "<a href='tel:+51970302066'>970 302 066</a>", "<a href='mailto:admisión04@apeplac.com'>admisión04@apeplac.com</a>",
+                "<a href='tel:+51970302066'>970 302 066</a>",
+                "<a href='mailto:admisión04@apeplac.com'>admisión04@apeplac.com</a>",
                 "LIC. EDDY FUENTES: <a href='mailto:efuentes@apeplac.com'>efuentes@apeplac.com</a>",
               ],
             },
@@ -418,21 +429,21 @@ export const apoyoSocialConfig = {
           title: "Biolinks",
           descriptionLarge: [
             {
-                title: "BENEFICIOS : ",
-                descriptions: [
-                    "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
-                    "• Brinda costo diferenciado en examenes de laboratorio clinico (oncolócoligico área de dignóstico y areá infecciosas).",
-                ],
+              title: "BENEFICIOS : ",
+              descriptions: [
+                "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
+                "• Brinda costo diferenciado en examenes de laboratorio clinico (oncolócoligico área de dignóstico y areá infecciosas).",
+              ],
             },
             {
               title: "CONTACTOS:",
               descriptions: ["<a href='tel:012614411'>(01) 261-4411</a>"],
             },
             {
-                title: "ALCANCE DEL CONVENIO :",
-                descriptions: [
-                    "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
-                ],
+              title: "ALCANCE DEL CONVENIO :",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
+              ],
               sedes: [
                 {
                   icon: faBuilding,
@@ -471,7 +482,7 @@ export const apoyoSocialConfig = {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
-            ],
+              ],
               detalles: [
                 {
                   icon: faLink,
@@ -487,21 +498,23 @@ export const apoyoSocialConfig = {
           title: "Salud Medic CArrión",
           descriptionLarge: [
             {
-                title: "BENEFICIOS: ",
-                descriptions: [
-                    " BRINDA UN DESCUENTO DEL 30% EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
-                    " BRINDA UN DESCUENTO DEL 20%  A LOS PADRES DEL PERSONAL TITULAR EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
-                ],
+              title: "BENEFICIOS: ",
+              descriptions: [
+                " BRINDA UN DESCUENTO DEL 30% EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
+                " BRINDA UN DESCUENTO DEL 20%  A LOS PADRES DEL PERSONAL TITULAR EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
+              ],
             },
             {
               title: "CONTACTOS:",
-              descriptions: ["<a href='https://api.whatsapp.com/send/?phone=51942868076'>942868076</a>"],
+              descriptions: [
+                "<a href='https://api.whatsapp.com/send/?phone=51942868076'>942868076</a>",
+              ],
             },
             {
-                title: "ALCANCE DEL CONVENIO: ",
-                descriptions: [
-                    "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
-                ],
+              title: "ALCANCE DEL CONVENIO: ",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
+              ],
               detalles: [
                 {
                   icon: faLink,
@@ -528,10 +541,10 @@ export const apoyoSocialConfig = {
               descriptions: ["<a href='tel:014801626'>(01) 480-1626</a>"],
             },
             {
-                title: "ALCANCE DEL CONVENIO: ",
-                descriptions: [
-                    "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos); debidamente acreditados.",
-                ],
+              title: "ALCANCE DEL CONVENIO: ",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos); debidamente acreditados.",
+              ],
               detalles: [
                 {
                   icon: faLink,
@@ -668,7 +681,7 @@ export const apoyoSocialConfig = {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
                 "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.",
-                ],
+              ],
               links: [
                 {
                   icon: faGlobe,
@@ -683,22 +696,22 @@ export const apoyoSocialConfig = {
           title: "Suiza Lab",
           descriptionLarge: [
             {
-                title: "BENEFICIOS :",
-                descriptions: [
-                    "a) Brinda hasta el 20% de descuento en consultas por especialidad.",
-                    "b) Brinda hasta el 40% de descuento en servicio de laboratorio clínico y biología molecular.",
-                    "c) Brinda hasta el 20% de descuento en diagnóstico porimágenes (radiografíias, ecografía eco doppler mamografí 2d y 3d, densitometría etc.",
-                ],
+              title: "BENEFICIOS :",
+              descriptions: [
+                "a) Brinda hasta el 20% de descuento en consultas por especialidad.",
+                "b) Brinda hasta el 40% de descuento en servicio de laboratorio clínico y biología molecular.",
+                "c) Brinda hasta el 20% de descuento en diagnóstico porimágenes (radiografíias, ecografía eco doppler mamografí 2d y 3d, densitometría etc.",
+              ],
             },
             {
               title: "CONTACTOS:",
               descriptions: ["<a href='tel:016126666'>(01) 612-6666</a>"],
             },
             {
-                title: "ALCANCE DEL CONVENIO :",
-                descriptions: [
-                    "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
-                ],
+              title: "ALCANCE DEL CONVENIO :",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
+              ],
               detalles: [
                 {
                   icon: faLink,
@@ -708,10 +721,10 @@ export const apoyoSocialConfig = {
               ],
             },
             {
-                title: "ALCANCE DEL CONVENIO: ",
-                descriptions: [
-                    "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, padres).",
-                ],
+              title: "ALCANCE DEL CONVENIO: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, padres).",
+              ],
               links: [
                 {
                   icon: faGlobe,
@@ -823,12 +836,12 @@ export const apoyoSocialConfig = {
             },
             {
               title: "CONTACTOS:",
-              descriptions:
-                  ["<a href='tel:967419645'>967419645</a>",
-                      "<a href='tel:994625122'>994625122</a>",
-                      "<a href='tel:970648273'>970648273</a>",
-                      "<a href='tel:994262060'>994262060</a>",
-                  ],
+              descriptions: [
+                "<a href='tel:967419645'>967419645</a>",
+                "<a href='tel:994625122'>994625122</a>",
+                "<a href='tel:970648273'>970648273</a>",
+                "<a href='tel:994262060'>994262060</a>",
+              ],
             },
             {
               title: "ALCANCE DEL CONVENIO: ",
@@ -849,23 +862,21 @@ export const apoyoSocialConfig = {
           title: "NiuVida",
           descriptionLarge: [
             {
-                title: "BENEFICIOS :",
-                descriptions: [
-                    "DESCUENTO: ",
-                    "ASPIRACIÓN CON ÓVULO PROPIO = S/3,800.00",
-                    "FECUNDACIÓN IN VITRO = S/ 5,130.00",
-                    "PRIMERA TRANSFERENCIA EMBRIONARIA = CORTESÍA",
-                    "BIOPSIA = S/ 1,440.00",
-                    "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS TRES MESES DE GRACIA Y LUEGO = S/80.00 X MES",
-                    "DESCONGELACIÓN DE EMBRIONES = S/420.00",
-                    "NIUVIDA otorgará en Farmacia (Medicamentos Estimulación Ovárica) un descuento del (10%)",
-                ],
+              title: "BENEFICIOS :",
+              descriptions: [
+                "DESCUENTO: ",
+                "ASPIRACIÓN CON ÓVULO PROPIO = S/3,800.00",
+                "FECUNDACIÓN IN VITRO = S/ 5,130.00",
+                "PRIMERA TRANSFERENCIA EMBRIONARIA = CORTESÍA",
+                "BIOPSIA = S/ 1,440.00",
+                "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS TRES MESES DE GRACIA Y LUEGO = S/80.00 X MES",
+                "DESCONGELACIÓN DE EMBRIONES = S/420.00",
+                "NIUVIDA otorgará en Farmacia (Medicamentos Estimulación Ovárica) un descuento del (10%)",
+              ],
             },
             {
               title: "CONTACTOS:",
-              descriptions: [
-                  "<a href='tel:978606917'>978606917</a>",
-              ],
+              descriptions: ["<a href='tel:978606917'>978606917</a>"],
               links: [
                 {
                   icon: faGlobe,
@@ -874,7 +885,8 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-        },        {
+        },
+        {
           image: cayetano,
           title: "Universidad Cayetano Heredia",
           descriptionLarge: [
@@ -882,11 +894,10 @@ export const apoyoSocialConfig = {
               title: "BENEFICIOS :",
               descriptions: [
                 "La Universidad Peruana CAYETANO HEREDIA ofrece el 20% DE DESCUENTO en las siguientes Clínicas:",
-                  "CENTRO DENTAL CLINICA CAYETANO<br>Contacto > <a href='tel:982947648'>982947648</a>",
-                  "CENTRO DE REHABILITACIÓN DOCENTE CAYETANO HEREDIA<br>Contacto > <a href='tel:959148668'>959148668</a><br><br>",
-                  "CLINICA VETERINARIA DOCENTE CAYETENO<br>Contacto > <a href='tel:982560004'>982560004</a>",
-                  "Servicio de radiología, tomografía, ecografía y exámenes de laboratorio en la CLINICA ONCOLÓGICA CREO<br>Contacto > <a href='tel:963750816'>963750816</a>",
-
+                "CENTRO DENTAL CLINICA CAYETANO<br>Contacto > <a href='tel:982947648'>982947648</a>",
+                "CENTRO DE REHABILITACIÓN DOCENTE CAYETANO HEREDIA<br>Contacto > <a href='tel:959148668'>959148668</a><br><br>",
+                "CLINICA VETERINARIA DOCENTE CAYETENO<br>Contacto > <a href='tel:982560004'>982560004</a>",
+                "Servicio de radiología, tomografía, ecografía y exámenes de laboratorio en la CLINICA ONCOLÓGICA CREO<br>Contacto > <a href='tel:963750816'>963750816</a>",
               ],
             },
 
@@ -899,27 +910,27 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-          },
-          {
-              image: botiperu,
+        },
+        {
+          image: botiperu,
           title: "Boticas Perú",
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
               descriptions: [
                 "Brinda un descuento del 12% sobre el precio regular de los productos ofrecidos en Botica Perú.",
-                  "Este beneficio será contado con cualquier modalidad de pago.",
-                  "Solo a productos de categoría FARMA, FARMA OTC y VITAMINAS, no cubre pañales, leches, ni productos de innovación.",
-                  "Asimismo, cabe señalar que no es acumulables con otras promociones.",
+                "Este beneficio será contado con cualquier modalidad de pago.",
+                "Solo a productos de categoría FARMA, FARMA OTC y VITAMINAS, no cubre pañales, leches, ni productos de innovación.",
+                "Asimismo, cabe señalar que no es acumulables con otras promociones.",
               ],
             },
-              {
-                  title: "CONTACTOS:",
-                  descriptions: [
-                      "SRTA. LUPE",
-                      "<a href='tel:980029739'>980 029 739</a>"
-                  ],
-              },
+            {
+              title: "CONTACTOS:",
+              descriptions: [
+                "SRTA. LUPE",
+                "<a href='tel:980029739'>980 029 739</a>",
+              ],
+            },
             {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
@@ -928,7 +939,7 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-          },
+        },
       ],
     },
     sectionDiversos: {
@@ -1012,16 +1023,14 @@ export const apoyoSocialConfig = {
               description:
                 "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres).",
 
-
-
-            // links: [
-            //     {
-            //         icon: faGlobe,
-            //         link: "https://www.lazzos.com.pe",
-            //     },
-            // ],
+              // links: [
+              //     {
+              //         icon: faGlobe,
+              //         link: "https://www.lazzos.com.pe",
+              //     },
+              // ],
             },
-],
+          ],
         },
         {
           image: SmartFit,
@@ -1039,17 +1048,17 @@ export const apoyoSocialConfig = {
                 "• Invitación de amigos 5 veces al mes.",
                 "• Acceso a sillones de masajes.",
               ],
-            }, {
+            },
+            {
               title: "PÉRDIDA :",
               descriptions: [
                 "Pérdida de condiciones para beneficiarios:",
                 "• si el beneficiario pierde su vínculo con la empresa y Smart Fit pierde su calidad como tal, en un futuro no accederá a los beneficios.",
               ],
-            },            {
+            },
+            {
               title: "CODIGO :",
-              descriptions: [
-                "“EJERCITOFIT”.",
-              ],
+              descriptions: ["“EJERCITOFIT”."],
             },
             {
               title: "BENEFICIARIOS: ",
@@ -1072,74 +1081,75 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-          {
-              image: Vega,
-              title: "Vega",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS :",
-                      descriptions: [
-                          "Brindará acceso a los diversos productos de su marca (vega, timonel, vclean lybre, peros, romántico, brindisi, gladiador, catedrático) hasta un 20% de descuento.",
-                          "Proporcionará el link en la pagina de facebook para registrarse y poder acceder a los sorteo.",
-                          "Para acceder a estos beneficios mostrar su cip en cualquier establecimiento de tiendas vega.",
-
-                      ],
-                  },
-                  {
-                      title: "BENEFICIARIOS: ",
-                      descriptions: [
-                          "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad.",
-                      ],
-
-                      links: [
-                          {
-                              icon: faGlobe,
-                              link: "https://www.vega.pe/",
-                          },
-                      ],
-                  },
+        {
+          image: Vega,
+          title: "Vega",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Brindará acceso a los diversos productos de su marca (vega, timonel, vclean lybre, peros, romántico, brindisi, gladiador, catedrático) hasta un 20% de descuento.",
+                "Proporcionará el link en la pagina de facebook para registrarse y poder acceder a los sorteo.",
+                "Para acceder a estos beneficios mostrar su cip en cualquier establecimiento de tiendas vega.",
               ],
-          },          {
-              image: ChichaKio,
-              title: "Chicharrones KIO",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS :",
-                      descriptions: [
-                          "Otorgará un descuento del 10% desde 07:00 a.m. hasta las 12:00 p.m.",
-                          "El 20% desde las 13:00 p.m. hasta las 23:00 p.m. según su producto en los horarios de atención indicados.",
-                      ],
-                  },  {
-                      title: "Locales KIO:",
-                      descriptions: [
-                          "UNIVERSITARIA - Avenida Universitaria 871",
-                          "LA MAR - Ca. Mariscal Jose de la Mar 233",
-                          "LA MARINA - Av. la Marina 2683",
-                          "PUEBLO LIBRE - Avenida Brasil 2687",
-                          "BARRANC - av. almte. miguel Grau 312",
-                          "MIRAFLORES - Avenida josé pardo 399",
-                          "SAN JUAN DE LURIGANCHO - av. las flores 248",
-                          "LINCE - Avenida general antonio alvarez de arenales 1998",
-                          "MAGDALENA - jirón tacna 400",
-                          "SALAMANCA - garcilazo de la vega 209",
-                          "LA MOLINA - Constructores 1025",
-                      ],
-                  },
-                  {
-                      title: "BENEFICIARIOS: ",
-                      descriptions: [
-                          "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.El beneficio es de manera presencial, delivery y recojo en tienda.",
-                      ],
-
-                      links: [
-                          {
-                              icon: faGlobe,
-                              link: "https://www.chicharroneskio.com.pe/",
-                          },
-                      ],
-                  },
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad.",
               ],
-          },
+
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.vega.pe/",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: ChichaKio,
+          title: "Chicharrones KIO",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Otorgará un descuento del 10% desde 07:00 a.m. hasta las 12:00 p.m.",
+                "El 20% desde las 13:00 p.m. hasta las 23:00 p.m. según su producto en los horarios de atención indicados.",
+              ],
+            },
+            {
+              title: "Locales KIO:",
+              descriptions: [
+                "UNIVERSITARIA - Avenida Universitaria 871",
+                "LA MAR - Ca. Mariscal Jose de la Mar 233",
+                "LA MARINA - Av. la Marina 2683",
+                "PUEBLO LIBRE - Avenida Brasil 2687",
+                "BARRANC - av. almte. miguel Grau 312",
+                "MIRAFLORES - Avenida josé pardo 399",
+                "SAN JUAN DE LURIGANCHO - av. las flores 248",
+                "LINCE - Avenida general antonio alvarez de arenales 1998",
+                "MAGDALENA - jirón tacna 400",
+                "SALAMANCA - garcilazo de la vega 209",
+                "LA MOLINA - Constructores 1025",
+              ],
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.El beneficio es de manera presencial, delivery y recojo en tienda.",
+              ],
+
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.chicharroneskio.com.pe/",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     sectionFinancieras: {
@@ -1227,32 +1237,32 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-          {
-              image: Enazul,
-              title: "Enazul",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS: ",
-                      descriptions: [
-                          "TASA EFECTIVA ANUAL (TEA): 13.99% hasta el 43.50% ",
-                          "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
-                          "EDAD: MÁXIMO HASTA LOS 70 AÑOS  ",
-                      ],
-                  },
-                  {
-                      title: "ALCANCE:",
-                      descriptions: [
-                          "Personal militar en situación de actividad y personal civil en actividad  y personal civil en actividad.",
-                      ],
-                      links: [
-                          {
-                              icon: faGlobe,
-                              link: "https://enazulfintech.com/",
-                          },
-                      ],
-                  },
+        {
+          image: Enazul,
+          title: "Enazul",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "TASA EFECTIVA ANUAL (TEA): 13.99% hasta el 43.50% ",
+                "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
+                "EDAD: MÁXIMO HASTA LOS 70 AÑOS  ",
               ],
-          },
+            },
+            {
+              title: "ALCANCE:",
+              descriptions: [
+                "Personal militar en situación de actividad y personal civil en actividad  y personal civil en actividad.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://enazulfintech.com/",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     sectionSeguros: {
@@ -1358,9 +1368,7 @@ export const apoyoSocialConfig = {
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
-              descriptions: [
-                "Todo riesgo, desde $ 37",
-              ],
+              descriptions: ["Todo riesgo, desde $ 37"],
             },
             {
               title: "CONTACTOS: ",
@@ -1444,7 +1452,8 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-        }, {
+        },
+        {
           image: Palomino,
           title: "Palomino",
           descriptionLarge: [
@@ -1462,10 +1471,7 @@ export const apoyoSocialConfig = {
               descriptions: [
                 "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad.",
               ],
-              detalles: [
-                
-
-              ],
+              detalles: [],
               links: [
                 {
                   icon: faGlobe,
@@ -1563,7 +1569,8 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-        },{
+        },
+        {
           image: SkyAirline,
           title: "Sky airline",
           descriptionLarge: [
@@ -1574,7 +1581,7 @@ export const apoyoSocialConfig = {
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
                 "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Diciembre 2025 : SKYEJERCITO16 valido del 01/12/2025 hasta el 31/12/2025",
-                "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
+                "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento.",
               ],
             },
             {

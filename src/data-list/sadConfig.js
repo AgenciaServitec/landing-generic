@@ -20,7 +20,7 @@ import {
 export const sadConfig = {
   helmet: {
     title: "Sección de Apoyo al Discapacitado",
-    link: "https://sad.cobiene.mil.pe",
+    link: "https://sad.jbiene.com",
     description: "Sección de Apoyo al Discapacitado",
     keywords: "salud,servicios,convenios",
   },
