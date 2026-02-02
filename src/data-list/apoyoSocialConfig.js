@@ -1,102 +1,102 @@
 import {
-  ArgentinaBandera,
-  Azaleia,
-  BancoComercio,
-  BancoContinental,
-  BancoGng,
-  BancoBCP,
-  BancoInterbank,
-  BancoScotiabank,
-  BannerEconomico,
-  BannerSalud,
-  BannerServices,
-  BoliviaBandera,
-  BrasilBandera,
-  ChileBandera,
-  ClinicaDelInca,
-  CobieneLogoLarge,
-  ColombianaBandera,
-  ConvenioSalud1,
-  ConvenioSalud12,
-  ConvenioSalud14,
-  ConvenioSalud15,
-  ConvenioSalud2,
-  ConvenioSalud3,
-  ConvenioSalud4,
-  ConvenioSalud5,
-  ConvenioSalud6,
-  ConvenioSalud7,
-  CoreaBandera,
-  CruzDelSur,
-  Decameron,
-  Domireps,
-  DpromartPeru,
-  EcuadorBandera,
-  ElCentro,
-  Enazul,
-  EspanaBandera,
-  FacturaServitec,
-  FinancieraAutoplan,
-  FinancieraEfectiva,
-  FinancieraLarehabilitadora,
-  FranciaBandera,
-  HolidayInn,
-  HolidayInnExpress,
-  HotelCarrera,
-  ImgBthHotelRebelTacna,
-  ImgCentroOpticoJesusEirl,
-  ImgChifaRestauranteWongsen,
-  ImgDireccionRegionalEducacionTacna,
-  ImgDmHotel,
-  ImgDonLimon,
-  ImgDPaletas,
-  ImgEgatur,
-  ImgHotelLaSiesta,
-  ImgHotelMaximo,
-  ImgIepDayperPeruIerl,
-  ImgMayuComidaSalon,
-  ImgMbRehabFisioterapiaRehabilitacionSalud,
-  ImgMirandaEscobarPeruTravels,
-  ImgPacificSuitesHotel,
-  ImgRestauranteFuegosPeruanos,
-  ImgRestaurantePastaEirl,
-  ImgRestauranteTradicionesPeruanas,
-  ImgSaintRose,
-  ImgUap,
-  ImgUpt,
-  Lg,
-  MexicoBandera,
-  MisaPadre,
-  Movilbus,
-  MultiserviciosTuringCusco,
-  Niuovida,
-  NoImagen,
-  Oltursa,
-  PublicidadServitec,
-  SaecoBautismo,
-  SaecoImgAbout,
-  SaecoImgCarousel,
-  Samsung,
-  SeguroRimac,
-  SeguroSaludPositiva,
-  SeguroVehicularPositiva,
-  Servitec,
-  SkyAirline,
-  SmartFit,
-  StarPeru,
-  StoreServitec,
-  TiendaFootloose,
-  TiendaLazzos,
-  TitleAyudaEconomica,
-  TitleConvenios,
-  TitleReli,
-  SMC,
-  Palomino,
-  Vega,
-  cayetano,
-  botiperu,
-  ChichaKio,
-  Cencosud,
+    ArgentinaBandera,
+    Azaleia,
+    BancoComercio,
+    BancoContinental,
+    BancoGng,
+    BancoBCP,
+    BancoInterbank,
+    BancoScotiabank,
+    BannerEconomico,
+    BannerSalud,
+    BannerServices,
+    BoliviaBandera,
+    BrasilBandera,
+    ChileBandera,
+    ClinicaDelInca,
+    CobieneLogoLarge,
+    ColombianaBandera,
+    ConvenioSalud1,
+    ConvenioSalud12,
+    ConvenioSalud14,
+    ConvenioSalud15,
+    ConvenioSalud2,
+    ConvenioSalud3,
+    ConvenioSalud4,
+    ConvenioSalud5,
+    ConvenioSalud6,
+    ConvenioSalud7,
+    CoreaBandera,
+    CruzDelSur,
+    Decameron,
+    Domireps,
+    DpromartPeru,
+    EcuadorBandera,
+    ElCentro,
+    Enazul,
+    EspanaBandera,
+    FacturaServitec,
+    FinancieraAutoplan,
+    FinancieraEfectiva,
+    FinancieraLarehabilitadora,
+    FranciaBandera,
+    HolidayInn,
+    HolidayInnExpress,
+    HotelCarrera,
+    ImgBthHotelRebelTacna,
+    ImgCentroOpticoJesusEirl,
+    ImgChifaRestauranteWongsen,
+    ImgDireccionRegionalEducacionTacna,
+    ImgDmHotel,
+    ImgDonLimon,
+    ImgDPaletas,
+    ImgEgatur,
+    ImgHotelLaSiesta,
+    ImgHotelMaximo,
+    ImgIepDayperPeruIerl,
+    ImgMayuComidaSalon,
+    ImgMbRehabFisioterapiaRehabilitacionSalud,
+    ImgMirandaEscobarPeruTravels,
+    ImgPacificSuitesHotel,
+    ImgRestauranteFuegosPeruanos,
+    ImgRestaurantePastaEirl,
+    ImgRestauranteTradicionesPeruanas,
+    ImgSaintRose,
+    ImgUap,
+    ImgUpt,
+    Lg,
+    MexicoBandera,
+    MisaPadre,
+    Movilbus,
+    MultiserviciosTuringCusco,
+    Niuovida,
+    NoImagen,
+    Oltursa,
+    PublicidadServitec,
+    SaecoBautismo,
+    SaecoImgAbout,
+    SaecoImgCarousel,
+    Samsung,
+    SeguroRimac,
+    SeguroSaludPositiva,
+    SeguroVehicularPositiva,
+    Servitec,
+    SkyAirline,
+    SmartFit,
+    StarPeru,
+    StoreServitec,
+    TiendaFootloose,
+    TiendaLazzos,
+    TitleAyudaEconomica,
+    TitleConvenios,
+    TitleReli,
+    SMC,
+    Palomino,
+    Vega,
+    cayetano,
+    botiperu,
+    ChichaKio,
+    Cencosud, qhalikay, qhalikayinfo, latranquera, cencosud,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -344,48 +344,59 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: Cencosud,
-          title: "CENCOSUD RETAIL PERÚ S.A.",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "Concederá un descuento del 5% hasta 20% en distintas categorías en productos de los supermercados “metro” y “wong” a nivel nacional (según el anexo 01 “escanear qr” se detalla los productos), dichos beneficios serán aplicables para compras en tiendas físicas metro y wong (no válido en metro almacén, e-commerce, ni wong e-commerce, ni aplicativos de ambas marcas de supermercados).",
-                "Brindará a los beneficiarios tres (03) horas de estacionamiento, sin costo, en el centro comercial cenco lima sur, ubicado en av. Paseo de la república s/n, urb. Matellini, distrito de chorrillos - lima.",
-                "Otorgará hasta un 30% de descuento en los restaurantes ubicados en el patio de comidas de cenco lima sur (la relación de restaurantes “chili's, china wok, coney park, mc donald's, otto grill, protein food, pizza hut, sarcletti, tiradito” (exclusivo para los locales ubicados en cenco lima sur será actualizada cada 06 meses,).",
-                "Concederá el ingreso gratuito a la “granjita”, ubicada en cenco lima sur, para los beneficiarios y sus menores hijos (debidamente acreditado",
-              ],
-            },
-            {
-              title: "COMO SE ACCEDER AL BENEFICIO:",
-              descriptions: [
-                "- CÓDIGO DE BARRA - CIP VIGENTE - DNI VIGENTE - CIF VIGENTE - OBLIGATORIO E IMPERATIVO LA PRESENCIA FÍSICAMENTE.",
-              ],
-            },
-            {
-              title: "COMO ADQUIR AL CODIGO DE BARRA:",
-              descriptions: [
-                "PERSONAL EN ACTIVIDAD: ",
-                "<a href='https://bienestarep.ejercito.mil.pe/' target='_blank' rel='noopener noreferrer'>bienestarep.ejercito.mil.pe/</a>",
-                "(PERSONAL EN RETIRO /CESANTE):",
-                "<a href='https://www.facebook.com/ejercitodelperuoficial/posts/infoep-l-atenci%C3%B3n-personal-militar-y-civil-del-ej%C3%A9rcito-del-per%C3%BA-gracias-al-conv/1266688072162702/' target='_blank' rel='noopener noreferrer'>facebook.com/ejercitodelperuoficial/</a>",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiar directo(cónyuge).",
-              ],
-            },
-          ],
-        },
+
       ],
     },
     sectionSalud: {
       title: "Convenios de Servicios de Salud : ",
       cards: [
-        {
+          {
+              image: ConvenioSalud3,
+              title: "Uchi's Med",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "OTORGA UN DESCUENTOPREFERENCIAL A LOS BENEFICIARIOS AFILIADOS Y NO AFILIADOS.",
+                          "COSTO DE AFILIACIÓN S/. 35.00 (UN AÑO MINIMO ANTES DE PODER DESAFILIARSE(, LOS NO AFILIADOS TIENEN UNA TARIFA PREFERENCIAL.",
+                          "UCHI´S MED NO SE RESPONSABILIZA NI REEMBOLSA ECONOMICAMENTE SI EL TITULAR O EL BENEFICIARIO NO PROGRAMAN SU CITA PERIODICAMENTE O NO HAGAN USO DEL SERVICIO MEDICO DENTAL.",
+                      ],
+                  },
+                  {
+                      title: "ALCANCE DEL CONVENIO: ",
+                      descriptions: [
+                          "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
+                      ],
+                      detalles: [
+                          {
+                              icon: faLink,
+                              detalle:
+                                  "https://drive.google.com/file/d/1zIzNtkIsPTxFUqSOLJ_nD5zMVxMuxRya/view?usp=sharing",
+                          },
+                      ],
+                  },
+              ],
+          }, {
+              image: qhalikay,
+              title: "Qhali Kay",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "Otorgará un descuento preferencial del 40% a los beneficiarios en los servicios de reumatología, medicina física y rehabilitación, terapia física, tratamiento de dolor, terapias de relajación y psicología.",
+                          "Promoción valida hasta el 31 de diciembre del 2028.",
+                      ],
+
+                  },
+                  {
+                      title: "ALCANCE DEL CONVENIO: ",
+                      descriptions: [
+                          "Personal militar y civil en situación de actividad y retiro o cesante, así como a sus familiares directos (cónyuge, hijos menores de 25 años) El Beneficio Es De Manera Presencial.",
+                      ],
+                  },
+              ],
+          },
+          {
           image: ConvenioSalud1,
           title: "Apeplac",
           descriptionLarge: [
@@ -424,7 +435,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
+          {
           image: ConvenioSalud2,
           title: "Biolinks",
           descriptionLarge: [
@@ -461,33 +472,6 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://biolinksperu.com",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud3,
-          title: "Uchi's Med",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "OTORGA UN DESCUENTOPREFERENCIAL A LOS BENEFICIARIOS AFILIADOS Y NO AFILIADOS.",
-                "COSTO DE AFILIACIÓN S/. 35.00 (UN AÑO MINIMO ANTES DE PODER DESAFILIARSE(, LOS NO AFILIADOS TIENEN UNA TARIFA PREFERENCIAL.",
-                "UCHI´S MED NO SE RESPONSABILIZA NI REEMBOLSA ECONOMICAMENTE SI EL TITULAR O EL BENEFICIARIO NO PROGRAMAN SU CITA PERIODICAMENTE O NO HAGAN USO DEL SERVICIO MEDICO DENTAL.",
-              ],
-            },
-            {
-              title: "ALCANCE DEL CONVENIO: ",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1zIzNtkIsPTxFUqSOLJ_nD5zMVxMuxRya/view?usp=sharing",
                 },
               ],
             },
@@ -561,104 +545,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: ConvenioSalud5,
-          title: "Medifon",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-              ],
-            },
-            {
-              title: "SEDES: ",
-              descriptions: [
-                "MIRAFLORES: AV LARCO 345 OF 1105",
-                "LOS OLIVOS: AV CARLOS IZAGUIRRE 548",
-                "JESUS MARIA: AV. LA MARIA 2553",
-                "SAN BORJA: AV AVIACION 3322",
-                "PROV. TRUJILLO CHICLAYO Y PIURA",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "Implementará el acceso al beneficio a través del call center y presencial en las sedes de Miraflores, Jesús María, Los Olivos, San Borja, San juan de Lurigancho, San juan de Miraflores, san miguel y Cercado de Lima, en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.",
-                "Otorgará el valor de $150.00 dólares americanos, de descuento sobre los costos de las tarifas regulares, en dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
-                "Otorgará garantía por un año, recalibraciones, limpiezas y mantenimiento ilimitados, así como dotación de seis baterías, en los dispositivos AUDÍFONOS MEDICADOS de la marca BELTONE.",
-                "Otorgará el 25% de descuento sobre los costos de las tarifas regulares, en baterías, pilas, accesorios de limpieza, en las diferentes sedes.",
-                "Otorgará el valor de cien S/100.00 soles, en el costo por consulta especializada previa cita en la especialidad de otorrinolaringología.",
-                "Otorgará acceso gratuito a los servicios de audiológicos (audiometría y otoscopía), previa cita.",
-                "Otorgará a los BENEFICIARIOS de “EL EJÉRCITO” el valor de $150 ciento cincuenta dólares americanos de descuento sobre el costo tarifa regular de los DISPOSITIVOS VIBRADORES ÓSEOS.",
-                "Otorgará el valor de $2000 dos mil dólares americanos de descuento sobre el costo tarifa regular del dispositivo medico a largo plazo, IMPLANTE COCLEAR, en lo correspondiente a la colocación quirúrgica (clínica, operación, anestesiólogo, equipo, post operatorio, cincuenta terapías de lenguaje y otros).",
-                "Los beneficios antes indicados serán en todas las sedes de MEDIFON.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://medifonperu.pe/",
-                },
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/13ZRqsN3mBARxug_4O55DAVk6RoUZatT2/view?usp=drive_link",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud6,
-          title: "MultiDent",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
-                "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "Acceso a los distintos servicios odontológicos ofrecidos, a través de costos diferenciados, mediante porcentaje de descuento sobre las tarifas regulares, de acuerdo a lo establecido para personal afiliado.",
-                "Implementará a través la programación a través del call center, y de forma presencial en todas sedes a nivel nacional, y en todos sus horarios.",
-                "Servicios de emergencias dentales, las 24 horas del día, los 7 días de la semana en la sede de la Av. César Vallejo N° 1560 - Lince y en todas las sedes a nivel nacional en horario de atención.",
-                "CONSULTA GRATUITA",
-                "Examen odontológico de cortesía.",
-              ],
-              sedes: [
-                {
-                  icon: faBuilding,
-                  sede: "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
-                },
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1Vvdazj1v7BynWtIN6ylDxmM1SPbDrm2n/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.multident.pe",
-                },
-              ],
-            },
-          ],
-        },
+
         {
           image: ConvenioSalud7,
           title: "Tinnitus",
@@ -734,84 +621,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: ConvenioSalud14,
-          title: "Resocentro",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos,  padres y nietos); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos,  padres y nietos).\n",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: [
-                "<a href='tel:015124400'>(01) 512-4400</a>",
-                "<a href='mailto:atc@resocentro.com'>atc@resocentro.com</a>",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Brinda tarifas preferenciales en resonancia magnética, tomografía, fibroscan, rayos x, ecografías y medicina nuclear.",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1Jil2canGE6gr6z-q1Y5InoqU__S9g11J/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://resocentro.com/",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          image: ConvenioSalud15,
-          title: "Auna",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS: ",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:\n",
-                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:\n",
-                "Presentación del carnet de identificación personal militar o civil CIP\n",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).\n",
-              ],
-            },
-            {
-              title: "BENEFICIOS :",
-              descriptions: [
-                "a) Brinda servicios medicos y asistenciales medicas con costos diferenciados para personal afiliado",
-                "[0 a 120 años] Clásico (un solo plan) = S/ 13.87",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1wc8-2qmUUjFYFSzizuz1fL9qKgy6r_ar/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.auna.org/pe/auna-salud",
-                },
-              ],
-            },
-          ],
-        },
+
         {
           image: ClinicaDelInca,
           title: "Clínica del Inca",
@@ -945,42 +755,7 @@ export const apoyoSocialConfig = {
     sectionDiversos: {
       title: "Convenios con Tiendas:",
       cards: [
-        {
-          image: TiendaFootloose,
-          title: "Footloose",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS :",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigido al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos y padres); debidamente acreditados sin límite de edad.\n",
-                "FORMA DE ACREDITACIÓN:",
-                "Presentación del carnet de identificación personal militar o civil CIP",
-                "Presentación del carnet de identificación familiar CIF (cónyuge, hijos y padres).",
-              ],
-            },
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "a) Acceso del 20% de descuento en calzado de marcas propias.",
-                "b) Acceso del 15% de descuento en calzado nacional e importados inclusive zapatillas deportivas y de vestir de marca.",
-                "c) Tiendas ubicadas en todos los centros comerciales",
-              ],
-              sedes: [
-                {
-                  icon: faBuilding,
-                  sede: "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.footloose.pe",
-                },
-              ],
-            },
-          ],
-        },
+
         {
           image: Azaleia,
           title: "Azaleia",
@@ -1108,6 +883,70 @@ export const apoyoSocialConfig = {
             },
           ],
         },
+          {
+          image: cencosud,
+          title: "CENCOSUD RETAIL PERÚ S.A.",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Concederá un descuento del 5% hasta 20% en distintas categorías en productos de los supermercados “metro” y “wong” a nivel nacional (según el anexo 01 “escanear qr” se detalla los productos), dichos beneficios serán aplicables para compras en tiendas físicas metro y wong (no válido en metro almacén, e-commerce, ni wong e-commerce, ni aplicativos de ambas marcas de supermercados).",
+                "Brindará a los beneficiarios tres (03) horas de estacionamiento, sin costo, en el centro comercial cenco lima sur, ubicado en av. Paseo de la república s/n, urb. Matellini, distrito de chorrillos - lima. ",
+                "Otorgará hasta un 30% de descuento en los restaurantes ubicados en el patio de comidas de cenco lima sur (la relación de restaurantes “chili's, china wok, coney park, mc donald's, otto grill, protein food, pizza hut, sarcletti, tiradito” (exclusivo para los locales ubicados en cenco lima sur será actualizada cada 06 meses,).",
+                "Concederá el ingreso gratuito a la “granjita”, ubicada en cenco lima sur, para los beneficiarios y sus menores hijos (debidamente acreditado)",
+                "La categoría panadería tiene un descuento del 10%.",
+                "Los aceites comestibles tiene un descuento del 10%.",
+                "La leche maternizada no esta en el descuento por lo dispiesto en la normativa peruana: art. 51 y 54 del decreto supremo n° 009-2006- sa donde expresamente se prohíbe hacer descuentos en estos productos.",
+                "Para acceder a estos beneficios mostrar su cip en cualquier establecimiento de tiendas vega.",
+              ],
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad.",
+              ],
+
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.vega.pe/",
+                },
+              ],
+            },
+          ],
+        },
+          {
+              image: FinancieraAutoplan,
+              title: "Auto Plan",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS:",
+                      descriptions: [
+                          "Ofrece a través de un modelo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a elección del beneficiario, siendo válido para lima y provincias.",
+                          "Otorga un beneficio corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por única vez) sobre el valor del certificado.",
+                          "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado plan 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una tasa del gasto administrativo del 28%.",
+                      ],
+                  },
+                  {
+                      title: "CONTACTOS: ",
+                      descriptions: [
+                          "ROBERTO CHAPEYQUEN <a href='tel:965135686'>965135686</a>",
+                      ],
+                  },
+                  {
+                      title: "ALCANCE: ",
+                      descriptions: [
+                          "Personal militar en situación de actividad y retiro, personalcivil en actividad o cesante asícomo a sus familiares directos.",
+                      ],
+                      links: [
+                          {
+                              icon: faGlobe,
+                              link: "https://www.autoplan.pe/",
+                          },
+                      ],
+                  },
+              ],
+          },
         {
           image: ChichaKio,
           title: "Chicharrones KIO",
@@ -1145,6 +984,32 @@ export const apoyoSocialConfig = {
                 {
                   icon: faGlobe,
                   link: "https://www.chicharroneskio.com.pe/",
+                },
+              ],
+            },
+          ],
+        },        {
+          image: latranquera,
+          title: "La Tranquera",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS :",
+              descriptions: [
+                "Concederá un descuento del 20% en el consumo total de todo los platos de la carta (con un tope de s/. 200 por consumo) aplicable sobre el presio de lista de todo los alimentos y bebidas no alchólicas consumido en mesa.",
+                "El descuento del 20% no es acumulable con ninguna otra promoción u oferta especial y no aplica en consumo de bebidas alcohólicas.",
+                "Solo se permitira la aplicación de un (1) descuento por mesa sin importar cuantos mienbros del ejercito se encuentren en grupo",
+              ],
+            },
+            {
+              title: "BENEFICIARIOS: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.El beneficio es de manera presencial, delivery y recojo en tienda.",
+              ],
+
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://latranquera.com.pe/",
                 },
               ],
             },
@@ -1205,38 +1070,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: FinancieraAutoplan,
-          title: "Auto Plan",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "Ofrece a través de un modelo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a elección del beneficiario, siendo válido para lima y provincias.",
-                "Otorga un beneficio corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por única vez) sobre el valor del certificado.",
-                "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado plan 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una tasa del gasto administrativo del 28%.",
-              ],
-            },
-            {
-              title: "CONTACTOS: ",
-              descriptions: [
-                "ROBERTO CHAPEYQUEN <a href='tel:965135686'>965135686</a>",
-              ],
-            },
-            {
-              title: "ALCANCE: ",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personalcivil en actividad o cesante asícomo a sus familiares directos.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.autoplan.pe/",
-                },
-              ],
-            },
-          ],
-        },
+
         {
           image: Enazul,
           title: "Enazul",
@@ -1395,31 +1229,7 @@ export const apoyoSocialConfig = {
     sectionTransporte: {
       title: "Convenios con Empresas de Transporte :",
       cards: [
-        {
-          image: Movilbus,
-          title: "Movilbus",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "20% de descuento en todos los servicios: económico, premier, presidencial, ejecutivo y vip en todos los destinos ofrecidos.",
-                "15% de descuento en servicio de transporte de correspondencia, paquetería, encomiendas, carga ligera o mediana.",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, padres y hermanos).",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.movilbus.pe/",
-                },
-              ],
-            },
-          ],
-        },
+
         {
           image: Oltursa,
           title: "Oltursa",
@@ -1580,7 +1390,7 @@ export const apoyoSocialConfig = {
                 "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
-                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Diciembre 2025 : SKYEJERCITO16 valido del 01/12/2025 hasta el 31/12/2025",
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Enero 2026 : SKYEJERCITO18 valido del 01/02/2026 hasta el 28/02/2026",
                 "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento.",
               ],
             },
@@ -1600,57 +1410,15 @@ export const apoyoSocialConfig = {
         },
       ],
     },
-    sectionLegalAdvice: {
-      title: "Convenios de Asesoría Legal",
-      cards: [
-        {
-          image: ElCentro,
-          title: "CENTRO DE CONCILIACIÓN ASPAUZA ",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "Descuento preferencial en los servicios de conciliacion civil, familiar y vecinal",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, padres y hermanos).",
-              ],
-            },
-          ],
-        },
-      ],
-    },
+    // sectionLegalAdvice: {
+    //   title: "Convenios de Asesoría Legal",
+    //   cards: [
+    //   ],
+    // },
     sectionHoteles: {
       title: "Convenios con Hoteles :",
       cards: [
-        {
-          image: HotelCarrera,
-          title: "Hotel Carrera",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "35% de descuento sobre la tarifa final en los diferentes tipos de alojamiento (habitación simple, doble, matrimonial). estos incluyen impuesto, servicios, internet wifi y desayuno.",
-                "10% de descuento en los servicios del restaurante la alameda, y bar los descalzos, en el consumo de alimentos y bebidas sobre el costo total al momento del pago. no válido para servicio a la habitación.",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.hotelcarrera.com.pe/",
-                },
-              ],
-            },
-          ],
-        },
+
         {
           image: Decameron,
           title: "Decameron - El Pueblo",
@@ -1784,35 +1552,12 @@ export const apoyoSocialConfig = {
         },
       ],
     },
-    sectionEvents: {
-      title: "Convenios con eventos :",
-      cards: [
-        {
-          image: DpromartPeru,
-          title: "D'Promart",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "Brinda tarifa preferenciales en (eventos circense, teatro infantil y adulto (no valido en 28 julio al 20 agosto",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://dpromart.com/",
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
+    // sectionEvents: {
+    //   title: "Convenios con eventos :",
+    //   cards: [
+    //
+    //   ],
+    // },
     sectionTecnologia: {
       title: "Tecnología :",
       cards: [
@@ -1844,32 +1589,7 @@ export const apoyoSocialConfig = {
           link: "https://reparacion-proyectores.com/",
           title: "Servitec Proyectores",
         },
-        {
-          image: Samsung,
-          title: "Samsung",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS:",
-              descriptions: [
-                "ALCANCE DEL CONVENIO:",
-                "Dirigio al Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres); debidamente acreditados.",
-                "FORMA DE ACREDITACIÓN:",
-                "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-                "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos y padres).\n",
-                "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-              ],
-            },
-            {
-              title: "BENEFICIOS:",
-              descriptions: [
-                "Acceso a los diversos productos y servicios de su marca a precios reducidos, a través de la tienda virtual de" +
-                  "“SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
-                  "siendo válido para Lima y provincias.",
-                "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
-              ],
-            },
-          ],
-        },
+
         {
           image: Lg,
           title: "LG Electronics Perú S.A.",

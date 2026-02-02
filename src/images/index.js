@@ -404,6 +404,8 @@ export { default as ConvenioSalud12 } from "./saeco/conveniosSalud/suizalab.webp
 export { default as ConvenioSalud13 } from "./saeco/conveniosSalud/fesalud.webp";
 export { default as ConvenioSalud14 } from "./saeco/conveniosSalud/resocentro.webp";
 export { default as ConvenioSalud15 } from "./saeco/conveniosSalud/auna.webp";
+export { default as qhalikay } from "./saeco/conveniosSalud/qhalikay.webp";
+export { default as qhalikayinfo } from "./saeco/conveniosSalud/qhalikayinfo.webp";
 export { default as ClinicaDelInca } from "./saeco/conveniosSalud/clinica-del-inca.webp";
 export { default as Niuovida } from "./saeco/conveniosSalud/niuvida.webp";
 export { default as SMC} from "./saeco/conveniosSalud/smc.webp"
@@ -419,7 +421,9 @@ export { default as TiendaSugo } from "./saeco/diversos/sugootros.webp";
 export { default as TiendaVizzano } from "./saeco/diversos/calzado-vizzano.webp";
 export { default as Azaleia } from "./saeco/diversos/azaleia.webp";
 export { default as Vega } from "./saeco/diversos/vega.webp";
+export { default as cencosud } from "./saeco/diversos/cencosud.webp";
 export { default as ChichaKio } from "./saeco/diversos/CHICHARRONES-KIO.webp";
+export { default as latranquera } from "./saeco/diversos/latranquera.webp";
 // ------ SAECO FINANCIERAS IMAGES -------
 export { default as FinancieraEfectiva } from "./saeco/financieras/efectiva.webp";
 export { default as FinancieraAutoplan } from "./saeco/financieras/autoplan.webp";
