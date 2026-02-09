@@ -1,21 +1,21 @@
 import {
+  Cabanadelguerrero,
+  CirculoChorrillosCentral,
+  CirculoChorrillosDeportivo,
+  CirculoChorrillosSalon,
   CmstsCarousel,
   CobieneLogoLarge,
+  SalonesdeChorrillos,
+  SalonesdeRimac,
+  SalonesdeTarapac,
+  SedeRimac,
+  SedeTarapaca,
   TitleChorrillos,
   TitleRimac,
   TitleTarapaca,
-  CirculoChorrillosCentral,
-  SalonesdeChorrillos,
-  Cabanadelguerrero,
-  ZonaEsparciminetoChorrillos,
-  SalonesdeTarapac,
-  SedeTarapaca,
-  ZonaEsparcimientoTarapaca,
-  SedeRimac,
-  SalonesdeRimac,
   ZonaEsparcimientoRimac,
-  CirculoChorrillosSalon,
-  CirculoChorrillosDeportivo,
+  ZonaEsparcimientoTarapaca,
+  ZonaEsparciminetoChorrillos,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -27,7 +27,7 @@ import {
 export const cmstsConfig = {
   helmet: {
     title: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
-    link: "https://cmsts.cobiene.mil.pe",
+    link: "https://cmsts.jbiene.com",
     description: "Círculo Militar Supervisores Técnicos de Sub Oficiales",
     keywords: "salud,servicios,convenios",
   },

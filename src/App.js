@@ -24,19 +24,19 @@ export const App = () => {
 
   const getThemeConfig = () => {
     switch (hostName) {
-      case "cmsts.cobiene.mil.pe":
+      case "cmsts.jbiene.com":
         return setThemeType("default");
-      case "jace.cobiene.mil.pe":
+      case "sdace.jbiene.com":
         return setThemeType("default");
-      case "jae.cobiene.mil.pe":
+      case "sdae.jbiene.com":
         return setThemeType("default");
-      case "sad.cobiene.mil.pe":
+      case "sad.jbiene.com":
         return setThemeType("default");
-      case "saed.cobiene.mil.pe":
+      case "saed.jbiene.com":
         return setThemeType("default");
-      case "dscs.cobiene.mil.pe":
+      case "dscs.jbiene.com":
         return setThemeType("default");
-      case "apoyosocial.cobiene.mil.pe":
+      case "apoyosocial.jbiene.com":
         return setThemeType("default");
       default:
         return setThemeType("default");
