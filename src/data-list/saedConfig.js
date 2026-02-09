@@ -394,68 +394,69 @@ export const saedConfig = {
         {
           image: UniversidadUnifeSagradoCorazon,
           title: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN",
-          descriptionLarge: [
-            {
-              title: "FACULTADES AFECTADAS: ",
-              descriptions: [
-                "Facultad de Arquitectura",
-                "Facultad de Derecho",
-                "Facultad de Ciencias de la Educación",
-                "Facultad de Gestión Empresarial",
-                "Facultad de Nutrición y Alimentación",
-                "Facultad de Psicología y Humanidades",
-                "Facultad de Traducción, Interpretación y Ciencias de la Comunicación",
-              ],
-            },
-            {
-              title: "CENTRO PRE UNIFÉ: ",
-              description: "20 % descuento en el ciclo completo.",
-            },
-            {
-              title: "PREGRADO: ",
-              descriptions: [
-                "Personal de oficiales, actividad, retiro y familiares directos Escala N° 28 en pensiones.",
-                "Personal de Tcos, SSOO actividad, retiro, familiares directos y Civiles en actividad Escala N° 30 en pensiones.",
-              ],
-            },
-            {
-              title: "PREGRADO SEGUNDA CARRERA: ",
-              descriptions: [
-                "Personal de oficiales y familiares directos, descuento del 10% en pensiones.",
-                "Personal de Tcos y SSOO actividad, retiro, familiares directos y Civiles en actividad, descuento del 15% en pensiones.",
-              ],
-            },
-            {
-              title: "POSGRADO: ",
-              descriptions: [
-                "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
-                "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
-              ],
-            },
-            {
-              title: "SEGUNDA ESPECIALIDAD: ",
-              descriptions: [
-                "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
-                "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
-              ],
-            },
-            {
-              title: "DIPLOMADOS Y/O SEMINARIOS: ",
-              descriptions: [
-                "Personal de oficiales Escala N° 28 en el pago de las pensiones.",
-                "Personal de Tcos y SSOO Escala N° 30 en el pago de las pensiones",
-              ],
-            },
-            {
-              title: "VIG. 24-10-19 / 24-10-24",
-            },
-            {
-              title: "ALCANCE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-              links: [{ icon: faGlobe, link: "https://www.unife.edu.pe/" }],
-            },
-          ],
+          descriptionLarge: [{ title: "EN TRÁMITE" }],
+          // descriptionLarge: [
+          //   {
+          //     title: "FACULTADES AFECTADAS:",
+          //     descriptions: [
+          //       "Facultad de Arquitectura",
+          //       "Facultad de Derecho",
+          //       "Facultad de Ciencias de la Educación",
+          //       "Facultad de Gestión Empresarial",
+          //       "Facultad de Nutrición y Alimentación",
+          //       "Facultad de Psicología y Humanidades",
+          //       "Facultad de Traducción, Interpretación y Ciencias de la Comunicación",
+          //     ],
+          //   },
+          //   {
+          //     title: "CENTRO PRE UNIFÉ: ",
+          //     description: "20 % descuento en el ciclo completo.",
+          //   },
+          //   {
+          //     title: "PREGRADO: ",
+          //     descriptions: [
+          //       "Personal de oficiales, actividad, retiro y familiares directos Escala N° 28 en pensiones.",
+          //       "Personal de Tcos, SSOO actividad, retiro, familiares directos y Civiles en actividad Escala N° 30 en pensiones.",
+          //     ],
+          //   },
+          //   {
+          //     title: "PREGRADO SEGUNDA CARRERA: ",
+          //     descriptions: [
+          //       "Personal de oficiales y familiares directos, descuento del 10% en pensiones.",
+          //       "Personal de Tcos y SSOO actividad, retiro, familiares directos y Civiles en actividad, descuento del 15% en pensiones.",
+          //     ],
+          //   },
+          //   {
+          //     title: "POSGRADO: ",
+          //     descriptions: [
+          //       "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
+          //       "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
+          //     ],
+          //   },
+          //   {
+          //     title: "SEGUNDA ESPECIALIDAD: ",
+          //     descriptions: [
+          //       "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
+          //       "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
+          //     ],
+          //   },
+          //   {
+          //     title: "DIPLOMADOS Y/O SEMINARIOS: ",
+          //     descriptions: [
+          //       "Personal de oficiales Escala N° 28 en el pago de las pensiones.",
+          //       "Personal de Tcos y SSOO Escala N° 30 en el pago de las pensiones",
+          //     ],
+          //   },
+          //   {
+          //     title: "VIG. 24-10-19 / 24-10-24",
+          //   },
+          //   {
+          //     title: "ALCANCE: ",
+          //     description:
+          //       "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+          //     links: [{ icon: faGlobe, link: "https://www.unife.edu.pe/" }],
+          //   },
+          // ],
         },
         {
           image: UniversidadJaimeBausate,

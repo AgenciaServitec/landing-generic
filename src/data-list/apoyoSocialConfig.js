@@ -1,102 +1,106 @@
 import {
-    ArgentinaBandera,
-    Azaleia,
-    BancoComercio,
-    BancoContinental,
-    BancoGng,
-    BancoBCP,
-    BancoInterbank,
-    BancoScotiabank,
-    BannerEconomico,
-    BannerSalud,
-    BannerServices,
-    BoliviaBandera,
-    BrasilBandera,
-    ChileBandera,
-    ClinicaDelInca,
-    CobieneLogoLarge,
-    ColombianaBandera,
-    ConvenioSalud1,
-    ConvenioSalud12,
-    ConvenioSalud14,
-    ConvenioSalud15,
-    ConvenioSalud2,
-    ConvenioSalud3,
-    ConvenioSalud4,
-    ConvenioSalud5,
-    ConvenioSalud6,
-    ConvenioSalud7,
-    CoreaBandera,
-    CruzDelSur,
-    Decameron,
-    Domireps,
-    DpromartPeru,
-    EcuadorBandera,
-    ElCentro,
-    Enazul,
-    EspanaBandera,
-    FacturaServitec,
-    FinancieraAutoplan,
-    FinancieraEfectiva,
-    FinancieraLarehabilitadora,
-    FranciaBandera,
-    HolidayInn,
-    HolidayInnExpress,
-    HotelCarrera,
-    ImgBthHotelRebelTacna,
-    ImgCentroOpticoJesusEirl,
-    ImgChifaRestauranteWongsen,
-    ImgDireccionRegionalEducacionTacna,
-    ImgDmHotel,
-    ImgDonLimon,
-    ImgDPaletas,
-    ImgEgatur,
-    ImgHotelLaSiesta,
-    ImgHotelMaximo,
-    ImgIepDayperPeruIerl,
-    ImgMayuComidaSalon,
-    ImgMbRehabFisioterapiaRehabilitacionSalud,
-    ImgMirandaEscobarPeruTravels,
-    ImgPacificSuitesHotel,
-    ImgRestauranteFuegosPeruanos,
-    ImgRestaurantePastaEirl,
-    ImgRestauranteTradicionesPeruanas,
-    ImgSaintRose,
-    ImgUap,
-    ImgUpt,
-    Lg,
-    MexicoBandera,
-    MisaPadre,
-    Movilbus,
-    MultiserviciosTuringCusco,
-    Niuovida,
-    NoImagen,
-    Oltursa,
-    PublicidadServitec,
-    SaecoBautismo,
-    SaecoImgAbout,
-    SaecoImgCarousel,
-    Samsung,
-    SeguroRimac,
-    SeguroSaludPositiva,
-    SeguroVehicularPositiva,
-    Servitec,
-    SkyAirline,
-    SmartFit,
-    StarPeru,
-    StoreServitec,
-    TiendaFootloose,
-    TiendaLazzos,
-    TitleAyudaEconomica,
-    TitleConvenios,
-    TitleReli,
-    SMC,
-    Palomino,
-    Vega,
-    cayetano,
-    botiperu,
-    ChichaKio,
-    Cencosud, qhalikay, qhalikayinfo, latranquera, cencosud,
+  ArgentinaBandera,
+  Azaleia,
+  BancoComercio,
+  BancoContinental,
+  BancoGng,
+  BancoBCP,
+  BancoInterbank,
+  BancoScotiabank,
+  BannerEconomico,
+  BannerSalud,
+  BannerServices,
+  BoliviaBandera,
+  BrasilBandera,
+  ChileBandera,
+  ClinicaDelInca,
+  CobieneLogoLarge,
+  ColombianaBandera,
+  ConvenioSalud1,
+  ConvenioSalud12,
+  ConvenioSalud14,
+  ConvenioSalud15,
+  ConvenioSalud2,
+  ConvenioSalud3,
+  ConvenioSalud4,
+  ConvenioSalud5,
+  ConvenioSalud6,
+  ConvenioSalud7,
+  CoreaBandera,
+  CruzDelSur,
+  Decameron,
+  Domireps,
+  DpromartPeru,
+  EcuadorBandera,
+  ElCentro,
+  Enazul,
+  EspanaBandera,
+  FacturaServitec,
+  FinancieraAutoplan,
+  FinancieraEfectiva,
+  FinancieraLarehabilitadora,
+  FranciaBandera,
+  HolidayInn,
+  HolidayInnExpress,
+  HotelCarrera,
+  ImgBthHotelRebelTacna,
+  ImgCentroOpticoJesusEirl,
+  ImgChifaRestauranteWongsen,
+  ImgDireccionRegionalEducacionTacna,
+  ImgDmHotel,
+  ImgDonLimon,
+  ImgDPaletas,
+  ImgEgatur,
+  ImgHotelLaSiesta,
+  ImgHotelMaximo,
+  ImgIepDayperPeruIerl,
+  ImgMayuComidaSalon,
+  ImgMbRehabFisioterapiaRehabilitacionSalud,
+  ImgMirandaEscobarPeruTravels,
+  ImgPacificSuitesHotel,
+  ImgRestauranteFuegosPeruanos,
+  ImgRestaurantePastaEirl,
+  ImgRestauranteTradicionesPeruanas,
+  ImgSaintRose,
+  ImgUap,
+  ImgUpt,
+  Lg,
+  MexicoBandera,
+  MisaPadre,
+  Movilbus,
+  MultiserviciosTuringCusco,
+  Niuovida,
+  NoImagen,
+  Oltursa,
+  PublicidadServitec,
+  SaecoBautismo,
+  SaecoImgAbout,
+  SaecoImgCarousel,
+  Samsung,
+  SeguroRimac,
+  SeguroSaludPositiva,
+  SeguroVehicularPositiva,
+  Servitec,
+  SkyAirline,
+  SmartFit,
+  StarPeru,
+  StoreServitec,
+  TiendaFootloose,
+  TiendaLazzos,
+  TitleAyudaEconomica,
+  TitleConvenios,
+  TitleReli,
+  SMC,
+  Palomino,
+  Vega,
+  cayetano,
+  botiperu,
+  ChichaKio,
+  Cencosud,
+  qhalikay,
+  qhalikayinfo,
+  latranquera,
+  cencosud,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -344,59 +348,58 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-
       ],
     },
     sectionSalud: {
       title: "Convenios de Servicios de Salud : ",
       cards: [
-          {
-              image: ConvenioSalud3,
-              title: "Uchi's Med",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS: ",
-                      descriptions: [
-                          "OTORGA UN DESCUENTOPREFERENCIAL A LOS BENEFICIARIOS AFILIADOS Y NO AFILIADOS.",
-                          "COSTO DE AFILIACIÓN S/. 35.00 (UN AÑO MINIMO ANTES DE PODER DESAFILIARSE(, LOS NO AFILIADOS TIENEN UNA TARIFA PREFERENCIAL.",
-                          "UCHI´S MED NO SE RESPONSABILIZA NI REEMBOLSA ECONOMICAMENTE SI EL TITULAR O EL BENEFICIARIO NO PROGRAMAN SU CITA PERIODICAMENTE O NO HAGAN USO DEL SERVICIO MEDICO DENTAL.",
-                      ],
-                  },
-                  {
-                      title: "ALCANCE DEL CONVENIO: ",
-                      descriptions: [
-                          "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
-                      ],
-                      detalles: [
-                          {
-                              icon: faLink,
-                              detalle:
-                                  "https://drive.google.com/file/d/1zIzNtkIsPTxFUqSOLJ_nD5zMVxMuxRya/view?usp=sharing",
-                          },
-                      ],
-                  },
+        {
+          image: ConvenioSalud3,
+          title: "Uchi's Med",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "OTORGA UN DESCUENTOPREFERENCIAL A LOS BENEFICIARIOS AFILIADOS Y NO AFILIADOS.",
+                "COSTO DE AFILIACIÓN S/. 35.00 (UN AÑO MINIMO ANTES DE PODER DESAFILIARSE(, LOS NO AFILIADOS TIENEN UNA TARIFA PREFERENCIAL.",
+                "UCHI´S MED NO SE RESPONSABILIZA NI REEMBOLSA ECONOMICAMENTE SI EL TITULAR O EL BENEFICIARIO NO PROGRAMAN SU CITA PERIODICAMENTE O NO HAGAN USO DEL SERVICIO MEDICO DENTAL.",
               ],
-          }, {
-              image: qhalikay,
-              title: "Qhali Kay",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS: ",
-                      descriptions: [
-                          "Otorgará un descuento preferencial del 40% a los beneficiarios en los servicios de reumatología, medicina física y rehabilitación, terapia física, tratamiento de dolor, terapias de relajación y psicología.",
-                          "Promoción valida hasta el 31 de diciembre del 2028.",
-                      ],
-
-                  },
-                  {
-                      title: "ALCANCE DEL CONVENIO: ",
-                      descriptions: [
-                          "Personal militar y civil en situación de actividad y retiro o cesante, así como a sus familiares directos (cónyuge, hijos menores de 25 años) El Beneficio Es De Manera Presencial.",
-                      ],
-                  },
+            },
+            {
+              title: "ALCANCE DEL CONVENIO: ",
+              descriptions: [
+                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
               ],
-          },
-          {
+              detalles: [
+                {
+                  icon: faLink,
+                  detalle:
+                    "https://drive.google.com/file/d/1zIzNtkIsPTxFUqSOLJ_nD5zMVxMuxRya/view?usp=sharing",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          image: qhalikay,
+          title: "Qhali Kay",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "Otorgará un descuento preferencial del 40% a los beneficiarios en los servicios de reumatología, medicina física y rehabilitación, terapia física, tratamiento de dolor, terapias de relajación y psicología.",
+                "Promoción valida hasta el 31 de diciembre del 2028.",
+              ],
+            },
+            {
+              title: "ALCANCE DEL CONVENIO: ",
+              descriptions: [
+                "Personal militar y civil en situación de actividad y retiro o cesante, así como a sus familiares directos (cónyuge, hijos menores de 25 años) El Beneficio Es De Manera Presencial.",
+              ],
+            },
+          ],
+        },
+        {
           image: ConvenioSalud1,
           title: "Apeplac",
           descriptionLarge: [
@@ -435,7 +438,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-          {
+        {
           image: ConvenioSalud2,
           title: "Biolinks",
           descriptionLarge: [
@@ -755,7 +758,6 @@ export const apoyoSocialConfig = {
     sectionDiversos: {
       title: "Convenios con Tiendas:",
       cards: [
-
         {
           image: Azaleia,
           title: "Azaleia",
@@ -883,7 +885,7 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-          {
+        {
           image: cencosud,
           title: "CENCOSUD RETAIL PERÚ S.A.",
           descriptionLarge: [
@@ -915,38 +917,38 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-          {
-              image: FinancieraAutoplan,
-              title: "Auto Plan",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS:",
-                      descriptions: [
-                          "Ofrece a través de un modelo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a elección del beneficiario, siendo válido para lima y provincias.",
-                          "Otorga un beneficio corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por única vez) sobre el valor del certificado.",
-                          "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado plan 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una tasa del gasto administrativo del 28%.",
-                      ],
-                  },
-                  {
-                      title: "CONTACTOS: ",
-                      descriptions: [
-                          "ROBERTO CHAPEYQUEN <a href='tel:965135686'>965135686</a>",
-                      ],
-                  },
-                  {
-                      title: "ALCANCE: ",
-                      descriptions: [
-                          "Personal militar en situación de actividad y retiro, personalcivil en actividad o cesante asícomo a sus familiares directos.",
-                      ],
-                      links: [
-                          {
-                              icon: faGlobe,
-                              link: "https://www.autoplan.pe/",
-                          },
-                      ],
-                  },
+        {
+          image: FinancieraAutoplan,
+          title: "Auto Plan",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS:",
+              descriptions: [
+                "Ofrece a través de un modelo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a elección del beneficiario, siendo válido para lima y provincias.",
+                "Otorga un beneficio corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por única vez) sobre el valor del certificado.",
+                "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado plan 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una tasa del gasto administrativo del 28%.",
               ],
-          },
+            },
+            {
+              title: "CONTACTOS: ",
+              descriptions: [
+                "ROBERTO CHAPEYQUEN <a href='tel:965135686'>965135686</a>",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              descriptions: [
+                "Personal militar en situación de actividad y retiro, personalcivil en actividad o cesante asícomo a sus familiares directos.",
+              ],
+              links: [
+                {
+                  icon: faGlobe,
+                  link: "https://www.autoplan.pe/",
+                },
+              ],
+            },
+          ],
+        },
         {
           image: ChichaKio,
           title: "Chicharrones KIO",
@@ -988,7 +990,8 @@ export const apoyoSocialConfig = {
               ],
             },
           ],
-        },        {
+        },
+        {
           image: latranquera,
           title: "La Tranquera",
           descriptionLarge: [
@@ -1229,7 +1232,6 @@ export const apoyoSocialConfig = {
     sectionTransporte: {
       title: "Convenios con Empresas de Transporte :",
       cards: [
-
         {
           image: Oltursa,
           title: "Oltursa",
@@ -1390,8 +1392,8 @@ export const apoyoSocialConfig = {
                 "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
-                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Enero 2026 : SKYEJERCITO18 valido del 01/02/2026 hasta el 28/02/2026",
-                "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento.",
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Febrero 2026 : SKYEJERCITO18 valido del 01/02/2026 hasta el 28/02/2026",
+                "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
               ],
             },
             {
@@ -1418,7 +1420,6 @@ export const apoyoSocialConfig = {
     sectionHoteles: {
       title: "Convenios con Hoteles :",
       cards: [
-
         {
           image: Decameron,
           title: "Decameron - El Pueblo",
