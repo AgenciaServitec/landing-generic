@@ -413,48 +413,48 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: ConvenioSalud2,
-          title: "Biolinks",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS : ",
-              descriptions: [
-                "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
-                "• Brinda costo diferenciado en examenes de laboratorio clinico (oncolócoligico área de dignóstico y areá infecciosas).",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: ["<a href='tel:012614411'>(01) 261-4411</a>"],
-            },
-            {
-              title: "ALCANCE DEL CONVENIO :",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
-              ],
-              sedes: [
-                {
-                  icon: faBuilding,
-                  sede: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
-                },
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1w10YrPqy46Qf3b6mcFLdfW2BDWW3UCf5/view?usp=drive_link",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://biolinksperu.com",
-                },
-              ],
-            },
-          ],
-        },
+        // {
+        //   image: ConvenioSalud2,
+        //   title: "Biolinks",
+        //   descriptionLarge: [
+        //     {
+        //       title: "BENEFICIOS : ",
+        //       descriptions: [
+        //         "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
+        //         "• Brinda costo diferenciado en examenes de laboratorio clinico (oncolócoligico área de dignóstico y areá infecciosas).",
+        //       ],
+        //     },
+        //     {
+        //       title: "CONTACTOS:",
+        //       descriptions: ["<a href='tel:012614411'>(01) 261-4411</a>"],
+        //     },
+        //     {
+        //       title: "ALCANCE DEL CONVENIO :",
+        //       descriptions: [
+        //         "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
+        //       ],
+        //       sedes: [
+        //         {
+        //           icon: faBuilding,
+        //           sede: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
+        //         },
+        //       ],
+        //       detalles: [
+        //         {
+        //           icon: faLink,
+        //           detalle:
+        //             "https://drive.google.com/file/d/1w10YrPqy46Qf3b6mcFLdfW2BDWW3UCf5/view?usp=drive_link",
+        //         },
+        //       ],
+        //       links: [
+        //         {
+        //           icon: faGlobe,
+        //           link: "https://biolinksperu.com",
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
         {
           image: SMC,
           title: "Salud Medic CArrión",
@@ -490,6 +490,8 @@ export const apoyoSocialConfig = {
         {
           image: ConvenioSalud4,
           title: "Inppares",
+              title2: "(EN TRÁMITE DE RENOVACIÓN)",
+            title2Color: "red",
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
@@ -1026,7 +1028,9 @@ export const apoyoSocialConfig = {
         {
           image: FinancieraEfectiva,
           title: "Financiera Efectiva",
-          descriptionLarge: [
+            title2: "(EN TRÁMITE DE RENOVACIÓN)",
+            title2Color: "red",
+            descriptionLarge: [
             {
               title: "BENEFICIOS:",
               descriptions: [
