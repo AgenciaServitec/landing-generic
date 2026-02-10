@@ -422,6 +422,7 @@ export { default as TiendaVizzano } from "./saeco/diversos/calzado-vizzano.webp"
 export { default as Azaleia } from "./saeco/diversos/azaleia.webp";
 export { default as Vega } from "./saeco/diversos/vega.webp";
 export { default as cencosud } from "./saeco/diversos/cencosud.webp";
+export { default as infocencosud } from "./saeco/diversos/infocencosud.webp";
 export { default as ChichaKio } from "./saeco/diversos/CHICHARRONES-KIO.webp";
 export { default as latranquera } from "./saeco/diversos/latranquera.webp";
 // ------ SAECO FINANCIERAS IMAGES -------
