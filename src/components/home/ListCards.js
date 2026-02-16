@@ -76,7 +76,11 @@ export const ListCards = ({
                 )}
               </a>
               {item.title && <h3>{item.title}</h3>}
-              {item.title2 && <h5>{item.title2}</h5>}
+                {item.title2 && (
+                    <h5 style={{ color: item.title2Color || "#FF0000" }}>
+                        {item.title2}
+                    </h5>
+                )}
               {item.title3 && <h5>{item.title3}</h5>}
               {item.description && <p>{item.description}</p>}
               {item.descriptionLarge && (

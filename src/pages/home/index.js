@@ -119,9 +119,7 @@ export const Home = () => {
             images={sectionCobertura.images}
           />
         )}
-        {sectionCollages && (
-          <ComponentImages collages={sectionCollages.collages} />
-        )}
+
         {(sectionBancos || sectionBancos.cards) && (
           <ListCards
             id={sectionBancos.id}
@@ -264,6 +262,11 @@ export const Home = () => {
             type="secondary"
           />
         )}
+
+          {sectionCollages && (
+              <ComponentImages collages={sectionCollages.collages} />
+          )}
+
         {(sectionServiceRel || sectionServiceRel.images) && (
           <CardsInlineBlock
             id={sectionServiceRel.id}

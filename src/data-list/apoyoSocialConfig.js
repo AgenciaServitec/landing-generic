@@ -96,13 +96,11 @@ import {
   cayetano,
   botiperu,
   ChichaKio,
-  Cencosud,
-  qhalikay,
-  qhalikayinfo,
   latranquera,
-  cencosud,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { cencosud, infocencosud } from "../images";
+import { qhalikay, qhalikayinfo } from "../images";
 import {
   faBuilding,
   faEnvelope,
@@ -125,9 +123,9 @@ export const apoyoSocialConfig = {
     logoImg: CobieneLogoLarge,
     menuList: [
       { id: "about-us", name: "NOSOTROS" },
-      { id: "AyudaEconomicaSocial", name: "Ayuda Economica" },
       { id: "Convenios", name: "Convenios Multiservicios" },
-      { id: "ServicoReligioso", name: "Servicio Religioso" },
+        { id: "AyudaEconomicaSocial", name: "Ayuda Economica" },
+        { id: "ServicoReligioso", name: "Servicio Religioso" },
       { id: "contact", name: "Contacto" },
     ],
   },
@@ -163,33 +161,7 @@ export const apoyoSocialConfig = {
       ],
       images: [SaecoImgAbout],
     },
-    sectionCollages: {
-      collages: [
-        {
-          id: "AyudaEconomicaSocial",
-          titleImage: TitleAyudaEconomica,
-          descriptionTop:
-            "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa)",
-          images: [BannerServices],
-          description: "",
-        },
-        {
-          title: "",
-          descriptionTop:
-            "Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionale)",
 
-          images: [BannerSalud],
-          description: "",
-        },
-        {
-          title: "",
-          descriptionTop:
-            "Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. (silla ruedas colchón anti escaras, audífonos, lentes correctores, artículos ortopédicos, prótesis o parte de él, medicinas, pañales, balón de oxígeno.) ",
-          images: [BannerEconomico],
-          description: "",
-        },
-      ],
-    },
     sectionBancos: {
       id: "Convenios",
       titleImage: TitleConvenios,
@@ -227,9 +199,9 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS: ",
               descriptions: [
-                "TASA EFECTIVA ANUAL (TEA): 15%",
+                "TASA EFECTIVA ANUAL (TEA): 10.90%",
                 "MODALIDAD: Prestamo por Consumo bajo La Modalidad de Descuento por Planilla.",
-                "EDAD: Hasta 60 años al finalizar el credito",
+                "EDAD: Hasta 55 años al finalizar el credito",
               ],
             },
             {
@@ -383,15 +355,18 @@ export const apoyoSocialConfig = {
         {
           image: qhalikay,
           title: "Qhali Kay",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "Otorgará un descuento preferencial del 40% a los beneficiarios en los servicios de reumatología, medicina física y rehabilitación, terapia física, tratamiento de dolor, terapias de relajación y psicología.",
-                "Promoción valida hasta el 31 de diciembre del 2028.",
-              ],
-            },
-            {
+            descriptionLarge: [
+                {
+                    title: "BENEFICIOS: ",
+                    descriptions: [
+                        "Otorgará un descuento preferencial del 40% a los beneficiarios en los servicios de reumatología, medicina física y rehabilitación, terapia física, tratamiento de dolor, terapias de relajación y psicología.",
+                        "Promoción valida hasta el 31 de diciembre del 2028.",
+                        `<img src="${qhalikayinfo}" style="width:50%;max-width:900px;border-radius:8px;margin-bottom:1rem;" />`,
+                    ],
+
+                },
+
+              {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
                 "Personal militar y civil en situación de actividad y retiro o cesante, así como a sus familiares directos (cónyuge, hijos menores de 25 años) El Beneficio Es De Manera Presencial.",
@@ -438,48 +413,48 @@ export const apoyoSocialConfig = {
             },
           ],
         },
-        {
-          image: ConvenioSalud2,
-          title: "Biolinks",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS : ",
-              descriptions: [
-                "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
-                "• Brinda costo diferenciado en examenes de laboratorio clinico (oncolócoligico área de dignóstico y areá infecciosas).",
-              ],
-            },
-            {
-              title: "CONTACTOS:",
-              descriptions: ["<a href='tel:012614411'>(01) 261-4411</a>"],
-            },
-            {
-              title: "ALCANCE DEL CONVENIO :",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
-              ],
-              sedes: [
-                {
-                  icon: faBuilding,
-                  sede: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
-                },
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1w10YrPqy46Qf3b6mcFLdfW2BDWW3UCf5/view?usp=drive_link",
-                },
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://biolinksperu.com",
-                },
-              ],
-            },
-          ],
-        },
+        // {
+        //   image: ConvenioSalud2,
+        //   title: "Biolinks",
+        //   descriptionLarge: [
+        //     {
+        //       title: "BENEFICIOS : ",
+        //       descriptions: [
+        //         "• Descuento del 20% en prueba de ADN reconocimiento de paternidad.",
+        //         "• Brinda costo diferenciado en examenes de laboratorio clinico (oncolócoligico área de dignóstico y areá infecciosas).",
+        //       ],
+        //     },
+        //     {
+        //       title: "CONTACTOS:",
+        //       descriptions: ["<a href='tel:012614411'>(01) 261-4411</a>"],
+        //     },
+        //     {
+        //       title: "ALCANCE DEL CONVENIO :",
+        //       descriptions: [
+        //         "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
+        //       ],
+        //       sedes: [
+        //         {
+        //           icon: faBuilding,
+        //           sede: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
+        //         },
+        //       ],
+        //       detalles: [
+        //         {
+        //           icon: faLink,
+        //           detalle:
+        //             "https://drive.google.com/file/d/1w10YrPqy46Qf3b6mcFLdfW2BDWW3UCf5/view?usp=drive_link",
+        //         },
+        //       ],
+        //       links: [
+        //         {
+        //           icon: faGlobe,
+        //           link: "https://biolinksperu.com",
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
         {
           image: SMC,
           title: "Salud Medic CArrión",
@@ -515,6 +490,8 @@ export const apoyoSocialConfig = {
         {
           image: ConvenioSalud4,
           title: "Inppares",
+              title2: "(EN TRÁMITE DE RENOVACIÓN)",
+            title2Color: "red",
           descriptionLarge: [
             {
               title: "BENEFICIOS :",
@@ -564,7 +541,8 @@ export const apoyoSocialConfig = {
               title: "CONTACTOS:",
               descriptions: [
                 "CORREO: <a href='mailto:ventasgrupoinfinitech@gmail.com'>ventasgrupoinfinitech@gmail.com</a>",
-                "TELEFONO Y WHATSAPP: <a href='https://api.whatsapp.com/send/?phone=51928111120'>928111120</a>",
+                "TELEFONO Y WHATSAPP: <a href='https://api.whatsapp.com/send/?phone=51916227494'>916227494</a>",
+                  "ENCARGADA: Sr. MELISA",
               ],
             },
             {
@@ -597,19 +575,7 @@ export const apoyoSocialConfig = {
               title: "CONTACTOS:",
               descriptions: ["<a href='tel:016126666'>(01) 612-6666</a>"],
             },
-            {
-              title: "ALCANCE DEL CONVENIO :",
-              descriptions: [
-                "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges, hijos y hermanos); debidamente acreditados.",
-              ],
-              detalles: [
-                {
-                  icon: faLink,
-                  detalle:
-                    "https://drive.google.com/file/d/1f_4bBVuRMRoE67i00NYsmnn9NmA_d8T4/view?usp=sharing",
-                },
-              ],
-            },
+
             {
               title: "ALCANCE DEL CONVENIO: ",
               descriptions: [
@@ -632,19 +598,19 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS :",
               descriptions: [
-                "FISIOTERAPIA (40%)",
-                "FARMACIA (15%)",
-                "HOSPITALIZACION (30%)",
-                "UNIDAD DE CUIDADOS INTENSIVOS (25%)",
-                "USO DE EQUIPOS MEDICOS NO ESPECIALIZADOS (70%)",
-                "LABORATORIO CLINICO (20%)",
-                "AMBULANCIA TIPO II PARA TRASLADO A CLINICAS (80%)",
-                " HONORARIOS MEDICOS POR PROCEDIMIENTOS (QUIRÚRGICO-INTERVENCIONES) (20%)",
+                  " HONORARIOS MEDICOS POR PROCEDIMIENTOS (QUIRÚRGICO-INTERVENCIONES) (20%)",
+                  "FISIOTERAPIA (40%)",
+                  "FARMACIA (15%)",
+                  "HOSPITALIZACION (30%)",
+                  "UNIDAD DE CUIDADOS INTENSIVOS (25%)",
+                  "USO DE EQUIPOS MEDICOS NO ESPECIALIZADOS (70%)",
                 "EXAMENES APOYO DISAGNOSTICO (30%):",
-                "ECOCARDIOGRAMAS Y ECOGRAFIAS, ELECTROENCEFALOGRAMA, ELECTROCARDIOGRAMAS, POTENCIALES EVOCADOS, HOLTER, ELECTROMIOGRAFIA, MAPA, ENDOSCOPIA Y COLONOSCOPIA, PRUEBA DE ESFUERZO, AUDIOMETRIA, RESONANCIA MAGNETICA, ESPIROMETRIA, TOMOGRAFIUA MULTICORTES 128 Y 64 CORTES, CONTRAPULSACION EXTERNA, RADIOLOGIA DIGITAL, MAMOGRAFIA",
-                "NOTA: ESTOS DESCUENTOS NO APLICAN PARA AFILIADOS ACOMPAÑIAS DE SEGUROS, NI PARA PACIENTES CON ECMO Y CIRUGIAS Y PROCEDIMEINTOS EN LOS QUE SE LES DIO UN PAQUETE, YA QUE LOS PRECIOS ESTAN AJUSTADOS A LOS DESCUENTOS.,\n",
-                "CONSULTA DE S/ 300 REBAJADAS A S/118 CON LAS SIGUIENTES ESPECIALIDADES:,\n",
-                "CARDIOLOGIA, CARDIOLOGIA INTERVENCIONISTA, NEUROLOGIA,NEUROCIRUGIA, GINECOLOGIA, PEDIATRA, GASTROENTEROLOGIA,CIRUGIA GENERAL, CIRUGIA CARDIOVASCULAR, DERMATOLOGIA, PSICOLOGIA, ENDOCRINOLOGIA.",
+                  "ECOCARDIOGRAMAS Y ECOGRAFIAS, ELECTROENCEFALOGRAMA, ELECTROCARDIOGRAMAS, POTENCIALES EVOCADOS, HOLTER, ELECTROMIOGRAFIA, MAPA, ENDOSCOPIA Y COLONOSCOPIA, PRUEBA DE ESFUERZO, AUDIOMETRIA, RESONANCIA MAGNETICA, ESPIROMETRIA, TOMOGRAFIUA MULTICORTES 128 Y 64 CORTES, CONTRAPULSACION EXTERNA, RADIOLOGIA DIGITAL, MAMOGRAFIA",
+                  "LABORATORIO CLINICO (20%)",
+                  "AMBULANCIA TIPO II PARA TRASLADO A CLINICAS (80%)",
+                  "NOTA: ESTOS DESCUENTOS NO APLICAN PARA AFILIADOS ACOMPAÑIAS DE SEGUROS, NI PARA PACIENTES CON ECMO Y CIRUGIAS Y PROCEDIMEINTOS EN LOS QUE SE LES DIO UN PAQUETE, YA QUE LOS PRECIOS ESTAN AJUSTADOS A LOS DESCUENTOS.,\n",
+                  "CONSULTA DE S/ 300 REBAJADAS A S/118 CON LAS SIGUIENTES ESPECIALIDADES:,\n",
+                  "CARDIOLOGIA, CARDIOLOGIA INTERVENCIONISTA, NEUROLOGIA,NEUROCIRUGIA, GINECOLOGIA, PEDIATRA, GASTROENTEROLOGIA,CIRUGIA GENERAL, CIRUGIA CARDIOVASCULAR, DERMATOLOGIA, PSICOLOGIA, ENDOCRINOLOGIA.",
               ],
             },
             {
@@ -758,6 +724,32 @@ export const apoyoSocialConfig = {
     sectionDiversos: {
       title: "Convenios con Tiendas:",
       cards: [
+
+          {
+              image: Lg,
+              title: "LG Electronics Perú S.A.",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIARIOS:",
+                      descriptions: [
+                          "Brindará acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual lg vip, e-commerce, propia de la marca, siendo válido para lima y provincias.",
+                          "Brindará acceso a la tienda virtual de “lg” a través de su página principal https: <a href='www.lg.com/pe' target='_blank'>www.lg.com/pe</a>, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón EJÉRCITOVIP.",
+                      ],
+                  },
+                  {
+                      title: "ALCANCE:",
+                      descriptions: [
+                          "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos.",
+                      ],
+                      links: [
+                          {
+                              icon: faGlobe,
+                              link: "https://www.lg.com/pe/",
+                          },
+                      ],
+                  },
+              ],
+          },
         {
           image: Azaleia,
           title: "Azaleia",
@@ -903,16 +895,26 @@ export const apoyoSocialConfig = {
               ],
             },
             {
+              title: "COMO SE ACCEDER AL BENEFICIO: ",
+              descriptions: [
+                "- CÓDIGO DE BARRA - CIP VIGENTE - DNI VIGENTE - CIF VIGENTE - OBLIGATORIO E IMPERATIVO LA PRESENCIA FÍSICAMENTE.",
+              ],
+            },
+              {
+                  title: "COMO ADQUIR AL CODIGO DE BARRA: ",
+                  descriptions: [
+                      "PERSONAL EN ACTIVIDAD:",
+                      "<a href='bienestarep.ejercito.mil.pe/'>bienestarep.ejercito.mil.pe/</a>",
+                      "(PERSONAL EN RETIRO /CESANTE):",
+                      "<a href='facebook.com/ejercitodelperuoficial/'>facebook.com/ejercitodelperuoficial/</a>",
+                      `<img src="${infocencosud}" style="width:50%;max-width:900px;border-radius:8px;margin-bottom:1rem;" />`,
+
+                  ],
+              },
+    {
               title: "BENEFICIARIOS: ",
               descriptions: [
                 "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad.",
-              ],
-
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.vega.pe/",
-                },
               ],
             },
           ],
@@ -1026,7 +1028,9 @@ export const apoyoSocialConfig = {
         {
           image: FinancieraEfectiva,
           title: "Financiera Efectiva",
-          descriptionLarge: [
+            title2: "(EN TRÁMITE DE RENOVACIÓN)",
+            title2Color: "red",
+            descriptionLarge: [
             {
               title: "BENEFICIOS:",
               descriptions: [
@@ -1239,9 +1243,9 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS: ",
               descriptions: [
-                "15% de descuento (en la adquisición de ida y vuelta).Temporadas altas regulares o media",
-                "10% de descuento transporte de correspondencia, paquetería, encomiendas, carga ligera o mediana.",
-                "20 % de descuento (en la adquisición de ida y vuelta).",
+                  "20 % de descuento (en la adquisición de ida y vuelta).",
+                  "15% de descuento (en la adquisición de ida y vuelta).Temporadas altas regulares o media",
+                  "10% de descuento transporte de correspondencia, paquetería, carga ligera o mediana.",
               ],
             },
             {
@@ -1427,7 +1431,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS:",
               descriptions: [
-                "Blue marlin beach club s.a.” en adelante será “hoteles decameron el pueblo” concederá a los beneficiarios el acceso a los servicios hoteleros ofrecidos, a través de un 25% de descuento en tarifas expresadas, en temporada baja (excepto las fechas festivas u otras que se indiquen). que va del 13 ago al 29 set y del 15 oct al 28 dic.",
+                "Blue marlin beach club s.a. en adelante será hoteles decameron el pueblo concederá a los beneficiarios el acceso a los servicios hoteleros ofrecidos, a través de un 25% de descuento en tarifas expresadas, en temporada baja (excepto las fechas festivas u otras que se indiquen). que va del 13 ago al 29 set y del 15 oct al 28 dic.",
                 "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707'>989211707</a> indicando el código promocional PER-H194PB.",
               ],
             },
@@ -1452,7 +1456,7 @@ export const apoyoSocialConfig = {
             {
               title: "BENEFICIOS:",
               descriptions: [
-                "Blue marlin beach club s.a.” en adelante será “hoteles decameron el pueblo” concederá a los beneficiarios el acceso a los servicios hoteleros ofrecidos, a través de un 25% de descuento en tarifas expresadas, en temporada baja (excepto las fechas festivas u otras que se indiquen). que va del 13 ago al 29 set y del 15 oct al 28 dic.",
+                  "Blue marlin beach club s.a. en adelante será hoteles decameron el pueblo concederá a los beneficiarios el acceso a los servicios hoteleros ofrecidos, a través de un 25% de descuento en tarifas expresadas, en temporada baja (excepto las fechas festivas u otras que se indiquen). que va del 13 ago al 29 set y del 15 oct al 28 dic.",
                 "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707'>989211707</a> indicando el código promocional PER-H194PB.",
               ],
             },
@@ -1591,31 +1595,7 @@ export const apoyoSocialConfig = {
           title: "Servitec Proyectores",
         },
 
-        {
-          image: Lg,
-          title: "LG Electronics Perú S.A.",
-          descriptionLarge: [
-            {
-              title: "BENEFICIARIOS:",
-              descriptions: [
-                "Brindará acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual lg vip, e-commerce, propia de la marca, siendo válido para lima y provincias.",
-                "Brindará acceso a la tienda virtual de “lg” a través de su página principal https: <a href='www.lg.com/pe' target='_blank'>www.lg.com/pe</a>, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón EJÉRCITOVIP.",
-              ],
-            },
-            {
-              title: "ALCANCE:",
-              descriptions: [
-                "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos.",
-              ],
-              links: [
-                {
-                  icon: faGlobe,
-                  link: "https://www.lg.com/pe/",
-                },
-              ],
-            },
-          ],
-        },
+
       ],
     },
     sectionProvincial: {
@@ -2562,6 +2542,33 @@ export const apoyoSocialConfig = {
         },
       ],
     },
+        sectionCollages: {
+          collages: [
+              {
+                  id: "AyudaEconomicaSocial",
+                  titleImage: TitleAyudaEconomica,
+                  descriptionTop:
+                      "Alimentos y bebidas para consumo humano.(leche medicada, dietas hipercalórica, hipoglucémica e hipo grasa)",
+                  images: [BannerServices],
+                  description: "",
+              },
+              {
+                  title: "",
+                  descriptionTop:
+                      "Servicios, (educación personalizada, educación especializada, terapias integrales, terapias de rehabilitación, exámenes de diagnóstico especializado, intervenciones quirúrgicas, honorarios profesionale)",
+
+                  images: [BannerSalud],
+                  description: "",
+              },
+              {
+                  title: "",
+                  descriptionTop:
+                      "Adquisición de material, insumos, instrumental y accesorios médicos, quirúrgicos, odontológicos y laboratorio. (silla ruedas colchón anti escaras, audífonos, lentes correctores, artículos ortopédicos, prótesis o parte de él, medicinas, pañales, balón de oxígeno.) ",
+                  images: [BannerEconomico],
+                  description: "",
+              },
+          ],
+      },
     sectionServiceRel: {
       id: "ServicoReligioso",
       titleImage: TitleReli,
@@ -2605,7 +2612,6 @@ export const apoyoSocialConfig = {
         icon: faFacebook,
         name: "Facebook",
       },
-      { href: "tel:941801827", icon: faMobile, name: "Celular" },
       {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,

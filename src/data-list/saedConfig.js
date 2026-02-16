@@ -1,72 +1,72 @@
 import {
-  cayetano,
-  CobieneLogoLarge,
-  FORCE,
-  InstituteAllianceFrancaise,
-  InstituteAndresVesalio,
-  InstituteAvia,
-  InstituteBritanico,
-  InstituteCamaraLima,
-  InstituteCarrion,
-  InstituteCegicap,
-  InstituteCepea,
-  InstituteCepeban,
-  InstituteCeuce,
-  InstituteCibertec,
-  InstituteCivime,
-  InstituteCorazonDeJesus,
-  InstituteDesarrolloGerencial,
-  InstituteEcaprev,
-  InstituteEiger,
-  InstituteEigra,
-  InstituteEsinfron,
-  InstituteGamor,
-  InstituteIcpna,
-  InstituteIdept,
-  InstituteIfeep,
-  InstituteInidhe,
-  InstituteInteci,
-  InstituteInternationalBilingualCertification,
-  InstituteIsil,
-  InstituteIspacj,
-  InstituteLimaInstituteTechnicalStudies,
-  InstituteMilitaresDelPeru,
-  InstitutePrivateacher,
-  InstituteSanJudas,
-  InstituteSenati,
-  InstituteToulouseLautrec,
-  IntituteColumbia,
-  NEWMAN,
-  SaedAboutUs,
-  SaedBannePublic,
-  SaedBannerMiCarrera,
-  SaedSlider1,
-  UNIR,
-  UniversidadAutonoma,
-  UniversidadCertus,
-  UniversidadCesarVallejo,
-  UniversidadChampagnat,
-  UniversidadCientifica,
-  UniversidadDeLima,
-  UniversidadESAN,
-  UniversidadFedericoVillareal,
-  UniversidadJaimeBausate,
-  UniversidadNorbert,
-  UniversidadPrivadadelNorte,
-  UniversidadPrivadaDeTrujillo,
-  UniversidadRicardoPalma,
-  UniversidadSanIgnacioLoyola,
-  UniversidadSanJuanBautista,
-  UniversidadSanmartinPorres,
-  UniversidadUcal,
-  UniversidadUnifeSagradoCorazon,
-  UniversidadUpal,
-  UniversidadUpc,
-  UniversidadUtp,
-  UnviersidadAnahuac,
-  UnviersidadAutonomaDeIca,
-  UnviersidadContinental,
-  UnviersidadSanMarcosCienciasEconomicas,
+    cayetano,
+    CobieneLogoLarge, Esindecap,
+    FORCE, Globalestudios,
+    InstituteAllianceFrancaise,
+    InstituteAndresVesalio,
+    InstituteAvia,
+    InstituteBritanico,
+    InstituteCamaraLima,
+    InstituteCarrion,
+    InstituteCegicap,
+    InstituteCepea,
+    InstituteCepeban,
+    InstituteCeuce,
+    InstituteCibertec,
+    InstituteCivime,
+    InstituteCorazonDeJesus,
+    InstituteDesarrolloGerencial,
+    InstituteEcaprev,
+    InstituteEiger,
+    InstituteEigra,
+    InstituteEsinfron,
+    InstituteGamor,
+    InstituteIcpna,
+    InstituteIdept,
+    InstituteIfeep,
+    InstituteInidhe,
+    InstituteInteci,
+    InstituteInternationalBilingualCertification,
+    InstituteIsil,
+    InstituteIspacj,
+    InstituteLimaInstituteTechnicalStudies,
+    InstituteMilitaresDelPeru,
+    InstitutePrivateacher,
+    InstituteSanJudas,
+    InstituteSenati,
+    InstituteToulouseLautrec, institutoSouthern,
+    IntituteColumbia, LogoIERP,
+    NEWMAN,
+    SaedAboutUs,
+    SaedBannePublic,
+    SaedBannerMiCarrera,
+    SaedSlider1, UniPolitecnica,
+    UNIR,
+    UniversidadAutonoma,
+    UniversidadCertus,
+    UniversidadCesarVallejo,
+    UniversidadChampagnat,
+    UniversidadCientifica,
+    UniversidadDeLima,
+    UniversidadESAN,
+    UniversidadFedericoVillareal,
+    UniversidadJaimeBausate,
+    UniversidadNorbert,
+    UniversidadPrivadadelNorte,
+    UniversidadPrivadaDeTrujillo,
+    UniversidadRicardoPalma,
+    UniversidadSanIgnacioLoyola,
+    UniversidadSanJuanBautista,
+    UniversidadSanmartinPorres,
+    UniversidadUcal,
+    UniversidadUnifeSagradoCorazon,
+    UniversidadUpal,
+    UniversidadUpc,
+    UniversidadUtp,
+    UnviersidadAnahuac,
+    UnviersidadAutonomaDeIca,
+    UnviersidadContinental,
+    UnviersidadSanMarcosCienciasEconomicas, Vive,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -394,7 +394,8 @@ export const saedConfig = {
         {
           image: UniversidadUnifeSagradoCorazon,
           title: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN",
-          descriptionLarge: [{ title: "EN TRÁMITE" }],
+            title2: "(EN TRÁMITE DE RENOVACIÓN)",
+            descriptionLarge: [{ title: "EN TRÁMITE DE RENOVACIÓN" }],
           // descriptionLarge: [
           //   {
           //     title: "FACULTADES AFECTADAS:",
@@ -915,61 +916,65 @@ export const saedConfig = {
         {
           image: UniversidadSanmartinPorres,
           title: "SAN MARTIN DE PORRES",
-          descriptionLarge: [
-            {
-              title: "FACULTADES AFECTADAS: ",
-              descriptions: [
-                "Administración",
-                "Administración de Negocios Internacionales Arquitectura",
-                "Ciencias Aeronáuticas",
-                "Ciencias de la Comunicación",
-                "Contabilidad y Finanzas Derecho",
-                "Economía",
-                "Educación",
-                "Dirección e Interpretación Musical",
-                "Enfermería",
-                "Gestión de Recursos Humanos",
-                "Ingeniería Civil",
-                "Ingeniería de Computación y Sistemas",
-                "Ingeniería Industrial",
-                "Marketing",
-                "Medicina Humana",
-                "Obstetricia",
-                "Odontología",
-                "Psicología",
-                "Turismo y Hotelería",
-              ],
-            },
-            {
-              title: "PREGRADO: ",
-              description:
-                "Costo diferenciado en el pago de las pensiones en las diferentes carreras profesionales",
-            },
-            {
-              title: "PROGRAMA PARA ADULTOS QUE TRABAJAN (PAT): ",
-              descriptions: [
-                "15% de descuento en el pago de las pensiones dirigido a oficiales",
-                "20% de descuento en el pago de las pensiones dirigido a Técnicos, suboficiales y personal civil",
-              ],
-            },
-            {
-              title: "POSGRADO: ",
-              descriptions: [
-                "25% de descuento en el pago de las diferentes carreras profesionales (maestría y doctorado)",
-                "25% de descuento en segundas especializaciones",
-                "25% de descuento en diplomados",
-              ],
-            },
-            {
-              title: "EN TRAMITE DE RENOVACIÓN",
-            },
-            {
-              title: "ALCANCE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
-              links: [{ icon: faGlobe, link: "https://www.usmp.edu.pe/" }],
-            },
-          ],
+            title2: "(EN TRÁMITE DE RENOVACIÓN)",
+
+            descriptionLarge: [{ title: "EN TRÁMITE DE RENOVACIÓN" }],
+
+            // descriptionLarge: [
+          //   {
+          //     title: "FACULTADES AFECTADAS: ",
+          //     descriptions: [
+          //       "Administración",
+          //       "Administración de Negocios Internacionales Arquitectura",
+          //       "Ciencias Aeronáuticas",
+          //       "Ciencias de la Comunicación",
+          //       "Contabilidad y Finanzas Derecho",
+          //       "Economía",
+          //       "Educación",
+          //       "Dirección e Interpretación Musical",
+          //       "Enfermería",
+          //       "Gestión de Recursos Humanos",
+          //       "Ingeniería Civil",
+          //       "Ingeniería de Computación y Sistemas",
+          //       "Ingeniería Industrial",
+          //       "Marketing",
+          //       "Medicina Humana",
+          //       "Obstetricia",
+          //       "Odontología",
+          //       "Psicología",
+          //       "Turismo y Hotelería",
+          //     ],
+          //   },
+          //   {
+          //     title: "PREGRADO: ",
+          //     description:
+          //       "Costo diferenciado en el pago de las pensiones en las diferentes carreras profesionales",
+          //   },
+          //   {
+          //     title: "PROGRAMA PARA ADULTOS QUE TRABAJAN (PAT): ",
+          //     descriptions: [
+          //       "15% de descuento en el pago de las pensiones dirigido a oficiales",
+          //       "20% de descuento en el pago de las pensiones dirigido a Técnicos, suboficiales y personal civil",
+          //     ],
+          //   },
+          //   {
+          //     title: "POSGRADO: ",
+          //     descriptions: [
+          //       "25% de descuento en el pago de las diferentes carreras profesionales (maestría y doctorado)",
+          //       "25% de descuento en segundas especializaciones",
+          //       "25% de descuento en diplomados",
+          //     ],
+          //   },
+          //   {
+          //     title: "EN TRAMITE DE RENOVACIÓN",
+          //   },
+          //   {
+          //     title: "ALCANCE: ",
+          //     description:
+          //       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
+          //     links: [{ icon: faGlobe, link: "https://www.usmp.edu.pe/" }],
+          //   },
+          // ],
         },
         {
           image: UniversidadUtp,
@@ -1102,6 +1107,25 @@ export const saedConfig = {
             },
           ],
         },
+          {
+              image: NEWMAN,
+              title: "ESCUELA DE POSGRADO NEWMAN",
+              descriptionLarge: [
+                  {
+                      title: "BENEFICIOS: ",
+                      descriptions: [
+                          "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
+                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
+                      ],
+                  },
+
+                  {
+                      title: "ALCANCE:",
+                      description:
+                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+                  },
+              ],
+          },
         {
           image: UNIR,
           title: "UNIVERSIDAD INTERNACIONAL DE LA RIOJA",
@@ -1251,6 +1275,24 @@ export const saedConfig = {
               links: [{ icon: faGlobe, link: "https://uprit.edu.pe/" }],
             },
           ],
+        },        {
+          image: UniPolitecnica,
+          title: "UNIVERSIDAD POLITÉCNICA DEL PERÚ",
+          descriptionLarge: [
+            {
+              title: "PREGRADO: ",
+              descriptions: ["25% DSCTO en el pago de pensiones."],
+            },
+            {
+              title: "VIG. 30-10-25 / 30-10-30",
+            },
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.politecnica.edu.pe/" }],
+            },
+          ],
         },
       ],
     },
@@ -1259,10 +1301,10 @@ export const saedConfig = {
       cards: [
         {
           image: InstituteEsinfron,
-          title: "Esinfron",
+          title: "Esinfro",
           descriptionLarge: [
             {
-              title: "ESTUDIOS EN EL IDIOMA FRANCES: ",
+              title: "ESTUDIOS EN EL IDIOMA INGLÉS: ",
               description:
                 "50% de descuento en costo de enseñanza (mensualidades) en inglés, considerando la modalidad sincrónica (on-line) y asincrónica (grabaciones).",
             },
@@ -1347,6 +1389,21 @@ export const saedConfig = {
               links: [{ icon: faGlobe, link: "https://www.civime.edu.pe/" }],
             },
           ],
+        },        {
+          image: Globalestudios,
+          title: "Asociación Global Estudios",
+          descriptionLarge: [
+            {
+              title: "IDIOMA INGLÉS: ",
+              description:
+"28% de descuento en costo de enseñanza (mensualidades) en inglés.",            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://aglobalestudios.com/" }],
+            },
+          ],
         },
         {
           image: InstituteGamor,
@@ -1395,25 +1452,7 @@ export const saedConfig = {
             },
           ],
         },
-        {
-          image: NEWMAN,
-          title: "ESCUELA DE POSGRADO NEWMAN",
-          descriptionLarge: [
-            {
-              title: "BENEFICIOS: ",
-              descriptions: [
-                "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
-                "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
-              ],
-            },
 
-            {
-              title: "ALCANCE:",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-            },
-          ],
-        },
         // {
         //   image: Institute6,
         //   title: "CEVATUR PERÚ",
@@ -1481,7 +1520,66 @@ export const saedConfig = {
               descriptions: [
                 "30% de descuento en matricula y costos de enseñanza en (matricula y mensualidades), en todos sus programas de capacitación a oficina es de las FFAA y PNP, que tengan proyección de postular a los centros de formación castrense, cursos de especialización profesional e ingles profesional, en las diferentes modalidades, sedes o locales, incluso si existiera a nivel nacional.",
                 "30% de descuento en matricula y costos de enseñanza en (matricula y mensualidades), en el programa academia a pre universitaria, pre militar e ingles en las diferentes modalidades, sedes o locales, incluso si existiera a nivel nacional.",
-                "03 Becas integrales y 03 medias becas en todos los cursos",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal tropa servicio militar en actividad, licenciados",
+            },
+          ],
+        },
+          {
+          image: Esindecap,
+          title: "ESCUELA INTERNACIONAL DE DESARROLLO Y CAPACITACIÓN PROFESIONAL E.I.R.L",
+          descriptionLarge: [
+            {
+              title:
+                "Beneficios: ",
+              descriptions: [
+                "35% de descuento en el costo total de las pensiones en los programas de Capacitación Actualización y Especialización, Diplomados, Computación, Informática e Idiomas de Computación e Informática e Idiomas, en las diferentes sedes, incluso si existiera a nivel nacional.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal tropa servicio militar en actividad, licenciados",
+            },
+          ],
+        },
+          {
+          image: LogoIERP,
+          title: "INSTITUTO DE EDUCACIÓN SUPERIOR RICARDO PALMA",
+          descriptionLarge: [
+            {
+              title:
+                "Carreras Técnicas: ",
+              descriptions: [
+                  "20% de descuento",
+              ],
+            },             {
+              title:
+                "Formación Continua: ",
+              descriptions: [
+                  "25% de descuento",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal tropa servicio militar en actividad, licenciados",
+            },
+          ],
+        },
+          {
+          image: Vive,
+          title: "VIVE CONSULTORES EN GESTIÓN HUMANA",
+          descriptionLarge: [
+           {
+              title:
+                "Beneficios: ",
+              descriptions: [
+                  "Tarifas preferenciales en Cursos y talleres en el área de psicología",
               ],
             },
             {
@@ -1681,7 +1779,7 @@ export const saedConfig = {
               title:
                 "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS CORTOS Y SEMINARIOS: ",
               description:
-                "Costo diferenciado por convenio, en el pago de las cuotas mensuales.",
+                "20% descuento en los costos de los programas académicos en especializaciones, cursos y diplomados.",
             },
             {
               title: "ALCANCE: ",
@@ -1783,6 +1881,24 @@ export const saedConfig = {
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
               link: "https://www.acarrion.edu.pe/",
+            },
+          ],
+        },        {
+          image: institutoSouthern,
+          title: "INSTITUTO DE FORMACIÓN EN SALUD SOUTHERN",
+          descriptionLarge: [
+            {
+              title: "Beneficios: ",
+              descriptions: [
+                "50% descuento en el pago de matricula.",
+                "30% de descuento en el pago de mensualidades la carrera técnica de enfermería y programas de extensión",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              link: "https://southern.edu.pe/",
             },
           ],
         },
