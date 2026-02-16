@@ -154,6 +154,12 @@ export { default as InstituteAvia } from "./saed/avia.webp";
 export { default as InstituteCamaraLima } from "./saed/camara-lima.webp";
 export { default as InstituteCegicap } from "./saed/cegicap.webp";
 export { default as InstituteSanJudas } from "./saed/san-judas.webp";
+export { default as UniPolitecnica } from "./saed/logo-politecnica.webp";
+export { default as institutoSouthern } from "./saed/southern.webp";
+export { default as Globalestudios } from "./saed/globalestudios.webp";
+export { default as Esindecap } from "./saed/esindecap.webp";
+export { default as LogoIERP } from "./saed/logoIERP.webp";
+export { default as Vive } from "./saed/vive.webp";
 
 // ------ Lima Schools IMAGES -------
 export { default as Inst1 } from "./schools/lima-schools/inst1.webp";
