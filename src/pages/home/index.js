@@ -14,8 +14,10 @@ import { useTemplateConfig } from "../../providers";
 import {useAgreementsApi} from "../../hooks/useAgreementApi";
 
 export const Home = () => {
-  const { templateConfig } = useTemplateConfig();
+  const { templateConfig, templateType } = useTemplateConfig();
   const { agreementsData } = useAgreementsApi();
+
+  const isApoyoSocial = templateType === "apoyoSocial";
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
@@ -66,44 +68,59 @@ export const Home = () => {
 
   const displayBancos = {
     ...sectionBancosStatic,
-    cards: agreementsData.bancos.length > 0 ? agreementsData.bancos : sectionBancosStatic.cards
+    cards: isApoyoSocial && agreementsData.bancos.length > 0
+        ? agreementsData.bancos
+        : sectionBancosStatic.cards
   };
 
   const displaySalud = {
     ...sectionSaludStatic,
-    cards: agreementsData.salud.length > 0 ? agreementsData.salud : sectionSaludStatic.cards
+    cards: isApoyoSocial && agreementsData.salud.length > 0
+        ? agreementsData.salud
+        : sectionSaludStatic.cards
   };
 
   const displayDiversos = {
     ...sectionDiversosStatic,
-    cards: agreementsData.tiendas.length > 0 ? agreementsData.tiendas : sectionDiversosStatic.cards
+    cards: isApoyoSocial && agreementsData.tiendas.length > 0
+        ? agreementsData.tiendas
+        : sectionDiversosStatic.cards
   };
 
   const displayFinancieras = {
     ...sectionFinancierasStatic,
-    cards: agreementsData.financieras.length > 0 ? agreementsData.financieras : sectionFinancierasStatic.cards
+    cards: isApoyoSocial && agreementsData.financieras.length > 0
+        ? agreementsData.financieras
+        : sectionFinancierasStatic.cards
   };
 
   const displaySeguros = {
     ...sectionSegurosStatic,
-    cards: agreementsData.seguros.length > 0 ? agreementsData.seguros : sectionSegurosStatic.cards
+    cards: isApoyoSocial && agreementsData.seguros.length > 0
+        ? agreementsData.seguros
+        : sectionSegurosStatic.cards
   };
 
   const displayTransporte = {
     ...sectionTransporteStatic,
-    cards: agreementsData.transporte.length > 0 ? agreementsData.transporte : sectionTransporteStatic.cards
+    cards: isApoyoSocial && agreementsData.transporte.length > 0
+        ? agreementsData.transporte
+        : sectionTransporteStatic.cards
   };
 
   const displayHoteles = {
     ...sectionHotelesStatic,
-    cards: agreementsData.hoteles.length > 0 ? agreementsData.hoteles : sectionHotelesStatic.cards
+    cards: isApoyoSocial && agreementsData.hoteles.length > 0
+        ? agreementsData.hoteles
+        : sectionHotelesStatic.cards
   };
 
   const displayTecnologia = {
     ...sectionTecnologiaStatic,
-    cards: agreementsData.tecnologia.length > 0 ? agreementsData.tecnologia : sectionTecnologiaStatic.cards
+    cards: isApoyoSocial && agreementsData.tecnologia.length > 0
+        ? agreementsData.tecnologia
+        : sectionTecnologiaStatic.cards
   };
-
   return (
     <>
       <Container>
