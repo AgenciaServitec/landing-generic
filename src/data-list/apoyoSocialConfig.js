@@ -886,7 +886,7 @@ export const apoyoSocialConfig = {
               descriptions: [
                 "Concederá un descuento del 5% hasta 20% en distintas categorías en productos de los supermercados “metro” y “wong” a nivel nacional (según el anexo 01 “escanear qr” se detalla los productos), dichos beneficios serán aplicables para compras en tiendas físicas metro y wong (no válido en metro almacén, e-commerce, ni wong e-commerce, ni aplicativos de ambas marcas de supermercados).",
                 "Brindará a los beneficiarios tres (03) horas de estacionamiento, sin costo, en el centro comercial cenco lima sur, ubicado en av. Paseo de la república s/n, urb. Matellini, distrito de chorrillos - lima. ",
-                "Otorgará hasta un 30% de descuento en los restaurantes ubicados en el patio de comidas de cenco lima sur (la relación de restaurantes “chili's, china wok, coney park, mc donald's, otto grill, protein food, pizza hut, sarcletti, tiradito” (exclusivo para los locales ubicados en cenco lima sur será actualizada cada 06 meses,).",
+                "Otorgará hasta un descuento en los restaurantes ubicados en el patio de comidas de cenco lima sur (la relación de restaurantes “chili's, china wok, coney park, mc donald's, otto grill, protein food, pizza hut, sarcletti, tiradito” (exclusivo para los locales ubicados en cenco lima sur será actualizada cada 06 meses,).",
                 "Concederá el ingreso gratuito a la “granjita”, ubicada en cenco lima sur, para los beneficiarios y sus menores hijos (debidamente acreditado)",
                 "La categoría panadería tiene un descuento del 10%.",
                 "Los aceites comestibles tiene un descuento del 10%.",
@@ -1396,7 +1396,7 @@ export const apoyoSocialConfig = {
                 "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
-                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Marzo 2026 : SKYEJERCITO19 valido del 01/03/2026 hasta el 31/03/2026",
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Abril 2026 : SKYEJERCITO02 valido del 01/04/2026 hasta el 30/04/2026",
                 "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
               ],
             },
