@@ -11,9 +11,13 @@ import {
   SuggestionsComplaints,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
+import {useAgreementsApi} from "../../hooks/useAgreementApi";
 
 export const Home = () => {
-  const { templateConfig } = useTemplateConfig();
+  const { templateConfig, templateType } = useTemplateConfig();
+  const { agreementsData } = useAgreementsApi();
+
+  const isApoyoSocial = templateType === "apoyoSocial";
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
@@ -34,16 +38,16 @@ export const Home = () => {
     templateConfig.main.sectionProvinceSchools || false;
   const sectionCollages = templateConfig.main.sectionCollages || false;
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
-  const sectionBancos = templateConfig.main.sectionBancos || false;
-  const sectionSalud = templateConfig.main.sectionSalud || false;
-  const sectionDiversos = templateConfig.main.sectionDiversos || false;
-  const sectionFinancieras = templateConfig.main.sectionFinancieras || false;
+  const sectionBancosStatic = templateConfig.main.sectionBancos || false;
+  const sectionSaludStatic = templateConfig.main.sectionSalud || false;
+  const sectionDiversosStatic = templateConfig.main.sectionDiversos || false;
+  const sectionFinancierasStatic = templateConfig.main.sectionFinancieras || false;
   const sectionLegalAdvice = templateConfig.main.sectionLegalAdvice || false;
-  const sectionSeguros = templateConfig.main.sectionSeguros || false;
-  const sectionTransporte = templateConfig.main.sectionTransporte || false;
-  const sectionHoteles = templateConfig.main.sectionHoteles || false;
+  const sectionSegurosStatic = templateConfig.main.sectionSeguros || false;
+  const sectionTransporteStatic = templateConfig.main.sectionTransporte || false;
+  const sectionHotelesStatic = templateConfig.main.sectionHoteles || false;
   const sectionEvents = templateConfig.main.sectionEvents || false;
-  const sectionTecnologia = templateConfig.main.sectionTecnologia || false;
+  const sectionTecnologiaStatic = templateConfig.main.sectionTecnologia || false;
   const sectionProvincial = templateConfig.main.sectionProvincial || false;
   const sectionProvincial2 = templateConfig.main.sectionProvincial2 || false;
   const sectionProvincial3 = templateConfig.main.sectionProvincial3 || false;
@@ -62,6 +66,61 @@ export const Home = () => {
   const sectionMap = templateConfig.main.sectionMap || false;
   const sectionRequirements = templateConfig.main.sectionRequirements || false;
 
+  const displayBancos = {
+    ...sectionBancosStatic,
+    cards: isApoyoSocial && agreementsData.bancos.length > 0
+        ? agreementsData.bancos
+        : sectionBancosStatic.cards
+  };
+
+  const displaySalud = {
+    ...sectionSaludStatic,
+    cards: isApoyoSocial && agreementsData.salud.length > 0
+        ? agreementsData.salud
+        : sectionSaludStatic.cards
+  };
+
+  const displayDiversos = {
+    ...sectionDiversosStatic,
+    cards: isApoyoSocial && agreementsData.tiendas.length > 0
+        ? agreementsData.tiendas
+        : sectionDiversosStatic.cards
+  };
+
+  const displayFinancieras = {
+    ...sectionFinancierasStatic,
+    cards: isApoyoSocial && agreementsData.financieras.length > 0
+        ? agreementsData.financieras
+        : sectionFinancierasStatic.cards
+  };
+
+  const displaySeguros = {
+    ...sectionSegurosStatic,
+    cards: isApoyoSocial && agreementsData.seguros.length > 0
+        ? agreementsData.seguros
+        : sectionSegurosStatic.cards
+  };
+
+  const displayTransporte = {
+    ...sectionTransporteStatic,
+    cards: isApoyoSocial && agreementsData.transporte.length > 0
+        ? agreementsData.transporte
+        : sectionTransporteStatic.cards
+  };
+
+  const displayHoteles = {
+    ...sectionHotelesStatic,
+    cards: isApoyoSocial && agreementsData.hoteles.length > 0
+        ? agreementsData.hoteles
+        : sectionHotelesStatic.cards
+  };
+
+  const displayTecnologia = {
+    ...sectionTecnologiaStatic,
+    cards: isApoyoSocial && agreementsData.tecnologia.length > 0
+        ? agreementsData.tecnologia
+        : sectionTecnologiaStatic.cards
+  };
   return (
     <>
       <Container>
@@ -120,77 +179,70 @@ export const Home = () => {
           />
         )}
 
-        {(sectionBancos || sectionBancos.cards) && (
-          <ListCards
-            id={sectionBancos.id}
-            title={sectionBancos.title}
-            titleImage={sectionBancos.titleImage}
-            items={sectionBancos.cards}
-            type="secondary"
-          />
+        {(displayBancos.cards && displayBancos.cards.length > 0) && (
+            <ListCards
+                id={displayBancos.id}
+                title={displayBancos.title}
+                titleImage={displayBancos.titleImage}
+                items={displayBancos.cards}
+                type="secondary"
+            />
         )}
-        {(sectionSalud || sectionSalud.cards) && (
-          <ListCards
-            title={sectionSalud.title}
-            items={sectionSalud.cards}
-            type="secondary"
-          />
+
+        {(displaySalud.cards && displaySalud.cards.length > 0) && (
+            <ListCards
+                title={displaySalud.title}
+                items={displaySalud.cards}
+                type="secondary"
+            />
         )}
-        {(sectionLegalAdvice || sectionLegalAdvice.cards) && (
-          <ListCards
-            title={sectionLegalAdvice.title}
-            items={sectionLegalAdvice.cards}
-            type="secondary"
-          />
+
+        {(displayDiversos.cards && displayDiversos.cards.length > 0) && (
+            <ListCards
+                title={displayDiversos.title}
+                items={displayDiversos.cards}
+                type="secondary"
+            />
         )}
-        {(sectionDiversos || sectionDiversos.cards) && (
-          <ListCards
-            title={sectionDiversos.title}
-            items={sectionDiversos.cards}
-            type="secondary"
-          />
+
+        {(displayFinancieras.cards && displayFinancieras.cards.length > 0) && (
+            <ListCards
+                title={displayFinancieras.title}
+                items={displayFinancieras.cards}
+                type="secondary"
+            />
         )}
-        {(sectionFinancieras || sectionFinancieras.cards) && (
-          <ListCards
-            title={sectionFinancieras.title}
-            items={sectionFinancieras.cards}
-            type="secondary"
-          />
+
+        {(displaySeguros.cards && displaySeguros.cards.length > 0) && (
+            <ListCards
+                title={displaySeguros.title}
+                items={displaySeguros.cards}
+                type="secondary"
+            />
         )}
-        {(sectionSeguros || sectionSeguros.images) && (
-          <ListCards
-            title={sectionSeguros.title}
-            items={sectionSeguros.cards}
-            type="secondary"
-          />
+
+        {(displayTransporte.cards && displayTransporte.cards.length > 0) && (
+            <ListCards
+                title={displayTransporte.title}
+                items={displayTransporte.cards}
+                type="secondary"
+            />
         )}
-        {(sectionTransporte || sectionTransporte.cards) && (
-          <ListCards
-            title={sectionTransporte.title}
-            items={sectionTransporte.cards}
-            type="secondary"
-          />
+
+        {(displayHoteles.cards && displayHoteles.cards.length > 0) && (
+            <ListCards
+                title={displayHoteles.title}
+                items={displayHoteles.cards}
+                type="secondary"
+            />
         )}
-        {(sectionHoteles || sectionHoteles.cards) && (
-          <ListCards
-            title={sectionHoteles.title}
-            items={sectionHoteles.cards}
-            type="secondary"
-          />
-        )}
-        {(sectionEvents || sectionEvents.cards) && (
-          <ListCards
-            title={sectionEvents.title}
-            items={sectionEvents.cards}
-            type="secondary"
-          />
-        )}
-        {(sectionTecnologia || sectionTecnologia.cards) && (
-          <ListCards
-            title={sectionTecnologia.title}
-            items={sectionTecnologia.cards}
-            type="secondary"
-          />
+
+        {(displayTecnologia.cards && displayTecnologia.cards.length > 0) && (
+            <ListCards
+                title={displayTecnologia.title}
+                items={displayTecnologia.cards}
+                type="secondary"
+            />
         )}
         {(sectionProvincial || sectionProvincial.cards) && (
           <ListCards
