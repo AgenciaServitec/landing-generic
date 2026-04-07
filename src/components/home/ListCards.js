@@ -5,6 +5,7 @@ import {Modal} from "../ui";
 import {CarouselOnlyImages} from "./CarouselOnlyImages";
 import Parser from "html-react-parser";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const listCardsTypes = {
   primary: {
@@ -117,6 +118,22 @@ export const ListCards = ({
                     requirement.descriptions.map((descript, index) => (
                       <p key={index}>{Parser(descript)}</p>
                     ))}
+                  {requirement.qrCode && (
+                      <div style={{ marginTop: "1rem" }}>
+                        <a href={requirement.qrLink || requirement.qrCode} target="_blank" rel="noreferrer">
+                          <img
+                              src={requirement.qrCode}
+                              alt="Código QR"
+                              style={{
+                                maxWidth: "250px",
+                                width: "100%",
+                                borderRadius: "8px",
+                                cursor: "pointer"
+                              }}
+                          />
+                        </a>
+                      </div>
+                  )}
                   {requirement.sedes &&
                     requirement.sedes.map((sede, index) => (
                       <li style={{ listStyle: "none", fontSize: "1.1rem" }}>

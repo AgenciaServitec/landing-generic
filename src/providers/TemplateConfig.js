@@ -29,7 +29,7 @@ const TemplateConfigContext = createContext({
 export const TemplateConfig = ({ children }) => {
   const [templateType, setTemplateType] = useState("default");
 
-  const hostName = window.location.hostname;
+  const hostName = "apoyosocial.jbiene.com";
 
   useEffect(() => {
     switch (hostName) {
