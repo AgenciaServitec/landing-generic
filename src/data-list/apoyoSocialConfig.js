@@ -157,7 +157,7 @@ export const apoyoSocialConfig = {
       id: "about-us",
       title: "Nosotros",
       descriptions: [
-        "El departamento de apoyo social como parte del comando de bienestar del ejército,ayudas económicas para casos excepcionales de salud, descuento por convenios multiservicios, apoyo de servicio religioso, asesoramiento de apoyo a la familia y apoyo al personal discapacitado, orientados a lograr beneficios para el personal militar, civil en actividad, retiro, cesantes y sus familiares directos.",
+        "El departamento de apoyo social como parte de la Jefatura de bienestar del ejército,ayudas económicas para casos excepcionales de salud, descuento por convenios multiservicios, apoyo de servicio religioso, asesoramiento de apoyo a la familia y apoyo al personal discapacitado, orientados a lograr beneficios para el personal militar, civil en actividad, retiro, cesantes y sus familiares directos.",
       ],
       images: [SaecoImgAbout],
     },
@@ -1396,7 +1396,7 @@ export const apoyoSocialConfig = {
                 "Ofrecerá un 10% de descuento sobre el valor neto de las tarifas, tanto para personales de acuerdo a elección del BENEFICIARIO, siendo válido para vuelos nacionales como internacionales.",
                 "El descuento aplica sobre la tarifa base sin incluir impuestos ni servicios adicionales y no es aplicable sobre tarifas promocionales",
                 "Para acceder a la compra de los pasajes, lo podrán realizar en la pagina web <a href='https://www.skyairline.com/es/peru' target='_blank'>https://www.skyairline.com/es/peru</a> , debiendo tomar en cuenta las siguientes condiciones: ",
-                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social del comando de bienestar del ejército), promocode Abril 2026 : SKYEJERCITO02 valido del 01/04/2026 hasta el 30/04/2026",
+                "a). Al momento de hacer la compra deberán ingresar el “promocode” asignado (este promocode cambiará mensualmente y será difundido por el departamento de apoyo social de la Jefatura de bienestar del ejército), promocode Abril 2026 : SKYEJERCITO02 valido del 01/04/2026 hasta el 30/04/2026",
                 "b). Es requisito fundamental que el miembro del ejercito del perù, sea uno de los pasajeros de la reserva sobre la cual se aplica el descuento."
               ],
             },

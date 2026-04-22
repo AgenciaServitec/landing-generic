@@ -50,7 +50,7 @@ export const jaceConfig = {
     sectionAbout: {
       title: "Nosotros",
       descriptions: [
-        "La Dirección de Administración de Casas del Ejército asesora al Comando de Bienestar del Ejército en los aspectos inherentes de la administración de casas de servicios del Ejército. Asimismo, planificará, ejecutará y supervisará los trabajos de conservación, mejoramiento y rehabilitación de la infraestructura, inmobiliaria de las casas de servicio de la guarnición de Lima, a fin de contribuir a la consecución de los objetivos de Bienestar del Ejército.",
+        "La Dirección de Administración de Casas del Ejército asesora a la Jefatura de Bienestar del Ejército en los aspectos inherentes de la administración de casas de servicios del Ejército. Asimismo, planificará, ejecutará y supervisará los trabajos de conservación, mejoramiento y rehabilitación de la infraestructura, inmobiliaria de las casas de servicio de la guarnición de Lima, a fin de contribuir a la consecución de los objetivos de Bienestar del Ejército.",
       ],
       buttons: [{ type: "secondary", id: "contact", title: "CONTÁCTANOS" }],
       images: [JaceAbout2],
