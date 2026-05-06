@@ -18,6 +18,7 @@ export { default as SaedBannerMiCarrera } from "./saed/banner-mi-carrera.webp";
 export { default as UNIR } from "./saed/Logo_UNIR.webp";
 export { default as NEWMAN } from "./saed/newman.webp";
 export { default as FORCE } from "./saed/force-peru.webp";
+export { default as ArzobispoLoayza } from "./saed/logo-ies-arzobispo-loayza.webp";
 
 // ------ SAD IMAGES -------
 export { default as SadAbout } from "./sad/about-sad.webp";
@@ -109,8 +110,8 @@ export { default as UnviersidadContinental } from "./universities/continental.we
 export { default as UnviersidadAnahuac } from "./universities/anahuac-mexico.webp";
 export { default as UnviersidadSanMarcosCienciasEconomicas } from "./universities/san-marcos-ciencias-economicas.webp";
 export { default as UnviersidadAutonomaDeIca } from "./universities/autonoma-de-ica.webp";
-export { default as UniversidadDeLima} from "./universities/u-lima.webp";
-export { default as UniversidadPrivadaDeTrujillo} from "./universities/u-privada-trujillo.webp";
+export { default as UniversidadDeLima } from "./universities/u-lima.webp";
+export { default as UniversidadPrivadaDeTrujillo } from "./universities/u-privada-trujillo.webp";
 //----- INSTITUTOS --------
 export { default as InstituteAllianceFrancaise } from "./institutes/alliance-francaise.webp";
 export { default as InstituteInternationalBilingualCertification } from "./institutes/ibc.webp";
@@ -385,8 +386,8 @@ export { default as BannerEconomico } from "./saeco/ultimasaecoapoyo.webp";
 export { default as GrupServices } from "./saeco/grup3services.webp";
 export { default as BancoBCP } from "./saeco/bancos-img/bcp.webp";
 export { default as Cencosud } from "./saeco/bancos-img/cencosud.webp";
-export { default as Enazul} from "./saeco/bancos-img/enazul.webp"
-export { default as Cobiene} from "./saeco/bancos-img/cobiene.webp"
+export { default as Enazul } from "./saeco/bancos-img/enazul.webp";
+export { default as Cobiene } from "./saeco/bancos-img/cobiene.webp";
 
 // ------ SAECO EVENTOS IMAGES -------
 export { default as DpromartPeru } from "./saeco/events/dpromartperu.webp";
@@ -414,9 +415,9 @@ export { default as qhalikay } from "./saeco/conveniosSalud/qhalikay.webp";
 export { default as qhalikayinfo } from "./saeco/conveniosSalud/qhalikayinfo.webp";
 export { default as ClinicaDelInca } from "./saeco/conveniosSalud/clinica-del-inca.webp";
 export { default as Niuovida } from "./saeco/conveniosSalud/niuvida.webp";
-export { default as SMC} from "./saeco/conveniosSalud/smc.webp"
-export { default as cayetano} from "./saeco/conveniosSalud/cayetano.webp"
-export { default as botiperu} from "./saeco/conveniosSalud/boticas-peru.webp"
+export { default as SMC } from "./saeco/conveniosSalud/smc.webp";
+export { default as cayetano } from "./saeco/conveniosSalud/cayetano.webp";
+export { default as botiperu } from "./saeco/conveniosSalud/boticas-peru.webp";
 // ------ SAECO DIVERSOS IMAGES -------
 export { default as TiendaFootloose } from "./saeco/diversos/footlooseotros.webp";
 export { default as TiendaLazzos } from "./saeco/diversos/lazzoscomerciales.webp";
@@ -447,8 +448,8 @@ export { default as CruzDelSur } from "./saeco/transporte/cruzdelsur.webp";
 export { default as StarPeru } from "./saeco/transporte/starperu.webp";
 export { default as MultiserviciosTuringCusco } from "./saeco/transporte/multiservicios-turing-cusco.webp";
 export { default as TitleReli } from "./saeco/titleservicioreligioso.webp";
-export {default as SkyAirline} from "./saeco/transporte/sky-airline.webp";
-export {default as Palomino} from "./saeco/transporte/palomino.webp";
+export { default as SkyAirline } from "./saeco/transporte/sky-airline.webp";
+export { default as Palomino } from "./saeco/transporte/palomino.webp";
 // ------ SAECO HOTELES IMAGES -------
 export { default as Hotel1 } from "./saeco/hoteles/casaandina.webp";
 export { default as Hotel2 } from "./saeco/hoteles/costadelsol.webp";

@@ -1,72 +1,79 @@
 import {
-    cayetano,
-    CobieneLogoLarge, Esindecap,
-    FORCE, Globalestudios,
-    InstituteAllianceFrancaise,
-    InstituteAndresVesalio,
-    InstituteAvia,
-    InstituteBritanico,
-    InstituteCamaraLima,
-    InstituteCarrion,
-    InstituteCegicap,
-    InstituteCepea,
-    InstituteCepeban,
-    InstituteCeuce,
-    InstituteCibertec,
-    InstituteCivime,
-    InstituteCorazonDeJesus,
-    InstituteDesarrolloGerencial,
-    InstituteEcaprev,
-    InstituteEiger,
-    InstituteEigra,
-    InstituteEsinfron,
-    InstituteGamor,
-    InstituteIcpna,
-    InstituteIdept,
-    InstituteIfeep,
-    InstituteInidhe,
-    InstituteInteci,
-    InstituteInternationalBilingualCertification,
-    InstituteIsil,
-    InstituteIspacj,
-    InstituteLimaInstituteTechnicalStudies,
-    InstituteMilitaresDelPeru,
-    InstitutePrivateacher,
-    InstituteSanJudas,
-    InstituteSenati,
-    InstituteToulouseLautrec, institutoSouthern,
-    IntituteColumbia, LogoIERP,
-    NEWMAN,
-    SaedAboutUs,
-    SaedBannePublic,
-    SaedBannerMiCarrera,
-    SaedSlider1, UniPolitecnica,
-    UNIR,
-    UniversidadAutonoma,
-    UniversidadCertus,
-    UniversidadCesarVallejo,
-    UniversidadChampagnat,
-    UniversidadCientifica,
-    UniversidadDeLima,
-    UniversidadESAN,
-    UniversidadFedericoVillareal,
-    UniversidadJaimeBausate,
-    UniversidadNorbert,
-    UniversidadPrivadadelNorte,
-    UniversidadPrivadaDeTrujillo,
-    UniversidadRicardoPalma,
-    UniversidadSanIgnacioLoyola,
-    UniversidadSanJuanBautista,
-    UniversidadSanmartinPorres,
-    UniversidadUcal,
-    UniversidadUnifeSagradoCorazon,
-    UniversidadUpal,
-    UniversidadUpc,
-    UniversidadUtp,
-    UnviersidadAnahuac,
-    UnviersidadAutonomaDeIca,
-    UnviersidadContinental,
-    UnviersidadSanMarcosCienciasEconomicas, Vive,
+  ArzobispoLoayza,
+  cayetano,
+  CobieneLogoLarge,
+  Esindecap,
+  FORCE,
+  Globalestudios,
+  InstituteAllianceFrancaise,
+  InstituteAndresVesalio,
+  InstituteAvia,
+  InstituteBritanico,
+  InstituteCamaraLima,
+  InstituteCarrion,
+  InstituteCegicap,
+  InstituteCepea,
+  InstituteCepeban,
+  InstituteCeuce,
+  InstituteCibertec,
+  InstituteCivime,
+  InstituteCorazonDeJesus,
+  InstituteDesarrolloGerencial,
+  InstituteEcaprev,
+  InstituteEiger,
+  InstituteEigra,
+  InstituteEsinfron,
+  InstituteGamor,
+  InstituteIcpna,
+  InstituteIdept,
+  InstituteIfeep,
+  InstituteInidhe,
+  InstituteInteci,
+  InstituteInternationalBilingualCertification,
+  InstituteIsil,
+  InstituteIspacj,
+  InstituteLimaInstituteTechnicalStudies,
+  InstituteMilitaresDelPeru,
+  InstitutePrivateacher,
+  InstituteSanJudas,
+  InstituteSenati,
+  InstituteToulouseLautrec,
+  institutoSouthern,
+  IntituteColumbia,
+  LogoIERP,
+  NEWMAN,
+  SaedAboutUs,
+  SaedBannePublic,
+  SaedBannerMiCarrera,
+  SaedSlider1,
+  UniPolitecnica,
+  UNIR,
+  UniversidadAutonoma,
+  UniversidadCertus,
+  UniversidadCesarVallejo,
+  UniversidadChampagnat,
+  UniversidadCientifica,
+  UniversidadDeLima,
+  UniversidadESAN,
+  UniversidadFedericoVillareal,
+  UniversidadJaimeBausate,
+  UniversidadNorbert,
+  UniversidadPrivadadelNorte,
+  UniversidadPrivadaDeTrujillo,
+  UniversidadRicardoPalma,
+  UniversidadSanIgnacioLoyola,
+  UniversidadSanJuanBautista,
+  UniversidadSanmartinPorres,
+  UniversidadUcal,
+  UniversidadUnifeSagradoCorazon,
+  UniversidadUpal,
+  UniversidadUpc,
+  UniversidadUtp,
+  UnviersidadAnahuac,
+  UnviersidadAutonomaDeIca,
+  UnviersidadContinental,
+  UnviersidadSanMarcosCienciasEconomicas,
+  Vive,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -97,18 +104,7 @@ export const saedConfig = {
       {
         title: "PREPARANDO PARA EL FUTURO",
         image: SaedSlider1, //AQUI VA IMAGEN
-        buttons: [
-          // {ya
-          //   type: "primary",
-          //   id: "about-us",
-          //   title: "Nosotros",
-          // },
-          // {
-          //   type: "secondary",
-          //   id: "convenios",
-          //   title: "Información",
-          // },
-        ],
+        buttons: [],
       },
     ],
     sectionAbout: {
@@ -394,70 +390,8 @@ export const saedConfig = {
         {
           image: UniversidadUnifeSagradoCorazon,
           title: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN",
-            title2: "(EN TRÁMITE DE RENOVACIÓN)",
-            descriptionLarge: [{ title: "EN TRÁMITE DE RENOVACIÓN" }],
-          // descriptionLarge: [
-          //   {
-          //     title: "FACULTADES AFECTADAS:",
-          //     descriptions: [
-          //       "Facultad de Arquitectura",
-          //       "Facultad de Derecho",
-          //       "Facultad de Ciencias de la Educación",
-          //       "Facultad de Gestión Empresarial",
-          //       "Facultad de Nutrición y Alimentación",
-          //       "Facultad de Psicología y Humanidades",
-          //       "Facultad de Traducción, Interpretación y Ciencias de la Comunicación",
-          //     ],
-          //   },
-          //   {
-          //     title: "CENTRO PRE UNIFÉ: ",
-          //     description: "20 % descuento en el ciclo completo.",
-          //   },
-          //   {
-          //     title: "PREGRADO: ",
-          //     descriptions: [
-          //       "Personal de oficiales, actividad, retiro y familiares directos Escala N° 28 en pensiones.",
-          //       "Personal de Tcos, SSOO actividad, retiro, familiares directos y Civiles en actividad Escala N° 30 en pensiones.",
-          //     ],
-          //   },
-          //   {
-          //     title: "PREGRADO SEGUNDA CARRERA: ",
-          //     descriptions: [
-          //       "Personal de oficiales y familiares directos, descuento del 10% en pensiones.",
-          //       "Personal de Tcos y SSOO actividad, retiro, familiares directos y Civiles en actividad, descuento del 15% en pensiones.",
-          //     ],
-          //   },
-          //   {
-          //     title: "POSGRADO: ",
-          //     descriptions: [
-          //       "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
-          //       "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
-          //     ],
-          //   },
-          //   {
-          //     title: "SEGUNDA ESPECIALIDAD: ",
-          //     descriptions: [
-          //       "Personal de oficiales 10% de descuento al cancelar ciclo completo (5 cuotas)",
-          //       "Personal de Tcos y SSOO 15% descuento al cancelar ciclo completo (5 cuotas)",
-          //     ],
-          //   },
-          //   {
-          //     title: "DIPLOMADOS Y/O SEMINARIOS: ",
-          //     descriptions: [
-          //       "Personal de oficiales Escala N° 28 en el pago de las pensiones.",
-          //       "Personal de Tcos y SSOO Escala N° 30 en el pago de las pensiones",
-          //     ],
-          //   },
-          //   {
-          //     title: "VIG. 24-10-19 / 24-10-24",
-          //   },
-          //   {
-          //     title: "ALCANCE: ",
-          //     description:
-          //       "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
-          //     links: [{ icon: faGlobe, link: "https://www.unife.edu.pe/" }],
-          //   },
-          // ],
+          title2: "(EN TRÁMITE DE RENOVACIÓN)",
+          descriptionLarge: [{ title: "EN TRÁMITE DE RENOVACIÓN" }],
         },
         {
           image: UniversidadJaimeBausate,
@@ -916,65 +850,9 @@ export const saedConfig = {
         {
           image: UniversidadSanmartinPorres,
           title: "SAN MARTIN DE PORRES",
-            title2: "(EN TRÁMITE DE RENOVACIÓN)",
+          title2: "(EN TRÁMITE DE RENOVACIÓN)",
 
-            descriptionLarge: [{ title: "EN TRÁMITE DE RENOVACIÓN" }],
-
-            // descriptionLarge: [
-          //   {
-          //     title: "FACULTADES AFECTADAS: ",
-          //     descriptions: [
-          //       "Administración",
-          //       "Administración de Negocios Internacionales Arquitectura",
-          //       "Ciencias Aeronáuticas",
-          //       "Ciencias de la Comunicación",
-          //       "Contabilidad y Finanzas Derecho",
-          //       "Economía",
-          //       "Educación",
-          //       "Dirección e Interpretación Musical",
-          //       "Enfermería",
-          //       "Gestión de Recursos Humanos",
-          //       "Ingeniería Civil",
-          //       "Ingeniería de Computación y Sistemas",
-          //       "Ingeniería Industrial",
-          //       "Marketing",
-          //       "Medicina Humana",
-          //       "Obstetricia",
-          //       "Odontología",
-          //       "Psicología",
-          //       "Turismo y Hotelería",
-          //     ],
-          //   },
-          //   {
-          //     title: "PREGRADO: ",
-          //     description:
-          //       "Costo diferenciado en el pago de las pensiones en las diferentes carreras profesionales",
-          //   },
-          //   {
-          //     title: "PROGRAMA PARA ADULTOS QUE TRABAJAN (PAT): ",
-          //     descriptions: [
-          //       "15% de descuento en el pago de las pensiones dirigido a oficiales",
-          //       "20% de descuento en el pago de las pensiones dirigido a Técnicos, suboficiales y personal civil",
-          //     ],
-          //   },
-          //   {
-          //     title: "POSGRADO: ",
-          //     descriptions: [
-          //       "25% de descuento en el pago de las diferentes carreras profesionales (maestría y doctorado)",
-          //       "25% de descuento en segundas especializaciones",
-          //       "25% de descuento en diplomados",
-          //     ],
-          //   },
-          //   {
-          //     title: "EN TRAMITE DE RENOVACIÓN",
-          //   },
-          //   {
-          //     title: "ALCANCE: ",
-          //     description:
-          //       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
-          //     links: [{ icon: faGlobe, link: "https://www.usmp.edu.pe/" }],
-          //   },
-          // ],
+          descriptionLarge: [{ title: "EN TRÁMITE DE RENOVACIÓN" }],
         },
         {
           image: UniversidadUtp,
@@ -1048,34 +926,6 @@ export const saedConfig = {
             },
           ],
         },
-        // {
-        // 	image: UniversidadCatolicaSedeSapientiale,
-        // 	title: 'CATOLICA SEDE SAPIENTIALE',
-        // 	descriptionLarge: [
-        // 		{
-        // 			title: 'PREGRADO :',
-        // 			description:
-        // 				'Costos diferenciados en pensiones en las distintas carreras\n' +
-        // 				'profesionales',
-        // 		},
-        // 		{
-        // 			title: 'POSGRADO : ',
-        // 			description:
-        // 				'Hasta el 20 % de descuento del costo total de los programas de\n' +
-        // 				'posgrado\n' +
-        // 				'\n' +
-        // 				'(maestrías y diplomados) a excepción del programa de\n' +
-        // 				'\n' +
-        // 				'doble grado.',
-        // 		},
-        // 		{
-        // 			title: 'ALCANCE: ',
-        // 			description:
-        // 				'Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)',
-        // 			links: [{icon: faGlobe, link: 'https://www.ucss.edu.pe/'}],
-        // 		},
-        // 	],
-        // },
         {
           image: UnviersidadAnahuac,
           title: "UNIVERSIDAD ANÁHUAC MÉXICO",
@@ -1107,25 +957,25 @@ export const saedConfig = {
             },
           ],
         },
-          {
-              image: NEWMAN,
-              title: "ESCUELA DE POSGRADO NEWMAN",
-              descriptionLarge: [
-                  {
-                      title: "BENEFICIOS: ",
-                      descriptions: [
-                          "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
-                          "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
-                      ],
-                  },
-
-                  {
-                      title: "ALCANCE:",
-                      description:
-                          "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-                  },
+        {
+          image: NEWMAN,
+          title: "ESCUELA DE POSGRADO NEWMAN",
+          descriptionLarge: [
+            {
+              title: "BENEFICIOS: ",
+              descriptions: [
+                "5% de descuento sobre los descuentos interesados en cursar Maestrías Oficiales online de “NEWMAN”, El descuento se aplicará sobre las tarifas vigentes para Perú.",
+                "Sobre la tarifa que tiene cada uno de las maestrías se aplicará el descuento comercial que exista en el momento de la reserva y se añadirá el descuento adicional por ser beneficiario del convenio. Ejemplo si un máster de “NEWMAN” el descuento comercial es de un 45% al postulante se le aplicara un descuento total del 50% (45% de descuento comercial más + 5% de descuento por convenio). El descuento total puede alcanzar hasta el 60% dependiendo de la titulación y casa de estudio.",
               ],
-          },
+            },
+
+            {
+              title: "ALCANCE:",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
+            },
+          ],
+        },
         {
           image: UNIR,
           title: "UNIVERSIDAD INTERNACIONAL DE LA RIOJA",
@@ -1147,52 +997,6 @@ export const saedConfig = {
             },
           ],
         },
-
-        // {
-        // 	image: UniversidadNacionalMusica,
-        // 	title: 'Universidad Nacional de Musica',
-        // 	descriptionLarge: [
-        // 		{
-        // 			title: 'PREGRADO :',
-        // 			description:
-        // 				'Entre el 20% y 25% en el pago de las pensiones en las carreras de Edcuación musical, dirección y artista profesional',
-        // 		},
-        // 		{
-        // 			title: 'FORMACIÓN CONTINUA :',
-        // 			description:
-        // 				'Curso básico para adultos (02 años) descuento, del 25% en el paga de las pensiones' +
-        // 				'Curso básico para niños, descuento del 25% en el pago de las pensiones' +
-        // 				'Cursos libres, descuento del 20% en el pago de las pensiones' +
-        // 				'Cursos virtules, descuento del 20% en el pago de las pensiones',
-        // 		},
-        // 		{
-        // 			title: 'ALCANCE: ',
-        // 			description:
-        // 				'Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)',
-        // 			link: 'https://www.unm.edu.pe/',
-        // 		},
-        // 	],
-        // },
-        // {
-        // 	image: UniversidadDelPacifico,
-        // 	title: 'UNIVERSIDAD DEL PACIFICO - CENTRO DE IDIOMAS',
-        // 	descriptionLarge: [
-        // 		{
-        // 			title: 'CENTRO DE IDIOMAS - CIDUP :',
-        // 			description:
-        // 				'20 % de descuento en el pago de las pensiones de los\n' +
-        // 				'programas de idiomas\n' +
-        // 				'20% de descuento en el pago de las pensiones de los\n' +
-        // 				'programas de idiomas para niños o adolescentes',
-        // 		},
-        // 		{
-        // 			title: 'ALCANCE: ',
-        // 			description:
-        // 				'Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos s/n)',
-        // 			links: [{icon: faGlobe, link: 'https://www.up.edu.pe/'}],
-        // 		},
-        // 	],
-        // },
         {
           image: cayetano,
           title: "UNIVERSIDAD PERUANA CAYETANO HEREDIA",
@@ -1275,7 +1079,8 @@ export const saedConfig = {
               links: [{ icon: faGlobe, link: "https://uprit.edu.pe/" }],
             },
           ],
-        },        {
+        },
+        {
           image: UniPolitecnica,
           title: "UNIVERSIDAD POLITÉCNICA DEL PERÚ",
           descriptionLarge: [
@@ -1290,7 +1095,9 @@ export const saedConfig = {
               title: "ALCANCE:",
               description:
                 "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos) tropa servicio militar en actividad, licenciados.",
-              links: [{ icon: faGlobe, link: "https://www.politecnica.edu.pe/" }],
+              links: [
+                { icon: faGlobe, link: "https://www.politecnica.edu.pe/" },
+              ],
             },
           ],
         },
@@ -1389,14 +1196,16 @@ export const saedConfig = {
               links: [{ icon: faGlobe, link: "https://www.civime.edu.pe/" }],
             },
           ],
-        },        {
+        },
+        {
           image: Globalestudios,
           title: "Asociación Global Estudios",
           descriptionLarge: [
             {
               title: "IDIOMA INGLÉS: ",
               description:
-"28% de descuento en costo de enseñanza (mensualidades) en inglés.",            },
+                "28% de descuento en costo de enseñanza (mensualidades) en inglés.",
+            },
             {
               title: "ALCANCE: ",
               description:
@@ -1452,46 +1261,6 @@ export const saedConfig = {
             },
           ],
         },
-
-        // {
-        //   image: Institute6,
-        //   title: "CEVATUR PERÚ",
-        //   descriptionLarge: [
-        //     {
-        //       title: "CARRERAS PROFESIONALES, TÉCNICAS Y DIPLOMADOS : ",
-        //       description:
-        //         "30% descuento en matrícula\n" +
-        //         "20% descuento en el pago de pensiones en las (en las\n" +
-        //         "distintas sedes)",
-        //     },
-        //     {
-        //       title: "ALCANCE: ",
-        //       description:
-        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-        //       link: "https://www.cevaturperu.edu.pe/",
-        //     },
-        //   ],
-        // },
-        /*{
-          image: Institute7,
-          title: "CORPORACION EDUCATIVA SAN VICENTE",
-          descriptionLarge: [
-            {
-              title:
-                "PROGRAMAS ACADÉMICOS (INGLÉS, CARRERAS TÉCNICAS,\n" +
-                "ESPECIALIDADES Y DIPLOMADOS) : ",
-              description:
-                "10% descuento en el pago de matrícula.\n" +
-                "30% descuento en el pago de pensiones.",
-            },
-            {
-              title: "ALCANCE: ",
-              description:
-                "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-              link: "https://es-la.facebook.com/ceesanvicente/",
-            },
-          ],
-        },*/
         {
           image: InstituteDesarrolloGerencial,
           title: "INSTITUTO DESARROLLO GERENCIAL",
@@ -1529,13 +1298,13 @@ export const saedConfig = {
             },
           ],
         },
-          {
+        {
           image: Esindecap,
-          title: "ESCUELA INTERNACIONAL DE DESARROLLO Y CAPACITACIÓN PROFESIONAL E.I.R.L",
+          title:
+            "ESCUELA INTERNACIONAL DE DESARROLLO Y CAPACITACIÓN PROFESIONAL E.I.R.L",
           descriptionLarge: [
             {
-              title:
-                "Beneficios: ",
+              title: "Beneficios: ",
               descriptions: [
                 "35% de descuento en el costo total de las pensiones en los programas de Capacitación Actualización y Especialización, Diplomados, Computación, Informática e Idiomas de Computación e Informática e Idiomas, en las diferentes sedes, incluso si existiera a nivel nacional.",
               ],
@@ -1547,22 +1316,17 @@ export const saedConfig = {
             },
           ],
         },
-          {
+        {
           image: LogoIERP,
           title: "INSTITUTO DE EDUCACIÓN SUPERIOR RICARDO PALMA",
           descriptionLarge: [
             {
-              title:
-                "Carreras Técnicas: ",
-              descriptions: [
-                  "20% de descuento",
-              ],
-            },             {
-              title:
-                "Formación Continua: ",
-              descriptions: [
-                  "25% de descuento",
-              ],
+              title: "Carreras Técnicas: ",
+              descriptions: ["20% de descuento"],
+            },
+            {
+              title: "Formación Continua: ",
+              descriptions: ["25% de descuento"],
             },
             {
               title: "ALCANCE: ",
@@ -1571,15 +1335,14 @@ export const saedConfig = {
             },
           ],
         },
-          {
+        {
           image: Vive,
           title: "VIVE CONSULTORES EN GESTIÓN HUMANA",
           descriptionLarge: [
-           {
-              title:
-                "Beneficios: ",
+            {
+              title: "Beneficios: ",
               descriptions: [
-                  "Tarifas preferenciales en Cursos y talleres en el área de psicología",
+                "Tarifas preferenciales en Cursos y talleres en el área de psicología",
               ],
             },
             {
@@ -1624,47 +1387,25 @@ export const saedConfig = {
             },
           ],
         },
-        // {
-        //   image: Institute13,
-        //   title: "AKRON",
-        //   descriptionLarge: [
-        //     {
-        //       title:
-        //         "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS,\n" +
-        //         "ESPECIALIDADES Y DIPLOMADOS):",
-        //       description: "50% descuento en el pago de pensiones",
-        //     },
-        //     {
-        //       title: "ALCANCE: ",
-        //       description:
-        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-        //       link: "https://akronenglish1.com/",
-        //     },
-        //   ],
-        // },
-        // {
-        //   image: Institute14,
-        //   title: "EUROIDIOMAS",
-        //   descriptionLarge: [
-        //     {
-        //       title: "IDIOMAS",
-        //       description:
-        //         "30% descuento en el pago de pensiones de los programas de Ingles\n" +
-        //         "10% descuento en el pago de pensiones de los programas de portugués\n" +
-        //         "10% descuento en el pago de pensiones de los programas de Alemán\n" +
-        //         "20% descuento en el pago de pensiones de los programas de Ingles\n" +
-        //         "para Niños y Juniors\n" +
-        //         "10% descuento en el pago de pensiones de los programas de Inglés\n" +
-        //         "Virtual, de manera general",
-        //     },
-        //     {
-        //       title: "ALCANCE: ",
-        //       description:
-        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-        //       link: "https://euroidiomas.edu.pe/",
-        //     },
-        //   ],
-        // },
+        {
+          image: ArzobispoLoayza,
+          title: "IESP ARZOBISPO LOAYZA",
+          descriptionLarge: [
+            {
+              title: "Beneficios por Convenio:",
+              descriptions: [
+                "50% de descuento en las pensiones en los carreras técnicas turno tarde en su sede central.",
+                "25% de descuento en las pensiones en los carreras de formación continua.",
+              ],
+            },
+            {
+              title: "ALCANCE: ",
+              description:
+                "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
+              links: [{ icon: faGlobe, link: "https://www.ial.edu.pe/" }],
+            },
+          ],
+        },
         {
           image: InstituteIcpna,
           title: "ICPNA",
@@ -1737,40 +1478,6 @@ export const saedConfig = {
             },
           ],
         },
-        // {
-        //   image: Institute30,
-        //   title: "GUIDE",
-        //   descriptionLarge: [
-        //     {
-        //       title: "CURSOS DE PREPARACIÓN:",
-        //       description: "20% de descuento en los diferentes programas",
-        //     },
-        //     {
-        //       title: "ALCANCE: ",
-        //       description:
-        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-        //       link: "https://guideasesores.com/cursosmilitares/",
-        //     },
-        //   ],
-        // },
-        // {
-        //   image: Institute31,
-        //   title: "Von Braun",
-        //   descriptionLarge: [
-        //     {
-        //       title: "PROGRAMAS DE FORMACIÓN :",
-        //       description:
-        //         "30% descuento en el pago de matrícula y pensiones\n" +
-        //         "mensuales",
-        //     },
-        //     {
-        //       title: "ALCANCE: ",
-        //       description:
-        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-        //       link: "https://www.istvonbraun.edu.pe/",
-        //     },
-        //   ],
-        // },
         {
           image: InstituteEcaprev,
           title: "ECAPREV",
@@ -1883,7 +1590,8 @@ export const saedConfig = {
               link: "https://www.acarrion.edu.pe/",
             },
           ],
-        },        {
+        },
+        {
           image: institutoSouthern,
           title: "INSTITUTO DE FORMACIÓN EN SALUD SOUTHERN",
           descriptionLarge: [
@@ -1982,24 +1690,6 @@ export const saedConfig = {
             },
           ],
         },
-        // {
-        //   image: Institute34,
-        //   title: "CIM",
-        //   descriptionLarge: [
-        //     {
-        //       title: "CARRERAS PROFESIONALES TÉCNICAS : ",
-        //       description:
-        //         "15% descuento en el pago de pensiones de las tarifas\n" +
-        //         "publicadas.",
-        //     },
-        //     {
-        //       title: "ALCANCE: ",
-        //       description:
-        //         "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-        //       link: "https://www.icim.edu.pe/",
-        //     },
-        //   ],
-        // },
         {
           image: InstituteAndresVesalio,
           title: "I.E.S.T.P. ANDRE VESALIO",
