@@ -25,24 +25,26 @@ export const useAgreementsApi = (templateType) => {
                 const response = await fetch(`https://api-korekenke.web.app/agreements?category=${category}`);
                 const data = await response.json();
 
+                const sortByPriority = (a, b) => (a.priority || 0) - (b.priority || 0);
+
                 if (category === "company") {
                     setAgreementsData(prev => ({
                         ...prev,
-                        bancos: data.filter(a => a.subcategory === "bank").map(mapAgreementToCard),
-                        salud: data.filter(a => a.subcategory === "health").map(mapAgreementToCard),
-                        tiendas: data.filter(a => a.subcategory === "store").map(mapAgreementToCard),
-                        financieras: data.filter(a => a.subcategory === "financial").map(mapAgreementToCard),
-                        seguros: data.filter(a => a.subcategory === "Insurance Companies").map(mapAgreementToCard),
-                        transporte: data.filter(a => a.subcategory === "journey").map(mapAgreementToCard),
-                        hoteles: data.filter(a => a.subcategory === "Hotel").map(mapAgreementToCard),
-                        tecnologia: data.filter(a => a.subcategory === "Technical Services").map(mapAgreementToCard),
+                        bancos: data.filter(a => a.subcategory === "bank").sort(sortByPriority).map(mapAgreementToCard),
+                        salud: data.filter(a => a.subcategory === "health").sort(sortByPriority).map(mapAgreementToCard),
+                        seguros: data.filter(a => a.subcategory === "Insurance Companies").sort(sortByPriority).map(mapAgreementToCard),
+                        tiendas: data.filter(a => a.subcategory === "store").sort(sortByPriority).map(mapAgreementToCard),
+                        financieras: data.filter(a => a.subcategory === "financial").sort(sortByPriority).map(mapAgreementToCard),
+                        transporte: data.filter(a => a.subcategory === "journey").sort(sortByPriority).map(mapAgreementToCard),
+                        hoteles: data.filter(a => a.subcategory === "Hotel").sort(sortByPriority).map(mapAgreementToCard),
+                        tecnologia: data.filter(a => a.subcategory === "Technical Services").sort(sortByPriority).map(mapAgreementToCard),
                     }));
                 } else if (category === "educationalInstitution") {
                     setAgreementsData(prev => ({
                         ...prev,
-                        universidades: data.filter(a => a.subcategory === "university").map(mapAgreementToCard),
-                        institutos: data.filter(a => a.subcategory === "institute").map(mapAgreementToCard),
-                        institutosIdiomas: data.filter(a => a.subcategory === "languageInstitute").map(mapAgreementToCard),
+                        universidades: data.filter(a => a.subcategory === "university").sort(sortByPriority).map(mapAgreementToCard),
+                        institutos: data.filter(a => a.subcategory === "institute").sort(sortByPriority).map(mapAgreementToCard),
+                        institutosIdiomas: data.filter(a => a.subcategory === "languageInstitute").sort(sortByPriority).map(mapAgreementToCard),
                     }));
                 }
             } catch (error) {
