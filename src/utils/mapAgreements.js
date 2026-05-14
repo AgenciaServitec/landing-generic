@@ -1,4 +1,3 @@
-
 export const mapAgreementToCard = (agreement) => {
     const descriptionLarge = [];
 
@@ -33,6 +32,14 @@ export const mapAgreementToCard = (agreement) => {
         descriptionLarge.push({
             title: "CONTACTOS: ",
             descriptions: contactDescriptions,
+        });
+    }
+
+    if (agreement.qrCode?.url || agreement.qrLink) {
+        descriptionLarge.push({
+            title: "CÓDIGO QR / ENLACE DE ACCESO: ",
+            qrCode: agreement.qrCode?.url || null,
+            qrLink: agreement.qrLink || null,
         });
     }
 
