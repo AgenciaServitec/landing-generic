@@ -160,15 +160,19 @@ export const Home = () => {
                 <img src={sectionBanner.image} alt="" />
               </a>
           )}
-          <SearchContainer>
-            <Input
-                type="text"
-                label=""
-                placeholder="Buscar por nombre de convenio"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-            />
-          </SearchContainer>
+          {
+            isApoyoSocial || isSaed && (
+                  <SearchContainer>
+                    <Input
+                        type="text"
+                        label=""
+                        placeholder="Buscar por nombre de convenio"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                    />
+                  </SearchContainer>
+              )
+          }
           {sectionSuggestionsComplaints && (
               <SuggestionsComplaints title={sectionSuggestionsComplaints.title} />
           )}
@@ -273,7 +277,6 @@ export const Home = () => {
               <ComponentImages title={sectionMap.title} images={sectionMap.images} type="secondary" />
           )}
 
-          {/* --- Renderizados SAED filtrados --- */}
           {(displayUniversidades.cards && displayUniversidades.cards.length > 0) && (
               <ListCards id={displayUniversidades.id} title={displayUniversidades.title || "Universidades"} items={displayUniversidades.cards} type="secondary" />
           )}
