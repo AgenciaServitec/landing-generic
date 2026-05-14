@@ -1,5 +1,12 @@
+import {AgreementTraining} from "../data-list/agreementTraining";
+
 export const mapAgreementToCard = (agreement) => {
     const descriptionLarge = [];
+
+    const getTrainingLabel = (value) => {
+        const found = AgreementTraining.find((item) => item.value === value);
+        return found ? found.label : value;
+    };
 
     if (agreement.companyBenefits) {
         descriptionLarge.push({
@@ -16,7 +23,11 @@ export const mapAgreementToCard = (agreement) => {
         if (validBenefits.length > 0) {
             const eduBenefitsHtml = validBenefits.map((benefit) => `
                 <div style="margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid #eaeaea;">
-                    ${benefit.training ? `<strong>Formación:</strong> ${benefit.training}<br/>` : ""}
+                    ${
+                benefit.training
+                    ? `<strong>Formación:</strong> ${getTrainingLabel(benefit.training)}<br/>`
+                    : ""
+            }
                     ${benefit.discount ? `<strong>Descuento:</strong> <span style="color: red;">${benefit.discount}</span><br/>` : ""}
                     ${benefit.description ? `<div style="margin-top: 0.5rem;">${benefit.description}</div>` : ""}
                 </div>
@@ -86,5 +97,6 @@ export const mapAgreementToCard = (agreement) => {
         title: agreement.title,
         descriptionLarge: descriptionLarge,
         isRenewalPending: agreement.isRenewalPending || false,
+        priority: agreement.priority || 0,
     };
 };
