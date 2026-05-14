@@ -47,5 +47,6 @@ export const mapAgreementToCard = (agreement) => {
         image: agreement.logoPhoto?.url || null,
         title: agreement.title,
         descriptionLarge: descriptionLarge,
+        isRenewalPending: agreement.isRenewalPending || false,
     };
 };
