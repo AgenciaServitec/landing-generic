@@ -210,8 +210,8 @@ export const jaeConfig = {
       subTitle:
         "Planificamos y evaluamos, los procesos educativos e instrucción.",
       descriptions: [
-        "La Dirección de Apoyo Educativo controla el funcionamiento de la gestión pedagógica y académica, además, apoya la gestión de recursos humanos y materiales de las IIEE del Ejército, impulsando la calidad educativa la cual debe articularse en base a los valores institucionales, en concordancia con los objetivos del Sistema Educativo Nacional y del Comando de Bienestar del Ejército.",
-        "El Comando bienestar del ejército cuenta con 23 instituciones educativas a nivel nacional.",
+        "La Dirección de Apoyo Educativo controla el funcionamiento de la gestión pedagógica y académica, además, apoya la gestión de recursos humanos y materiales de las IIEE del Ejército, impulsando la calidad educativa la cual debe articularse en base a los valores institucionales, en concordancia con los objetivos del Sistema Educativo Nacional y la Jefatura de Bienestar del Ejército.",
+        "La Jefatura bienestar del ejército cuenta con 23 instituciones educativas a nivel nacional.",
       ],
       images: [JaeAbout],
     },
