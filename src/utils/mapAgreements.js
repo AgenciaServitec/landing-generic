@@ -8,6 +8,44 @@ export const mapAgreementToCard = (agreement) => {
         });
     }
 
+    if (agreement.educationalInstitutionBenefits && agreement.educationalInstitutionBenefits.length > 0) {
+        const validBenefits = agreement.educationalInstitutionBenefits.filter(
+            (b) => b.training || b.discount || b.description
+        );
+
+        if (validBenefits.length > 0) {
+            const eduBenefitsHtml = validBenefits.map((benefit) => `
+                <div style="margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 1px solid #eaeaea;">
+                    ${benefit.training ? `<strong>Formación:</strong> ${benefit.training}<br/>` : ""}
+                    ${benefit.discount ? `<strong>Descuento:</strong> <span style="color: red;">${benefit.discount}</span><br/>` : ""}
+                    ${benefit.description ? `<div style="margin-top: 0.5rem;">${benefit.description}</div>` : ""}
+                </div>
+            `);
+
+            descriptionLarge.push({
+                title: "BENEFICIOS EDUCATIVOS: ",
+                descriptions: eduBenefitsHtml,
+            });
+        }
+    }
+
+    if (agreement.faculties && agreement.faculties.length > 0) {
+        const validFaculties = agreement.faculties.filter((f) => typeof f === "string" && f.trim() !== "");
+
+        if (validFaculties.length > 0) {
+            const facultiesHtml = `
+                <ul style="margin-left: 1.5rem; list-style-type: disc;">
+                    ${validFaculties.map((f) => `<li>${f}</li>`).join("")}
+                </ul>
+            `;
+
+            descriptionLarge.push({
+                title: "FACULTADES: ",
+                descriptions: [facultiesHtml],
+            });
+        }
+    }
+
     if (agreement.scope) {
         descriptionLarge.push({
             title: "ALCANCE: ",
