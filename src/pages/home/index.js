@@ -229,16 +229,16 @@ export const Home = () => {
               <ListCards title={displayHoteles.title} items={displayHoteles.cards} type="secondary" />
           )}
 
-          {(displayTecnologia.cards && displayTecnologia.cards.length > 0) && (
-              <ListCards title={displayTecnologia.title} items={displayTecnologia.cards} type="secondary" />
-          )}
-
           {(displayFinancieras.cards && displayFinancieras.cards.length > 0) && (
               <ListCards title={displayFinancieras.title} items={displayFinancieras.cards} type="secondary" />
           )}
 
           {(displayTransporte.cards && displayTransporte.cards.length > 0) && (
               <ListCards title={displayTransporte.title} items={displayTransporte.cards} type="secondary" />
+          )}
+
+          {(displayTecnologia.cards && displayTecnologia.cards.length > 0) && (
+              <ListCards title={displayTecnologia.title} items={displayTecnologia.cards} type="secondary" />
           )}
 
           {(sectionProvincial || sectionProvincial.cards) && <ListCards title={sectionProvincial.title} items={filterCards(sectionProvincial.cards)} type="secondary" />}
