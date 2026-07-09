@@ -12,17 +12,17 @@ import {
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
 import { useAgreementsApi } from "../../hooks/useAgreementApi";
-import {Input} from "../../components/ui";
+import { Input } from "../../components/ui";
 
 export const Home = () => {
   const { templateConfig, templateType } = useTemplateConfig();
   const { agreementsData } = useAgreementsApi(templateType);
 
-  // --- NUEVO: Estado para el buscador ---
   const [searchTerm, setSearchTerm] = useState("");
 
   const isApoyoSocial = templateType === "apoyoSocial";
   const isSaed = templateType === "saed";
+  const isSdace = templateType === "sdace";
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
@@ -67,7 +67,6 @@ export const Home = () => {
   const sectionMap = templateConfig.main.sectionMap || false;
   const sectionRequirements = templateConfig.main.sectionRequirements || false;
 
-  // --- NUEVO: Lógica de Filtrado ---
   const normalizeText = (text) =>
       text ? text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() : "";
 
@@ -82,7 +81,6 @@ export const Home = () => {
     });
   };
 
-  // --- SE APLICÓ filterCards() A LOS ARREGLOS DE DATOS ---
   const displayBancos = {
     ...sectionBancosStatic,
     cards: filterCards(isApoyoSocial && agreementsData.bancos?.length > 0 ? agreementsData.bancos : sectionBancosStatic.cards)
@@ -138,12 +136,31 @@ export const Home = () => {
     cards: filterCards(isSaed && agreementsData.institutosIdiomas?.length > 0 ? agreementsData.institutosIdiomas : sectionLanguageInstitutes?.cards)
   };
 
+  const sdacePdfs = [
+    {
+      title: "Requisitos para Renovación de Casa de Servicio",
+      url: "/house-pdfs/REQUISITOS_PARA_RENOVACION_DE_CASA_DE_SERVICIO.pdf"
+    },
+    {
+      title: "Requisitos para Asignación de Casa de Servicio",
+      url: "/house-pdfs/REQUISITOS_PARA_SIGNACION_DE_CASA_DE_SERVICIO.pdf"
+    }
+  ];
+
   return (
       <>
         <Container>
           <Carousel carouselItems={sectionCarousel} />
 
-
+          {isSdace && (
+              <PdfContainer>
+                {sdacePdfs.map((pdf, index) => (
+                    <PdfLink key={index} href={pdf.url} target="_blank" rel="noopener noreferrer">
+                      <span>📄</span> {pdf.title}
+                    </PdfLink>
+                ))}
+              </PdfContainer>
+          )}
 
           {(sectionAboutUs || sectionAboutUs.images) && (
               <CardsInlineBlock
@@ -161,7 +178,7 @@ export const Home = () => {
               </a>
           )}
           {
-            isApoyoSocial || isSaed && (
+              (isApoyoSocial || isSaed) && (
                   <SearchContainer>
                     <Input
                         type="text"
@@ -314,13 +331,12 @@ const Container = styled.div`
   }
 `;
 
-// --- NUEVO: Estilos para el contenedor del buscador ---
 const SearchContainer = styled.div`
   width: 100%;
   max-width: 600px;
   margin: 2rem auto;
   padding: 0 1rem;
-  
+
   input {
     width: 100%;
     padding: 1rem;
@@ -329,9 +345,34 @@ const SearchContainer = styled.div`
     border: 2px solid #ccc;
     outline: none;
     transition: border-color 0.3s;
-    
+
     &:focus {
-      border-color: #0076fd; // O el color principal de tu tema
+      border-color: #0076fd;
     }
+  }
+`;
+
+const PdfContainer = styled.div`
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+`;
+
+const PdfLink = styled.a`
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+
+  span {
+    margin-right: 1rem;
+    font-size: 1.2rem;
   }
 `;
