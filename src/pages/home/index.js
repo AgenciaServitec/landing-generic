@@ -13,6 +13,7 @@ import {
 import { useTemplateConfig } from "../../providers";
 import { useAgreementsApi } from "../../hooks/useAgreementApi";
 import { Input } from "../../components/ui";
+import QRCode from "react-qr-code";
 
 export const Home = () => {
   const { templateConfig, templateType } = useTemplateConfig();
@@ -147,6 +148,8 @@ export const Home = () => {
     }
   ];
 
+  const getAbsoluteUrl = (path) => `${window.location.origin}${path}`;
+
   return (
       <>
         <Container>
@@ -154,11 +157,15 @@ export const Home = () => {
 
           {isSdace && (
               <PdfContainer>
-                {sdacePdfs.map((pdf, index) => (
-                    <PdfLink key={index} href={pdf.url} target="_blank" rel="noopener noreferrer">
-                      <span>📄</span> {pdf.title}
-                    </PdfLink>
-                ))}
+                {sdacePdfs.map((pdf, index) => {
+                  const fullUrl = getAbsoluteUrl(pdf.url);
+                  return (
+                      <PdfLink key={index} href={fullUrl} target="_blank" rel="noopener noreferrer">
+                        <QRCode value={fullUrl} size={150} />
+                        <span>{pdf.title}</span>
+                      </PdfLink>
+                  );
+                })}
               </PdfContainer>
           )}
 
@@ -354,25 +361,46 @@ const SearchContainer = styled.div`
 
 const PdfContainer = styled.div`
   width: 100%;
+  max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
 `;
 
 const PdfLink = styled.a`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 1rem 1.5rem;
-  background-color: #f5f5f5;
+  padding: 1.5rem;
+  background-color: #ffffff;
   border: 1px solid #e0e0e0;
+  border-radius: 12px;
   color: #333;
   text-decoration: none;
-  font-size: 1rem;
+  text-align: center;
+  width: 280px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-color: #0076fd;
+  }
+
+  svg {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
 
   span {
-    margin-right: 1rem;
-    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
   }
 `;
