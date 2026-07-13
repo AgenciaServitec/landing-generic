@@ -12,17 +12,18 @@ import {
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
 import { useAgreementsApi } from "../../hooks/useAgreementApi";
-import {Input} from "../../components/ui";
+import { Input } from "../../components/ui";
+import QRCode from "react-qr-code";
 
 export const Home = () => {
   const { templateConfig, templateType } = useTemplateConfig();
   const { agreementsData } = useAgreementsApi(templateType);
 
-  // --- NUEVO: Estado para el buscador ---
   const [searchTerm, setSearchTerm] = useState("");
 
   const isApoyoSocial = templateType === "apoyoSocial";
   const isSaed = templateType === "saed";
+  const isSdace = templateType === "sdace";
 
   const sectionCarousel = templateConfig.main.sectionCarousel;
   const sectionAboutUs = templateConfig.main.sectionAbout || false;
@@ -67,7 +68,6 @@ export const Home = () => {
   const sectionMap = templateConfig.main.sectionMap || false;
   const sectionRequirements = templateConfig.main.sectionRequirements || false;
 
-  // --- NUEVO: Lógica de Filtrado ---
   const normalizeText = (text) =>
       text ? text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() : "";
 
@@ -82,7 +82,6 @@ export const Home = () => {
     });
   };
 
-  // --- SE APLICÓ filterCards() A LOS ARREGLOS DE DATOS ---
   const displayBancos = {
     ...sectionBancosStatic,
     cards: filterCards(isApoyoSocial && agreementsData.bancos?.length > 0 ? agreementsData.bancos : sectionBancosStatic.cards)
@@ -138,12 +137,37 @@ export const Home = () => {
     cards: filterCards(isSaed && agreementsData.institutosIdiomas?.length > 0 ? agreementsData.institutosIdiomas : sectionLanguageInstitutes?.cards)
   };
 
+  const sdacePdfs = [
+    {
+      title: "Requisitos para Renovación de Casa de Servicio",
+      url: "/house-pdfs/REQUISITOS_PARA_RENOVACION_DE_CASA_DE_SERVICIO.pdf"
+    },
+    {
+      title: "Requisitos para Asignación de Casa de Servicio",
+      url: "/house-pdfs/REQUISITOS_PARA_SIGNACION_DE_CASA_DE_SERVICIO.pdf"
+    }
+  ];
+
+  const getAbsoluteUrl = (path) => `${window.location.origin}${path}`;
+
   return (
       <>
         <Container>
           <Carousel carouselItems={sectionCarousel} />
 
-
+          {isSdace && (
+              <PdfContainer>
+                {sdacePdfs.map((pdf, index) => {
+                  const fullUrl = getAbsoluteUrl(pdf.url);
+                  return (
+                      <PdfLink key={index} href={fullUrl} target="_blank" rel="noopener noreferrer">
+                        <QRCode value={fullUrl} size={150} />
+                        <span>{pdf.title}</span>
+                      </PdfLink>
+                  );
+                })}
+              </PdfContainer>
+          )}
 
           {(sectionAboutUs || sectionAboutUs.images) && (
               <CardsInlineBlock
@@ -161,7 +185,7 @@ export const Home = () => {
               </a>
           )}
           {
-            isApoyoSocial || isSaed && (
+              (isApoyoSocial || isSaed) && (
                   <SearchContainer>
                     <Input
                         type="text"
@@ -314,13 +338,12 @@ const Container = styled.div`
   }
 `;
 
-// --- NUEVO: Estilos para el contenedor del buscador ---
 const SearchContainer = styled.div`
   width: 100%;
   max-width: 600px;
   margin: 2rem auto;
   padding: 0 1rem;
-  
+
   input {
     width: 100%;
     padding: 1rem;
@@ -329,9 +352,55 @@ const SearchContainer = styled.div`
     border: 2px solid #ccc;
     outline: none;
     transition: border-color 0.3s;
-    
+
     &:focus {
-      border-color: #0076fd; // O el color principal de tu tema
+      border-color: #0076fd;
     }
+  }
+`;
+
+const PdfContainer = styled.div`
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+`;
+
+const PdfLink = styled.a`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  width: 280px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-color: #0076fd;
+  }
+
+  svg {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+
+  span {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
   }
 `;
