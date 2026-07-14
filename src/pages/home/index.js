@@ -139,12 +139,20 @@ export const Home = () => {
 
   const sdacePdfs = [
     {
-      title: "Requisitos para Renovación de Casa de Servicio",
+      title: "REQUISITOS PARA RENOVACION DE CASA DE SERVICIOS",
       url: "/house-pdfs/REQUISITOS_PARA_RENOVACION_DE_CASA_DE_SERVICIO.pdf"
     },
     {
-      title: "Requisitos para Asignación de Casa de Servicio",
+      title: "REQUISITOS PARA ASIGNACION DE CASA DE SERVICIO",
       url: "/house-pdfs/REQUISITOS_PARA_SIGNACION_DE_CASA_DE_SERVICIO.pdf"
+    },
+    {
+      title: "FORMATO DE ASIGNACIÓN DE CASA",
+      url: "/house-pdfs/FORMATO-DE-SOLICITUD-DE-CASA-AF-2026.pdf"
+    },
+    {
+      title: "FORMATO DE DEVOLUCIONES CONSTANCIAS DESBLOQUEOS",
+      url: "/house-pdfs/FORMATO-DE-DEVOLUCIONES-CONSTANCIAS-DESBLOQUEOS-2026.pdf"
     }
   ];
 
@@ -361,7 +369,6 @@ const SearchContainer = styled.div`
 
 const PdfContainer = styled.div`
   width: 100%;
-  max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
   display: flex;
