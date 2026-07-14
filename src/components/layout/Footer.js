@@ -34,7 +34,7 @@ export const Footer = ({ headerTemplate, menuList = [] }) => (
       <div>
         © Copyright 2022 - {headerTemplate.name.toUpperCase()} - Desarrollado
         con <FontAwesomeIcon icon={faHeart} color="red" /> por{" "}
-        <a href="https://servitecperu.com/" target="_blank" rel="noreferrer">
+        <a href="https://servitec.group/" target="_blank" rel="noreferrer">
           Agencia Servitec
         </a>
       </div>
