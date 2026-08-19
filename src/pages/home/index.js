@@ -1,19 +1,20 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import {
+  CardsBlack,
   CardsInlineBlock,
   Carousel,
+  Collage,
+  ComponentImages,
   Contact,
   ListCards,
-  CardsBlack,
-  ComponentImages,
-  Collage,
   SuggestionsComplaints,
 } from "../../components";
 import { useTemplateConfig } from "../../providers";
 import { useAgreementsApi } from "../../hooks/useAgreementApi";
 import { Input } from "../../components/ui";
 import QRCode from "react-qr-code";
+import { TacnaAgreementsSection } from "./TacnaAgreementsSection";
 
 export const Home = () => {
   const { templateConfig, templateType } = useTemplateConfig();
@@ -33,26 +34,32 @@ export const Home = () => {
   const sectionContentImages = templateConfig.main.contentImages || false;
   const cardsConventions = templateConfig.main.sectionConvenios || false;
   const cardsInstitutes = templateConfig.main.sectionInstitutes || false;
-  const sectionLanguageInstitutes = templateConfig.main.sectionLanguageInstitutes || false;
-  const sectionSuggestionsComplaints = templateConfig.main.sectionSuggestionsComplaints || false;
+  const sectionLanguageInstitutes =
+    templateConfig.main.sectionLanguageInstitutes || false;
+  const sectionSuggestionsComplaints =
+    templateConfig.main.sectionSuggestionsComplaints || false;
   const sectionContact = templateConfig.sectionContact || false;
   const sectionServices = templateConfig.main.sectionServices || false;
   const collageImages = templateConfig.main.collageImages || false;
   const sectionCampus = templateConfig.main.sectionCampus || false;
   const sectionSchoolsLima = templateConfig.main.sectionSchoolsLima || false;
-  const sectionProvinceSchools = templateConfig.main.sectionProvinceSchools || false;
+  const sectionProvinceSchools =
+    templateConfig.main.sectionProvinceSchools || false;
   const sectionCollages = templateConfig.main.sectionCollages || false;
   const sectionCobertura = templateConfig.main.sectionCobertura || false;
   const sectionBancosStatic = templateConfig.main.sectionBancos || false;
   const sectionSaludStatic = templateConfig.main.sectionSalud || false;
   const sectionDiversosStatic = templateConfig.main.sectionDiversos || false;
-  const sectionFinancierasStatic = templateConfig.main.sectionFinancieras || false;
+  const sectionFinancierasStatic =
+    templateConfig.main.sectionFinancieras || false;
   const sectionLegalAdvice = templateConfig.main.sectionLegalAdvice || false;
   const sectionSegurosStatic = templateConfig.main.sectionSeguros || false;
-  const sectionTransporteStatic = templateConfig.main.sectionTransporte || false;
+  const sectionTransporteStatic =
+    templateConfig.main.sectionTransporte || false;
   const sectionHotelesStatic = templateConfig.main.sectionHoteles || false;
   const sectionEvents = templateConfig.main.sectionEvents || false;
-  const sectionTecnologiaStatic = templateConfig.main.sectionTecnologia || false;
+  const sectionTecnologiaStatic =
+    templateConfig.main.sectionTecnologia || false;
   const sectionProvincial = templateConfig.main.sectionProvincial || false;
   const sectionProvincial2 = templateConfig.main.sectionProvincial2 || false;
   const sectionProvincial3 = templateConfig.main.sectionProvincial3 || false;
@@ -62,14 +69,20 @@ export const Home = () => {
   const sectionProvincial7 = templateConfig.main.sectionProvincial7 || false;
   const sectionProvincial8 = templateConfig.main.sectionProvincial8 || false;
   const sectionProvincial9 = templateConfig.main.sectionProvincial9 || false;
-  const sectionInternacionales = templateConfig.main.sectionInternacionales || false;
+  const sectionInternacionales =
+    templateConfig.main.sectionInternacionales || false;
   const sectionServiceRel = templateConfig.main.sectionServiceRel || false;
   const sectionAlcance = templateConfig.main.sectionAlcance || false;
   const sectionMap = templateConfig.main.sectionMap || false;
   const sectionRequirements = templateConfig.main.sectionRequirements || false;
 
   const normalizeText = (text) =>
-      text ? text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() : "";
+    text
+      ? text
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+      : "";
 
   const filterCards = (cards) => {
     if (!cards || !Array.isArray(cards)) return [];
@@ -84,255 +97,429 @@ export const Home = () => {
 
   const displayBancos = {
     ...sectionBancosStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.bancos?.length > 0 ? agreementsData.bancos : sectionBancosStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.bancos?.length > 0
+        ? agreementsData.bancos
+        : sectionBancosStatic.cards
+    ),
   };
 
   const displaySalud = {
     ...sectionSaludStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.salud?.length > 0 ? agreementsData.salud : sectionSaludStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.salud?.length > 0
+        ? agreementsData.salud
+        : sectionSaludStatic.cards
+    ),
   };
 
   const displayDiversos = {
     ...sectionDiversosStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.tiendas?.length > 0 ? agreementsData.tiendas : sectionDiversosStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.tiendas?.length > 0
+        ? agreementsData.tiendas
+        : sectionDiversosStatic.cards
+    ),
   };
 
   const displayFinancieras = {
     ...sectionFinancierasStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.financieras?.length > 0 ? agreementsData.financieras : sectionFinancierasStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.financieras?.length > 0
+        ? agreementsData.financieras
+        : sectionFinancierasStatic.cards
+    ),
   };
 
   const displaySeguros = {
     ...sectionSegurosStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.seguros?.length > 0 ? agreementsData.seguros : sectionSegurosStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.seguros?.length > 0
+        ? agreementsData.seguros
+        : sectionSegurosStatic.cards
+    ),
   };
 
   const displayTransporte = {
     ...sectionTransporteStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.transporte?.length > 0 ? agreementsData.transporte : sectionTransporteStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.transporte?.length > 0
+        ? agreementsData.transporte
+        : sectionTransporteStatic.cards
+    ),
   };
 
   const displayHoteles = {
     ...sectionHotelesStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.hoteles?.length > 0 ? agreementsData.hoteles : sectionHotelesStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.hoteles?.length > 0
+        ? agreementsData.hoteles
+        : sectionHotelesStatic.cards
+    ),
   };
 
   const displayTecnologia = {
     ...sectionTecnologiaStatic,
-    cards: filterCards(isApoyoSocial && agreementsData.tecnologia?.length > 0 ? agreementsData.tecnologia : sectionTecnologiaStatic.cards)
+    cards: filterCards(
+      isApoyoSocial && agreementsData.tecnologia?.length > 0
+        ? agreementsData.tecnologia
+        : sectionTecnologiaStatic.cards
+    ),
   };
 
   const displayUniversidades = {
     ...cardsConventions,
-    cards: filterCards(isSaed && agreementsData.universidades?.length > 0 ? agreementsData.universidades : cardsConventions?.cards)
+    cards: filterCards(
+      isSaed && agreementsData.universidades?.length > 0
+        ? agreementsData.universidades
+        : cardsConventions?.cards
+    ),
   };
 
   const displayInstitutos = {
     ...cardsInstitutes,
-    cards: filterCards(isSaed && agreementsData.institutos?.length > 0 ? agreementsData.institutos : cardsInstitutes?.cards)
+    cards: filterCards(
+      isSaed && agreementsData.institutos?.length > 0
+        ? agreementsData.institutos
+        : cardsInstitutes?.cards
+    ),
   };
 
   const displayInstitutosIdiomas = {
     ...sectionLanguageInstitutes,
-    cards: filterCards(isSaed && agreementsData.institutosIdiomas?.length > 0 ? agreementsData.institutosIdiomas : sectionLanguageInstitutes?.cards)
+    cards: filterCards(
+      isSaed && agreementsData.institutosIdiomas?.length > 0
+        ? agreementsData.institutosIdiomas
+        : sectionLanguageInstitutes?.cards
+    ),
   };
 
   const sdacePdfs = [
     {
       title: "REQUISITOS PARA RENOVACION DE CASA DE SERVICIOS",
-      url: "/house-pdfs/REQUISITOS_PARA_RENOVACION_DE_CASA_DE_SERVICIO.pdf"
+      url: "/house-pdfs/REQUISITOS_PARA_RENOVACION_DE_CASA_DE_SERVICIO.pdf",
     },
     {
       title: "REQUISITOS PARA ASIGNACION DE CASA DE SERVICIO",
-      url: "/house-pdfs/REQUISITOS_PARA_SIGNACION_DE_CASA_DE_SERVICIO.pdf"
+      url: "/house-pdfs/REQUISITOS_PARA_SIGNACION_DE_CASA_DE_SERVICIO.pdf",
     },
     {
       title: "FORMATO DE ASIGNACIÓN DE CASA",
-      url: "/house-pdfs/FORMATO-DE-SOLICITUD-DE-CASA-AF-2026.pdf"
+      url: "/house-pdfs/FORMATO-DE-SOLICITUD-DE-CASA-AF-2026.pdf",
     },
     {
       title: "FORMATO DE DEVOLUCIONES CONSTANCIAS DESBLOQUEOS",
-      url: "/house-pdfs/FORMATO-DE-DEVOLUCIONES-CONSTANCIAS-DESBLOQUEOS-2026.pdf"
-    }
+      url: "/house-pdfs/FORMATO-DE-DEVOLUCIONES-CONSTANCIAS-DESBLOQUEOS-2026.pdf",
+    },
   ];
 
   const getAbsoluteUrl = (path) => `${window.location.origin}${path}`;
 
   return (
-      <>
-        <Container>
-          <Carousel carouselItems={sectionCarousel} />
-
-          {isSdace && (
-              <PdfContainer>
-                {sdacePdfs.map((pdf, index) => {
-                  const fullUrl = getAbsoluteUrl(pdf.url);
-                  return (
-                      <PdfLink key={index} href={fullUrl} target="_blank" rel="noopener noreferrer">
-                        <QRCode value={fullUrl} size={150} />
-                        <span>{pdf.title}</span>
-                      </PdfLink>
-                  );
-                })}
-              </PdfContainer>
+    <>
+      <Container>
+        <Carousel carouselItems={sectionCarousel} />
+        {isSdace && (
+          <PdfContainer>
+            {sdacePdfs.map((pdf, index) => {
+              const fullUrl = getAbsoluteUrl(pdf.url);
+              return (
+                <PdfLink
+                  key={index}
+                  href={fullUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <QRCode value={fullUrl} size={150} />
+                  <span>{pdf.title}</span>
+                </PdfLink>
+              );
+            })}
+          </PdfContainer>
+        )}
+        {(sectionAboutUs || sectionAboutUs.images) && (
+          <CardsInlineBlock
+            title={sectionAboutUs.title}
+            id={sectionAboutUs.id}
+            subTitle={sectionAboutUs.subTitle}
+            descriptions={sectionAboutUs.descriptions}
+            buttons={sectionAboutUs.buttons}
+            images={sectionAboutUs.images}
+          />
+        )}
+        {sectionBanner && (
+          <a
+            href="https://micarrera.trabajo.gob.pe/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={sectionBanner.image} alt="" />
+          </a>
+        )}
+        {(isApoyoSocial || isSaed) && (
+          <SearchContainer>
+            <Input
+              type="text"
+              label=""
+              placeholder="Buscar por nombre de convenio"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          </SearchContainer>
+        )}
+        {sectionSuggestionsComplaints && (
+          <SuggestionsComplaints title={sectionSuggestionsComplaints.title} />
+        )}
+        {(sectionSetPro || sectionSetPro.images) && (
+          <CardsInlineBlock
+            title={sectionSetPro.title}
+            subTitle={sectionSetPro.subTitle}
+            direction={sectionSetPro.direction}
+            descriptions={sectionSetPro.descriptions}
+            buttons={sectionSetPro.buttons}
+            images={sectionSetPro.images}
+          />
+        )}
+        {(sectionServices || sectionServices.cards) && (
+          <ListCards
+            title={sectionServices.title}
+            items={sectionServices.cards}
+          />
+        )}
+        {(sectionOther || sectionOther.images) && (
+          <CardsInlineBlock
+            title={sectionOther.title}
+            descriptions={sectionOther.descriptions}
+            buttons={sectionOther.buttons}
+            images={sectionOther.images}
+          />
+        )}
+        {collageImages && <Collage images={collageImages} />}
+        {sectionCampus && <CardsBlack cards={sectionCampus} />}
+        {(sectionCobertura || sectionCobertura.images) && (
+          <CardsInlineBlock
+            id={sectionCobertura.id}
+            title={sectionCobertura.title}
+            descriptions={sectionCobertura.descriptions}
+            buttons={sectionCobertura.buttons}
+            images={sectionCobertura.images}
+          />
+        )}
+        {displayBancos.cards && displayBancos.cards.length > 0 && (
+          <ListCards
+            id={displayBancos.id}
+            title={displayBancos.title}
+            titleImage={displayBancos.titleImage}
+            items={displayBancos.cards}
+            type="secondary"
+          />
+        )}
+        {displaySalud.cards && displaySalud.cards.length > 0 && (
+          <ListCards
+            title={displaySalud.title}
+            items={displaySalud.cards}
+            type="secondary"
+          />
+        )}
+        {displaySeguros.cards && displaySeguros.cards.length > 0 && (
+          <ListCards
+            title={displaySeguros.title}
+            items={displaySeguros.cards}
+            type="secondary"
+          />
+        )}
+        {displayDiversos.cards && displayDiversos.cards.length > 0 && (
+          <ListCards
+            title={displayDiversos.title}
+            items={displayDiversos.cards}
+            type="secondary"
+          />
+        )}
+        {displayHoteles.cards && displayHoteles.cards.length > 0 && (
+          <ListCards
+            title={displayHoteles.title}
+            items={displayHoteles.cards}
+            type="secondary"
+          />
+        )}
+        {displayFinancieras.cards && displayFinancieras.cards.length > 0 && (
+          <ListCards
+            title={displayFinancieras.title}
+            items={displayFinancieras.cards}
+            type="secondary"
+          />
+        )}
+        {displayTransporte.cards && displayTransporte.cards.length > 0 && (
+          <ListCards
+            title={displayTransporte.title}
+            items={displayTransporte.cards}
+            type="secondary"
+          />
+        )}
+        {displayTecnologia.cards && displayTecnologia.cards.length > 0 && (
+          <ListCards
+            title={displayTecnologia.title}
+            items={displayTecnologia.cards}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial || sectionProvincial.cards) && (
+          <ListCards
+            title={sectionProvincial.title}
+            items={filterCards(sectionProvincial.cards)}
+            type="secondary"
+          />
+        )}
+        {isApoyoSocial && <TacnaAgreementsSection />}
+        {(sectionProvincial3 || sectionProvincial3.cards) && (
+          <ListCards
+            title={sectionProvincial3.title}
+            items={filterCards(sectionProvincial3.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial4 || sectionProvincial4.cards) && (
+          <ListCards
+            title={sectionProvincial4.title}
+            items={filterCards(sectionProvincial4.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial5 || sectionProvincial5.cards) && (
+          <ListCards
+            title={sectionProvincial5.title}
+            items={filterCards(sectionProvincial5.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial6 || sectionProvincial6.cards) && (
+          <ListCards
+            title={sectionProvincial6.title}
+            items={filterCards(sectionProvincial6.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial7 || sectionProvincial7.cards) && (
+          <ListCards
+            title={sectionProvincial7.title}
+            items={filterCards(sectionProvincial7.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial8 || sectionProvincial8.cards) && (
+          <ListCards
+            title={sectionProvincial8.title}
+            items={filterCards(sectionProvincial8.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvincial9 || sectionProvincial9.cards) && (
+          <ListCards
+            title={sectionProvincial9.title}
+            items={filterCards(sectionProvincial9.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionInternacionales || sectionInternacionales.cards) && (
+          <ListCards
+            title={sectionInternacionales.title}
+            items={filterCards(sectionInternacionales.cards)}
+            type="secondary"
+          />
+        )}
+        {sectionCollages && (
+          <ComponentImages collages={sectionCollages.collages} />
+        )}
+        {(sectionServiceRel || sectionServiceRel.images) && (
+          <CardsInlineBlock
+            id={sectionServiceRel.id}
+            title={sectionServiceRel.title}
+            titleImage={sectionServiceRel.titleImage}
+            subTitle={sectionServiceRel.subTitle}
+            descriptions={sectionServiceRel.descriptions}
+            buttons={sectionServiceRel.buttons}
+            images={sectionServiceRel.images}
+          />
+        )}
+        {(sectionAlcance || sectionAlcance.images) && (
+          <CardsInlineBlock
+            title={sectionAlcance.title}
+            descriptions={sectionAlcance.descriptions}
+            buttons={sectionAlcance.buttons}
+            images={sectionAlcance.images}
+          />
+        )}
+        {(sectionContentImages || sectionContentImages.images) && (
+          <ComponentImages
+            title={sectionContentImages.title}
+            images={sectionContentImages.images}
+          />
+        )}
+        {(sectionRequirements || sectionRequirements.cards) && (
+          <ListCards
+            id={sectionRequirements.id}
+            title={sectionRequirements.title}
+            items={sectionRequirements.cards}
+          />
+        )}
+        {(sectionMap || sectionMap.images) && (
+          <ComponentImages
+            title={sectionMap.title}
+            images={sectionMap.images}
+            type="secondary"
+          />
+        )}
+        {displayUniversidades.cards &&
+          displayUniversidades.cards.length > 0 && (
+            <ListCards
+              id={displayUniversidades.id}
+              title={displayUniversidades.title || "Universidades"}
+              items={displayUniversidades.cards}
+              type="secondary"
+            />
           )}
-
-          {(sectionAboutUs || sectionAboutUs.images) && (
-              <CardsInlineBlock
-                  title={sectionAboutUs.title}
-                  id={sectionAboutUs.id}
-                  subTitle={sectionAboutUs.subTitle}
-                  descriptions={sectionAboutUs.descriptions}
-                  buttons={sectionAboutUs.buttons}
-                  images={sectionAboutUs.images}
-              />
+        {displayInstitutos.cards && displayInstitutos.cards.length > 0 && (
+          <ListCards
+            title={displayInstitutos.title || "Institutos"}
+            items={displayInstitutos.cards}
+            type="secondary"
+          />
+        )}
+        {displayInstitutosIdiomas.cards &&
+          displayInstitutosIdiomas.cards.length > 0 && (
+            <ListCards
+              id={displayInstitutosIdiomas.id}
+              title={displayInstitutosIdiomas.title || "Institutos de Idiomas"}
+              items={displayInstitutosIdiomas.cards}
+              type="secondary"
+            />
           )}
-          {sectionBanner && (
-              <a href="https://micarrera.trabajo.gob.pe/" target="_blank" rel="noreferrer">
-                <img src={sectionBanner.image} alt="" />
-              </a>
-          )}
-          {
-              (isApoyoSocial || isSaed) && (
-                  <SearchContainer>
-                    <Input
-                        type="text"
-                        label=""
-                        placeholder="Buscar por nombre de convenio"
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                    />
-                  </SearchContainer>
-              )
-          }
-          {sectionSuggestionsComplaints && (
-              <SuggestionsComplaints title={sectionSuggestionsComplaints.title} />
-          )}
-          {(sectionSetPro || sectionSetPro.images) && (
-              <CardsInlineBlock
-                  title={sectionSetPro.title}
-                  subTitle={sectionSetPro.subTitle}
-                  direction={sectionSetPro.direction}
-                  descriptions={sectionSetPro.descriptions}
-                  buttons={sectionSetPro.buttons}
-                  images={sectionSetPro.images}
-              />
-          )}
-          {(sectionServices || sectionServices.cards) && (
-              <ListCards title={sectionServices.title} items={sectionServices.cards} />
-          )}
-          {(sectionOther || sectionOther.images) && (
-              <CardsInlineBlock
-                  title={sectionOther.title}
-                  descriptions={sectionOther.descriptions}
-                  buttons={sectionOther.buttons}
-                  images={sectionOther.images}
-              />
-          )}
-          {collageImages && <Collage images={collageImages} />}
-          {sectionCampus && <CardsBlack cards={sectionCampus} />}
-          {(sectionCobertura || sectionCobertura.images) && (
-              <CardsInlineBlock
-                  id={sectionCobertura.id}
-                  title={sectionCobertura.title}
-                  descriptions={sectionCobertura.descriptions}
-                  buttons={sectionCobertura.buttons}
-                  images={sectionCobertura.images}
-              />
-          )}
-
-          {(displayBancos.cards && displayBancos.cards.length > 0) && (
-              <ListCards id={displayBancos.id} title={displayBancos.title} titleImage={displayBancos.titleImage} items={displayBancos.cards} type="secondary" />
-          )}
-
-          {(displaySalud.cards && displaySalud.cards.length > 0) && (
-              <ListCards title={displaySalud.title} items={displaySalud.cards} type="secondary" />
-          )}
-
-          {(displaySeguros.cards && displaySeguros.cards.length > 0) && (
-              <ListCards title={displaySeguros.title} items={displaySeguros.cards} type="secondary" />
-          )}
-
-          {(displayDiversos.cards && displayDiversos.cards.length > 0) && (
-              <ListCards title={displayDiversos.title} items={displayDiversos.cards} type="secondary" />
-          )}
-
-          {(displayHoteles.cards && displayHoteles.cards.length > 0) && (
-              <ListCards title={displayHoteles.title} items={displayHoteles.cards} type="secondary" />
-          )}
-
-          {(displayFinancieras.cards && displayFinancieras.cards.length > 0) && (
-              <ListCards title={displayFinancieras.title} items={displayFinancieras.cards} type="secondary" />
-          )}
-
-          {(displayTransporte.cards && displayTransporte.cards.length > 0) && (
-              <ListCards title={displayTransporte.title} items={displayTransporte.cards} type="secondary" />
-          )}
-
-          {(displayTecnologia.cards && displayTecnologia.cards.length > 0) && (
-              <ListCards title={displayTecnologia.title} items={displayTecnologia.cards} type="secondary" />
-          )}
-
-          {(sectionProvincial || sectionProvincial.cards) && <ListCards title={sectionProvincial.title} items={filterCards(sectionProvincial.cards)} type="secondary" />}
-          {(sectionProvincial2 || sectionProvincial2.cards) && <ListCards title={sectionProvincial2.title} items={filterCards(sectionProvincial2.cards)} type="secondary" />}
-          {(sectionProvincial3 || sectionProvincial3.cards) && <ListCards title={sectionProvincial3.title} items={filterCards(sectionProvincial3.cards)} type="secondary" />}
-          {(sectionProvincial4 || sectionProvincial4.cards) && <ListCards title={sectionProvincial4.title} items={filterCards(sectionProvincial4.cards)} type="secondary" />}
-          {(sectionProvincial5 || sectionProvincial5.cards) && <ListCards title={sectionProvincial5.title} items={filterCards(sectionProvincial5.cards)} type="secondary" />}
-          {(sectionProvincial6 || sectionProvincial6.cards) && <ListCards title={sectionProvincial6.title} items={filterCards(sectionProvincial6.cards)} type="secondary" />}
-          {(sectionProvincial7 || sectionProvincial7.cards) && <ListCards title={sectionProvincial7.title} items={filterCards(sectionProvincial7.cards)} type="secondary" />}
-          {(sectionProvincial8 || sectionProvincial8.cards) && <ListCards title={sectionProvincial8.title} items={filterCards(sectionProvincial8.cards)} type="secondary" />}
-          {(sectionProvincial9 || sectionProvincial9.cards) && <ListCards title={sectionProvincial9.title} items={filterCards(sectionProvincial9.cards)} type="secondary" />}
-
-          {(sectionInternacionales || sectionInternacionales.cards) && (
-              <ListCards title={sectionInternacionales.title} items={filterCards(sectionInternacionales.cards)} type="secondary" />
-          )}
-
-          {sectionCollages && <ComponentImages collages={sectionCollages.collages} />}
-
-          {(sectionServiceRel || sectionServiceRel.images) && (
-              <CardsInlineBlock id={sectionServiceRel.id} title={sectionServiceRel.title} titleImage={sectionServiceRel.titleImage} subTitle={sectionServiceRel.subTitle} descriptions={sectionServiceRel.descriptions} buttons={sectionServiceRel.buttons} images={sectionServiceRel.images} />
-          )}
-
-          {(sectionAlcance || sectionAlcance.images) && (
-              <CardsInlineBlock title={sectionAlcance.title} descriptions={sectionAlcance.descriptions} buttons={sectionAlcance.buttons} images={sectionAlcance.images} />
-          )}
-
-          {(sectionContentImages || sectionContentImages.images) && (
-              <ComponentImages title={sectionContentImages.title} images={sectionContentImages.images} />
-          )}
-
-          {(sectionRequirements || sectionRequirements.cards) && (
-              <ListCards id={sectionRequirements.id} title={sectionRequirements.title} items={sectionRequirements.cards} />
-          )}
-
-          {(sectionMap || sectionMap.images) && (
-              <ComponentImages title={sectionMap.title} images={sectionMap.images} type="secondary" />
-          )}
-
-          {(displayUniversidades.cards && displayUniversidades.cards.length > 0) && (
-              <ListCards id={displayUniversidades.id} title={displayUniversidades.title || "Universidades"} items={displayUniversidades.cards} type="secondary" />
-          )}
-
-          {(displayInstitutos.cards && displayInstitutos.cards.length > 0) && (
-              <ListCards title={displayInstitutos.title || "Institutos"} items={displayInstitutos.cards} type="secondary" />
-          )}
-
-          {(displayInstitutosIdiomas.cards && displayInstitutosIdiomas.cards.length > 0) && (
-              <ListCards id={displayInstitutosIdiomas.id} title={displayInstitutosIdiomas.title || "Institutos de Idiomas"} items={displayInstitutosIdiomas.cards} type="secondary" />
-          )}
-
-          {(sectionSchoolsLima || sectionSchoolsLima.cards) && (
-              <ListCards id={sectionSchoolsLima.id} title={sectionSchoolsLima.title} items={filterCards(sectionSchoolsLima.cards)} type="secondary" />
-          )}
-          {(sectionProvinceSchools || sectionProvinceSchools.cards) && (
-              <ListCards id={sectionProvinceSchools.id} title={sectionProvinceSchools.title} items={filterCards(sectionProvinceSchools.cards)} type="secondary" />
-          )}
-
-          {(sectionContact || sectionContact.socialsRed) && (
-              <Contact title={sectionContact.title} subtitle={sectionContact.subtitle} socialsRed={sectionContact.socialsRed} values={sectionContact.values} />
-          )}
-        </Container>
-      </>
+        {(sectionSchoolsLima || sectionSchoolsLima.cards) && (
+          <ListCards
+            id={sectionSchoolsLima.id}
+            title={sectionSchoolsLima.title}
+            items={filterCards(sectionSchoolsLima.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionProvinceSchools || sectionProvinceSchools.cards) && (
+          <ListCards
+            id={sectionProvinceSchools.id}
+            title={sectionProvinceSchools.title}
+            items={filterCards(sectionProvinceSchools.cards)}
+            type="secondary"
+          />
+        )}
+        {(sectionContact || sectionContact.socialsRed) && (
+          <Contact
+            title={sectionContact.title}
+            subtitle={sectionContact.subtitle}
+            socialsRed={sectionContact.socialsRed}
+            values={sectionContact.values}
+          />
+        )}
+      </Container>
+    </>
   );
 };
 
