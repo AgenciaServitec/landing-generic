@@ -146,7 +146,7 @@ export const jaceConfig = {
         icon: faFacebook,
         name: "Facebook",
       },
-      { href: "tel:941801827", icon: faMobile, name: "Celular" },
+      { href: "tel:929054672", icon: faMobile, name: "Celular" },
       {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,

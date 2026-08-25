@@ -150,7 +150,11 @@ import {
   PrimerosPasos3,
 } from "../images";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import {faEnvelope, faGlobe, faMobile,} from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faGlobe,
+  faMobile,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const jaeConfig = {
   helmet: {
@@ -660,7 +664,7 @@ export const jaeConfig = {
         icon: faFacebook,
         name: "Facebook",
       },
-      { href: "tel:941801827", icon: faMobile, name: "Celular" },
+      { href: "tel:929054672", icon: faMobile, name: "Celular" },
       {
         href: "https://goo.gl/maps/Bh9esULuN4LvV64n6",
         icon: faGlobe,
